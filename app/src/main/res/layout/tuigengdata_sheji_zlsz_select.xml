@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#fff1f1f1"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8.0dip"
+        android:gravity="center" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:text="    已选择："
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="#ff000000" />
+
+        <TextView
+            android:id="@+id/tv_select"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:gravity="center|left"
+            android:text=""
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textColor="#ff000000" />
+        
+        <TextView
+ 		     android:id="@+id/tv_ClearSZ"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:text=" 清 除 "
+            android:layout_marginRight="20dp"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="#0000FF" />
+        
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8.0dip"
+        android:gravity="left|center" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:text="筛选查询："
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="#ff000000" />
+
+        <MultiAutoCompleteTextView
+	        android:id="@+id/id_multiTextViewSZ"
+	        android:layout_width="0dp"
+	        android:layout_height="wrap_content"
+	        android:completionThreshold="1"
+	        android:layout_weight="1.0"
+	        android:textColor="#000000"
+	        android:hint="输入树种进行选择"/>
+ 		<TextView
+ 		     android:id="@+id/tv_selectSZ"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:text=" 添 加 "
+            android:layout_marginRight="20dp"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="#0000FF" />
+    </LinearLayout>
+	<TextView
+        android:id="@+id/tvLocaleText1"
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:text="常选树种"
+    	android:textColor="#000000"
+    	android:background="@layout/v1_bk_head_splitbar" />
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="40.0dip"
+        android:gravity="center" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:background="@layout/v1_bk_table_header"
+            android:gravity="center"
+            android:text="名称"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="#ff000000" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="2.0"
+            android:background="@layout/v1_bk_table_header"
+            android:gravity="center"
+            android:text="编码"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="#ff000000" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <ListView
+            android:id="@+id/lvList"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:cacheColorHint="#00000000"
+            android:divider="#ffffffff"
+            android:dividerHeight="0.0px" />
+    </LinearLayout>
+
+</LinearLayout>

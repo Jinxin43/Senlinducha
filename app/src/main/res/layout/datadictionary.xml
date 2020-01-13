@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffffff"
+    android:orientation="vertical" >
+    <LinearLayout android:gravity="center" 
+            android:layout_width="fill_parent" 
+            android:layout_height="wrap_content">
+            <Button 
+                android:textAppearance="?android:textAppearanceMedium" 
+                android:id="@+id/bt_viewpager_xzqh" 
+                android:tag="行政区划" 
+                android:background="@drawable/buttonstyle_transparent_all" 
+                android:layout_width="0.0dip" 
+                android:layout_height="40.0dip" 
+                android:text="行政区划" 
+                android:layout_weight="1.0" />
+            <TextView
+                android:id="@+id/locator1"  
+                android:textAppearance="?android:textAppearanceMedium" 
+                android:background="#ff8e8e8e" 
+                android:layout_width="1.0dip" 
+                android:layout_height="wrap_content" />
+            <Button 
+                android:textAppearance="?android:textAppearanceMedium" 
+                android:id="@+id/bt_viewpager_ly" 
+                android:tag="林业" 
+                android:background="@drawable/buttonstyle_transparent_all" 
+                android:layout_width="0.0dip" 
+                android:layout_height="40.0dip" 
+                android:text="林业" 
+                android:layout_weight="1.0" />
+            <TextView 
+                android:textAppearance="?android:textAppearanceMedium"
+                android:id="@+id/locator2"  
+                android:background="#ff8e8e8e" 
+                android:layout_width="1.0dip" 
+                android:layout_height="wrap_content" />
+            <Button android:textAppearance="?android:textAppearanceMedium" 
+                android:id="@+id/bt_viewpager_gt" 
+                android:tag="国土" 
+                android:background="@drawable/buttonstyle_transparent_all" 
+                android:layout_width="0.0dip" 
+                android:layout_height="40.0dip" 
+                android:text="国土" 
+                android:layout_weight="1.0" />
+            <TextView 
+                android:id="@+id/locator3" 
+                android:textAppearance="?android:textAppearanceMedium" 
+                android:background="#ff8e8e8e" 
+                android:layout_width="1.0dip" 
+                android:layout_height="wrap_content" />
+            <Button android:textAppearance="?android:textAppearanceMedium" 
+                android:id="@+id/bt_viewpager_hb" 
+                android:tag="其他" 
+                android:background="@drawable/buttonstyle_transparent_all" 
+                android:layout_width="0.0dip" 
+                android:layout_height="40.0dip" 
+                android:text="其他" 
+                android:layout_weight="1.0" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" 
+            android:layout_width="fill_parent" 
+            android:layout_height="0.0dip" 
+            android:layout_weight="1.0">
+            <TextView android:background="#ff8e8e8e" 
+                android:layout_width="fill_parent"
+                 android:layout_height="1.0dip" />
+            
+             <android.support.v4.view.ViewPager 
+                android:id="@+id/viewPager" 
+                android:layout_width="fill_parent" 
+                android:layout_height="0.0dip" 
+                android:layout_weight="1.0" />
+        </LinearLayout>
+</LinearLayout>

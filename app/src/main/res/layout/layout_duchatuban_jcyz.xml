@@ -1,0 +1,1129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:background="#ffffff" 
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#f0f0f0" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="0dp"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="占"
+                        android:textAppearance="?android:textAppearanceSmall"
+                        android:textColor="#ff000000"
+                        android:visibility="invisible" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="乡镇"
+                        android:textAppearance="?android:textAppearanceSmall"
+                        android:textColor="#ff000000" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="占"
+                        android:textAppearance="?android:textAppearanceSmall"
+                        android:textColor="#ff000000"
+                        android:visibility="invisible" />
+
+                    <EditText
+                        android:id="@+id/et_xz"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.0"
+                         android:enabled="false"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="林班"
+                        android:textAppearance="?android:textAppearanceSmall"
+                        android:textColor="#ff000000"
+                        android:visibility="invisible" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="村"
+                        android:textAppearance="?android:textAppearanceSmall"
+                        android:textColor="#ff000000" />
+
+                    <EditText
+                        android:id="@+id/et_cun"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.0"
+                         android:enabled="false"
+                         />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        
+                        android:text="图斑号"
+                        android:textAppearance="?android:textAppearanceSmall"
+                        android:textColor="#ff000000" />
+
+                    <EditText
+                        android:id="@+id/et_tubanhao"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.0"
+                         android:enabled="false"
+                         />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="占"
+                        android:textAppearance="?android:textAppearanceSmall"
+                        android:textColor="#ff000000"
+                        android:visibility="invisible" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="林业局"
+                        android:textAppearance="?android:textAppearanceSmall"
+                        android:textColor="#ff000000" />
+
+                    <EditText
+                        android:id="@+id/et_lyj"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.0"
+                         android:enabled="false"
+                         />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="林"
+                        android:textAppearance="?android:textAppearanceSmall"
+                        android:textColor="#ff000000"
+                        android:visibility="invisible" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="林场"
+                        android:textAppearance="?android:textAppearanceSmall"
+                        android:textColor="#ff000000" />
+
+                    <EditText
+                        android:id="@+id/et_linchang"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.0"
+                         android:enabled="false"
+                         />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="林"
+                        android:textAppearance="?android:textAppearanceSmall"
+                        android:textColor="#ff000000"
+                        android:visibility="invisible" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        
+                        android:text="林班"
+                        android:textAppearance="?android:textAppearanceSmall"
+                        android:textColor="#ff000000" />
+
+                    <EditText
+                        android:id="@+id/et_linban"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.0"
+                         android:enabled="false"
+                         />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="占"
+                        android:textAppearance="?android:textAppearanceSmall"
+                        android:textColor="#ff000000"
+                        android:visibility="invisible" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="横坐标"
+                        android:textAppearance="?android:textAppearanceSmall"
+                        android:textColor="#ff000000" />
+
+                    <EditText
+                        android:id="@+id/et_X"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.0"
+                         android:enabled="false"
+                         />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="纵坐标"
+                        android:textAppearance="?android:textAppearanceSmall"
+                        android:textColor="#ff000000" />
+
+                    <EditText
+                        android:id="@+id/et_Y"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.0"
+                         />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        
+                        android:text="判面积"
+                        android:textAppearance="?android:textAppearanceSmall"
+                        android:textColor="#ff000000" />
+
+                    <EditText
+                        android:id="@+id/et_tbpdmj"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.0"
+                         android:enabled="false"
+                         />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="判读地类"
+                        android:textAppearance="?android:textAppearanceSmall"
+                        android:textColor="#ff000000" />
+
+                    <EditText
+                        android:id="@+id/et_pddl"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.0"
+                         android:enabled="false"
+                         />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="占位"
+                        android:textAppearance="?android:textAppearanceSmall"
+                        android:textColor="#ff000000"
+                        android:visibility="invisible" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="判读变化原因"
+                        android:textAppearance="?android:textAppearanceSmall"
+                        android:textColor="#ff000000" />
+
+                    <EditText
+                        android:id="@+id/et_pdbhyy"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.0"
+                        android:enabled="false"
+                         />
+                </LinearLayout>
+
+                 <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp" >
+				<TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="占"
+                        android:textAppearance="?android:textAppearanceSmall"
+                        android:textColor="#ff000000"
+                        android:visibility="invisible" />
+                     
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="前地类"
+                        android:textAppearance="?android:textAppearanceSmall"
+                        android:textColor="#ff000000" />
+
+                    <EditText
+                        android:id="@+id/et_qdl"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.0"
+                         />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="占位占位"
+                        android:textAppearance="?android:textAppearanceSmall"
+                        android:textColor="#ff000000"
+                        android:visibility="invisible" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="现状地类"
+                        android:textAppearance="?android:textAppearanceSmall"
+                        android:textColor="#ff000000" />
+
+                     <Spinner
+                        android:id="@+id/sp_zxdl"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.0"
+                        android:layout_gravity="center_vertical" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp" >
+				
+
+                     <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="变化原因"
+                        android:textAppearance="?android:textAppearanceSmall"
+                        android:textColor="#ff000000" />
+
+                    <Spinner
+                        android:id="@+id/sp_bhyy"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3.0" 
+                        android:layout_gravity="center_vertical"/>
+                       <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="占位"
+                        android:textAppearance="?android:textAppearanceSmall"
+                        android:textColor="#ff000000"
+                        android:visibility="invisible" />
+                    
+                  
+
+                    <CheckBox
+                        android:id="@+id/cb_sfwfwg"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="是否违法违规" 
+                        android:textColor="#ff000000"
+                        android:visibility="invisible"/>
+
+                       <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="占位"
+                        android:textAppearance="?android:textAppearanceSmall"
+                        android:textColor="#ff000000"
+                        android:visibility="gone" />
+                    
+                </LinearLayout>
+                
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="空格"
+                        android:textAppearance="?android:textAppearanceSmall"
+                        android:textColor="#ff000000"
+                        android:visibility="invisible" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="备注"
+                        android:textAppearance="?android:textAppearanceSmall"
+                        android:textColor="#ff000000" />
+
+                    <EditText
+                        android:id="@+id/et_pdbz"
+                        android:layout_width="0.0dip"
+                        android:layout_height="54dp"
+                        android:layout_weight="1.0"
+                        android:singleLine="false" />
+                </LinearLayout>
+
+                
+				
+				<LinearLayout
+				    android:id="@+id/layoyt_duchaheshi"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    
+				       <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="2dp"
+                    android:background="#909090" >
+                </View>
+                
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="林地管理单位"
+                        android:textAppearance="?android:textAppearanceSmall"
+                        android:textColor="#ff000000" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="/"
+                        android:textAppearance="?android:textAppearanceSmall"
+                        android:textColor="#ff000000"
+                        android:visibility="invisible" />
+
+                    <EditText
+                        android:id="@+id/et_ldgldw"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.0" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="占占"
+                        android:textAppearance="?android:textAppearanceSmall"
+                        android:textColor="#ff000000"
+                        android:visibility="invisible" />
+                     <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="核实细斑号"
+                        android:textAppearance="?android:textAppearanceSmall"
+                        android:textColor="#ff000000" />
+
+                    <EditText
+                        android:id="@+id/et_hsxbh"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.0" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="项目/伐区名称"
+                        android:textAppearance="?android:textAppearanceSmall"
+                        android:textColor="#ff000000" />
+
+                    <EditText
+                        android:id="@+id/et_xmhfqmc"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.0" />
+                     
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="审批文号"
+                        android:textAppearance="?android:textAppearanceSmall"
+                        android:textColor="#ff000000" />
+
+                    <EditText
+                        android:id="@+id/et_spwh"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.0" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="审批年度"
+                        android:textAppearance="?android:textAppearanceSmall"
+                        android:textColor="#ff000000" />
+
+                    <EditText
+                        android:id="@+id/et_spnd"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.0" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="审批面积"
+                        android:textAppearance="?android:textAppearanceSmall"
+                        android:textColor="#ff000000" />
+
+                    <EditText
+                        android:id="@+id/et_spmj"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.0" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="实际改变林地面积"
+                        android:textAppearance="?android:textAppearanceSmall"
+                        android:textColor="#ff000000" />
+
+                    <EditText
+                        android:id="@+id/et_sjgbldytmj"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.0"
+                        android:inputType="numberDecimal" />
+                      <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="占位"
+                        android:textAppearance="?android:textAppearanceSmall"
+                        android:textColor="#ff000000"
+                        android:visibility="invisible" />
+                      
+					<TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="使用林地性质 "
+                        android:textAppearance="?android:textAppearanceSmall"
+                        android:textColor="#ff000000" />
+
+                    <Spinner
+                        android:id="@+id/sp_syldxz"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1" 
+                         android:layout_gravity="center_vertical" />
+                  
+                </LinearLayout>
+
+                 <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp" >
+
+                      <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="违法违规改变林地\n面积"
+                        android:textAppearance="?android:textAppearanceSmall"
+                        android:textColor="#ff000000" />
+
+                    <EditText
+                        android:id="@+id/et_wfwgcflmxj"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.0"
+                        android:inputType="numberDecimal" />
+                    
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="占位 "
+                        android:textAppearance="?android:textAppearanceSmall"
+                        android:textColor="#ff000000"
+                        android:visibility="invisible" />
+                     
+                    
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="违法违规中商\n品林面积 "
+                        android:textAppearance="?android:textAppearanceSmall"
+                        android:textColor="#ff000000" />
+
+                    <EditText
+                        android:id="@+id/et_wfwgzsplmj"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.0"
+                        android:inputType="numberDecimal" />
+
+                  
+
+                    
+                </LinearLayout>
+                
+                
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="违法违规中乔木\n林面积 "
+                        android:textAppearance="?android:textAppearanceSmall"
+                        android:textColor="#ff000000" />
+
+                    <EditText
+                        android:id="@+id/et_wfwgzqmlmj"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.0"
+                        android:inputType="numberDecimal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="占位"
+                        android:textAppearance="?android:textAppearanceSmall"
+                        android:textColor="#ff000000"
+                        android:visibility="invisible" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="违法违规中\n竹林地面积 "
+                        android:textAppearance="?android:textAppearanceSmall"
+                        android:textColor="#ff000000" />
+
+                    <EditText
+                        android:id="@+id/et_wfwgzzldmj"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.0"
+                        android:inputType="numberDecimal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="占位"
+                        android:textAppearance="?android:textAppearanceSmall"
+                        android:textColor="#ff000000"
+                        android:visibility="invisible" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="违法违规中\n红树林面积 "
+                        android:textAppearance="?android:textAppearanceSmall"
+                        android:textColor="#ff000000" />
+
+                    <EditText
+                        android:id="@+id/et_wfwgzhslmj"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.0"
+                        android:inputType="numberDecimal" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="违法违规改变中\n国家特灌林面积 "
+                        android:textAppearance="?android:textAppearanceSmall"
+                        android:textColor="#ff000000" />
+
+                    <EditText
+                        android:id="@+id/et_wfwgzgjtglmj"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.0" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="违法违规改变中\n其他灌木林面积 "
+                        android:textAppearance="?android:textAppearanceSmall"
+                        android:textColor="#ff000000" />
+
+                    <EditText
+                        android:id="@+id/et_wfwgzqtgmlmj"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.0"
+                        android:inputType="numberDecimal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="违法违规改变中\n其他林地面积 "
+                        android:textAppearance="?android:textAppearanceSmall"
+                        android:textColor="#ff000000" />
+
+                    <EditText
+                        android:id="@+id/et_wfwgzqtldmj"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.0"
+                        android:inputType="numberDecimal" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="违法违规中一级\n国家公益林面积 "
+                        android:textAppearance="?android:textAppearanceSmall"
+                        android:textColor="#ff000000" />
+
+                    <EditText
+                        android:id="@+id/et_wfwgzyjgjgylmj"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.0" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="违法违规中二级\n国家公益林面积 "
+                        android:textAppearance="?android:textAppearanceSmall"
+                        android:textColor="#ff000000" />
+
+                    <EditText
+                        android:id="@+id/et_wfwgzejgjgylmj"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.0"
+                        android:inputType="numberDecimal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="违法违规改变中\n地方公益林面积 "
+                        android:textAppearance="?android:textAppearanceSmall"
+                        android:textColor="#ff000000" />
+
+                    <EditText
+                        android:id="@+id/et_wfwgzdfgylmj"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.0"
+                        android:inputType="numberDecimal" />
+                </LinearLayout>
+				<LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="违规改变林地中\n自然保护地面积 "
+                        android:textAppearance="?android:textAppearanceSmall"
+                        android:textColor="#ff000000" />
+
+                    <EditText
+                        android:id="@+id/et_zrbhdmj"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.0"
+                        android:inputType="numberDecimal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="占位"
+                        android:textAppearance="?android:textAppearanceSmall"
+                        android:textColor="#ff000000"
+                        android:visibility="gone" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="自然保护地\n名称 "
+                        android:textAppearance="?android:textAppearanceSmall"
+                        android:textColor="#ff000000" />
+
+                    <EditText
+                        android:id="@+id/et_zrbhdmc"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.0" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="占占"
+                        android:textAppearance="?android:textAppearanceSmall"
+                        android:textColor="#ff000000"
+                        android:visibility="gone" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="自然保护地\n级别及类型 "
+                        android:textAppearance="?android:textAppearanceSmall"
+                        android:textColor="#ff000000" />
+
+                    <Spinner
+                        android:id="@+id/sp_zrbhdjb"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.0" />
+                     <Spinner
+                        android:id="@+id/sp_zrbhdlx"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.0" />
+                </LinearLayout>
+               
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp" >
+  				<TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="占"
+                        android:textAppearance="?android:textAppearanceSmall"
+                        android:textColor="#ff000000"
+                        android:visibility="invisible" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="林木采伐许可\n证号"
+                        android:textAppearance="?android:textAppearanceSmall"
+                        android:textColor="#ff000000" />
+
+                    <EditText
+                        android:id="@+id/et_lmcfxkzh"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.0" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="占位"
+                        android:textAppearance="?android:textAppearanceSmall"
+                        android:textColor="#ff000000"
+                        android:visibility="invisible" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="发证面积 "
+                        android:textAppearance="?android:textAppearanceSmall"
+                        android:textColor="#ff000000" />
+
+                    <EditText
+                        android:id="@+id/et_cfzfzmj"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.0"
+                        android:inputType="numberDecimal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="占位"
+                        android:textAppearance="?android:textAppearanceSmall"
+                        android:textColor="#ff000000"
+                        android:visibility="invisible" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="发证蓄积 "
+                        android:textAppearance="?android:textAppearanceSmall"
+                        android:textColor="#ff000000" />
+
+                    <EditText
+                        android:id="@+id/et_cfzfzxj"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.0"
+                        android:inputType="numberDecimal" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp" >
+				<TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="占"
+                        android:textAppearance="?android:textAppearanceSmall"
+                        android:textColor="#ff000000"
+                        android:visibility="invisible" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="凭证采伐面积\n"
+                        android:textAppearance="?android:textAppearanceSmall"
+                        android:textColor="#ff000000" />
+
+                    <EditText
+                        android:id="@+id/et_pzcfmj"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.0" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="凭证采伐蓄积 "
+                        android:textAppearance="?android:textAppearanceSmall"
+                        android:textColor="#ff000000" />
+
+                    <EditText
+                        android:id="@+id/et_pzcfxj"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.0"
+                        android:inputType="numberDecimal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="超证采伐面积 "
+                        android:textAppearance="?android:textAppearanceSmall"
+                        android:textColor="#ff000000" />
+
+                    <EditText
+                        android:id="@+id/et_czcfmj"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.0"
+                        android:inputType="numberDecimal" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp" >
+				<TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="占"
+                        android:textAppearance="?android:textAppearanceSmall"
+                        android:textColor="#ff000000"
+                        android:visibility="invisible" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="超证采伐蓄积\n"
+                        android:textAppearance="?android:textAppearanceSmall"
+                        android:textColor="#ff000000" />
+
+                    <EditText
+                        android:id="@+id/et_czcfxj"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.0" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="无证采伐面积 "
+                        android:textAppearance="?android:textAppearanceSmall"
+                        android:textColor="#ff000000" />
+
+                    <EditText
+                        android:id="@+id/et_wzcfmj"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.0"
+                        android:inputType="numberDecimal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="无证采伐蓄积 "
+                        android:textAppearance="?android:textAppearanceSmall"
+                        android:textColor="#ff000000" />
+
+                    <EditText
+                        android:id="@+id/et_wzcfxj"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.0"
+                        android:inputType="numberDecimal" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="占位符占位"
+                        android:textAppearance="?android:textAppearanceSmall"
+                        android:textColor="#ff000000"
+                        android:visibility="invisible" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="备注 "
+                        android:textAppearance="?android:textAppearanceSmall"
+                        android:textColor="#ff000000" />
+
+                    <EditText
+                        android:id="@+id/et_jcbz"
+                        android:layout_width="0.0dip"
+                        android:layout_height="54dp"
+                        android:layout_weight="1.0"
+                        android:singleLine="false" />
+                </LinearLayout>
+              </LinearLayout>
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="2dp"
+                    android:background="#909090" >
+                </View>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="检查单位名称"
+                        android:textAppearance="?android:textAppearanceSmall"
+                        android:textColor="#ff000000" />
+
+                    <EditText
+                        android:id="@+id/et_jcdwmc"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2.0"
+                        android:textAppearance="?android:textAppearanceSmall" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="检查人"
+                        android:textAppearance="?android:textAppearanceSmall"
+                        android:textColor="#ff000000" />
+
+                    <EditText
+                        android:id="@+id/et_jcr"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:textAppearance="?android:textAppearanceSmall" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="检查时间"
+                        android:textAppearance="?android:textAppearanceSmall"
+                        android:textColor="#ff000000" />
+
+                    <EditText
+                        android:id="@+id/et_jcsj"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ems="6"
+                        android:textAppearance="?android:textAppearanceSmall" />
+                </LinearLayout>
+                </LinearLayout>
+                
+           
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

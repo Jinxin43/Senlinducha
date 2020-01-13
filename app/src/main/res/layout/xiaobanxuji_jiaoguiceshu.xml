@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+      <LinearLayout
+         		android:orientation="vertical"
+	 	    android:layout_width="fill_parent"
+	    	android:layout_height="wrap_content">
+	    <TextView
+	        android:id="@+id/tvLocaleText8"
+	        android:layout_width="fill_parent"
+	    	android:layout_height="fill_parent"
+	    	android:text="角规测树记录表"
+	    	android:textColor="#000000"
+	    	android:background="@layout/v1_bk_head_splitbar" />
+	    
+      <LinearLayout android:id="@+id/tanhui_detail"
+			 	    android:layout_width="fill_parent"
+			    	android:layout_height="wrap_content">
+			     <RelativeLayout 
+			         android:layout_weight="1"
+			 	    android:layout_width="fill_parent"
+			    	android:layout_height="wrap_content">
+
+		    		<Button
+			    	    android:id="@+id/pln_add"
+			    	    android:layout_width="fill_parent"
+			    	    android:layout_height="wrap_content"
+			    	    android:drawableLeft="@drawable/v1_space_height"
+					    android:background="@drawable/buttonstyle"
+			    	    android:tag="增加"
+			    	    android:textAppearance="?android:attr/textAppearanceMedium" />
+	    				 			
+				     <LinearLayout 
+				         android:layout_alignBottom="@+id/pln_add" 
+				         android:layout_alignTop="@+id/pln_add" 
+				         android:gravity="center"
+				 	    android:layout_width="fill_parent"
+				    	android:layout_height="wrap_content">
+			
+				         <ImageView
+				             android:layout_width="wrap_content"
+				             android:layout_height="wrap_content"
+				             android:src="@drawable/v1_layer_field_add" />
+		
+				         <TextView
+				             android:id="@+id/tv_add"
+				             android:layout_width="wrap_content"
+				             android:layout_height="wrap_content"
+				             android:text=" 增加  "
+				             android:textColor="#000000"
+				             android:textAppearance="?android:attr/textAppearanceMedium" />
+				    	
+				 	</LinearLayout>
+				  </RelativeLayout>	
+			  			    	
+			     <RelativeLayout 
+			         android:layout_weight="1"
+			 	    android:layout_width="fill_parent"
+			    	android:layout_height="wrap_content">
+
+		    		<Button
+			    	    android:id="@+id/pln_edit"
+			    	    android:layout_width="fill_parent"
+			    	    android:layout_height="wrap_content"
+			    	    android:drawableLeft="@drawable/v1_space_height"
+					    android:background="@drawable/buttonstyle"
+			    	    android:tag="修改"
+			    	    android:textAppearance="?android:attr/textAppearanceMedium" />
+	    				 			
+				     <LinearLayout 
+				         android:layout_alignBottom="@+id/pln_edit" 
+				         android:layout_alignTop="@+id/pln_edit" 
+				         android:gravity="center"
+				 	    android:layout_width="fill_parent"
+				    	android:layout_height="wrap_content">
+			
+				         <ImageView
+				             android:layout_width="wrap_content"
+				             android:layout_height="wrap_content"
+				             android:src="@drawable/v1_layer_field_edit" />
+		
+				         <TextView
+				             android:id="@+id/tv_edit"
+				             android:layout_width="wrap_content"
+				             android:layout_height="wrap_content"
+				             android:text=" 修改  "
+				             android:textColor="#000000"
+				             android:textAppearance="?android:attr/textAppearanceMedium" />
+				    	
+				 	</LinearLayout>
+				  </RelativeLayout>	
+				  
+			     <RelativeLayout 
+			         android:layout_weight="1"
+			 	    android:layout_width="fill_parent"
+			    	android:layout_height="wrap_content">
+
+		    		<Button
+			    	    android:id="@+id/pln_delete"
+			    	    android:layout_width="fill_parent"
+			    	    android:layout_height="wrap_content"
+			    	    android:drawableLeft="@drawable/v1_space_height"
+					    android:background="@drawable/buttonstyle"
+			    	    android:tag="删除字段"
+			    	    android:textAppearance="?android:attr/textAppearanceMedium" />
+	    				 			
+				     <LinearLayout 
+				         android:layout_alignBottom="@+id/pln_delete" 
+				         android:layout_alignTop="@+id/pln_delete" 
+				         android:gravity="center"
+				 	    android:layout_width="fill_parent"
+				    	android:layout_height="wrap_content">
+			
+				         <ImageView
+				             android:layout_width="wrap_content"
+				             android:layout_height="wrap_content"
+				             android:src="@drawable/v1_layer_field_delete" />
+		
+				         <TextView
+				             android:id="@+id/tv_delete"
+				             android:layout_width="wrap_content"
+				             android:layout_height="wrap_content"
+				             android:text=" 删除  "
+				             android:textColor="#000000"
+				             android:textAppearance="?android:attr/textAppearanceMedium" />
+				 	</LinearLayout>
+				  </RelativeLayout>	
+				  
+			      <RelativeLayout 
+			         android:layout_weight="1"
+			 	    android:layout_width="fill_parent"
+			    	android:layout_height="wrap_content">
+
+		    		<Button
+			    	    android:id="@+id/pln_export"
+			    	    android:layout_width="fill_parent"
+			    	    android:layout_height="wrap_content"
+			    	    android:drawableLeft="@drawable/v1_space_height"
+					    android:background="@drawable/buttonstyle"
+			    	    android:tag="导出数据"
+			    	    android:textAppearance="?android:attr/textAppearanceMedium" />
+	    				 			
+				     <LinearLayout 
+				         android:layout_alignBottom="@+id/pln_export" 
+				         android:layout_alignTop="@+id/pln_export" 
+				         android:gravity="center"
+				 	    android:layout_width="fill_parent"
+				    	android:layout_height="wrap_content">
+			
+				         <ImageView
+				             android:layout_width="wrap_content"
+				             android:layout_height="wrap_content"
+				             android:src="@drawable/v1_layer_field_delete" />
+		
+				         <TextView
+				             android:id="@+id/tv_export"
+				             android:layout_width="wrap_content"
+				             android:layout_height="wrap_content"
+				             android:text=" 导出  "
+				             android:textColor="#000000"
+				             android:textAppearance="?android:attr/textAppearanceMedium" />
+				 	</LinearLayout>
+				  </RelativeLayout>		    	    	    	    			    	    			    	    	
+			  </LinearLayout>
+			  
+			  <LinearLayout android:id="@+id/pl_layerlist"
+				 	    android:layout_width="fill_parent"
+				    	android:layout_height="560dp"
+				    	android:layout_weight="1">
+				    	<include android:id="@+id/jgcs_listview"  
+				    	    layout="@layout/v1_headerlistview" />
+			</LinearLayout>
+			<TextView 
+            android:background="#ffb1b1b1" 
+            android:layout_width="fill_parent" 
+            android:layout_height="1.0dip" 
+            android:text="" />  
+		<LinearLayout android:id="@+id/summary_detail"
+			 	    android:layout_width="fill_parent"
+			    	android:layout_height="wrap_content"
+			    	android:layout_marginLeft="10dp"
+				    android:layout_marginRight="15dp">
+				    	 <TextView
+				             android:layout_width="wrap_content"
+				             android:layout_height="wrap_content"				             
+				             android:text="每公顷蓄积量:"
+				             android:textColor="#000000"
+				             android:textAppearance="?android:attr/textAppearanceMedium" />
+				    	 <EditText
+				            android:id="@+id/et_HaXjl"
+				            android:layout_width="0.0dip"
+				            android:layout_height="wrap_content"
+				            android:layout_weight="1.0"
+				            android:text="" />
+				    	 <TextView
+				             android:layout_width="wrap_content"
+				             android:layout_height="wrap_content"				            
+				             android:text="  ∑G:"
+				             android:textColor="#000000"
+				             android:textAppearance="?android:attr/textAppearanceMedium" />
+				    	 <EditText
+				            android:id="@+id/et_sumG"
+				            android:layout_width="0.0dip"
+				            android:layout_height="wrap_content"
+				            android:layout_weight="1.0"
+				            android:text="" />
+		</LinearLayout>		  
+		</LinearLayout>
+</LinearLayout>

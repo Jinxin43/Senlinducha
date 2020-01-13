@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#f1f1f1"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    <TextView
+        android:id="@+id/tvLocaleText"
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:text="数据截图"
+    	android:textColor="#000000"
+    	android:background="@layout/v1_bk_head_splitbar" />
+     <LinearLayout
+	 	    android:gravity="center"
+	 	    android:layout_width="fill_parent"
+	    	android:layout_height="fill_parent">
+
+			<RelativeLayout
+			    android:layout_width="fill_parent"
+			    android:layout_height="fill_parent"
+			    android:background="#ffcccccc" >
+			    <lkmap.ZRoadMap.MyControl.v1_Pad_Graffiti
+			        android:id="@+id/iv_datapreview2"
+			        android:background="#00cccccc"
+			        android:layout_width="fill_parent"
+			        android:layout_height="fill_parent"/>
+
+			    <LinearLayout
+			        android:id="@+id/linearLayout1"
+			        android:layout_width="fill_parent"
+			        android:layout_height="wrap_content"
+			        android:gravity="right|center" >
+
+			        <ImageButton
+			            android:id="@+id/bt_pen"
+			            android:layout_width="wrap_content"
+			            android:layout_height="wrap_content"
+			            android:background="@drawable/buttonstyle_transparent"
+			            android:src="@drawable/v1_clipscreen_pen"
+			            android:tag="画笔"
+			            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+			        <ImageButton
+			            android:id="@+id/bt_erase"
+			            android:layout_width="wrap_content"
+			            android:layout_height="wrap_content"
+			            android:background="@drawable/buttonstyle_transparent"
+			            android:src="@drawable/v1_clipscreen_erase"
+			            android:tag="相皮擦"
+			            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+			        <ImageButton
+			            android:id="@+id/bt_undo"
+			            android:layout_width="wrap_content"
+			            android:layout_height="wrap_content"
+			            android:layout_below="@+id/bt_projectinfo"
+			            android:background="@drawable/buttonstyle_transparent"
+			            android:src="@drawable/undo"
+			            android:tag="回退"
+			            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+			        <ImageButton
+			            android:id="@+id/bt_redo"
+			            android:layout_width="wrap_content"
+			            android:layout_height="wrap_content"
+			            android:layout_below="@+id/bt_projectinfo"
+			            android:background="@drawable/buttonstyle_transparent"
+			            android:src="@drawable/undo1"
+			            android:tag="重做"
+			            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+			        <Button
+			            android:id="@+id/bt_save"
+			            android:layout_width="wrap_content"
+			            android:layout_height="wrap_content"
+			            android:layout_below="@+id/bt_projectinfo"
+			            android:background="@drawable/buttonstyle_transparent"
+			            android:drawableLeft="@drawable/v1_ok"
+			            android:tag="保存"
+			            android:text="保存"
+			            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+			        <Button
+			            android:id="@+id/bt_quit"
+			            android:layout_width="wrap_content"
+			            android:layout_height="wrap_content"
+			            android:background="@drawable/buttonstyle_transparent"
+			            android:drawableLeft="@drawable/v1_deleteobject"
+			            android:tag="退出"
+			            android:text="退出"
+			            android:textAppearance="?android:attr/textAppearanceMedium" />
+			    </LinearLayout>
+			</RelativeLayout>
+
+ 	 </LinearLayout>    
+</LinearLayout>

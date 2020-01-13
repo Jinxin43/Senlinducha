@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@+id/mainphoto" 
+	android:layout_width="fill_parent" 
+	android:layout_height="fill_parent" 
+	android:orientation="vertical"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<RelativeLayout android:id="@+id/rl_photo_info" 
+	    android:layout_width="fill_parent" 
+	    android:layout_alignParentTop="true"
+		android:layout_height="wrap_content"> 
+
+	    <TextView android:text="" 
+		    android:id="@+id/photo_info" 
+		     android:textAppearance="?android:attr/textAppearanceMedium"
+		    android:layout_width="fill_parent" 
+		    android:layout_height="wrap_content"
+		    />
+    </RelativeLayout>	
+    
+   <RelativeLayout
+        android:id="@+id/rl_photo_view"
+        android:background="#f1f1f1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+	    <Gallery android:id="@+id/photo_view" 
+		    android:layout_width="fill_parent" 
+		    android:layout_height="fill_parent"
+		    ></Gallery>
+    </RelativeLayout>
+
+   <RelativeLayout
+        android:id="@+id/rl_photo_view2"
+        android:layout_alignParentBottom="true"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+		<LinearLayout android:id="@+id/linearLayout1"  style="@android:style/ButtonBar" 
+		    android:layout_width="fill_parent" 
+			android:layout_height="wrap_content"
+			android:background="#bfbfbf"
+			android:gravity="right" 
+			android:orientation="horizontal"> 
+		    <Button
+		        android:id="@+id/photo_exit"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+				android:textAppearance="?android:attr/textAppearanceMedium"
+		        android:drawableLeft="@drawable/v1_ok"
+		        android:text="完成" />
+		    <Button
+		        android:id="@+id/photo_erase"
+
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+				android:textAppearance="?android:attr/textAppearanceMedium"
+
+		        android:drawableLeft="@drawable/m_photo_del"
+		        android:text="删除" />
+		    <Button
+		        android:id="@+id/photo_camera"
+				android:textAppearance="?android:attr/textAppearanceMedium"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:drawableLeft="@drawable/m_photo_add"
+		        android:text="增加" />
+		    
+		</LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>
+
+

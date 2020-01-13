@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>   
+<resources>      
+  <declare-styleable name="Gallery">      
+    <attr name="android:galleryItemBackground" />      
+  </declare-styleable>  
+  <!--<declare-styleable name="LockPatternView">-->
+        <!--&lt;!&ndash; Aspect to use when drawing LockPatternView. Choices are "square"(default), "lock_width"-->
+             <!--or "lock_height" &ndash;&gt;-->
+        <!--<attr name="aspect" format="string" />-->
+    <!--</declare-styleable>    -->
+</resources> 

@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#f1f1f1"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+  	<!-- 七参数 -->
+     <LinearLayout android:gravity="center"
+         android:orientation="vertical"
+ 	    android:layout_width="fill_parent"
+    	android:layout_height="wrap_content">
+	     <LinearLayout android:gravity="center"
+	 	    android:layout_width="fill_parent"
+	    	android:layout_height="wrap_content">
+			 		<TextView
+			 		    android:id="@+id/textView1"
+			 		    android:layout_width="fill_parent"
+			 		    android:layout_height="wrap_content"
+			 		    android:text="X平移(米)"
+			 		    android:gravity="center"
+			 		    android:layout_weight="1"
+			 		    android:textColor="#000000"
+			 		    android:textAppearance="?android:attr/textAppearanceMedium" />
+			 		<TextView
+			 		    android:id="@+id/textView1"
+			 		    android:layout_width="fill_parent"
+			 		    android:layout_height="wrap_content"
+			 		    android:text="Y平移(米)"
+			 		    android:gravity="center"
+			 		    android:layout_weight="1"
+			 		    android:textColor="#000000"
+			 		    android:textAppearance="?android:attr/textAppearanceMedium" />
+	 	 </LinearLayout>
+	 	 
+	     <LinearLayout android:gravity="center"
+	 	    android:layout_width="fill_parent"
+	    	android:layout_height="wrap_content">
+			 		<EditText
+			 		    android:id="@+id/pp4_p1"
+			 		    android:layout_width="fill_parent"
+			 		    android:layout_height="wrap_content"
+			 		    android:text="0"
+			 		    android:inputType="numberSigned|numberDecimal"
+			 		    android:gravity="center"
+			 		    android:layout_weight="1"
+			 		    android:textColor="#000000"
+			 		    android:textAppearance="?android:attr/textAppearanceMedium" />
+			 		<EditText
+			 		    android:id="@+id/pp4_p2"
+			 		    android:layout_width="fill_parent"
+			 		    android:layout_height="wrap_content"
+			 		    android:text="0"
+			 		    android:inputType="numberSigned|numberDecimal"
+			 		    android:gravity="center"
+			 		    android:layout_weight="1"
+			 		    android:textColor="#000000"
+			 		    android:textAppearance="?android:attr/textAppearanceMedium" />
+	 	 </LinearLayout>
+	 	 
+	     <LinearLayout android:gravity="center"
+	 	    android:layout_width="fill_parent"
+	    	android:layout_height="wrap_content">
+			 		<TextView
+			 		    android:id="@+id/textView1"
+			 		    android:layout_width="fill_parent"
+			 		    android:layout_height="wrap_content"
+			 		    android:text="旋转角度(秒)"
+			 		    android:gravity="center"
+			 		    android:layout_weight="1"
+			 		    android:textColor="#000000"
+			 		    android:textAppearance="?android:attr/textAppearanceMedium" />
+			 		<TextView
+			 		    android:id="@+id/textView1"
+			 		    android:layout_width="fill_parent"
+			 		    android:layout_height="wrap_content"
+			 		    android:text="尺度因子"
+			 		    android:gravity="center"
+			 		    android:layout_weight="1"
+			 		    android:textColor="#000000"
+			 		    android:textAppearance="?android:attr/textAppearanceMedium" />
+	 	 </LinearLayout>
+	 	 
+	     <LinearLayout android:gravity="center"
+	 	    android:layout_width="fill_parent"
+	    	android:layout_height="wrap_content">
+			 		<EditText
+			 		    android:id="@+id/pp4_p3"
+			 		    android:layout_width="fill_parent"
+			 		    android:layout_height="wrap_content"
+			 		    android:text="0"
+			 		    android:inputType="numberSigned|numberDecimal"
+			 		    android:gravity="center"
+			 		    android:layout_weight="1"
+			 		    android:textColor="#000000"
+			 		    android:textAppearance="?android:attr/textAppearanceMedium" />
+			 		<EditText
+			 		    android:id="@+id/pp4_p4"
+			 		    android:layout_width="fill_parent"
+			 		    android:layout_height="wrap_content"
+			 		    android:text="1"
+			 		    android:inputType="numberSigned|numberDecimal"
+			 		    android:gravity="center"
+			 		    android:layout_weight="1"
+			 		    android:textColor="#000000"
+			 		    android:textAppearance="?android:attr/textAppearanceMedium" />
+	 	 </LinearLayout>
+	     <LinearLayout 
+	 	    android:layout_width="fill_parent"
+	    	android:layout_height="wrap_content">
+		 		
+		     <RelativeLayout 
+		         android:layout_weight="1"
+		 	    android:layout_width="fill_parent"
+		    	android:layout_height="wrap_content">
+	 			<Button android:id="@+id/btcalparam4" 
+					android:tag="四参计算器"
+			        android:textAppearance="?android:attr/textAppearanceMedium"
+					android:gravity="center"
+					android:drawableLeft="@drawable/v1_space_height"
+					 android:background="@drawable/buttonstyle"
+			        android:layout_width="fill_parent"
+			        android:layout_height="wrap_content"/>
+			     <LinearLayout 
+			         android:layout_alignBottom="@+id/btcalparam4" 
+			         android:layout_alignTop="@+id/btcalparam4" 
+			         android:gravity="center"
+			 	    android:layout_width="fill_parent"
+			    	android:layout_height="wrap_content">
+		
+			         <ImageView
+			             android:id="@+id/imageView1"
+			             android:layout_width="wrap_content"
+			             android:layout_height="wrap_content"
+			             android:src="@drawable/v1_calparam4" />
+	
+			         <TextView
+			             android:id="@+id/textView2"
+			             android:layout_width="wrap_content"
+			             android:layout_height="wrap_content"
+			             android:text="四参计算器"
+			             android:textColor="#000000"
+			             android:textAppearance="?android:attr/textAppearanceMedium" />
+			    	
+			 	</LinearLayout>
+			  </RelativeLayout>
+		    	
+		     <RelativeLayout 
+		         android:layout_weight="1"
+		 	    android:layout_width="fill_parent"
+		    	android:layout_height="wrap_content">
+	 			<Button android:id="@+id/btparamanage4" 
+					android:tag="参数管理器"
+			        android:textAppearance="?android:attr/textAppearanceMedium"
+					android:gravity="center"
+					android:drawableLeft="@drawable/v1_space_height"
+					 android:background="@drawable/buttonstyle"
+			        android:layout_width="fill_parent"
+			        android:layout_height="wrap_content"/>
+			     <LinearLayout 
+			         android:layout_alignBottom="@+id/btparamanage4" 
+			         android:layout_alignTop="@+id/btparamanage4" 
+			         android:gravity="center"
+			 	    android:layout_width="fill_parent"
+			    	android:layout_height="wrap_content">
+		
+			         <ImageView
+			             android:id="@+id/imageView1"
+			             android:layout_width="wrap_content"
+			             android:layout_height="wrap_content"
+			             android:src="@drawable/v1_paramanage" />
+	
+			         <TextView
+			             android:id="@+id/textView2"
+			             android:layout_width="wrap_content"
+			             android:layout_height="wrap_content"
+			             android:text="参数管理器"
+			             android:textColor="#000000"
+			             android:textAppearance="?android:attr/textAppearanceMedium" />
+			    	
+			 	</LinearLayout>
+			  </RelativeLayout>
+ 			
+		 </LinearLayout>
+	 	     
+ 	  </LinearLayout>
+</LinearLayout>

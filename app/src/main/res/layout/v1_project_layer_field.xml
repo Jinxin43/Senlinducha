@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#f1f1f1"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    <TextView
+        android:id="@+id/tvLocaleText1"
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:text="字段信息"
+    	android:textColor="#000000"
+    	android:background="@layout/v1_bk_head_splitbar" />
+     <LinearLayout android:gravity="center"
+ 	    android:layout_width="fill_parent"
+    	android:layout_height="wrap_content">
+ 		<TextView
+ 		    android:id="@+id/tvLocaleText2"
+ 		    android:layout_width="wrap_content"
+ 		    android:layout_height="wrap_content"
+ 		    android:text="名称："
+ 		    android:textColor="#000000"
+ 		    android:textAppearance="?android:attr/textAppearanceMedium" />
+ 		<EditText
+ 		    android:id="@+id/et_name"
+ 		    android:layout_width="wrap_content"
+ 		    android:layout_height="wrap_content"
+ 		    android:layout_weight="1"/>
+ 	 </LinearLayout>    
+     <LinearLayout android:gravity="center"
+ 	    android:layout_width="fill_parent"
+    	android:layout_height="wrap_content">
+ 		<TextView
+ 		    android:id="@+id/tvLocaleText3"
+ 		    android:layout_width="wrap_content"
+ 		    android:layout_height="wrap_content"
+ 		    android:text="类型："
+ 		    android:textColor="#000000"
+ 		    android:textAppearance="?android:attr/textAppearanceMedium" />
+ 		<Spinner
+ 		    android:id="@+id/sp_type"
+ 		    android:layout_width="wrap_content"
+ 		    android:layout_height="wrap_content"
+ 		    android:layout_weight="1"/>
+ 	 </LinearLayout>
+     <LinearLayout android:gravity="center"
+ 	    android:layout_width="fill_parent"
+    	android:layout_height="wrap_content">
+ 		<TextView
+ 		    android:id="@+id/tvLocaleText4"
+ 		    android:layout_width="wrap_content"
+ 		    android:layout_height="wrap_content"
+ 		    android:text="大小："
+ 		    android:textColor="#000000"
+ 		    android:textAppearance="?android:attr/textAppearanceMedium" />
+ 		<EditText
+ 		    android:id="@+id/et_size"
+ 		    android:numeric="integer"
+ 		    android:text="50"
+ 		    android:layout_width="wrap_content"
+ 		    android:layout_height="wrap_content"
+ 		    android:layout_weight="1"/>
+ 	 </LinearLayout>
+     <LinearLayout android:gravity="center"
+ 	    android:layout_width="fill_parent"
+    	android:layout_height="wrap_content">
+ 		<TextView
+ 		    android:id="@+id/tvLocaleText5"
+ 		    android:layout_width="wrap_content"
+ 		    android:layout_height="wrap_content"
+ 		    android:text="精度："
+ 		    android:textColor="#000000"
+ 		    android:textAppearance="?android:attr/textAppearanceMedium" />
+ 		<Spinner
+ 		    android:id="@+id/sp_decimal"
+ 		    android:layout_width="wrap_content"
+ 		    android:layout_height="wrap_content"
+ 		    android:layout_weight="1"/>
+ 	 </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvLocaleText6"
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:text="字段数据关联"
+    	android:textColor="#000000"
+    	android:background="@layout/v1_bk_head_splitbar" /> 	 
+     <LinearLayout android:gravity="center"
+ 	    android:layout_width="fill_parent"
+    	android:layout_height="wrap_content">
+ 		<TextView
+ 		    android:id="@+id/tvLocaleText7"
+ 		    android:layout_width="wrap_content"
+ 		    android:layout_height="wrap_content"
+ 		    android:text="值域："
+ 		    android:textColor="#000000"
+ 		    android:textAppearance="?android:attr/textAppearanceMedium" />
+ 		<lkmap.ZRoadMap.MyControl.v1_SpinnerDialog
+ 		    android:id="@+id/sp_valuelist"
+ 		    android:layout_width="wrap_content"
+ 		    android:layout_height="wrap_content"
+ 		    android:layout_weight="1"/>
+ 	 </LinearLayout>
+ 	 <LinearLayout android:gravity="center"
+ 	    android:layout_width="fill_parent"
+    	android:layout_height="wrap_content">
+ 		<TextView
+ 		    android:id="@+id/textView1"
+ 		    android:visibility="invisible"
+ 		    android:layout_width="wrap_content"
+ 		    android:layout_height="wrap_content"
+ 		    android:text="占位："
+ 		    android:textColor="#000000"
+ 		    android:textAppearance="?android:attr/textAppearanceMedium" />
+	 	 <CheckBox
+	 	     android:id="@+id/cb_inputmode"
+	 	     android:layout_width="wrap_content"
+	 	     android:layout_height="wrap_content"
+	 	     android:layout_weight="1"
+	 	     android:textColor="#000000"
+	 	     android:checked="true"
+	 	     android:textAppearance="?android:attr/textAppearanceMedium"
+	 	     android:text="是否可输入其它值" />
+ 	 </LinearLayout>
+
+
+</LinearLayout>

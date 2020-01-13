@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    	android:id="@+id/rp_listitem"
+         android:layout_height="wrap_content"
+         android:padding="0dip" 
+         android:layout_margin="0dp"
+         android:layout_width="fill_parent">
+
+    <TextView
+        android:id="@+id/rp_itemtext1"
+        android:background="@layout/v1_bk_box"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:text="我是中国人民共产常"/>
+    <TextView
+        android:id="@+id/rp_itemtext2"
+        android:background="@layout/v1_bk_box"
+        android:layout_width="50dp"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:text="我是中国人民共产常" />
+    <TextView
+        android:id="@+id/rp_itemtext3"
+        android:background="@layout/v1_bk_box"
+        android:layout_width="50dp"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:text="我是中国人民共产常" />
+    <TextView
+        android:id="@+id/rp_itemtext4"
+        android:background="@layout/v1_bk_box"
+        android:layout_width="50dp"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:text="我是中国人民共产常" />
+    <TextView
+        android:id="@+id/rp_itemtext5"
+        android:background="@layout/v1_bk_box"
+        android:layout_width="50dp"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:text="我是中国人民共产常"/>
+    <TextView
+        android:id="@+id/rp_itemtext6"
+        android:background="@layout/v1_bk_box"
+        android:layout_width="50dp"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:text="" />
+    <TextView
+        android:id="@+id/rp_itemtext7"
+        android:background="@layout/v1_bk_box"
+        android:layout_width="50dp"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:text="我是中国人民共产常" />
+    <TextView
+        android:id="@+id/rp_itemtext8"
+        android:background="@layout/v1_bk_box"
+        android:layout_width="50dp"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:text="我是中国人民共产常" />
+    <TextView
+        android:id="@+id/rp_itemtext9"
+        android:background="@layout/v1_bk_box"
+        android:layout_width="50dp"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:text="我是中国人民共产常" />    
+     
+</LinearLayout>

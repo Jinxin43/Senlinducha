@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#fff1f1f1"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@id/tv_info"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@layout/v1_bk_head_splitbar"
+        android:gravity="center|left"
+        android:text="按户作业设计列表"
+        android:textColor="#ff000000" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="48.0dip"
+        android:gravity="center" >
+
+        <TextView
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:background="@layout/v1_bk_table_header_light"
+            android:gravity="center"
+            android:text="乡镇"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="#ff000000" />
+
+         <TextView
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:background="@layout/v1_bk_table_header_light"
+            android:gravity="center"
+            android:text="村"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="#ff000000" />
+         
+        <TextView
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:background="@layout/v1_bk_table_header_light"
+            android:gravity="center"
+            android:text="小班号"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="#ff000000" />
+
+        <TextView
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:background="@layout/v1_bk_table_header_light"
+            android:gravity="center"
+            android:text="户名"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="#ff000000" />
+
+        <TextView
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:background="@layout/v1_bk_table_header_light"
+            android:gravity="center"
+            android:text="地类"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="#ff000000" />
+
+        <TextView
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:background="@layout/v1_bk_table_header_light"
+            android:gravity="center"
+            android:text="造林(草)\n面积"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="#ff000000" />
+
+        <TextView
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:background="@layout/v1_bk_table_header_light"
+            android:gravity="center"
+            android:text="林种"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="#ff000000" />
+
+        <TextView
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:background="@layout/v1_bk_table_header_light"
+            android:gravity="center"
+            android:text="树(草)种"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="#ff000000" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="1.0"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <ListView
+            android:id="@+id/lvListNeedHu"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:cacheColorHint="#00000000"
+            android:divider="#ff0000ff"
+            android:dividerHeight="0.0dip" />
+    </LinearLayout>
+
+</LinearLayout>

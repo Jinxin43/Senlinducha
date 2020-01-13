@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    	android:id="@+id/gd_zoombar_view"
+         android:layout_height="wrap_content"   
+         android:layout_width="wrap_content"
+         android:layout_marginTop="5dp"
+         android:layout_marginRight="5dp"
+		 android:layout_marginBottom="5dp"
+		 android:layout_below="@+id/mainviewheaderbar"
+         android:layout_above="@+id/mainbottomtoolbar">
+         
+    	<RelativeLayout android:id="@+id/rl_editbar"
+    	    android:layout_height="wrap_content"   
+         	android:layout_width="wrap_content"
+         	android:layout_alignParentTop="true"
+         	android:layout_above="@+id/rl_zoombar"
+         	android:layout_alignParentLeft="true"
+         	android:layout_alignParentRight="true">
+         	<include android:id="@+id/submenu_editbar" layout="@layout/v1_toolbareditbar"/>  <!-- 编辑工具条 -->	
+    	    
+        </RelativeLayout>
+         	
+    	<LinearLayout android:id="@+id/rl_zoombar"
+    	    android:layout_height="wrap_content"   
+         	android:layout_width="wrap_content"
+         	android:layout_alignParentBottom="true"
+         	android:layout_alignParentLeft="true"
+         	android:layout_alignParentRight="true">
+
+    	    <!-- 左下角比例显示条 -->
+	   		<ImageView
+		    	    android:id="@+id/gd_scalebar"
+		    	    android:layout_marginLeft="2dp"
+		    	    android:layout_width="wrap_content"
+		    	    android:layout_height="wrap_content"/>
+	   		
+		   <!-- 采集线，面时距离与面积的状态条 -->
+	   		<ImageView
+	    	    android:id="@+id/tv_status"
+	    	    android:layout_width="wrap_content"
+	    	    android:layout_weight="1"
+	    	    android:layout_height="wrap_content"/>
+
+		   <Button
+	    	    android:id="@+id/gd_zoombar_editbar"
+				android:layout_alignParentRight="true"
+	    	    android:layout_width="wrap_content"
+	    	    android:layout_height="wrap_content"
+	    	    android:drawableLeft="@drawable/v1_hideeditbar"
+	    	    android:textAppearance="?android:attr/textAppearanceMedium"
+			    android:background="@drawable/buttonstyle_transparent_all"
+	    	    android:tag="编辑工具_收缩"
+	    	    android:text=""/>
+	 </LinearLayout>	
+		   
+</RelativeLayout>

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:descendantFocusability="blocksDescendants"
+    android:minHeight="80.0dip"
+    android:background="#f89776"  >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="3">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@layout/v1_bk_box"
+            android:gravity="center" >
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center"
+                android:gravity="center" >
+
+                <Button
+                    android:id="@+id/btrename"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/buttonstyle_transparent_all"
+                    android:minHeight="21.0dip"
+                    android:tag="改名" />
+
+                <TextView
+                    android:id="@+id/tvdh"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/btrename"
+                    android:layout_alignTop="@+id/btrename"
+                    android:gravity="center"
+                    android:text="99"
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:textColor="#ff0000ff" />
+            </RelativeLayout>
+        </LinearLayout>
+</LinearLayout>
+         
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" 
+                android:layout_weight="2">
+				
+                <TextView
+                    android:id="@+id/tvzxjl"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:background="#ffbebec0"
+                    android:gravity="center"
+                    android:text="直线 "
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:textColor="#ff000000" />
+                
+                <TextView
+                    android:id="@+id/tvjl"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="@layout/v1_bk_box"
+                    android:gravity="center"
+                    android:text="标题 ："
+                    android:layout_weight="2.0"
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:textColor="#ff000000" />
+                <LinearLayout  
+                    android:layout_width="fill_parent"
+                	android:layout_height="fill_parent" 
+                	android:layout_weight="1"
+                	android:orientation="vertical">
+            		
+            		<LinearLayout  
+                    android:layout_width="fill_parent"
+                	android:layout_height="wrap_content" 
+                	android:layout_weight="1">
+		            	<TextView
+		                    android:id="@+id/tvfx1"
+		                    android:layout_width="wrap_content"
+		                    android:layout_height="fill_parent"
+		                    android:background="#ffbebec0"
+		                    android:gravity="center"
+		                    android:text=" 东 "
+		                    android:textAppearance="?android:textAppearanceMedium"
+		                    android:textColor="#ff000000" />
+		
+		                <TextView
+		                    android:id="@+id/tvjl1"
+		                    android:layout_width="fill_parent"
+		                    android:layout_height="fill_parent"
+		                    android:layout_weight="2.0"
+		                    android:background="@layout/v1_bk_box"
+		                    android:gravity="center"
+		                    android:text="标题 ："
+		                    android:textAppearance="?android:textAppearanceMedium"
+		                    android:textColor="#ff000000" />
+                </LinearLayout>
+                
+            		<LinearLayout  
+	                    android:layout_width="fill_parent"
+	                	android:layout_height="wrap_content" 
+	                	android:layout_weight="1">
+            			 <TextView
+		                    android:id="@+id/tvfx2"
+		                    android:layout_width="wrap_content"
+		                    android:layout_height="fill_parent"
+		                    android:background="#ffbebec0"
+		                    android:gravity="center"
+		                    android:text=" 南 "
+		                    android:textAppearance="?android:textAppearanceMedium"
+		                    android:textColor="#ff000000" />
+		
+		                <TextView
+		                    android:id="@+id/tvjl2"
+		                    android:layout_width="fill_parent"
+		                    android:layout_height="fill_parent"
+		                    android:layout_weight="2.0"
+		                    android:background="@layout/v1_bk_box"
+		                    android:gravity="center"
+		                    android:text="0"
+		                    android:textAppearance="?android:textAppearanceMedium"
+		                    android:textColor="#ff000000" />
+                </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+         android:layout_weight="3">
+
+        <TextView
+            android:id="@+id/tvjd"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:background="@layout/v1_bk_box"
+            android:gravity="center"
+            android:text="标题 ："
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="#ff000000" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="48dp"
+        android:layout_height="fill_parent"
+        android:background="@layout/v1_bk_box"
+        android:gravity="center" >
+        <ImageButton
+            android:id="@+id/btdelete"
+            android:layout_width="42dp"
+            android:layout_height="fill_parent"
+            android:background="@drawable/buttonstyle_transparent_all"
+            android:src="@drawable/v1_deleteobject"
+            android:tag="删除" />
+    </LinearLayout>
+
+</LinearLayout>

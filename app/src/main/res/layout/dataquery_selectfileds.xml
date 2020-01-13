@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#fff1f1f1"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@layout/v1_bk_head_splitbar"
+        android:text="数据分页"
+        android:textColor="#ff000000"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center" 
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4.0dip"
+            android:text="每页记录数："
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="#ff000000" />
+
+        <Spinner
+            android:id="@+id/sp_page_rows"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="4.0dip"
+            android:layout_weight="1.0" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@layout/v1_bk_head_splitbar"
+        android:text="可显示字段"
+        android:textColor="#ff000000" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="48.0dip" >
+
+        <LinearLayout
+            android:layout_width="48.0dip"
+            android:layout_height="fill_parent"
+            android:background="@layout/v1_bk_table_header"
+            android:gravity="center" >
+
+            <CheckBox
+                android:id="@+id/cb_selectall"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent" 
+                android:visibility="gone"/>
+             <TextView
+	           	android:layout_width="wrap_content"
+	            android:layout_height="fill_parent"
+	            android:background="@layout/v1_bk_table_header"
+	            android:gravity="center|left"
+	            android:text=" 选择  "
+	            android:textAppearance="?android:textAppearanceMedium"
+	            android:textColor="#ff000000" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:background="@layout/v1_bk_table_header"
+            android:gravity="center|left"
+            android:text="  字段名称"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="#ff000000" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <ListView
+            android:id="@+id/lvList"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:cacheColorHint="#00000000"
+            android:divider="#ffffffff"
+            android:dividerHeight="0.0px" />
+    </LinearLayout>
+
+</LinearLayout>

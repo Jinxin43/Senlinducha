@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+         android:layout_height="fill_parent"   
+         android:paddingBottom="0dip" 
+         android:layout_width="fill_parent">  
+	<TextView
+        android:id="@+id/roadlabel"
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:text="采点模式"
+    	android:textColor="#000000"
+    	android:background="@layout/v1_bk_head_splitbar" />
+	
+    <LinearLayout android:id="@+id/testbar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/roadlabel"
+        android:background="@layout/v1_bk_main">
+	    <Button
+	        android:id="@+id/point_layer"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:background="@drawable/buttonstyle_flat"
+	        android:drawableTop="@drawable/v1_layerlist"
+	        android:layout_weight="1"
+	        android:tag="01_01_L"
+	        android:text="【点】" />        
+        <Button
+            android:id="@+id/point_m"
+            android:drawableTop="@drawable/point_m"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/buttonstyle_flat"
+            android:layout_weight="1"
+            android:tag="01_M"
+            android:text="手绘采点" />
+	    <Button
+	        android:id="@+id/point_gps"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:background="@drawable/buttonstyle_flat"
+	        android:drawableTop="@drawable/point_g"
+	        android:layout_weight="1"
+	        android:tag="01_G"
+	        android:text="GPS点位" />
+    </LinearLayout>
+    
+    <!-- 
+    <GridView
+	        android:listSelector="@layout/v1_st_toolbaritem"
+	        android:id="@+id/subgridView_point"
+	        android:layout_below="@+id/testbar"
+	        android:background="@layout/v1_bk_main"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+		    android:verticalSpacing="0dp"  
+	    	android:horizontalSpacing="0dp" 
+	    	android:gravity="center" 
+	        android:numColumns="3" />
+ -->
+
+    
+</RelativeLayout>

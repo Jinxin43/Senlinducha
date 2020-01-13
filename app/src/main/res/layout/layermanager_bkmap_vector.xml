@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#f1f1f1"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" > 
+ 	<LinearLayout android:id="@+id/ll_grid"
+ 	     android:orientation="vertical"
+ 	     android:layout_weight="1"
+	    android:layout_width="fill_parent"
+   		android:layout_height="fill_parent">
+	     <TextView
+	        android:layout_width="fill_parent"
+	    	android:layout_height="wrap_content"
+	    	android:id="@+id/tvGridCaption"
+	    	android:text="矢量图"
+	    	android:textColor="#000000"
+	    	android:background="@layout/v1_bk_head_splitbar" />
+	     
+     <LinearLayout android:gravity="center"
+ 	    android:layout_width="fill_parent"
+    	android:layout_height="wrap_content">
+ 		<TextView
+ 		    android:id="@+id/tvLocaleText2"
+ 		    android:layout_width="wrap_content"
+ 		    android:layout_height="wrap_content"
+ 		    android:text="工程坐标："
+ 		    android:textColor="#000000"
+ 		    android:textAppearance="?android:attr/textAppearanceMedium" />
+ 		<EditText
+ 		    android:id="@+id/et_prjInfo"
+ 		    android:layout_width="wrap_content"
+ 		    android:layout_height="wrap_content"
+ 		    android:focusable="false"
+ 		    android:enabled="false"
+ 		    android:layout_weight="1"/>
+ 		<Button 
+ 		    android:id="@+id/btnXuanZeMulu"
+ 		    android:layout_width="wrap_content"
+ 		    android:layout_height="wrap_content"
+ 		    android:text="选择底图目录"/>
+ 	 </LinearLayout>  
+ 	      <LinearLayout android:gravity="center"
+	 	    android:layout_width="fill_parent"
+	    	android:layout_height="wrap_content"
+	    	android:visibility="gone">
+	 		<TextView
+	 		    android:id="@+id/tvLocaleText3"
+	 		    android:layout_width="wrap_content"
+	 		    android:layout_height="wrap_content"
+	 		    android:text="底图目录："
+	 		    android:textColor="#000000"
+	 		    android:textAppearance="?android:attr/textAppearanceMedium" />
+	 		<Spinner
+	 		    android:id="@+id/sp_subpath"
+	 		    android:layout_width="wrap_content"
+	 		    android:layout_height="wrap_content"
+	 		    android:layout_weight="1"/>
+ 	 </LinearLayout>
+	     <LinearLayout
+	         android:orientation="vertical"
+	         android:id="@+id/ll_leftpannel"
+	         android:background="#fafafa"
+	 	    android:layout_width="fill_parent"
+	    	android:layout_height="fill_parent">
+		     <LinearLayout 
+		         android:orientation="horizontal"
+		         android:gravity="center"
+			 	    android:layout_width="fill_parent"
+			    	android:layout_height="50dp">
+			    	<LinearLayout 
+						android:gravity="center"
+					    android:background="@layout/v1_bk_table_header"
+				 	    android:layout_width="50dp"
+				    	android:layout_height="fill_parent">
+					    <CheckBox
+					        android:id="@+id/cbselectall"
+					        android:checked="true"
+					        android:layout_width="wrap_content"
+					    	android:layout_height="wrap_content"
+					    	android:textAppearance="?android:attr/textAppearanceMedium" 
+					    	android:textColor="#000000"/>					    	
+			    	</LinearLayout>
+			    	
+				    <TextView
+				        android:layout_width="fill_parent"
+				    	android:layout_height="fill_parent"
+				    	android:layout_weight="1"
+				    	android:text="名称"
+				    	android:gravity="center"
+				    	android:textColor="#000000"
+				    	android:textAppearance="?android:attr/textAppearanceMedium" 
+				    	android:background="@layout/v1_bk_table_header"/>
+				    <TextView
+				        android:layout_width="fill_parent"
+				    	android:layout_height="fill_parent"
+				    	android:layout_weight="1"
+				    	android:text="存储目录"
+				    	android:gravity="center"
+				    	android:textColor="#000000"
+				    	android:textAppearance="?android:attr/textAppearanceMedium" 
+				    	android:background="@layout/v1_bk_table_header"/>	    					    			    
+			 </LinearLayout> 
+	         <ListView
+	             android:id="@+id/listView1"
+	             android:layout_width="fill_parent"
+	             android:layout_height="fill_parent"
+	             android:cacheColorHint="#00000000"
+				android:dividerHeight="0.5dp"
+				android:divider="#7357ea">
+	         </ListView>
+
+	    </LinearLayout>	
+      </LinearLayout>		    
+</LinearLayout>

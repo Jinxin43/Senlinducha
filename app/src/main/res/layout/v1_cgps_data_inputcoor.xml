@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#f1f1f1"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <TextView
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:text="坐标列表"
+    	android:textColor="#000000"
+    	android:background="@layout/v1_bk_head_splitbar" />
+
+	     <LinearLayout 
+	         android:orientation="horizontal"
+	         android:gravity="center"
+		 	    android:layout_width="fill_parent"
+		    	android:layout_height="40dp">
+			    <TextView
+			        android:layout_width="64dp"
+			    	android:layout_height="fill_parent"
+			    	android:id="@+id/tvLocaleText1"
+			    	android:text="序号"
+			    	android:gravity="center"
+			    	android:textAppearance="?android:attr/textAppearanceMedium" 
+			    	android:textColor="#000000"
+			    	android:background="@layout/v1_bk_table_header"/>
+			    <TextView
+			        android:layout_width="fill_parent"
+			    	android:layout_height="fill_parent"
+			    	android:id="@+id/tvLocaleText2"
+			    	android:layout_weight="1"
+			    	android:text="X坐标"
+			    	android:gravity="center"
+			    	android:textAppearance="?android:attr/textAppearanceMedium" 
+			    	android:textColor="#000000"
+			    	android:background="@layout/v1_bk_table_header"/>	
+			    <TextView
+			        android:layout_width="fill_parent"
+			    	android:layout_height="fill_parent"
+			    	android:id="@+id/tvLocaleText3"
+			    	android:layout_weight="1"
+			    	android:text="Y坐标"
+			    	android:gravity="center"
+			    	android:textAppearance="?android:attr/textAppearanceMedium" 
+			    	android:textColor="#000000"
+			    	android:background="@layout/v1_bk_table_header"/>
+			    <TextView
+			        android:layout_width="116dp"
+			    	android:layout_height="fill_parent"
+			    	android:text="操作"
+			    	android:gravity="center"
+			    	android:textAppearance="?android:attr/textAppearanceMedium" 
+			    	android:textColor="#000000"
+			    	android:background="@layout/v1_bk_table_header"/>			    	    			    
+		 </LinearLayout> 
+     <LinearLayout
+         android:orientation="vertical"
+	 	    android:layout_width="fill_parent" 
+	    	android:layout_height="fill_parent">
+		     <LinearLayout android:id="@+id/pl_layerlist"
+			 	    android:layout_width="fill_parent"
+			    	android:layout_height="fill_parent">
+		         <ListView
+		             android:id="@+id/lvList"
+		             android:layout_width="fill_parent"
+		             android:layout_height="fill_parent"
+		             android:cacheColorHint="#00000000"
+					android:dividerHeight="1dp"
+					android:divider="#b1b1b1">
+		         </ListView>
+			 </LinearLayout>  
+ 	 </LinearLayout>
+</LinearLayout>

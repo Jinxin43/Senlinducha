@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffffff"
+    android:descendantFocusability="blocksDescendants"
+    android:minHeight="48.0dip"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:id="@+id/ll_select"
+        android:layout_width="60.0dip"
+        android:layout_height="fill_parent"
+        android:background="@layout/v1_bk_box"
+        android:gravity="center" >
+
+        <CheckBox
+            android:id="@+id/cb_select"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="8.0dip" />
+
+        <TextView
+            android:id="@+id/tv_bianhao"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center|left"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="#ff000000" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_fwj"
+        android:layout_width="0.0dip"
+        android:layout_height="fill_parent"
+        android:layout_weight="2.0"
+        android:background="@layout/v1_bk_box"
+        android:gravity="center"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="#ff000000" />
+    <TextView
+        android:id="@+id/tv_qxj"
+        android:layout_width="0.0dip"
+        android:layout_height="fill_parent"
+        android:layout_weight="2.0"
+        android:background="@layout/v1_bk_box"
+        android:gravity="center"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="#ff000000" />
+    <TextView
+        android:id="@+id/tv_xj"
+        android:layout_width="0.0dip"
+        android:layout_height="fill_parent"
+        android:layout_weight="2.0"
+        android:background="@layout/v1_bk_box"
+        android:gravity="center"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="#ff000000" />
+    <TextView
+        android:id="@+id/tv_hzb"
+        android:layout_width="0.0dip"
+        android:layout_height="fill_parent"
+        android:layout_weight="3.0"
+        android:background="@layout/v1_bk_box"
+        android:gravity="center"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="#ff000000" />
+    <TextView
+        android:id="@+id/tv_zzb"
+        android:layout_width="0.0dip"
+        android:layout_height="fill_parent"
+        android:layout_weight="3.0"
+        android:background="@layout/v1_bk_box"
+        android:gravity="center"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="#ff000000" />
+
+</LinearLayout>

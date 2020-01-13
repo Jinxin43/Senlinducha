@@ -1,0 +1,720 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffffff"
+    android:focusableInTouchMode="true" >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4.0dip"
+                    android:gravity="center|left"
+                    android:visibility="gone" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="占位位"
+                        android:textAppearance="?android:textAppearanceMedium"
+                        android:textColor="#ff000000"
+                        android:visibility="invisible" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="模式号："
+                        android:textAppearance="?android:textAppearanceMedium"
+                        android:textColor="#ff000000" />
+
+                    <lkmap.ZRoadMap.MyControl.v1_SpinnerDialog
+                        android:id="@+id/sp_msh"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.0" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4.0dip"
+                    android:gravity="center|left" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="占位"
+                        android:textAppearance="?android:textAppearanceMedium"
+                        android:textColor="#ff000000"
+                        android:visibility="invisible" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="造林方式："
+                        android:textAppearance="?android:textAppearanceMedium"
+                        android:textColor="#ff000000" />
+
+                    <Spinner
+                        android:id="@+id/sp_zlfs"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.0" 
+                        android:spinnerMode="dropdown"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="占位"
+                        android:textAppearance="?android:textAppearanceMedium"
+                        android:textColor="#ff000000"
+                        android:visibility="invisible" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8.0dip"
+                        android:text="造林树种："
+                        android:textAppearance="?android:textAppearanceMedium"
+                        android:textColor="#ff000000" />
+
+                    <lkmap.ZRoadMap.MyControl.v1_SpinnerDialog
+                        
+                        android:id="@+id/sp_zlsz"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.0" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4.0dip"
+                    android:gravity="center|left" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="占位"
+                        android:textAppearance="?android:textAppearanceMedium"
+                        android:textColor="#ff000000"
+                        android:visibility="invisible" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="造林面积："
+                        android:textAppearance="?android:textAppearanceMedium"
+                        android:textColor="#ff000000" />
+
+                    <EditText
+                        android:id="@+id/et_zlmj"
+                        
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.0"
+                        android:inputType="numberDecimal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="亩"
+                        android:textAppearance="?android:textAppearanceMedium"
+                        android:textColor="#ff000000" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="占"
+                        android:textAppearance="?android:textAppearanceMedium"
+                        android:textColor="#ff000000"
+                        android:visibility="invisible" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8.0dip"
+                        android:text="立地类型："
+                        android:textAppearance="?android:textAppearanceMedium"
+                        android:textColor="#ff000000" />
+
+                    <Spinner
+                        android:id="@+id/sp_ldlx"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.0" 
+                        android:spinnerMode="dropdown"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4.0dip"
+                    android:gravity="center|left" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="占位"
+                        android:textAppearance="?android:textAppearanceMedium"
+                        android:textColor="#ff000000"
+                        android:visibility="invisible" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="造林林种："
+                        android:textAppearance="?android:textAppearanceMedium"
+                        android:textColor="#ff000000" />
+
+                    <Spinner
+                        android:id="@+id/sp_zllz"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.0" 
+                        android:spinnerMode="dropdown"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="占"
+                        android:textAppearance="?android:textAppearanceMedium"
+                        android:textColor="#ff000000"
+                        android:visibility="invisible" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="占位"
+                        android:textAppearance="?android:textAppearanceMedium"
+                        android:textColor="#ff000000"
+                        android:visibility="invisible" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8.0dip"
+                        android:text="株行距："
+                        android:textAppearance="?android:textAppearanceMedium"
+                        android:textColor="#ff000000" />
+
+                    <lkmap.ZRoadMap.MyControl.v1_SpinnerDialog
+                        android:id="@+id/sp_zhj"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.0" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4.0dip"
+                    android:gravity="center|left" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="占占位"
+                        android:textAppearance="?android:textAppearanceMedium"
+                        android:textColor="#ff000000"
+                        android:visibility="invisible" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="混交比："
+                        android:textAppearance="?android:textAppearanceMedium"
+                        android:textColor="#ff000000" />
+
+                    <EditText
+                        android:id="@+id/et_hjb"
+                        
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.0"
+                        android:text="1:1" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="占位"
+                        android:textAppearance="?android:textAppearanceMedium"
+                        android:textColor="#ff000000"
+                        android:visibility="invisible" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8.0dip"
+                        android:text="抚育年次："
+                        android:textAppearance="?android:textAppearanceMedium"
+                        android:textColor="#ff000000" />
+
+                    <EditText
+                        android:id="@+id/et_fync"
+                        
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.0"
+                        android:inputType="number" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4.0dip"
+                    android:gravity="center|left" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="占位"
+                        android:textAppearance="?android:textAppearanceMedium"
+                        android:textColor="#ff000000"
+                        android:visibility="invisible" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="抚育时间："
+                        android:textAppearance="?android:textAppearanceMedium"
+                        android:textColor="#ff000000" />
+
+                    <Spinner
+                        android:id="@+id/sp_fysj"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.0" 
+                        android:spinnerMode="dropdown"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="占"
+                        android:textAppearance="?android:textAppearanceMedium"
+                        android:textColor="#ff000000"
+                        android:visibility="invisible" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8.0dip"
+                        android:text="种苗需要量："
+                        android:textAppearance="?android:textAppearanceMedium"
+                        android:textColor="#ff000000" />
+
+                    <EditText
+                        android:id="@+id/et_zmxyl"
+                        
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.0"
+                        android:inputType="numberDecimal" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4.0dip"
+                    android:gravity="center|left" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="占位"
+                        android:textAppearance="?android:textAppearanceMedium"
+                        android:textColor="#ff000000"
+                        android:visibility="invisible" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="苗木规格："
+                        android:textAppearance="?android:textAppearanceMedium"
+                        android:textColor="#ff000000" />
+
+                    <Spinner
+                        android:id="@+id/sp_mmgg"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.0" 
+                        android:spinnerMode="dropdown"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="占位"
+                        android:textAppearance="?android:textAppearanceMedium"
+                        android:textColor="#ff000000"
+                        android:visibility="invisible" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8.0dip"
+                        android:text="苗木单价："
+                        android:textAppearance="?android:textAppearanceMedium"
+                        android:textColor="#ff000000" />
+
+                    <EditText
+                        android:id="@+id/et_mmdj"
+                        
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.0"
+                        android:inputType="numberDecimal" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4.0dip"
+                    android:gravity="center|left" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="占位"
+                        android:textAppearance="?android:textAppearanceMedium"
+                        android:textColor="#ff000000"
+                        android:visibility="invisible" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="整地方式："
+                        android:textAppearance="?android:textAppearanceMedium"
+                        android:textColor="#ff000000" />
+
+                    <Spinner
+                        android:id="@+id/sp_zdfs"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.0" 
+                        android:spinnerMode="dropdown"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="占位"
+                        android:textAppearance="?android:textAppearanceMedium"
+                        android:textColor="#ff000000"
+                        android:visibility="invisible" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8.0dip"
+                        android:text="整地规格："
+                        android:textAppearance="?android:textAppearanceMedium"
+                        android:textColor="#ff000000" 
+                        android:spinnerMode="dropdown"/>
+
+                    <EditText
+                        android:id="@+id/et_zdgg"
+                        
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.0" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4.0dip"
+                    android:gravity="center|left" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="用工量数合计："
+                        android:textAppearance="?android:textAppearanceMedium"
+                        android:textColor="#ff000000" />
+
+                    <EditText
+                        android:id="@+id/et_ygl_hj"
+                        
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.0"
+                        android:editable="false"
+                        android:enabled="false"
+                        android:focusable="false" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="占位"
+                        android:textAppearance="?android:textAppearanceMedium"
+                        android:textColor="#ff000000"
+                        android:visibility="invisible" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8.0dip"
+                        android:text="工日单价："
+                        android:textAppearance="?android:textAppearanceMedium"
+                        android:textColor="#ff000000" />
+
+                    <EditText
+                        android:id="@+id/et_grdj"
+                        
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.0"
+                        android:inputType="numberDecimal" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4.0dip"
+                    android:gravity="center|left" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="占位占位"
+                        android:textAppearance="?android:textAppearanceMedium"
+                        android:textColor="#ff000000"
+                        android:visibility="invisible" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="整地："
+                        android:textAppearance="?android:textAppearanceMedium"
+                        android:textColor="#ff000000" />
+
+                    <EditText
+                        android:id="@+id/et_ygl_zd"
+                        
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.0"
+                        android:inputType="numberDecimal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="占位占位"
+                        android:textAppearance="?android:textAppearanceMedium"
+                        android:textColor="#ff000000"
+                        android:visibility="invisible" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8.0dip"
+                        android:text="造林："
+                        android:textAppearance="?android:textAppearanceMedium"
+                        android:textColor="#ff000000" />
+
+                    <EditText
+                        android:id="@+id/et_ygl_zl"
+                        
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.0"
+                        android:inputType="numberDecimal" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4.0dip"
+                    android:gravity="center|left" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="占位占位"
+                        android:textAppearance="?android:textAppearanceMedium"
+                        android:textColor="#ff000000"
+                        android:visibility="invisible" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="补植："
+                        android:textAppearance="?android:textAppearanceMedium"
+                        android:textColor="#ff000000" />
+
+                    <EditText
+                        android:id="@+id/et_ygl_bz"
+                        
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.0"
+                        android:inputType="numberDecimal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="占位占位"
+                        android:textAppearance="?android:textAppearanceMedium"
+                        android:textColor="#ff000000"
+                        android:visibility="invisible" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8.0dip"
+                        android:text="抚育："
+                        android:textAppearance="?android:textAppearanceMedium"
+                        android:textColor="#ff000000" />
+
+                    <EditText
+                        android:id="@+id/et_ygl_fy"
+                        
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.0"
+                        android:inputType="numberDecimal" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4.0dip"
+                    android:gravity="center|left" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="占位占位"
+                        android:textAppearance="?android:textAppearanceMedium"
+                        android:textColor="#ff000000"
+                        android:visibility="invisible" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="户数："
+                        android:textAppearance="?android:textAppearanceMedium"
+                        android:textColor="#ff000000" />
+
+                    <lkmap.ZRoadMap.MyControl.v1_SpinnerDialog
+                        android:id="@+id/sp_ztsl"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.0" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:visibility="gone" >
+
+                        <EditText
+                            android:id="@+id/et_ztsl_hm"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+
+                        <EditText
+                            android:id="@+id/et_ztsl_dl"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+
+                        <EditText
+                            android:id="@+id/et_ztsl_mj"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+
+                        <EditText
+                            android:id="@+id/et_ztsl_lz"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+
+                        <EditText
+                            android:id="@+id/et_ztsl_sz"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+
+                        <EditText
+                            android:id="@+id/et_ztsl_mm"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+
+                        <EditText
+                            android:id="@+id/et_ztsl_zz"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="占位"
+                        android:textAppearance="?android:textAppearanceMedium"
+                        android:textColor="#ff000000"
+                        android:visibility="invisible" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8.0dip"
+                        android:text="投资预算："
+                        android:textAppearance="?android:textAppearanceMedium"
+                        android:textColor="#ff000000" />
+
+                    <EditText
+                        android:id="@+id/et_tzys"
+                        
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.0"
+                        android:enabled="false"
+                        android:focusable="false"
+                        android:inputType="numberDecimal" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4.0dip"
+                    android:gravity="center|left" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="占位"
+                        android:textAppearance="?android:textAppearanceMedium"
+                        android:textColor="#ff000000"
+                        android:visibility="invisible" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="备注说明："
+                        android:textAppearance="?android:textAppearanceMedium"
+                        android:textColor="#ff000000" />
+
+                    <EditText
+                        android:id="@+id/et_bz"
+                        
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.0" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

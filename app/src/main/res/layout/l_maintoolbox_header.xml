@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+         android:layout_height="wrap_content" 
+         android:layout_width="wrap_content" 
+         android:layout_below="@+id/mainviewheaderbar"
+         android:layout_alignParentRight="true"
+          > 
+        
+		
+	    	
+    	 <LinearLayout
+	   	        android:layout_height="wrap_content"
+	        	android:layout_width="wrap_content"
+	        	android:background="#00000000"
+			    android:padding="2dp"
+	        	>
+		    		<Button
+		    		    android:id="@+id/bt_layerManage"
+			    	    android:layout_width="wrap_content"
+			    	    android:layout_height="wrap_content"
+			    	    android:layout_weight="1"
+			    	    android:drawableTop="@drawable/icon_a_layer"
+			    	    android:textColor="#dbeedc"
+			    	    android:textSize="12sp"
+					    android:background="@drawable/buttonstyle_green"
+			    	    android:tag="图层"
+			    	    android:gravity="center"
+			    	    android:text="图层"
+			    	    android:layout_margin="2dp"/>
+		    		<Button
+		    		    android:id="@+id/bt_gps"
+			    	    android:layout_width="wrap_content"
+			    	    android:layout_height="wrap_content"
+			    	    android:layout_weight="1"
+			    	    android:drawableTop="@drawable/icon_a_satellite"
+			    	    android:textColor="#dbeedc"
+			    	    android:textSize="12sp"
+					    android:background="@drawable/buttonstyle_green"
+			    	    android:tag="测试GPS"
+			    	    android:gravity="center"
+			    	    android:text="GPS"
+			    	    android:layout_margin="2dp"/>
+		    		<Button
+		    		    android:id="@+id/bt_swipe"
+			    	    android:layout_width="wrap_content"
+			    	    android:layout_height="wrap_content"
+			    	    android:layout_weight="1"
+			    	    android:drawableTop="@drawable/icon_a_shutter"
+			    	    android:textColor="#dbeedc"
+			    	    android:textSize="12sp"
+					    android:background="@drawable/buttonstyle_green"
+			    	    android:tag="卷帘"
+			    	    android:gravity="center"
+			    	    android:text="卷帘"
+			    	    android:layout_margin="2dp"/>
+		    		<Button
+		    		    android:id="@+id/bt_tools"
+			    	    android:layout_width="wrap_content"
+			    	    android:layout_height="wrap_content"
+			    	    android:layout_weight="1"
+			    	    android:drawableTop="@drawable/icon_d_tool"
+			    	    android:textColor="#dbeedc"
+			    	    android:textSize="12sp"
+					    android:background="@drawable/buttonstyle_green"
+			    	    android:tag="更多工具"
+			    	    android:gravity="center"
+			    	    android:text="工具"
+			    	    android:layout_margin="2dp"/>
+		    		
+		    		
+		   	</LinearLayout> 
+	   	
+</RelativeLayout>

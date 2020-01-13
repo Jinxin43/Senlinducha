@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\DT\\AndroidStudioProjects\\Com.DingTu.ForstryTools2\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-pt-rBR\\values-pt-rBR.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\DT\\.gradle\\caches\\transforms-2\\files-2.1\\ca9cc4e7eaebd6d583c13b6688a53b30\\res\\values-pt-rBR\\values-pt-rBR.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        }
+    ]
+}

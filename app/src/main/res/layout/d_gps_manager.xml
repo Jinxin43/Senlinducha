@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#f1f1f1"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+   
+
+    <LinearLayout android:orientation="vertical"
+ 	    android:layout_width="fill_parent"
+    	android:layout_height="wrap_content">
+	     <CheckBox
+	         android:id="@+id/cb_recordgps"
+	         android:layout_height="wrap_content"
+	         android:layout_width="wrap_content"
+	         android:text="记录GPS航迹"
+	         android:textColor="#000000"
+			 android:textAppearance="?android:attr/textAppearanceMedium"
+	         ></CheckBox>
+	 	 </LinearLayout>
+	 	 	 
+     <LinearLayout android:orientation="vertical"
+ 	    android:layout_width="fill_parent"
+    	android:layout_height="wrap_content">
+	     <LinearLayout
+	 	    android:layout_width="fill_parent"
+	    	android:layout_height="wrap_content">
+			 		<TextView
+			 		    android:id="@+id/tvLocaleText2"
+			 		    android:layout_width="wrap_content"
+			 		    android:layout_height="wrap_content"
+			 		    android:text="导出目录："
+			 		    android:textColor="#000000"
+			 		    android:textAppearance="?android:attr/textAppearanceMedium" />
+			 		<EditText
+			 		    android:id="@+id/exportfolder"
+			 		    android:text="新建工程"
+			 		    android:layout_width="wrap_content"
+			 		    android:layout_height="wrap_content"
+			 		    android:layout_weight="1"/>
+	 	 </LinearLayout>	 
+ 	 <LinearLayout android:gravity="center"
+	 	    android:layout_width="fill_parent"
+	    	android:layout_height="wrap_content">
+	     <LinearLayout android:gravity="center"
+	 	    android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content">
+			 		<TextView
+			 		    android:id="@+id/tvLocaleText3"
+			 		    android:layout_width="wrap_content"
+			 		    android:layout_height="wrap_content"
+			 		    android:text="起始时间："
+			 		    android:textColor="#000000"
+			 		    android:textAppearance="?android:attr/textAppearanceSmall" />
+			 		
+			 		<DatePicker android:id="@+id/dp_StartDate"
+        						android:layout_width="wrap_content"
+        						android:layout_height="wrap_content"
+        						android:layout_marginTop="10px"
+        						android:spinnersShown="true"/>
+			 		<TimePicker android:id="@+id/dp_StartTime"
+        						android:layout_width="fill_parent"
+        						android:layout_height="wrap_content"
+        						android:layout_marginTop="10px"
+        						android:visibility="gone"/>
+	 	 </LinearLayout>
+		 <LinearLayout android:gravity="center"
+	 	    android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	>
+			 		<TextView
+			 		    android:id="@+id/tvLocaleText4"
+			 		    android:layout_width="wrap_content"
+			 		    android:layout_height="wrap_content"
+			 		    android:text="截止时间："
+			 		    android:textColor="#000000"
+			 		    android:textAppearance="?android:attr/textAppearanceSmall" />
+			 		
+			 		<DatePicker android:id="@+id/dp_EndDate"
+        						android:layout_width="wrap_content"
+        						android:layout_height="wrap_content"
+        						android:layout_marginTop="10px"/>
+			 		<TimePicker android:id="@+id/dp_EndTime"
+        						android:layout_width="fill_parent"
+        						android:layout_height="wrap_content"
+        						android:layout_marginTop="10px"
+        						android:visibility="gone"
+        						/>
+	 	 </LinearLayout>
+	 	 </LinearLayout>
+	 	 <LinearLayout 
+	 	     android:gravity="center"
+	 	    android:layout_width="fill_parent"
+	    	android:layout_height="wrap_content">
+	 	     <Button
+	 	         android:id="@+id/btn_query"
+	 	         android:text="查询航迹"
+	 	         android:tag="查询"
+	 	         android:layout_weight="1"
+	 	         android:layout_width="fill_parent"
+	 	         android:layout_height="wrap_content"
+	 	         android:layout_margin="5dp"></Button>
+	 	     <Button
+	 	         android:id="@+id/btn_exportgps"
+	 	         android:text="导出航迹"
+	 	         android:tag="导出"
+	 	         android:layout_width="fill_parent"
+	 	         android:layout_height="wrap_content"
+	 	         android:layout_weight="1"
+	 	         android:layout_margin="5dp"></Button>
+	 	     <Button
+	 	         android:id="@+id/btn_paintgps"
+	 	         android:text="绘制航迹"
+	 	         android:tag="绘制"
+	 	         android:layout_width="fill_parent"
+	 	         android:layout_height="wrap_content"
+	 	         android:layout_weight="1"
+	 	         android:layout_margin="5dp"></Button>
+	 	     <Button
+	 	         android:id="@+id/btn_clear"
+	 	         android:text="清除航迹"
+	 	         android:tag="清除"
+	 	         android:layout_width="fill_parent"
+	 	         android:layout_height="wrap_content"
+	 	         android:layout_weight="1"
+	 	         android:layout_margin="5dp"></Button>
+	 	     
+	 	 </LinearLayout>
+	 	  <LinearLayout 
+	 	     android:gravity="left"
+	 	    android:layout_width="fill_parent"
+	    	android:layout_height="wrap_content"
+	    	android:orientation="vertical">
+	 	    <TextView android:id="@+id/tv_startTime"
+	 	        android:layout_width="wrap_content"
+	 	        android:layout_height="wrap_content"
+	 	        android:text="起始时间："></TextView>
+	 	    <TextView android:id="@+id/tv_endTime"
+	 	        android:layout_width="wrap_content"
+	 	        android:layout_height="wrap_content"
+	 	        android:text="截止时间："></TextView>
+	 	    <TextView android:id="@+id/tv_gpsCount"
+	 	        android:layout_width="wrap_content"
+	 	        android:layout_height="wrap_content"
+	 	        android:text="航迹总数："></TextView>
+	 	 </LinearLayout>
+	    
+ 	 </LinearLayout>
+</LinearLayout>

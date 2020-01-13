@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    	android:background="#bfbfbf"
+         android:layout_height="wrap_content"   
+         android:layout_width="fill_parent">  
+	<RelativeLayout 
+	    android:layout_marginLeft="5dp"
+	    android:layout_marginRight="5dp"
+	    android:layout_marginTop="2dp"
+	    android:layout_marginBottom="2dp"
+	    android:layout_height="wrap_content"   
+        android:layout_width="fill_parent">
+
+		<Button
+		    android:id="@+id/bt_back"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:background="@drawable/buttonstyle"
+		    android:tag="返回"
+		    android:drawableLeft="@drawable/v1_reback"/>
+		<TextView 	
+		    android:id="@+id/tv_caption"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:gravity="center"
+		    android:layout_centerVertical="true"
+		    android:layout_toRightOf="@+id/bt_back"
+		    android:textAppearance="?android:attr/textAppearanceMedium"
+		    android:textColor="#000000"
+		    android:visibility="invisible"
+		    android:text="显示标题"/>
+		<Button
+		    android:id="@+id/bt_query"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_alignParentRight="true"
+		    android:background="@drawable/buttonstyle"
+		    android:drawableLeft="@drawable/m_richangyanghu"
+		    android:textAppearance="?android:attr/textAppearanceMedium"
+		    android:visibility="invisible"
+		    android:tag="开始查询"
+		    android:text="开始查询" />
+
+		<Button
+		    android:id="@+id/bt_reset"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_toLeftOf="@+id/bt_query"
+		    android:layout_marginRight="5dp"
+		    android:background="@drawable/buttonstyle"
+		    android:drawableLeft="@drawable/v1_clear_queryfilter"
+		    android:textAppearance="?android:attr/textAppearanceMedium"
+		    android:visibility="invisible"
+		    android:tag="重置条件"
+		    android:text="重置条件" />
+		
+	</RelativeLayout>
+</LinearLayout>

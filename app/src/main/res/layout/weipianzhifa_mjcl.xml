@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#fff1f1f1"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4.0dip"
+            android:gravity="center|left" >
+
+            <LinearLayout
+                android:layout_width="0.0dip"
+                android:layout_height="48.0dip"
+                android:layout_weight="1.0"
+                android:gravity="center|left" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="12.0dip"
+                    android:text="面积： "
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:textColor="#ff000000" />
+                 <EditText 
+                        android:id="@+id/et_gpscalc" 
+                        android:layout_width="115dp"
+                        android:layout_height="wrap_content" />
+                 <TextView                   
+                     android:layout_width="46dp"                    
+                     android:layout_height="wrap_content"
+                    android:layout_marginLeft="12.0dip"
+                    android:text="公顷 "
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:textColor="#ff000000" />
+
+                <Button
+                    android:id="@+id/bt_addGPS"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="20.0dip"
+                    android:layout_marginRight="30.0dip"
+                    android:layout_weight="2.0"
+                    android:text="增加测量点" 
+                    android:tag="增加点"/>
+
+                <Button
+                    android:id="@+id/bt_GpsCL"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="2.0" 
+                    android:text="开始GPS测量"
+                    android:tag="GPS测量"
+					android:visibility="gone"/> 
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_info"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@layout/v1_bk_head_splitbar"
+        android:gravity="center|left"
+        android:text="测量点列表"
+        android:textColor="#ff000000" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="48.0dip"
+        android:gravity="center" >
+
+        <LinearLayout
+            android:layout_width="65.0dip"
+            android:layout_height="fill_parent"
+            android:background="@layout/v1_bk_table_header"
+            android:gravity="center|left" >
+
+            <CheckBox
+                android:id="@+id/cb_select"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="测点"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="#ff000000" />
+        </LinearLayout>
+		 <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:background="@layout/v1_bk_table_header"
+            android:gravity="center|left"
+             android:orientation="vertical">
+             <LinearLayout
+	            android:layout_width="fill_parent"
+	            android:layout_height="fill_parent"
+	            android:layout_weight="1.0"
+	            android:background="@layout/v1_bk_table_header"
+	            android:gravity="center|left" >
+                 <TextView
+		            android:layout_width="fill_parent"
+		            android:layout_height="fill_parent"
+		            android:layout_weight="1.0"
+		            android:background="@layout/v1_bk_table_header"
+		            android:gravity="center"
+		            android:text="罗盘导线"
+		            android:textAppearance="?android:textAppearanceMedium"
+		            android:textColor="#ff000000" />
+		          <TextView
+			            android:layout_width="fill_parent"
+			            android:layout_height="fill_parent"
+			            android:layout_weight="1.0"
+			            android:background="@layout/v1_bk_table_header"
+			            android:gravity="center"
+			            android:text="GPS点"
+			            android:textAppearance="?android:textAppearanceMedium"
+			            android:textColor="#ff000000" />
+            </LinearLayout>
+             <LinearLayout
+	            android:layout_width="fill_parent"
+	            android:layout_height="fill_parent"
+	            android:layout_weight="1.0"
+	            android:background="@layout/v1_bk_table_header"
+	            android:gravity="center|left" >
+	           <TextView
+	            android:layout_width="0dp"
+	            android:layout_height="fill_parent"
+	            android:layout_weight="2.0"
+	            android:background="@layout/v1_bk_table_header"
+	            android:gravity="center"
+	            android:text="方位角"
+	            android:textAppearance="?android:textAppearanceMedium"
+	            android:textColor="#ff000000" />
+	          <TextView
+	            android:layout_width="0dp"
+	            android:layout_height="fill_parent"
+	            android:layout_weight="2.0"
+	            android:background="@layout/v1_bk_table_header"
+	            android:gravity="center"
+	            android:text="倾斜角"
+	            android:textAppearance="?android:textAppearanceMedium"
+	            android:textColor="#ff000000" />
+	           <TextView
+		            android:layout_width="0dp"
+		            android:layout_height="fill_parent"
+		            android:layout_weight="2.0"
+		            android:background="@layout/v1_bk_table_header"
+		            android:gravity="center"
+		            android:text="斜距"
+		            android:textAppearance="?android:textAppearanceMedium"
+		            android:textColor="#ff000000" />
+
+	            <TextView
+	                android:layout_width="0dp"
+	                android:layout_height="fill_parent"
+	                android:layout_weight="3.0"
+	                android:background="@layout/v1_bk_table_header"
+	                android:gravity="center"
+	                android:text="横坐标"
+	                android:textAppearance="?android:textAppearanceMedium"
+	                android:textColor="#ff000000" />
+
+	             <TextView
+		            android:layout_width="0dp"
+		            android:layout_height="fill_parent"
+		            android:layout_weight="3.0"
+		            android:background="@layout/v1_bk_table_header"
+		            android:gravity="center"
+		            android:text="纵坐标"
+		            android:textAppearance="?android:textAppearanceMedium"
+		            android:textColor="#ff000000" />
+            </LinearLayout>
+          
+    </LinearLayout>
+ 
+ </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="1.0"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <ListView
+            android:id="@+id/lvList"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:cacheColorHint="#00000000"
+            android:divider="#ff0000ff"
+            android:dividerHeight="1.5px" />
+    </LinearLayout>
+    
+     <LinearLayout 
+              android:gravity="center|left" 
+              android:layout_width="fill_parent" 
+              android:layout_height="wrap_content" 
+              android:layout_margin="4.0dip">
+                    <TextView 
+                        android:textAppearance="?android:textAppearanceMedium" 
+                        android:textColor="#ff000000" 
+                        android:visibility="invisible" 
+                        android:layout_width="wrap_content" 
+                        android:layout_height="wrap_content" 
+                        android:text="" />
+                    <TextView 
+                        android:textAppearance="?android:textAppearanceMedium" 
+                        android:textColor="#ff000000" 
+                        android:layout_width="wrap_content" 
+                        android:layout_height="wrap_content"
+                        android:text="其他测量方\n法记录栏：" />
+
+                    <EditText
+                        android:id="@+id/et_dcjl"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.0"
+                        android:minHeight="120dp"
+                        android:text="绕测"
+                        android:gravity="top|left" />
+
+                </LinearLayout>
+</LinearLayout>

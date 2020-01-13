@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingBottom="0dip" >
+
+    <TextView
+        android:id="@+id/line_edit_tools"
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:text="编辑工具"
+    	android:textColor="#000000"
+    	android:background="@layout/v1_bk_head_splitbar" />
+    <LinearLayout android:id="@+id/testbar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/line_edit_tools"
+        android:background="@layout/v1_bk_main">
+	    <Button
+	        android:id="@+id/line_layer"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:background="@drawable/buttonstyle_flat"
+	        android:drawableTop="@drawable/v1_layerlist"
+	        android:layout_weight="1"
+	        android:tag="01_02_L"
+	        android:text="【线】" />           
+	    <Button
+	        android:id="@+id/line_u"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:background="@drawable/buttonstyle_flat"
+	        android:drawableTop="@drawable/undo"
+	        android:layout_weight="1"
+	        android:tag="01_02_01_Undo"
+	        android:text="回退" />        
+        <Button
+            android:id="@+id/line_delete"
+            android:drawableTop="@drawable/delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/buttonstyle_flat"
+            android:layout_weight="1"
+            android:tag="01_02_01_Cancel"
+            android:text="取消" />
+	    <Button
+	        android:id="@+id/line_create"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:background="@drawable/buttonstyle_flat"
+	        android:drawableTop="@drawable/create"
+	        android:layout_weight="1"
+	        android:tag="01_02_01_Save"
+	        android:text="生成" />
+    </LinearLayout>
+    
+    <TextView
+        android:id="@+id/line_collect_mode"
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:layout_below="@+id/testbar"
+    	android:text="采线模式"
+    	android:textColor="#000000"
+    	android:background="@layout/v1_bk_head_splitbar" />
+    
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/line_collect_mode"
+        android:background="@layout/v1_bk_main">
+	    <Button
+	        android:id="@+id/line_cl"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:background="@drawable/buttonstyle_flat"
+	        android:drawableTop="@drawable/v1_measureline"
+	        android:layout_weight="1"
+	        android:tag="01_02_CL"
+	        android:text="量距" />
+	    <Button
+	        android:id="@+id/line_m"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:background="@drawable/buttonstyle_flat"
+	        android:drawableTop="@drawable/line_m"
+	        android:layout_weight="1"
+	        android:tag="01_02_M"
+	        android:text="手绘线形" />        
+        <Button
+            android:id="@+id/line_pg"
+            android:drawableTop="@drawable/line_g1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/buttonstyle_flat"
+            android:layout_weight="1"
+            android:tag="01_02_PG"
+            android:text="GPS定点线形" />
+	    <Button
+	        android:id="@+id/line_g"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:background="@drawable/buttonstyle_flat"
+	        android:drawableTop="@drawable/line_g2"
+	        android:layout_weight="1"
+	        android:tag="01_02_G"
+	        android:text="GPS轨迹线形" />
+    </LinearLayout>
+</RelativeLayout>

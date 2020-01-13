@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#fff1f1f1"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:gravity="center|left" >
+
+         <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_marginRight="8dp"
+            android:gravity="center"
+            android:text="标注和提示："
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="#ff000000" />
+        <CheckBox
+            android:id="@+id/cb_drawline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="绘制导航线    "
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="#ff000000" />
+
+        <CheckBox
+            android:id="@+id/cb_markPoint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="标注目的点  "
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="#ff000000" />
+        <CheckBox
+            android:id="@+id/cb_sound"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="播放提示音 "
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="#ff000000"
+            android:visibility="gone" />
+
+        <EditText
+            android:id="@+id/et_dis"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:text="1000"
+            android:visibility="gone" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:text=" 米 "
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="#ff000000"
+            android:visibility="gone" />
+    </LinearLayout>
+     <View  android:layout_height="1px" 
+		     android:background="#666"
+		     android:layout_width="fill_parent"
+		     android:layout_marginLeft="10dp"
+		     android:layout_marginRight="10dp">
+	</View>
+     <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+       android:layout_margin="10dp"
+        android:gravity="left" >
+
+         <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="4dp"
+            android:gravity="center"
+            android:text="选择目的点："
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="#ff000000" />
+        <!-- 
+        <lkmap.ZRoadMap.MyControl.v1_Button_Center
+            android:id="@+id/bt_addpoint_select"
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_margin="2.0dip"
+            android:layout_weight="1.0" />
+
+        <lkmap.ZRoadMap.MyControl.v1_Button_Center
+            android:id="@+id/bt_addpoint_photo"
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_margin="2.0dip"
+            android:layout_weight="1.0" />
+
+        <lkmap.ZRoadMap.MyControl.v1_Button_Center
+            android:id="@+id/bt_addpointm"
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_margin="2.0dip"
+            android:layout_weight="1.0" />
+            --> 
+             <Button
+    	        android:id="@+id/bt_addpoint_select"
+    	        android:layout_width="94dp"
+	    	    android:layout_height="wrap_content"
+	    	    android:tag="已选对象"
+	    	    android:gravity="center"
+	    	    android:text="已选对象"
+	    	    android:textSize="19sp"
+	    	    android:layout_margin="4dp"
+	    	    android:padding="4dp">
+    	    </Button>
+    	     <Button
+    	        android:id="@+id/bt_addpoint_photo"
+    	        android:layout_width="94dp"
+	    	    android:layout_height="wrap_content"
+	    	    android:textColor="#ffffff" 
+			    android:background="@drawable/buttonstyle_green"
+	    	    android:tag="坐标点"
+	    	    android:gravity="center"
+	    	    android:text="坐 标 点"
+	    	    android:textSize="19sp"
+	    	    android:layout_margin="4dp"
+	    	    android:padding="4dp"
+	    	    android:visibility="gone">
+    	    </Button>
+    	    <Button
+    	        android:id="@+id/bt_addpointm"
+    	        android:layout_width="94dp"
+	    	    android:layout_height="wrap_content"
+	    	    android:tag="测量点"
+	    	    android:gravity="center"
+	    	    android:text="测 量 点"
+	    	    android:textSize="19sp"
+	    	    android:layout_margin="4dp"
+	    	    android:padding="4dp">
+    	    </Button>
+    	     <Button
+    	        android:id="@+id/bt_inputCoord"
+    	        android:layout_width="94dp"
+	    	    android:layout_height="wrap_content"
+	    	    android:tag="输入坐标"
+	    	    android:gravity="center"
+	    	    android:text="输入坐标"
+	    	    android:textSize="19sp"
+	    	    android:layout_margin="4dp"
+	    	    android:padding="4dp">
+    	    </Button>
+    </LinearLayout>
+     
+     
+     <View  android:layout_height="1px" 
+		     android:background="#666"
+		     android:layout_width="fill_parent"
+		     android:layout_marginLeft="10dp"
+		     android:layout_marginRight="10dp">
+	</View>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffffff"
+        android:gravity="center" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="2.0dip"
+            android:gravity="center" >
+
+            <Button
+                android:id="@+id/bt_dhlist"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:background="@drawable/buttonstyle_transparent_all"
+                android:tag="导航列表"
+                android:text="导航列表"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/bt_dhladar"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:background="@drawable/buttonstyle_transparent_all"
+                android:tag="导航雷达"
+                android:text="导航雷达"
+                android:textAppearance="?android:textAppearanceMedium" 
+                android:visibility="gone"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.0"
+        android:background="@layout/v1_bk_box"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tvLocator"
+            android:layout_width="143.0dip"
+            android:layout_height="4.0dip"
+            android:background="#ff8e8e8e" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="1.0dip"
+            android:background="#ffb4b5b5" />
+
+        
+        <include 
+            android:id="@+id/navigateList"
+            layout="@layout/v1_navigate_listmode"></include>"
+    </LinearLayout>
+
+   
+
+    
+
+   
+
+</LinearLayout>

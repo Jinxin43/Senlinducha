@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#fff1f1f1"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center" >
+
+        <LinearLayout
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4.0dip"
+                android:layout_marginRight="4.0dip"
+                android:gravity="center|left" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:gravity="center"
+                    android:text="名称："
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:textColor="#ff000000" />
+
+                <EditText
+                    android:id="@+id/et_name"
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4.0dip"
+                android:layout_marginRight="4.0dip"
+                android:gravity="center|left" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:gravity="center"
+                    android:text="坐标X："
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:textColor="#ff000000" />
+
+                <EditText
+                    android:id="@+id/et_x"
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"
+                    android:hint="经度或者X坐标"
+                    android:inputType="numberDecimal" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4.0dip"
+                android:layout_marginRight="4.0dip"
+                android:gravity="center|left" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:gravity="center"
+                    android:text="坐标Y："
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:textColor="#ff000000" />
+
+                <EditText
+                    android:id="@+id/et_y"
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"
+                    android:hint="可输入纬度(度制)或Y坐标"
+                    android:inputType="numberDecimal" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/bt_addpoint"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginRight="4.0dip"
+                android:background="@drawable/buttonstyle"
+                android:drawableTop="@drawable/v1_checkcontrol"
+                android:gravity="center"
+                android:text="增加" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="48.0dip"
+        android:gravity="center" >
+
+        <lkmap.ZRoadMap.MyControl.v1_Button_Center
+            android:id="@+id/bt_addpoint_measure"
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_margin="4.0dip"
+            android:layout_weight="1.0" />
+
+        <lkmap.ZRoadMap.MyControl.v1_Button_Center
+            android:id="@+id/bt_addpoint_file"
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_margin="4.0dip"
+            android:layout_weight="1.0" />
+
+        <lkmap.ZRoadMap.MyControl.v1_Button_Center
+            android:id="@+id/bt_addpoint_delete"
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_margin="4.0dip"
+            android:layout_weight="1.0" />
+    </LinearLayout>
+
+    
+   
+     <LinearLayout android:id="@+id/ll_Pointlist"
+				 	   android:gravity="center"
+	 	    android:layout_weight="1"
+	 	    android:layout_width="fill_parent"
+	    	android:layout_height="fill_parent">
+				    	<include android:id="@+id/in_listview"  
+				    	    layout="@layout/v1_headerlistview" />
+				 </LinearLayout>  
+
+</LinearLayout>

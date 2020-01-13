@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:descendantFocusability="blocksDescendants"
+    android:gravity="center" >
+
+    <LinearLayout
+        android:layout_width="100.0dip"
+        android:layout_height="fill_parent"
+        android:background="@layout/v1_bk_box"
+        android:gravity="center|left"
+        android:orientation="vertical" >
+
+        <CheckBox
+            android:id="@+id/cb_select"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true" />
+
+        <TextView
+            android:id="@+id/tv_hm"
+            android:layout_width="fill_parent"
+            android:layout_height="0.0dip"
+            android:layout_margin="4.0dip"
+            android:layout_weight="1.0"
+            android:gravity="center"
+            android:text="0"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textColor="#ff000000" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.0"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <LinearLayout
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:layout_width="0.0dip"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1.0"
+                        android:background="@layout/v1_bk_table_header_light"
+                        android:gravity="center"
+                        android:text="乡镇-村"
+                        android:textAppearance="?android:textAppearanceMedium"
+                        android:textColor="#ff000000" />
+
+                    <TextView
+                        android:layout_width="0.0dip"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1.0"
+                        android:background="@layout/v1_bk_table_header_light"
+                        android:gravity="center"
+                        android:text="小班号"
+                        android:textAppearance="?android:textAppearanceMedium"
+                        android:textColor="#ff000000" />
+
+                    <TextView
+                        android:layout_width="0.0dip"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1.0"
+                        android:background="@layout/v1_bk_table_header_light"
+                        android:gravity="center"
+                        android:text="地类"
+                        android:textAppearance="?android:textAppearanceMedium"
+                        android:textColor="#ff000000" />
+
+                    <TextView
+                        android:layout_width="0.0dip"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1.0"
+                        android:background="@layout/v1_bk_table_header_light"
+                        android:gravity="center"
+                        android:text="造林(草)\n面积"
+                        android:textAppearance="?android:textAppearanceMedium"
+                        android:textColor="#ff000000" />
+
+                    <TextView
+                        android:layout_width="0.0dip"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1.0"
+                        android:background="@layout/v1_bk_table_header_light"
+                        android:gravity="center"
+                        android:text="林种"
+                        android:textAppearance="?android:textAppearanceMedium"
+                        android:textColor="#ff000000" />
+
+                    <TextView
+                        android:layout_width="0.0dip"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1.0"
+                        android:background="@layout/v1_bk_table_header_light"
+                        android:gravity="center"
+                        android:text="树(草)种"
+                        android:textAppearance="?android:textAppearanceMedium"
+                        android:textColor="#ff000000" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:id="@+id/tv_xzjzc"
+                        android:layout_width="0.0dip"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1.0"
+                        android:background="@layout/v1_bk_box"
+                        android:gravity="center"
+                        android:paddingBottom="4.0dip"
+                        android:paddingTop="4.0dip"
+                        android:text=""
+                        android:textAppearance="?android:textAppearanceMedium"
+                        android:textColor="#ff000000" />
+
+                    <TextView
+                        android:id="@+id/tv_xbh"
+                        android:layout_width="0.0dip"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1.0"
+                        android:background="@layout/v1_bk_box"
+                        android:gravity="center"
+                        android:text=""
+                        android:textAppearance="?android:textAppearanceMedium"
+                        android:textColor="#ff000000" />
+
+                    <TextView
+                        android:id="@+id/tv_dl"
+                        android:layout_width="0.0dip"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1.0"
+                        android:background="@layout/v1_bk_box"
+                        android:gravity="center"
+                        android:text=""
+                        android:textAppearance="?android:textAppearanceMedium"
+                        android:textColor="#ff000000" />
+
+                    <TextView
+                        android:id="@+id/tv_mj"
+                        android:layout_width="0.0dip"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1.0"
+                        android:background="@layout/v1_bk_box"
+                        android:gravity="center"
+                        android:text=""
+                        android:textAppearance="?android:textAppearanceMedium"
+                        android:textColor="#ff000000" />
+
+                    <TextView
+                        android:id="@+id/tv_lz"
+                        android:layout_width="0.0dip"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1.0"
+                        android:background="@layout/v1_bk_box"
+                        android:gravity="center"
+                        android:paddingBottom="4.0dip"
+                        android:paddingTop="4.0dip"
+                        android:text=""
+                        android:textAppearance="?android:textAppearanceMedium"
+                        android:textColor="#ff000000" />
+
+                    <TextView
+                        android:id="@+id/tv_sz"
+                        android:layout_width="0.0dip"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1.0"
+                        android:background="@layout/v1_bk_box"
+                        android:gravity="center"
+                        android:paddingBottom="4.0dip"
+                        android:paddingTop="4.0dip"
+                        android:text=""
+                        android:textAppearance="?android:textAppearanceMedium"
+                        android:textColor="#ff000000" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:layout_width="0.0dip"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1.0"
+                        android:background="@layout/v1_bk_table_header_light"
+                        android:gravity="center"
+                        android:text="种苗费"
+                        android:textAppearance="?android:textAppearanceMedium"
+                        android:textColor="#ff000000" />
+
+                    <TextView
+                        android:layout_width="0.0dip"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1.0"
+                        android:background="@layout/v1_bk_table_header_light"
+                        android:gravity="center"
+                        android:text="政策补助兑现"
+                        android:textAppearance="?android:textAppearanceMedium"
+                        android:textColor="#ff000000" />
+
+                    <TextView
+                        android:layout_width="0.0dip"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1.0"
+                        android:background="@layout/v1_bk_table_header_light"
+                        android:gravity="center"
+                        android:text="兑现金额"
+                        android:textAppearance="?android:textAppearanceMedium"
+                        android:textColor="#ff000000" />
+
+                    <TextView
+                        android:layout_width="0.0dip"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1.0"
+                        android:background="@layout/v1_bk_table_header_light"
+                        android:gravity="center"
+                        android:text="兑现年度"
+                        android:textAppearance="?android:textAppearanceMedium"
+                        android:textColor="#ff000000" />
+
+                    <TextView
+                        android:layout_width="0.0dip"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1.0"
+                        android:background="@layout/v1_bk_table_header_light"
+                        android:gravity="center"
+                        android:text="是否兑现"
+                        android:textAppearance="?android:textAppearanceMedium"
+                        android:textColor="#ff000000" />
+
+                    <TextView
+                        android:layout_width="0.0dip"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1.0"
+                        android:background="@layout/v1_bk_table_header_light"
+                        android:gravity="center"
+                        android:text="备注"
+                        android:textAppearance="?android:textAppearanceMedium"
+                        android:textColor="#ff000000" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:id="@+id/tv_zmf"
+                        android:layout_width="0.0dip"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1.0"
+                        android:background="@layout/v1_bk_box"
+                        android:gravity="center"
+                        android:text=""
+                        android:textAppearance="?android:textAppearanceMedium"
+                        android:textColor="#ff000000" />
+
+                    <TextView
+                        android:id="@+id/tv_zcbz"
+                        android:layout_width="0.0dip"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1.0"
+                        android:background="@layout/v1_bk_box"
+                        android:gravity="center"
+                        android:text=""
+                        android:textAppearance="?android:textAppearanceMedium"
+                        android:textColor="#ff000000" />
+
+                    <TextView
+                        android:id="@+id/tv_dxje"
+                        android:layout_width="0.0dip"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1.0"
+                        android:background="@layout/v1_bk_box"
+                        android:gravity="center"
+                        android:paddingBottom="4.0dip"
+                        android:paddingTop="4.0dip"
+                        android:text=""
+                        android:textAppearance="?android:textAppearanceMedium"
+                        android:textColor="#ff000000" />
+
+                    <TextView
+                        android:id="@+id/tv_dxnd"
+                        android:layout_width="0.0dip"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1.0"
+                        android:background="@layout/v1_bk_box"
+                        android:gravity="center"
+                        android:paddingBottom="4.0dip"
+                        android:paddingTop="4.0dip"
+                        android:text=""
+                        android:textAppearance="?android:textAppearanceMedium"
+                        android:textColor="#ff000000" />
+
+                    <TextView
+                        android:id="@+id/tv_sfdx"
+                        android:layout_width="0.0dip"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1.0"
+                        android:background="@layout/v1_bk_box"
+                        android:gravity="center"
+                        android:paddingBottom="4.0dip"
+                        android:paddingTop="4.0dip"
+                        android:text=""
+                        android:textAppearance="?android:textAppearanceMedium"
+                        android:textColor="#ff000000" />
+
+                    <TextView
+                        android:id="@+id/tv_bz"
+                        android:layout_width="0.0dip"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1.0"
+                        android:background="@layout/v1_bk_box"
+                        android:gravity="center"
+                        android:paddingBottom="4.0dip"
+                        android:paddingTop="4.0dip"
+                        android:text=""
+                        android:textAppearance="?android:textAppearanceMedium"
+                        android:textColor="#ff000000" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

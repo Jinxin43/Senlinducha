@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/allsv"
+    android:orientation="vertical"  
+    android:layout_width="fill_parent"  
+    android:layout_height="wrap_content"> 
+    
+<LinearLayout 
+    android:id="@+id/ll_layer_manager"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp">
+    
+
+    	
+    <LinearLayout 
+        android:background="#efeeec"
+    	android:orientation="horizontal"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:layout_marginTop="5dp"
+    	android:layout_marginLeft="10dp"
+	    android:layout_marginRight="5dp"
+	    android:layout_marginBottom="5dp">
+    	   <ImageButton
+			        android:id="@+id/btn_hiddendatalayer"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:contentDescription="隐藏采集图层"
+			        android:src="@drawable/icon_gray_hidden"
+			        android:tag="隐藏采集图层"
+			        android:background="#00000000"
+			        android:layout_marginTop="5dp"
+			    	android:layout_marginBottom="5dp"
+			    	android:layout_marginLeft="5dp"
+			    	android:layout_marginRight="5dp">
+    	   </ImageButton>
+			<ImageButton
+			        android:id="@+id/btn_showdatalayer"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:contentDescription="显示采集图层"
+			        android:src="@drawable/icon_gray_show"
+			        android:tag="显示采集图层"
+			        android:visibility="gone"
+			        android:background="#00000000"
+			        android:layout_marginTop="5dp"
+			    	android:layout_marginBottom="5dp"
+			    	android:layout_marginLeft="5dp"
+			    	android:layout_marginRight="5dp">
+			</ImageButton>
+
+    	    <TextView
+    	        android:layout_width="wrap_content"
+    	        android:layout_height="wrap_content"
+    	        android:layout_gravity="center_vertical"
+    	        android:layout_marginBottom="5dp"
+    	        android:layout_marginRight="5dp"
+    	        android:layout_marginTop="5dp"
+    	        android:text="数据采集图层"
+    	        android:textColor="#6d6b66"
+    	        android:textSize="17sp" >
+
+    	    </TextView>
+
+    	    <TextView
+    	        android:id="@+id/tx_datalayercount"
+    	        android:layout_width="22dp"
+    	        android:layout_height="22dp"
+    	        android:layout_gravity="center_vertical"
+    	        android:layout_margin="11dp"
+    	        android:background="@drawable/circletextview"
+    	        android:text="0"
+    	        android:textColor="#ffffff"
+    	        android:textSize="20sp" >
+    	        
+    	    </TextView>
+    	    
+    	  	<RelativeLayout 
+    	  	    android:layout_width="wrap_content"
+    			android:layout_height="wrap_content"
+    			android:layout_alignParentRight="true">
+
+    	  	    <Button
+		    	        android:id="@+id/btn_importphotos"
+		    	        android:layout_width="wrap_content"
+			    	    android:layout_height="wrap_content"
+			    	    android:textColor="#7a8b99"  
+					    android:textSize="19sp"
+					    android:background="@drawable/button_transparent_all"
+			    	    android:tag="导入航拍照片"
+			    	    android:gravity="center"
+			    	    android:text="导入航拍照片"
+			    	    android:textAppearance="?android:attr/textAppearanceSmall"
+			    	    android:layout_margin="5dp"
+			    	    android:padding="6dp"
+			    	    android:layout_toLeftOf="@+id/btn_createlayer">
+		    	    </Button>
+		    	    <Button
+		    	        android:id="@+id/btn_createlayer"
+		    	        android:layout_width="wrap_content"
+			    	    android:layout_height="wrap_content"
+			    	    android:textColor="#7a8b99"  
+					    android:textSize="19sp"
+					    android:background="@drawable/button_transparent_all"
+			    	    android:tag="新建图层"
+			    	    android:gravity="center"
+			    	    android:text="新建图层"
+			    	    android:textAppearance="?android:attr/textAppearanceSmall"
+			    	    android:layout_margin="5dp"
+			    	    android:padding="6dp"
+			    	    android:visibility="gone"
+			    	    android:layout_toLeftOf="@+id/btn_importlayer">
+		    	    </Button>
+		    	     <Button
+		    	        android:id="@+id/btn_importlayer"
+		    	        android:layout_width="wrap_content"
+			    	    android:layout_height="wrap_content"
+			    	    android:textColor="#7a8b99"  
+					    android:textSize="19sp"
+					    android:background="@drawable/button_transparent_all"
+			    	    android:tag="导入图层"
+			    	    android:gravity="center"
+			    	    android:text="导入图层"
+			    	    android:textAppearance="?android:attr/textAppearanceSmall"
+			    	    android:layout_margin="5dp"
+			    	    android:padding="6dp"
+			    	    android:layout_toLeftOf="@+id/btn_createTemplate"
+			    	    android:layout_alignParentRight="true">
+		    	    </Button>
+		    	     <Button
+		    	        android:id="@+id/btn_createTemplate"
+		    	        android:layout_width="wrap_content"
+			    	    android:layout_height="wrap_content"
+			    	    android:textColor="#7a8b99"  
+					    android:textSize="19sp"
+					    android:background="@drawable/button_transparent_all"
+			    	    android:tag="存模板"
+			    	    android:gravity="center"
+			    	    android:text="存为模板"
+			    	    android:textAppearance="?android:attr/textAppearanceSmall"
+			    	    android:layout_margin="5dp"
+			    	    android:padding="6dp"
+			    	    android:layout_alignParentRight="true"
+			    	    android:visibility="gone">
+		    	    </Button>
+    	    </RelativeLayout>
+    	</LinearLayout>
+
+     <LinearLayout
+         android:orientation="vertical"
+	 	    android:layout_width="fill_parent" 
+	    	android:layout_height="wrap_content"
+	    	android:layout_marginLeft="10dp"
+	    	android:layout_marginRight="10dp">
+		     <LinearLayout android:id="@+id/pl_layerlist"
+			 	    android:layout_width="fill_parent"
+			    	android:layout_height="wrap_content">
+		         <com.dingtu.Controls.ListViewForScrollView
+		             android:id="@+id/lvList"
+		             android:layout_width="fill_parent"
+		             android:layout_height="wrap_content"
+		             android:cacheColorHint="#00000000"
+					android:dividerHeight="1dp"
+					android:divider="#b1b1b1">
+		         </com.dingtu.Controls.ListViewForScrollView>
+			 </LinearLayout>  
+ 	 </LinearLayout>
+ 	 
+ 	<LinearLayout 
+        android:background="#efeeec"
+    	android:orientation="horizontal"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:layout_marginTop="5dp"
+    	android:layout_marginLeft="10dp"
+	    android:layout_marginRight="5dp"
+	    android:layout_marginBottom="5dp">
+    	   <ImageButton
+			        android:id="@+id/btn_hiddenvectorlayer"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:contentDescription="隐藏矢量底图"
+			        android:src="@drawable/icon_gray_hidden"
+			        android:tag="隐藏矢量底图"
+			        android:background="#00000000"
+			        android:layout_marginTop="15dp"
+			    	android:layout_marginBottom="15dp"
+			    	android:layout_marginLeft="5dp"
+			    	android:layout_marginRight="5dp">
+    	   </ImageButton>
+			<ImageButton
+			        android:id="@+id/btn_showvectorlayer"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:contentDescription="显示矢量底图"
+			        android:src="@drawable/icon_gray_show"
+			        android:tag="显示矢量底图"
+			        android:visibility="gone"
+			        android:background="#00000000"
+			        android:layout_marginTop="15dp"
+			    	android:layout_marginBottom="15dp"
+			    	android:layout_marginLeft="5dp"
+			    	android:layout_marginRight="5dp">
+			</ImageButton>
+
+    	    <TextView
+    	        android:layout_width="wrap_content"
+    	        android:layout_height="wrap_content"
+    	        android:layout_gravity="center_vertical"
+    	        android:layout_marginBottom="5dp"
+    	        android:layout_marginRight="5dp"
+    	        android:layout_marginTop="5dp"
+    	        android:text="矢量底图"
+    	        android:textColor="#6d6b66"
+    	        android:textSize="17sp" >
+
+    	    </TextView>
+
+    	    <TextView
+    	        android:id="@+id/tx_bkvertorlayercount"
+    	        android:layout_width="22dp"
+    	        android:layout_height="22dp"
+    	        android:layout_gravity="center_vertical"
+    	        android:layout_margin="11dp"
+    	        android:background="@drawable/circletextview"
+    	        android:text="0"
+    	        android:textColor="#ffffff"
+    	        android:textSize="20sp" >
+
+    	    </TextView>
+    	    
+    	  	<RelativeLayout 
+    	  	    android:layout_width="wrap_content"
+    			android:layout_height="wrap_content"
+    			android:layout_alignParentRight="true"
+    			>
+		    	     <Button
+		    	        android:id="@+id/btn_vectormanger"
+		    	        android:layout_width="wrap_content"
+			    	    android:layout_height="wrap_content"
+			    	    android:textColor="#7a8b99" 
+					    android:textSize="20sp"
+					    android:background="@drawable/button_transparent_all"
+			    	    android:tag="矢量底图管理"
+			    	    android:gravity="center"
+			    	    android:text="矢量底图管理"
+			    	    android:textAppearance="?android:attr/textAppearanceSmall"
+			    	    android:layout_margin="10dp"
+			    	    android:padding="6dp"
+			    	    android:layout_alignParentRight="true">
+		    	    </Button>
+    	    </RelativeLayout>
+    	</LinearLayout>
+
+     <LinearLayout
+         android:orientation="vertical"
+	 	    android:layout_width="fill_parent" 
+	    	android:layout_height="wrap_content"
+	    	android:layout_marginLeft="10dp"
+	    	android:layout_marginRight="10dp">
+		     <LinearLayout android:id="@+id/pl_VectorBKlayerlist"
+			 	    android:layout_width="fill_parent"
+			    	android:layout_height="wrap_content">
+		         <com.dingtu.Controls.ListViewForScrollView
+		             android:id="@+id/lvVectorBKBKList"
+		             android:layout_width="fill_parent"
+		             android:layout_height="wrap_content"
+		             android:cacheColorHint="#00000000"
+					android:dividerHeight="1dp"
+					android:divider="#b1b1b1">
+		         </com.dingtu.Controls.ListViewForScrollView>
+			 </LinearLayout>  
+ 	 </LinearLayout>
+
+	<LinearLayout 
+        android:background="#efeeec"
+    	android:orientation="horizontal"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:layout_marginTop="5dp"
+    	android:layout_marginLeft="10dp"
+	    android:layout_marginRight="5dp"
+	    android:layout_marginBottom="5dp">
+    	   <ImageButton
+			        android:id="@+id/btn_hiddengridlayer"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:contentDescription="隐藏栅格底图"
+			        android:src="@drawable/icon_gray_hidden"
+			        android:tag="隐藏栅格底图"
+			        android:background="#00000000"
+			        android:layout_marginTop="15dp"
+			    	android:layout_marginBottom="15dp"
+			    	android:layout_marginLeft="5dp"
+			    	android:layout_marginRight="5dp">
+    	   </ImageButton>
+			<ImageButton
+			        android:id="@+id/btn_showgridlayer"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:contentDescription="显示栅格底图"
+			        android:src="@drawable/icon_gray_show"
+			        android:tag="显示栅格底图"
+			        android:visibility="gone"
+			        android:background="#00000000"
+			        android:layout_marginTop="15dp"
+			    	android:layout_marginBottom="15dp"
+			    	android:layout_marginLeft="5dp"
+			    	android:layout_marginRight="5dp">
+			</ImageButton>
+
+    	    <TextView
+    	        android:layout_width="wrap_content"
+    	        android:layout_height="wrap_content"
+    	        android:layout_gravity="center_vertical"
+    	        android:layout_marginBottom="5dp"
+    	        android:layout_marginRight="5dp"
+    	        android:layout_marginTop="5dp"
+    	        android:text="栅格底图"
+    	        android:textColor="#6d6b66"
+    	        android:textSize="17sp" >
+
+    	    </TextView>
+
+    	    <TextView
+    	        android:id="@+id/tx_bkgridlayercount"
+    	        android:layout_width="22dp"
+    	        android:layout_height="22dp"
+    	        android:layout_gravity="center_vertical"
+    	        android:layout_margin="11dp"
+    	        android:background="@drawable/circletextview"
+    	        android:text="0"
+    	        android:textColor="#ffffff"
+    	        android:textSize="20sp" >
+
+    	    </TextView>
+    	    
+    	  	<RelativeLayout 
+    	  	    android:layout_width="wrap_content"
+    			android:layout_height="wrap_content"
+    			android:layout_alignParentRight="true">
+		         <Button
+		    	        android:id="@+id/btn_ImageEnhance"
+		    	        android:layout_width="wrap_content"
+			    	    android:layout_height="wrap_content"
+			    	    android:textColor="#7a8b99"  
+					    android:textSize="20sp"
+					    android:background="@drawable/button_transparent_all"
+			    	    android:tag="图像调节"
+			    	    android:gravity="center"
+			    	    android:text="底图调节"
+			    	    android:textAppearance="?android:attr/textAppearanceSmall"
+			    	    android:layout_margin="10dp"
+			    	    android:padding="6dp"
+			    	    android:layout_toLeftOf="@+id/btn_gridmanger">
+		    	    </Button>
+		    	    
+		    	     <Button
+		    	        android:id="@+id/btn_gridmanger"
+		    	        android:layout_width="wrap_content"
+			    	    android:layout_height="wrap_content"
+			    	    android:textColor="#7a8b99"  
+					    android:textSize="20sp"
+					    android:background="@drawable/button_transparent_all"
+			    	    android:tag="栅格底图管理"
+			    	    android:gravity="center"
+			    	    android:text="栅格底图管理"
+			    	    android:textAppearance="?android:attr/textAppearanceSmall"
+			    	    android:layout_margin="10dp"
+			    	    android:padding="6dp"
+			    	    android:layout_alignParentRight="true">
+		    	    </Button>
+    	    </RelativeLayout>
+    	</LinearLayout>
+
+     <LinearLayout
+         android:orientation="vertical"
+	 	    android:layout_width="fill_parent" 
+	    	android:layout_height="wrap_content"
+	    	android:layout_marginLeft="10dp"
+	    	android:layout_marginRight="10dp"
+	    	android:layout_marginBottom="20dp">
+		     <LinearLayout android:id="@+id/pl_GridBKlayerlist"
+			 	    android:layout_width="fill_parent"
+			    	android:layout_height="wrap_content"
+			    	android:layout_marginBottom="10dp">
+		         <com.dingtu.Controls.ListViewForScrollView
+		             android:id="@+id/lvGridBKList"
+		             android:layout_width="fill_parent"
+		             android:layout_height="fill_parent"
+		             android:cacheColorHint="#00000000"
+					android:dividerHeight="1dp"
+					android:divider="#b1b1b1">
+		         </com.dingtu.Controls.ListViewForScrollView>
+			 </LinearLayout>  
+ 	 </LinearLayout>
+ 	 
+</LinearLayout>
+</ScrollView>

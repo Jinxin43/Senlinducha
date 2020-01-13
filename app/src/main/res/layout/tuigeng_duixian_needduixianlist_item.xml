@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:descendantFocusability="blocksDescendants"
+    android:gravity="center" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+         <TextView
+            android:id="@+id/tv_xz"
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:background="@layout/v1_bk_box"
+            android:gravity="center"
+            android:paddingBottom="4.0dip"
+            android:paddingTop="4.0dip"
+            android:text=""
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="#ff000000"/>
+         
+        <TextView
+            android:id="@+id/tv_jzc"
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:background="@layout/v1_bk_box"
+            android:gravity="center"
+            android:paddingBottom="4.0dip"
+            android:paddingTop="4.0dip"
+            android:text=""
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="#ff000000"/>
+
+        <TextView
+            android:id="@+id/tv_xbh"
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:background="@layout/v1_bk_box"
+            android:gravity="center"
+            android:text=""
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="#ff000000" />
+
+        <TextView
+            android:id="@+id/tv_hm"
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:background="@layout/v1_bk_box"
+            android:gravity="center"
+            android:paddingBottom="4.0dip"
+            android:paddingTop="4.0dip"
+            android:text=""
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="#ff000000" />
+
+        <TextView
+            android:id="@+id/tv_dl"
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:background="@layout/v1_bk_box"
+            android:gravity="center"
+            android:text=""
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="#ff000000" />
+
+        <TextView
+            android:id="@+id/tv_mj"
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:background="@layout/v1_bk_box"
+            android:gravity="center"
+            android:text=""
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="#ff000000" />
+
+        <TextView
+            android:id="@+id/tv_lz"
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:background="@layout/v1_bk_box"
+            android:gravity="center"
+            android:paddingBottom="4.0dip"
+            android:paddingTop="4.0dip"
+            android:text=""
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="#ff000000" />
+
+        <TextView
+            android:id="@+id/tv_sz"
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:background="@layout/v1_bk_box"
+            android:gravity="center"
+            android:paddingBottom="4.0dip"
+            android:paddingTop="4.0dip"
+            android:text=""
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="#ff000000" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:focusableInTouchMode="true" >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/baselist"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/tvLocaleText1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@layout/v1_bk_head_splitbar"
+                    android:text="基本属性"
+                    android:textColor="#ff000000" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/otherlist"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/tvLocaleText2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@layout/v1_bk_head_splitbar"
+                    android:text="数据信息"
+                    android:textColor="#ff000000" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

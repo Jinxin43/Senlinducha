@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#f1f1f1"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <TextView
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:text="选择属性"
+    	android:textColor="#000000"
+    	android:background="@layout/v1_bk_head_splitbar" />
+
+     <LinearLayout
+	 	    android:gravity="center"
+	 	    android:layout_width="fill_parent"
+	    	android:layout_height="fill_parent">
+	         <ListView
+	             android:id="@+id/listView1"
+	             android:layout_width="fill_parent"
+	             android:layout_height="fill_parent"
+	             android:cacheColorHint="#00000000"
+				android:dividerHeight="1dp"
+				android:divider="#b1b1b1">
+	         </ListView>
+ 	 </LinearLayout>
+</LinearLayout>

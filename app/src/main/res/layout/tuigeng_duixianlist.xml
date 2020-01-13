@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#fff1f1f1"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4.0dip"
+            android:gravity="center|left" >
+
+            <LinearLayout
+                android:layout_width="0.0dip"
+                android:layout_height="48.0dip"
+                android:layout_weight="1.0"
+                android:gravity="center|left" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="12.0dip"
+                    android:text="第 "
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:textColor="#ff000000" />
+
+                <Spinner
+                    android:id="@+id/sp_jccs"
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2.0"  />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="16.0dip"
+                    android:text="轮"
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:textColor="#ff000000" />
+
+                <Button
+                    android:id="@+id/bt_importDuiXian"
+                    android:layout_width="0.0dip"
+                    android:layout_height="48.0dip"
+                    android:layout_weight="3.0" 
+                    android:text="导入上次兑现情况"
+                    android:tag="导入上次兑现"/>
+
+                <Button
+                    android:id="@+id/bt_addDuiXian"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="8.0dip"
+                    android:layout_marginRight="8.0dip"
+                    android:layout_weight="2.0"
+                    android:text="新增" 
+                    android:tag="新增兑现"/>
+
+                <Button
+                    android:id="@+id/bt_deleteDuiXian"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="2.0" 
+                    android:text="删除"
+                    android:tag="删除兑现"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_info"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@layout/v1_bk_head_splitbar"
+        android:gravity="center|left"
+        android:text="兑现情况列表"
+        android:textColor="#ff000000" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="48.0dip"
+        android:gravity="center" >
+
+        <LinearLayout
+            android:layout_width="100.0dip"
+            android:layout_height="fill_parent"
+            android:background="@layout/v1_bk_table_header"
+            android:gravity="center|left" >
+
+            <CheckBox
+                android:id="@+id/cb_select"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="户名"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="#ff000000" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:background="@layout/v1_bk_table_header"
+            android:gravity="center"
+            android:text="兑现信息"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="#ff000000" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="1.0"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <ListView
+            android:id="@+id/lvList"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:cacheColorHint="#00000000"
+            android:divider="#ff0000ff"
+            android:dividerHeight="1.5px" />
+    </LinearLayout>
+
+</LinearLayout>

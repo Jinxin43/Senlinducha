@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f0f0f0"
+    android:orientation="vertical" >
+    
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content" 
+         >
+          <TextView
+            android:id="@+id/tvCaption"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           	android:layout_marginLeft="15dp"
+    		android:layout_marginRight="30dp"
+            android:text="检查卡片"
+            android:textColor="#7d7dff"/>
+		<TextView
+		    android:id="@+id/tvSheng"
+		    android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="省"
+            android:layout_marginLeft="30dp">
+		</TextView>
+
+		<Spinner
+		    android:id="@+id/spSheng"
+		    android:layout_width="35dp"
+		    android:layout_height="wrap_content"
+		    />
+
+		<TextView
+		    android:id="@+id/tvSpace1"
+		    android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"
+            android:text=" "
+            android:layout_weight="1">
+		</TextView>
+		<TextView
+		     android:id="@+id/tvXian"
+		    android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="县"
+            android:layout_marginLeft="30dp">
+		</TextView>
+    	
+         <EditText
+             	 android:id="@+id/etXian"
+                android:layout_width="wrap_content"
+		    	android:layout_height="wrap_content"
+		    	android:inputType="text"
+		    	android:text="蓝田县">
+		    	"
+         </EditText>
+         <TextView
+		    android:id="@+id/tvSpace2"
+		    android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"
+            android:text="  "
+            android:layout_weight="1">
+		</TextView>
+         <TextView
+            android:id="@+id/tvNianDu"
+		    android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="调查年度">
+		</TextView>
+    	
+         <EditText
+            android:id="@+id/etNianDu"
+            android:layout_width="30dp"
+	    	android:layout_height="wrap_content"
+	    	android:layout_marginRight="30dp"	    	
+	    	android:inputType="text"
+	    	android:text="2018">"
+         </EditText>
+     </LinearLayout>
+     <TableLayout 
+        android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:background="#909090">
+         <TableRow 
+             android:background="#f0f0f0"
+             android:layout_margin="0.5dp">
+           <TextView
+		    android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="项目名称/伐区名称"/>
+         </TableRow>
+     </TableLayout>
+	
+   
+
+</LinearLayout>

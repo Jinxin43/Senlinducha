@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:background="#ffffffff" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:background="@layout/v1_bk_head_splitbar" android:layout_width="fill_parent" android:layout_height="48.0dip">
+        <Button android:textAppearance="?android:textAppearanceMedium" android:id="@+id/bt_zysj" android:background="@drawable/buttonstyle_transparent" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_margin="4.0dip" android:text="作业设计" android:layout_weight="1.0" />
+        <Button android:textAppearance="?android:textAppearanceMedium" android:id="@+id/bt_jcys_xj" android:background="@drawable/buttonstyle_transparent" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_margin="4.0dip" android:text="县(市)级检查" android:layout_weight="1.0" />
+        <Button android:textAppearance="?android:textAppearanceMedium" android:id="@+id/bt_jcys_sj" android:background="@drawable/buttonstyle_transparent" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_margin="4.0dip" android:text="省(国家)级检查" android:layout_weight="1.0" />
+        <Button android:textAppearance="?android:textAppearanceMedium" android:id="@+id/bt_jcys_gj" android:background="@drawable/buttonstyle_transparent" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_margin="4.0dip" android:text="国家检查" android:layout_weight="1.0" />
+        <Button android:textAppearance="?android:textAppearanceMedium" android:id="@+id/bt_dxqk" android:background="@drawable/buttonstyle_transparent" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_margin="4.0dip" android:text="兑现情况" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

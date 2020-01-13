@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:layout_height="fill_parent"
+	    android:layout_width="fill_parent"
+	    android:background="#f1f1f1"
+	    android:orientation="vertical"> 
+    <TextView
+        android:id="@+id/tvLocaleText"
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:text="系统信息"
+    	android:textColor="#000000"
+    	android:background="@layout/v1_bk_head_splitbar" />
+		<LinearLayout android:layout_width="fill_parent"  
+				  android:layout_height="wrap_content">
+	        <TextView android:text="软件名：" 
+	                    android:id="@+id/tvLocaleText1"
+			         android:textAppearance="?android:attr/textAppearanceMedium"
+			         android:textColor="#000000"
+			        android:layout_width="wrap_content" 
+			        android:layout_height="wrap_content"></TextView>
+	        <TextView android:text="软件" 
+	            	android:gravity="center_vertical"
+	            	android:id="@+id/welcome_softname"
+			         android:textAppearance="?android:attr/textAppearanceMedium"
+			         android:textColor="#000000"
+			        android:layout_width="fill_parent" 
+			        android:layout_height="fill_parent"></TextView>
+ 		</LinearLayout>
+	    
+		<LinearLayout android:layout_width="fill_parent"  
+				  android:layout_height="wrap_content"
+				  android:layout_marginRight="10dip">
+	        <TextView android:text="版本号：" 
+	                    android:id="@+id/tvLocaleText2"
+			         android:textAppearance="?android:attr/textAppearanceMedium"
+			         android:textColor="#000000"
+			        android:layout_width="wrap_content" 
+			        android:layout_height="wrap_content"></TextView>
+	
+	        <TextView android:text="版本：" 
+	            android:id="@+id/welcome_softver"
+			          android:textAppearance="?android:attr/textAppearanceMedium"
+			          android:textColor="#000000"
+			        android:layout_width="fill_parent" 
+			        android:layout_height="wrap_content"></TextView>
+	    </LinearLayout> 
+		<LinearLayout android:layout_width="fill_parent"  
+				  android:layout_height="wrap_content"
+				  android:layout_marginRight="10dip">
+	        <TextView android:text="授    权：" 
+	                    android:id="@+id/tvLocaleText3"
+			          android:textAppearance="?android:attr/textAppearanceMedium"
+			          android:textColor="#000000"
+			        android:layout_width="wrap_content" 
+			        android:layout_height="wrap_content"></TextView>
+	
+	        <TextView android:text="版本：" 
+	            android:id="@+id/l_about_pass"
+			         android:textAppearance="?android:attr/textAppearanceMedium"
+			         android:textColor="#000000"
+			        android:layout_width="fill_parent" 
+			        android:layout_height="wrap_content"></TextView>	        
+
+ 		</LinearLayout> 	
+ 		
+ 		<LinearLayout android:layout_width="fill_parent"  
+				  android:layout_height="wrap_content"
+				  android:layout_marginRight="10dip">
+	        <TextView android:text="软件码：" 
+	                    android:id="@+id/tvLocaleText4"
+			          android:textAppearance="?android:attr/textAppearanceMedium"
+			          android:textColor="#000000"
+			        android:layout_width="wrap_content" 
+			        android:layout_height="wrap_content"></TextView>
+	        <TextView android:text="版本：" 
+	            	android:id="@+id/l_about_code"
+			          android:textAppearance="?android:attr/textAppearanceMedium"
+			          android:textColor="#000000"
+			        android:layout_width="fill_parent" 
+			        android:layout_height="wrap_content"></TextView>
+
+ 		</LinearLayout> 	
+ 		
+		<LinearLayout android:layout_width="fill_parent"  
+				  android:layout_height="wrap_content"
+				  android:layout_marginRight="10dip"
+				  android:orientation="vertical">
+	        <TextView android:text="开发者：西安鼎图信息技术有限公司" 
+	                    android:id="@+id/tvLocaleText5"
+			          android:textAppearance="?android:attr/textAppearanceMedium"
+			          android:textColor="#000000"
+			        android:layout_width="wrap_content" 
+			        android:layout_height="wrap_content"></TextView>
+			<TextView android:text="联系：13309279851(TEL)\n             42006580 (QQ)" 
+	            	android:id="@+id/l_about_developer"
+			          android:textAppearance="?android:attr/textAppearanceMedium"
+			          android:textColor="#000000"
+			        android:layout_width="fill_parent" 
+			        android:layout_height="wrap_content"></TextView>
+
+ 		</LinearLayout> 
+		<LinearLayout android:layout_width="fill_parent"  
+		    android:gravity="center"
+				  android:layout_height="wrap_content">
+	        <TextView android:text="目    录：" 
+	                    android:id="@+id/tvLocaleText7"
+			          android:textAppearance="?android:attr/textAppearanceMedium"
+			          android:textColor="#000000"
+			        android:layout_width="wrap_content" 
+			        android:layout_height="wrap_content"></TextView>
+
+			<TextView android:text="" 
+	            	android:id="@+id/l_about_workpath"
+			          android:textAppearance="?android:attr/textAppearanceMedium"
+			          android:textColor="#000000"
+			        android:layout_width="fill_parent" 
+			        android:layout_height="wrap_content"></TextView>
+
+ 		</LinearLayout>  
+ 			
+    <TextView
+        android:id="@+id/tvLocaleText6"
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:text="系统语言"
+    	android:textColor="#000000"
+    	android:background="@layout/v1_bk_head_splitbar"
+    	android:visibility="gone" /> 	
+		<LinearLayout android:layout_width="fill_parent"  
+		    android:gravity="center"
+				  android:layout_height="wrap_content"
+				  android:visibility="gone">
+	        <TextView android:text="语    言：" 
+	                    android:id="@+id/tvLocaleText8"
+			          android:textAppearance="?android:attr/textAppearanceMedium"
+			          android:textColor="#000000"
+			        android:layout_width="wrap_content" 
+			        android:layout_height="wrap_content"></TextView>
+
+	        <Spinner
+	            android:id="@+id/spLanguage"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_weight="1" />
+
+ 		</LinearLayout>     		    	
+</LinearLayout>	    
+

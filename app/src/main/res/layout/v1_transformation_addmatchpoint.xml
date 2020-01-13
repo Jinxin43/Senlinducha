@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#f1f1f1"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tvCaption"
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:text="校准点信息"
+    	android:textColor="#000000"
+    	android:background="@layout/v1_bk_head_splitbar" />
+     <LinearLayout android:orientation="horizontal"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content">
+
+    	<LinearLayout
+	         android:orientation="vertical"
+	         android:layout_weight="1"
+	 	    android:layout_width="fill_parent"
+	    	android:layout_height="fill_parent">
+		     <LinearLayout
+		 	    android:layout_width="fill_parent"
+		    	android:layout_height="wrap_content">
+		 		<TextView
+		 		    android:id="@+id/tvLocaleText2"
+		 		    android:layout_width="wrap_content"
+		 		    android:layout_height="wrap_content"
+		 		    android:text="源点X："
+		 		    android:textColor="#000000"
+		 		    android:textAppearance="?android:attr/textAppearanceMedium" />
+		 		<EditText
+		 		    android:id="@+id/et_X1"
+		 		    android:text="0"
+		 		    android:inputType="numberSigned|numberDecimal"
+		 		    android:layout_width="wrap_content"
+		 		    android:layout_height="wrap_content"
+		 		    android:layout_weight="1"/>
+		 	 </LinearLayout>	
+		     <LinearLayout
+		 	    android:layout_width="fill_parent"
+		    	android:layout_height="wrap_content">
+		 		<TextView
+		 		    android:id="@+id/tvLocaleText42"
+		 		    android:layout_width="wrap_content"
+		 		    android:layout_height="wrap_content"
+		 		    android:text="源点Y："
+		 		    android:textColor="#000000"
+		 		    android:textAppearance="?android:attr/textAppearanceMedium" />
+		 		<EditText
+		 		    android:id="@+id/et_Y1"
+		 		    android:text="0"
+		 		    android:inputType="numberSigned|numberDecimal"
+		 		    android:layout_width="wrap_content"
+		 		    android:layout_height="wrap_content"
+		 		    android:layout_weight="1"/>
+		 	 </LinearLayout>	
+		 	 
+		     <LinearLayout
+		 	    android:layout_width="fill_parent"
+		    	android:layout_height="wrap_content">
+		 		<TextView
+		 		    android:id="@+id/tvLocaleText12"
+		 		    android:layout_width="wrap_content"
+		 		    android:layout_height="wrap_content"
+		 		    android:text="GPS采样点数："
+		 		    android:textColor="#000000"
+		 		    android:textAppearance="?android:attr/textAppearanceMedium" />
+		 		<EditText
+		 		    android:id="@+id/etGPSPoints"
+		 		    android:text="1"
+		 		    android:inputType="numberDecimal"
+		 		    android:layout_width="wrap_content"
+		 		    android:layout_height="wrap_content"
+		 		    android:layout_weight="1"/>
+		 	 </LinearLayout>
+		 	 		 	 
+		</LinearLayout>	 
+    	<LinearLayout
+    	    android:gravity="center"
+	 	    android:layout_width="wrap_content"
+	    	android:layout_height="fill_parent">
+    		<Button
+		    	    android:id="@+id/btAddGPSPoint"
+		    	    android:layout_width="wrap_content"
+		    	    android:layout_height="wrap_content"
+		    	    android:drawableTop="@drawable/v1_addcheckpoint"
+				    android:background="@drawable/buttonstyle"
+		    	    android:tag="增加"
+		    	    android:textAppearance="?android:attr/textAppearanceMedium" 
+		    	    android:text=" GPS  "/>
+		</LinearLayout>
+	</LinearLayout>
+		<TextView
+	        android:id="@+id/tvLocaleText"
+	        android:layout_width="fill_parent"
+	    	android:layout_height="3dp"
+	    	android:textColor="#000000"
+	    	android:background="@layout/v1_bk_head_splitbar" /> 
+     <LinearLayout android:orientation="horizontal"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content">
+
+    	<LinearLayout
+	         android:orientation="vertical"
+	         android:layout_weight="1"
+	 	    android:layout_width="fill_parent"
+	    	android:layout_height="fill_parent">
+		     <LinearLayout
+		 	    android:layout_width="fill_parent"
+		    	android:layout_height="wrap_content">
+		 		<TextView
+		 		    android:id="@+id/tvLocaleText22"
+		 		    android:layout_width="wrap_content"
+		 		    android:layout_height="wrap_content"
+		 		    android:text="目标X："
+		 		    android:textColor="#000000"
+		 		    android:textAppearance="?android:attr/textAppearanceMedium" />
+		 		<EditText
+		 		    android:id="@+id/et_X2"
+		 		    android:text="0"
+		 		    android:inputType="numberSigned|numberDecimal"
+		 		    android:layout_width="wrap_content"
+		 		    android:layout_height="wrap_content"
+		 		    android:layout_weight="1"/>
+		 	 </LinearLayout>	
+		     <LinearLayout
+		 	    android:layout_width="fill_parent"
+		    	android:layout_height="wrap_content">
+		 		<TextView
+		 		    android:id="@+id/tvLocaleText32"
+		 		    android:layout_width="wrap_content"
+		 		    android:layout_height="wrap_content"
+		 		    android:text="目标Y："
+		 		    android:textColor="#000000"
+		 		    android:textAppearance="?android:attr/textAppearanceMedium" />
+		 		<EditText
+		 		    android:id="@+id/et_Y2"
+		 		    android:text="0"
+		 		    android:inputType="numberSigned|numberDecimal"
+		 		    android:layout_width="wrap_content"
+		 		    android:layout_height="wrap_content"
+		 		    android:layout_weight="1"/>
+		 	 </LinearLayout>	
+		</LinearLayout>	 
+    	<LinearLayout
+    	    android:gravity="center"
+	 	    android:layout_width="wrap_content"
+	    	android:layout_height="fill_parent">
+    		<Button
+		    	    android:id="@+id/btAddLoadPoint"
+		    	    android:layout_width="wrap_content"
+		    	    android:layout_height="wrap_content"
+		    	    android:drawableTop="@drawable/v1_addcheckpoint"
+				    android:background="@drawable/buttonstyle"
+		    	    android:tag="增加"
+		    	    android:textAppearance="?android:attr/textAppearanceMedium" 
+		    	    android:text=" 调取 "/>
+		</LinearLayout>
+	</LinearLayout>
+
+
+</LinearLayout>

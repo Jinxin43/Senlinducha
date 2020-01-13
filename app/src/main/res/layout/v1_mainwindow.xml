@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/map"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#000000"
+    android:orientation="vertical"
+    android:padding="0px" >
+
+    <include
+        android:id="@+id/mainviewheaderbar"
+        layout="@layout/v1_mainviewheaderbar" />
+
+    <include
+          android:id="@+id/submenu_editbar"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignParentLeft="true"
+        	android:layout_centerInParent="true"
+          android:layout_marginRight="3dp"
+          android:layout_marginTop="6dp"
+          android:layout_below="@+id/mainheadertoolbox"
+          layout="@layout/l_maintoolbox_right" />
+	        
+
+	<RelativeLayout
+	    	android:id="@+id/gd_zoombar_view"
+	         android:layout_height="wrap_content"   
+	         android:layout_width="wrap_content"
+	         android:layout_marginTop="3dp"
+	         android:layout_marginRight="3dp"
+			 android:layout_marginBottom="3dp"
+			 android:layout_below="@+id/mainviewheaderbar"
+	         android:layout_above="@+id/mainbottomtoolbar">
+	         
+	    	
+	         	
+	    	<RelativeLayout android:id="@+id/rl_zoombar"
+	    	    android:layout_height="48dp"   
+	         	android:layout_width="wrap_content"
+	         	android:layout_alignParentBottom="true"
+	         	android:layout_alignParentLeft="true"
+	         	android:layout_alignParentRight="true">
+
+					<!-- 左下角比例显示条 -->
+			   		<ImageView
+				    	android:id="@+id/iv_scalebar"
+				    	android:layout_marginLeft="2dp"
+			    	    android:layout_alignParentLeft="true"
+			    	    android:contentDescription="scale bar"		   
+				    	android:layout_width="80dp"
+				    	android:layout_height="fill_parent"/>
+		
+				   <!-- 采集线，面时距离与面积的状态条 -->
+			   		<ImageView
+			    	    android:id="@+id/iv_status"
+			    	    android:layout_toRightOf="@+id/iv_scalebar"
+			    	    android:layout_alignParentRight="true"
+			    	    android:layout_width="wrap_content"
+			    	    android:layout_height="fill_parent"/>
+		 </RelativeLayout>	
+			   
+	</RelativeLayout>
+
+    <include
+        android:id="@+id/mainbottomtoolbar"
+        layout="@layout/l_maintoolbox_bottom"
+        />
+
+    
+     <include
+        android:id="@+id/mainheadertoolbar"
+        layout="@layout/l_maintoolbar_header" 
+        />
+     
+     
+     <include
+        android:id="@+id/mainheadertoolbox"
+        layout="@layout/l_maintoolbox_header" 
+        />
+     
+     
+     
+    <RelativeLayout android:id="@+id/mainwindow_compass"
+        	android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_below="@+id/mainviewheaderbar"
+	        android:layout_alignParentLeft="true">
+		    <Button
+		        android:id="@+id/bt_hidecompass"
+		        android:tag="收起"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_alignParentLeft="true"
+		        
+			    android:background="@drawable/buttonstyle_transparent_all"
+			    android:drawableLeft="@drawable/compass_hide" />
+
+		    <ImageView
+		        android:id="@+id/iv_compass"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_alignParentLeft="true"
+		        android:layout_alignParentTop="true"
+		        android:clickable="false"
+		        android:enabled="false"
+		        android:src="@drawable/v1_compass2" />
+
+    </RelativeLayout>
+   
+    
+     <RelativeLayout 
+         android:layout_width="wrap_content" 
+         android:layout_height="fill_parent" 
+         android:layout_alignParentRight="true">
+        <LinearLayout android:id="@+id/ll_quickshow"
+             android:layout_width="560dp" 
+             android:layout_height="fill_parent"
+             android:visibility="gone">
+             <include
+        	    android:id="@+id/ll_tuigengdata"
+        		layout="@layout/tuigengdata" />
+        </LinearLayout>
+    </RelativeLayout>
+    
+     <RelativeLayout 
+         android:layout_width="fill_parent" 
+         android:layout_height="fill_parent" 
+         android:layout_alignParentRight="true">
+        <LinearLayout android:id="@+id/ll_ducha"
+             android:layout_width="fill_parent" 
+             android:layout_height="fill_parent"
+             android:visibility="gone">
+             <include
+        	    android:id="@+id/llducha"
+        		layout="@layout/layout_checkcard" />
+        </LinearLayout>
+    </RelativeLayout>
+    
+      <RelativeLayout 
+         android:layout_width="wrap_content" 
+         android:layout_height="fill_parent" 
+         android:layout_alignParentRight="true">
+        <LinearLayout android:id="@+id/ll_xbxj"
+             android:layout_width="460dp" 
+             android:layout_height="fill_parent"
+             android:visibility="gone">
+             <include
+        	    android:id="@+id/ll_xiaobanxuji"
+        		layout="@layout/xiaobanxuji" />
+        </LinearLayout>
+    </RelativeLayout>
+    
+      <RelativeLayout 
+         android:layout_width="wrap_content" 
+         android:layout_height="fill_parent" 
+         android:layout_alignParentRight="true">
+        <LinearLayout android:id="@+id/ll_LDBG"
+             android:layout_width="460dp" 
+             android:layout_height="fill_parent"
+             android:visibility="gone">
+             <include
+        	    android:id="@+id/ll_lindibiangeng"
+        		layout="@layout/lindidiangengdata" />
+        </LinearLayout>
+    </RelativeLayout>
+    
+      <RelativeLayout 
+         android:layout_width="wrap_content" 
+         android:layout_height="fill_parent" 
+         android:layout_alignParentRight="true">
+
+        <LinearLayout
+            android:id="@+id/ll_WPZF"
+            android:layout_width="460dp"
+            android:layout_height="fill_parent"
+            android:layout_alignParentLeft="true"
+            android:visibility="gone" >
+
+             <include
+        	    android:id="@+id/ll_weipianzhifa"
+        		layout="@layout/weipianzhifa" />
+        </LinearLayout>
+    </RelativeLayout>
+    
+      <RelativeLayout 
+         android:layout_width="wrap_content" 
+         android:layout_height="fill_parent" 
+         android:layout_alignParentRight="true">
+
+        <LinearLayout
+            android:id="@+id/ll_duchayanzheng"
+            android:layout_width="620dp"
+            android:layout_height="fill_parent"
+            android:layout_alignParentLeft="true"
+            android:visibility="gone" >
+
+             <include
+        	    android:id="@+id/layout_duchayanzheng"
+        		layout="@layout/layout_duchatuban" />
+        </LinearLayout>
+    </RelativeLayout>
+    
+      <RelativeLayout 
+         android:layout_width="wrap_content" 
+         android:layout_height="fill_parent" 
+         android:layout_alignParentRight="true">
+        <LinearLayout android:id="@+id/ll_generalEdit"
+             android:layout_width="460dp" 
+             android:layout_height="fill_parent"
+             android:visibility="gone">
+             <include
+        	    android:id="@+id/ll_generaldata"
+        		layout="@layout/generaldata" />
+        </LinearLayout>
+    </RelativeLayout>
+   
+</RelativeLayout>

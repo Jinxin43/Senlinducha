@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <resources>
+  	<dimen name="TextFontSize">18dip</dimen>
+  	<drawable name="TextFontColor">#000000</drawable>
+  	<dimen name="HeaderHeightSize">36dip</dimen>
+  	<dimen name="ButtonTextFontSize">14dip</dimen>
+	<drawable name="white">#FFFFFFFF</drawable>
+ </resources>
+ 

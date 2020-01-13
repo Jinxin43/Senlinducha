@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#f1f1f1"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+     <!-- 三参数 -->
+     <LinearLayout android:gravity="center"
+         android:orientation="vertical"
+ 	    android:layout_width="fill_parent"
+    	android:layout_height="wrap_content">
+	     <LinearLayout android:gravity="center"
+	 	    android:layout_width="fill_parent"
+	    	android:layout_height="wrap_content">
+		 		<TextView
+		 		    android:id="@+id/textView1"
+		 		    android:layout_width="fill_parent"
+		 		    android:layout_height="wrap_content"
+		 		    android:text="X平移(米)"
+		 		    android:gravity="center"
+		 		    android:layout_weight="1"
+		 		    android:textColor="#000000"
+		 		    android:textAppearance="?android:attr/textAppearanceMedium" />
+		 		<TextView
+		 		    android:id="@+id/textView1"
+		 		    android:layout_width="fill_parent"
+		 		    android:layout_height="wrap_content"
+		 		    android:text="Y平移(米)"
+		 		    android:gravity="center"
+		 		    android:layout_weight="1"
+		 		    android:textColor="#000000"
+		 		    android:textAppearance="?android:attr/textAppearanceMedium" />
+		 		<TextView
+		 		    android:id="@+id/textView1"
+		 		    android:layout_width="fill_parent"
+		 		    android:layout_height="wrap_content"
+		 		    android:text="Z平移(米)"
+		 		    android:gravity="center"
+		 		    android:layout_weight="1"
+		 		    android:textColor="#000000"
+		 		    android:textAppearance="?android:attr/textAppearanceMedium" />
+	 	 </LinearLayout>
+	 	 
+	     <LinearLayout android:gravity="center"
+	 	    android:layout_width="fill_parent"
+	    	android:layout_height="wrap_content">
+		 		<EditText
+		 		    android:id="@+id/pp3_p1"
+		 		    android:layout_width="fill_parent"
+		 		    android:layout_height="wrap_content"
+		 		    android:text="0"
+		 		    android:inputType="numberSigned|numberDecimal"
+		 		    android:gravity="center"
+		 		    android:layout_weight="1"
+		 		    android:textColor="#000000"
+		 		    android:textAppearance="?android:attr/textAppearanceMedium" />
+		 		<EditText
+		 		    android:id="@+id/pp3_p2"
+		 		    android:layout_width="fill_parent"
+		 		    android:layout_height="wrap_content"
+		 		    android:text="0"
+		 		    android:inputType="numberSigned|numberDecimal"
+		 		    android:gravity="center"
+		 		    android:layout_weight="1"
+		 		    android:textColor="#000000"
+		 		    android:textAppearance="?android:attr/textAppearanceMedium" />
+		 		<EditText
+		 		    android:id="@+id/pp3_p3"
+		 		    android:layout_width="fill_parent"
+		 		    android:layout_height="wrap_content"
+		 		    android:text="0"
+		 		    android:inputType="numberSigned|numberDecimal"
+		 		    android:gravity="center"
+		 		    android:layout_weight="1"
+		 		    android:textColor="#000000"
+		 		    android:textAppearance="?android:attr/textAppearanceMedium" />
+	 	 </LinearLayout>
+	 	 
+	     	     <LinearLayout android:gravity="center"
+	 	    android:layout_width="fill_parent"
+	    	android:layout_height="wrap_content">
+		 		<TextView
+		 		    android:id="@+id/textView1"
+		 		    android:layout_width="wrap_content"
+		 		    android:layout_height="wrap_content"
+		 		    android:text="长轴差【DA】"
+		 		    android:gravity="center"
+		 		    android:layout_weight="1"
+		 		    android:textColor="#000000"
+		 		    android:textAppearance="?android:attr/textAppearanceMedium" />
+		 		<TextView
+		 		    android:id="@+id/textView1"
+		 		    android:layout_width="wrap_content"
+		 		    android:layout_height="wrap_content"
+		 		    android:text="扁率差【DF】"
+		 		    android:gravity="center"
+		 		    android:layout_weight="1"
+		 		    android:textColor="#000000"
+		 		    android:textAppearance="?android:attr/textAppearanceMedium" />	 			 		    	
+	 	 </LinearLayout>
+	 	 
+	     <LinearLayout android:gravity="center"
+	 	    android:layout_width="fill_parent"
+	    	android:layout_height="wrap_content">
+		 		<EditText
+		 		    android:id="@+id/pp3_p4"
+		 		    android:layout_width="wrap_content"
+		 		    android:layout_height="wrap_content"
+		 		    android:text="0"
+		 		    android:enabled="false"
+		 		    android:inputType="numberSigned|numberDecimal"
+		 		    android:gravity="center"
+		 		    android:layout_weight="1"
+		 		    android:textColor="#000000"
+		 		    android:textAppearance="?android:attr/textAppearanceMedium" />
+		 		<EditText
+		 		    android:id="@+id/pp3_p5"
+		 		    android:layout_width="wrap_content"
+		 		    android:layout_height="wrap_content"
+		 		    android:enabled="false"
+		 		    android:text="0"
+		 		    android:inputType="numberSigned|numberDecimal"
+		 		    android:gravity="center"
+		 		    android:layout_weight="1"
+		 		    android:textColor="#000000"
+		 		    android:textAppearance="?android:attr/textAppearanceMedium" />	
+	 	 </LinearLayout>
+	 	 
+	     <LinearLayout 
+	 	    android:layout_width="fill_parent"
+	    	android:layout_height="wrap_content">
+		 		
+		     <RelativeLayout 
+		         android:layout_weight="1"
+		 	    android:layout_width="fill_parent"
+		    	android:layout_height="wrap_content">
+	 			<Button android:id="@+id/btcalparam3" 
+					android:tag="三参计算器"
+					android:enabled="false"
+			        android:textAppearance="?android:attr/textAppearanceMedium"
+					android:gravity="center"
+					android:drawableLeft="@drawable/v1_space_height"
+					 android:background="@drawable/buttonstyle"
+			        android:layout_width="fill_parent"
+			        android:layout_height="wrap_content"/>
+			     <LinearLayout 
+			         android:layout_alignBottom="@+id/btcalparam3" 
+			         android:layout_alignTop="@+id/btcalparam3" 
+			         android:gravity="center"
+			 	    android:layout_width="fill_parent"
+			    	android:layout_height="wrap_content">
+		
+			         <ImageView
+			             android:id="@+id/imageView1"
+			             android:layout_width="wrap_content"
+			             android:layout_height="wrap_content"
+			             android:src="@drawable/v1_calparam3" />
+	
+			         <TextView
+			             android:id="@+id/textView2"
+			             android:layout_width="wrap_content"
+			             android:layout_height="wrap_content"
+			             android:text="三参计算器"
+			             android:textColor="#afabab"
+			             android:textAppearance="?android:attr/textAppearanceMedium" />
+			    	
+			 	</LinearLayout>
+			  </RelativeLayout>
+		    	
+		     <RelativeLayout 
+		         android:layout_weight="1"
+		 	    android:layout_width="fill_parent"
+		    	android:layout_height="wrap_content">
+	 			<Button android:id="@+id/btparamanage3" 
+					android:tag="参数管理器"
+			        android:textAppearance="?android:attr/textAppearanceMedium"
+					android:gravity="center"
+					android:drawableLeft="@drawable/v1_space_height"
+					 android:background="@drawable/buttonstyle"
+			        android:layout_width="fill_parent"
+			        android:layout_height="wrap_content"/>
+			     <LinearLayout 
+			         android:layout_alignBottom="@+id/btparamanage3" 
+			         android:layout_alignTop="@+id/btparamanage3" 
+			         android:gravity="center"
+			 	    android:layout_width="fill_parent"
+			    	android:layout_height="wrap_content">
+		
+			         <ImageView
+			             android:id="@+id/imageView1"
+			             android:layout_width="wrap_content"
+			             android:layout_height="wrap_content"
+			             android:src="@drawable/v1_paramanage" />
+	
+			         <TextView
+			             android:id="@+id/textView2"
+			             android:layout_width="wrap_content"
+			             android:layout_height="wrap_content"
+			             android:text="参数管理器"
+			             android:textColor="#000000"
+			             android:textAppearance="?android:attr/textAppearanceMedium" />
+			    	
+			 	</LinearLayout>
+			  </RelativeLayout>
+ 			
+		 </LinearLayout>
+ 	  </LinearLayout>
+
+</LinearLayout>

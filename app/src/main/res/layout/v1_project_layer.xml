@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#f1f1f1"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    <TextView
+        android:id="@+id/tvLocaleText1"
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:text="底图图层"
+    	android:textColor="#000000"
+    	android:background="@layout/v1_bk_head_splitbar" />
+     <LinearLayout android:gravity="center"
+ 	    android:layout_width="fill_parent"
+    	android:layout_height="wrap_content">
+
+         <CheckBox
+             android:id="@+id/cb_bkvector"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:checked="true"
+ 		    android:textColor="#000000"
+ 		    android:textAppearance="?android:attr/textAppearanceMedium" />
+	    	<Button android:id="@+id/bt_vectorset" 
+	    	    	android:text="矢量底图：" 
+	    	    	android:tag="矢量底图设置"
+					android:drawableLeft="@drawable/v1_space_height"
+					android:layout_alignParentLeft="true"
+			        android:textAppearance="?android:attr/textAppearanceMedium"
+			        android:background="@drawable/buttonstyle_transparent"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"/>
+ 		<lkmap.ZRoadMap.MyControl.v1_SpinnerDialog
+ 		    android:id="@+id/sp_bkvector"
+ 		    android:layout_width="wrap_content"
+ 		    android:layout_height="wrap_content"
+ 		    android:layout_weight="1"/>
+ 	 </LinearLayout>
+     <LinearLayout android:gravity="center"
+ 	    android:layout_width="fill_parent"
+    	android:layout_height="wrap_content">
+
+         <CheckBox
+             android:id="@+id/cb_bkgrid"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:checked="true"
+ 		    android:textColor="#000000"
+ 		    android:textAppearance="?android:attr/textAppearanceMedium" />
+	    	<Button android:id="@+id/bt_gridset" 
+	    	    	android:text="栅格底图：" 
+					android:tag="栅格底图设置" 
+					android:drawableLeft="@drawable/v1_space_height"
+					android:layout_alignParentLeft="true"
+			        android:textAppearance="?android:attr/textAppearanceMedium"
+			        android:background="@drawable/buttonstyle_transparent"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"/>
+ 		<lkmap.ZRoadMap.MyControl.v1_SpinnerDialog
+ 		    android:id="@+id/sp_bkgrid"
+ 		    android:layout_width="wrap_content"
+ 		    android:layout_height="wrap_content"
+ 		    android:layout_weight="1"/>
+ 	 </LinearLayout>
+    <TextView
+        android:id="@+id/tvLocaleText2"
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:text="采集数据图层"
+    	android:textColor="#000000"
+    	android:background="@layout/v1_bk_head_splitbar" />
+
+     <LinearLayout
+         android:orientation="vertical"
+	 	    android:layout_width="fill_parent" 
+	    	android:layout_height="fill_parent">
+		     <LinearLayout android:id="@+id/pl_toolbar"
+		         	android:background="#bfbfbf"
+			 	    android:layout_width="fill_parent"
+			    	android:layout_height="wrap_content">
+	    		<Button
+			    	    android:id="@+id/pl_new"
+			    	    android:layout_width="wrap_content"
+			    	    android:layout_height="wrap_content"
+			    	    android:drawableTop="@drawable/v1_newlayer"
+					    android:background="@drawable/buttonstyle"
+					    android:layout_weight="1"
+			    	    android:tag="新建"
+			    	    android:text="新建"/>
+	    		<Button
+			    	    android:id="@+id/pl_edit"
+			    	    android:layout_width="wrap_content"
+			    	    android:layout_height="wrap_content"
+			    	    android:drawableTop="@drawable/v1_editlayer"
+					    android:background="@drawable/buttonstyle"
+					    android:layout_weight="1"
+			    	    android:tag="属性"
+			    	    android:text="属性"/>    	
+	    		<Button
+			    	    android:id="@+id/pl_render"
+			    	    android:layout_width="wrap_content"
+			    	    android:layout_height="wrap_content"
+			    	    android:drawableTop="@drawable/v1_layerrender"
+					    android:background="@drawable/buttonstyle"
+					    android:layout_weight="1"
+			    	    android:tag="渲染"
+			    	    android:text="渲染"/>  			    	    
+	    		<Button
+			    	    android:id="@+id/pl_up"
+			    	    android:layout_width="wrap_content"
+			    	    android:layout_height="wrap_content"
+			    	    android:drawableTop="@drawable/v1_layerdown"
+					    android:background="@drawable/buttonstyle"
+					    android:layout_weight="1"
+			    	    android:tag="向上"
+			    	    android:text="向上"/>  
+	    		<Button
+			    	    android:id="@+id/pl_down"
+			    	    android:layout_width="wrap_content"
+			    	    android:layout_height="wrap_content"
+			    	    android:drawableTop="@drawable/v1_layerup"
+					    android:background="@drawable/buttonstyle"
+					    android:layout_weight="1"
+			    	    android:tag="向下"
+			    	    android:text="向下"/>  
+	    		<Button
+			    	    android:id="@+id/pl_delete"
+			    	    android:layout_width="wrap_content"
+			    	    android:layout_height="wrap_content"
+			    	    android:drawableTop="@drawable/v1_layerdelete"
+					    android:background="@drawable/buttonstyle"
+					    android:layout_weight="1"
+			    	    android:tag="删除"
+			    	    android:text="删除"/>
+
+	    		<Button
+	    		    android:id="@+id/pl_savetemplate"
+	    		    android:layout_width="wrap_content"
+	    		    android:layout_height="wrap_content"
+	    		    android:layout_weight="1"
+	    		    android:background="@drawable/buttonstyle"
+	    		    android:drawableTop="@drawable/v1_project_savetemplate"
+	    		    android:tag="存模板"
+	    		    android:text="存模板" />
+
+	    		<Button
+			    	    android:id="@+id/pl_loadtemplate"
+			    	    android:layout_width="wrap_content"
+			    	    android:layout_height="wrap_content"
+			    	    android:drawableTop="@drawable/v1_project_loadtemplate"
+					    android:background="@drawable/buttonstyle"
+					    android:layout_weight="1"
+			    	    android:tag="调模板"
+			    	    android:text="调模板"/>	    					    	    	    	    			    	    			    	    	
+			  </LinearLayout>  
+ 		    		
+		     <LinearLayout android:id="@+id/pl_layerlist"
+			 	    android:layout_width="fill_parent"
+			    	android:layout_height="fill_parent">
+			    	<include android:id="@+id/in_result1"  layout="@layout/v1_headerlistview" />
+			 </LinearLayout>  
+ 
+
+ 	 </LinearLayout>
+</LinearLayout>

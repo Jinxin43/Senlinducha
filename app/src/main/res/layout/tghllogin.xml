@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        android:src="@drawable/login01" />
+
+    <ImageView
+        android:id="@+id/ivimage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="false"
+        android:layout_alignParentTop="false"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="false"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/login01_logo2" />
+
+    <LinearLayout
+        android:id="@+id/llPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tvchecktips"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:gravity="center"
+            android:textColor="#ffff0000"
+            android:textSize="14.0sp"
+            android:visibility="invisible" />
+
+        <dingtu.ZRoadMap.LockPatternView
+            android:id="@+id/iv_lockpattern"
+            android:layout_width="300.0dip"
+            android:layout_height="300.0dip"
+            android:gravity="center" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="20dip"
+        android:gravity="right" >
+
+        <ImageButton
+            android:id="@+id/btquit"
+            android:layout_width="48.0dip"
+            android:layout_height="48.0dip"
+            android:background="@drawable/buttonstyle_transparent"
+            android:src="@drawable/login_exit" />
+    </LinearLayout>
+
+   
+      <TextView
+          android:id="@+id/tvsoftname"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_centerHorizontal="true"
+          android:layout_above="@+id/tvsoftcopyrightwarning2"
+          
+          android:gravity="bottom|center"
+          android:text="开发单位:西安鼎图信息技术有限公司"
+          android:textColor="#ffffff"
+          android:textSize="25sp"
+          android:layout_marginBottom="10dp"/>
+      
+       <TextView
+        android:id="@+id/tvsoftcopyrightwarning2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tvsoftcopyrightwarning1"
+        
+        android:layout_centerHorizontal="true"
+        android:text="免责声明：本系统基于陕西省退耕还林管理信息系统（2004）为基础开发，"
+        android:textColor="#ff0000"
+        android:textSize="14sp" />
+       
+        <TextView
+        android:id="@+id/tvsoftcopyrightwarning1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center|bottom"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:text="所涉及的数据部分均来自陕西省退耕还林管理信息系统（2004），与本公司无关。"
+        android:textColor="#ff0000"
+        android:textSize="14sp" />
+
+    
+
+</RelativeLayout>

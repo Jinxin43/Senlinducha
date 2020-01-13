@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#f1f1f1"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" > 	 
+     <LinearLayout android:gravity="center"
+ 	    android:layout_width="fill_parent"
+    	android:layout_height="wrap_content">
+         
+ 	 </LinearLayout>    
+    <TextView
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:text="简单符号定义"
+    	android:textColor="#000000"
+    	android:background="@layout/v1_bk_head_splitbar" />
+ 	 
+     <LinearLayout
+	 	    android:orientation="horizontal"
+	 	    android:layout_width="fill_parent"
+	    	android:layout_height="fill_parent">
+	     <LinearLayout
+		 	    android:gravity="center"
+		 	    android:layout_width="fill_parent"
+		    	android:layout_height="fill_parent">
+			 <include android:id="@+id/symbol_list"  layout="@layout/v1_headerlistview" />
+		</LinearLayout>
+ 	 </LinearLayout>
+
+
+</LinearLayout>

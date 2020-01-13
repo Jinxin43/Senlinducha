@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#f1f1f1"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    
+    <RelativeLayout 
+	    android:layout_width="fill_parent"
+   		android:layout_height="wrap_content">
+
+  		<Button
+	   	    android:id="@+id/pln_recal"
+	   	    android:layout_width="fill_parent"
+	   	    android:layout_height="wrap_content"
+	   	    android:drawableLeft="@drawable/v1_space_height"
+		    android:background="@drawable/buttonstyle"
+	   	    android:tag="重新计算"
+	   	    android:textAppearance="?android:attr/textAppearanceMedium" />
+ 				 			
+	     <LinearLayout 
+	         android:layout_alignBottom="@+id/pln_recal" 
+	         android:layout_alignTop="@+id/pln_recal" 
+	         android:gravity="center"
+	 	    android:layout_width="fill_parent"
+	    	android:layout_height="wrap_content">
+	
+	         <ImageView
+	             android:layout_width="wrap_content"
+	             android:layout_height="wrap_content"
+	             android:src="@drawable/m_statistic" />
+	
+	         <TextView
+	             android:id="@+id/tv_edit"
+	             android:layout_width="wrap_content"
+	             android:layout_height="wrap_content"
+	             android:text="重新计算"
+	             android:textColor="#000000"
+	             android:textAppearance="?android:attr/textAppearanceMedium" />
+	    	
+	 	</LinearLayout>
+  </RelativeLayout>	
+    <TextView
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:text="分析结果"
+    	android:textColor="#000000"
+    	android:background="@layout/v1_bk_head_splitbar" />
+	     <LinearLayout
+	 	    android:layout_width="fill_parent"
+	    	android:layout_height="wrap_content">
+	 		<TextView
+	 		    android:id="@+id/tvLocaleText2"
+	 		    android:layout_width="wrap_content"
+	 		    android:layout_height="wrap_content"
+	 		    android:text="选择面积："
+	 		    android:textColor="#000000"
+	 		    android:textAppearance="?android:attr/textAppearanceMedium" />
+	 		<EditText
+	 		    android:id="@+id/tvresult"
+	 		    android:text=""
+	 		    android:enabled="false"
+	 		    android:focusable="false"
+	 		    android:layout_width="wrap_content"
+	 		    android:layout_height="wrap_content"
+	 		    android:layout_weight="1"/>
+	 	 </LinearLayout>	
+     <LinearLayout
+	 	    android:gravity="center"
+	 	    android:layout_weight="1"
+	 	    android:layout_width="fill_parent"
+	    	android:layout_height="fill_parent">
+		 <include android:id="@+id/prj_list"  layout="@layout/v1_headerlistview" />
+ 	 </LinearLayout>    
+</LinearLayout>

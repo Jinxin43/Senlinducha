@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+   
+    
+     <LinearLayout 
+            android:layout_width="match_parent" 
+         	android:layout_height="wrap_content"
+         	android:layout_alignParentRight="true"
+         	android:layout_margin="10dp">
+	       
+	      <TextView 
+	            android:layout_width="wrap_content" 
+	            android:layout_height="wrap_content"
+	            android:text="项目类型："
+	            android:textColor="#000000"
+	            android:textAppearance="?android:textAppearanceMedium"
+	            android:layout_marginLeft="10dp"/>
+	     <Spinner
+	           android:id="@+id/sp_projectType"
+	           android:layout_width="wrap_content" 
+	           android:layout_height="wrap_content"
+	           android:spinnerMode="dropdown">
+	      </Spinner>
+	     
+      </LinearLayout>
+	<LinearLayout  android:layout_width="match_parent"
+    			   android:layout_height="match_parent">
+	 <LinearLayout 
+	     android:layout_width="match_parent"
+	     android:layout_height="match_parent"
+	     android:layout_weight="1"
+	     android:orientation="vertical"
+	     android:layout_margin="5dp">
+	     <LinearLayout
+	         android:layout_width="match_parent" 
+	         android:layout_height="match_parent">
+	         <ListView
+		        android:id="@+id/id_tree"
+		        android:layout_width="fill_parent"
+		        android:layout_height="fill_parent"
+		        android:divider="#aaa"
+		        android:dividerHeight="1px" 
+		        android:cacheColorHint="#00000000">
+    		</ListView>
+	     </LinearLayout>
+	 </LinearLayout>
+	  <LinearLayout 
+	     android:layout_width="match_parent"
+	     android:layout_height="match_parent"
+	     android:layout_weight="1"
+	     android:orientation="vertical"
+	     android:layout_margin="5dp">
+	
+	     <LinearLayout
+	         android:layout_width="match_parent" 
+	         android:layout_height="wrap_content"
+	         android:orientation="vertical" >
+	          <LinearLayout
+	          android:layout_width="match_parent" 
+	          android:layout_height="wrap_content">
+		         <Button
+		             android:id="@+id/butAddSameLevel"
+		             android:layout_width="match_parent"
+		             android:layout_height="wrap_content"
+		             android:layout_weight="1"
+		             android:layout_margin="5dp"
+		             android:text="同级添加" 
+		             android:tag="同级添加"/>
+		          <Button
+		             android:id="@+id/butAddNextLevel"
+		             android:layout_width="match_parent"
+		             android:layout_height="wrap_content"
+		             android:layout_weight="1"
+		             android:layout_margin="5dp"
+		             android:text="下级添加"
+		             android:tag="下级添加" />
+	     </LinearLayout>
+	         <LinearLayout
+	         android:layout_width="match_parent" 
+	         android:layout_height="wrap_content">
+	          <TextView 
+	            android:layout_width="wrap_content" 
+	            android:layout_height="wrap_content"
+	            android:text="  上级类型："
+	            android:textColor="#000000"
+	            android:textAppearance="?android:textAppearanceMedium"
+	            android:layout_marginLeft="10dp"/>
+	        <EditText
+	           android:id="@+id/et_parname"
+	           android:layout_width="0dp" 
+	           android:layout_height="wrap_content"
+	           android:layout_weight="1"
+	           android:text=""
+	           android:layout_marginRight="20dp" 
+	           android:enabled="false"></EditText>	     	
+	           </LinearLayout>
+	     	<LinearLayout
+	         android:layout_width="match_parent" 
+	         android:layout_height="wrap_content">
+		     	<TextView 
+		            android:layout_width="wrap_content" 
+		            android:layout_height="wrap_content"
+		            android:text="          类型："
+		            android:textColor="#000000"
+		            android:textAppearance="?android:textAppearanceMedium"
+		            android:layout_marginLeft="10dp"/>
+		        <EditText
+		           android:id="@+id/et_name"
+		           android:layout_width="0dp" 
+		           android:layout_height="wrap_content"
+		           android:layout_weight="1"
+		           android:text=""
+		           android:layout_marginRight="20dp" />
+	     	</LinearLayout>
+	     	<LinearLayout
+	         android:layout_width="match_parent" 
+	         android:layout_height="wrap_content">
+		     	<TextView 
+		            android:layout_width="wrap_content" 
+		            android:layout_height="wrap_content"
+		            android:text="     代码/值："
+		            android:textColor="#000000"
+		            android:textAppearance="?android:textAppearanceMedium"
+		            android:layout_marginLeft="10dp"/>
+		        <EditText
+		           android:id="@+id/et_code"
+		           android:layout_width="0dp" 
+		           android:layout_height="wrap_content"
+		           android:layout_weight="1"
+		           android:text=""
+		           android:layout_marginRight="20dp" />
+	     	</LinearLayout>
+
+	     </LinearLayout>
+	       <LinearLayout
+	          android:layout_width="match_parent" 
+	          android:layout_height="wrap_content">
+	         <Button
+	             android:id="@+id/butSave"
+	             android:layout_width="match_parent"
+	             android:layout_height="wrap_content"
+	             android:layout_weight="1"
+	             android:layout_margin="5dp"
+	             android:tag="保存"
+	             android:text="保存" />
+
+	         <Button
+	             android:id="@+id/butDel"
+	             android:layout_width="match_parent"
+	             android:layout_height="wrap_content"
+	             android:layout_margin="5dp"
+	             android:layout_weight="1"
+	             android:tag="删除"
+	             android:text="删除" />
+	         
+	     </LinearLayout>
+	      <RelativeLayout 
+	     android:layout_width="match_parent" 
+	     android:layout_height="wrap_content">
+	      <LinearLayout
+	          android:layout_width="match_parent" 
+	          android:layout_height="wrap_content"
+	          android:layout_alignParentBottom="true">
+	         <Button
+	             android:id="@+id/butImport"
+	             android:layout_width="match_parent"
+	             android:layout_height="wrap_content"
+	             android:layout_weight="1"
+	             android:layout_margin="5dp"
+	             android:tag="导入"
+	             android:text="导入字典" />
+
+	         <Button
+	             android:id="@+id/butExport"
+	             android:layout_width="match_parent"
+	             android:layout_height="wrap_content"
+	             android:layout_margin="5dp"
+	             android:layout_weight="1"
+	             android:tag="导出"
+	             android:text="导出字典" />
+	         
+	     </LinearLayout>
+	 </RelativeLayout>
+	 </LinearLayout>
+	
+	</LinearLayout>
+</LinearLayout>

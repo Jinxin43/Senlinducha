@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffffff"
+    android:descendantFocusability="blocksDescendants" >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_margin="4.0dip"
+        android:layout_weight="1.0"
+        android:background="@layout/v1_bk_box" >
+
+        <ImageView
+            android:id="@+id/iv_image"
+            android:layout_width="fill_parent"
+            android:layout_height="200.0dip"
+            android:layout_margin="2.0dip"
+            android:scaleType="fitCenter" />
+
+        <TextView
+            android:id="@+id/tv_info"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="#bbf1f1f1"
+            android:gravity="center"
+            android:padding="2.0dip"
+            android:text="照片名称"
+            android:textAppearance="?android:textAppearanceSmall"
+            android:textColor="#ff000000" />
+
+        <CheckBox
+            android:id="@+id/cb_select"
+            android:tag="选择"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true" />
+    </RelativeLayout>
+
+</LinearLayout>

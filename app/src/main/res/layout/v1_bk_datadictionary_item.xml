@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:orientation="horizontal"
+	android:layout_width="fill_parent"
+	android:padding="8dp"
+	android:descendantFocusability="blocksDescendants"
+	android:layout_height="wrap_content">
+	
+     <LinearLayout android:layout_width="0dp"
+         android:orientation="vertical"
+         android:layout_weight="1"
+         android:gravity="center"
+         android:layout_height="wrap_content">
+	     <LinearLayout android:layout_width="fill_parent"
+	         android:layout_height="48dp">
+		    <TextView
+		         android:id="@+id/tv_fullname"
+		         android:layout_width="fill_parent"
+		         android:layout_height="fill_parent"
+		         android:layout_weight="1"
+		         android:layout_marginTop="2dp"
+		         android:gravity="left|center"
+		         android:textColor="#000000"
+		         android:text="照片全名：IMG0001"
+		         android:textAppearance="?android:attr/textAppearanceMedium"/>
+	     </LinearLayout>
+     </LinearLayout>
+     <LinearLayout android:layout_width="wrap_content"
+         	android:gravity="center"
+         android:layout_height="fill_parent">
+	    <Button
+	        android:id="@+id/bt_delete"
+	        android:layout_width="wrap_content"
+	        android:layout_height="40dp"
+	        android:background="@drawable/buttonstyle"
+	        android:drawableLeft="@drawable/v1_deleteobject"
+	        android:gravity="center"
+	        android:textAppearance="?android:attr/textAppearanceMedium"
+	        android:textColor="#000000"/>
+     </LinearLayout>
+ </LinearLayout>

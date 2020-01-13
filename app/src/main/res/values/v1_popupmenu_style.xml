@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>    
+<resources>       
+
+<style name="PopupAnimation" parent="android:Animation" mce_bogus="1">       
+     <item name="android:windowEnterAnimation">@anim/v1_popupmenu_enter</item>    
+    <item name="android:windowExitAnimation">@anim/v1_popupmenu_exit</item>   
+</style>    
+</resources> 

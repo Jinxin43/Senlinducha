@@ -1,0 +1,558 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    android:background="#ffffffff" 
+    android:focusableInTouchMode="true" 
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView 
+        android:layout_width="fill_parent" 
+        android:layout_height="fill_parent">
+        <LinearLayout 
+            android:gravity="center" 
+            android:orientation="vertical" 
+            android:layout_width="fill_parent" 
+            android:layout_height="wrap_content">
+            <LinearLayout 
+                android:gravity="center" 
+                android:orientation="vertical" 
+                android:layout_width="fill_parent" 
+                android:layout_height="fill_parent">
+                <LinearLayout 
+                    android:gravity="center|left" 
+                    android:layout_width="fill_parent" 
+                    android:layout_height="wrap_content" 
+                    android:layout_margin="4.0dip">
+                    <TextView 
+                        android:textAppearance="?android:textAppearanceMedium" 
+                        android:textColor="#ff000000" 
+                        android:visibility="invisible" 
+                        android:layout_width="wrap_content" 
+                        android:layout_height="wrap_content" 
+                        android:text="占位占位" />
+                    <TextView 
+                        android:textAppearance="?android:textAppearanceMedium" 
+                        android:textColor="#ff000000" 
+                        android:layout_width="wrap_content" 
+                        android:layout_height="wrap_content" 
+                        android:text="乡镇：" />
+                    <Spinner 
+                        android:id="@+id/sp_xz" 
+                         android:layout_width="0.0dip" 
+                        android:layout_height="wrap_content" 
+                        android:layout_weight="1.0" 
+                        android:spinnerMode="dropdown" />
+                    <TextView 
+                        android:textAppearance="?android:textAppearanceMedium" 
+                        android:textColor="#ff000000" 
+                        android:visibility="invisible" 
+                        android:layout_width="wrap_content" 
+                        android:layout_height="wrap_content" 
+                        android:text="占位占位符" />
+                    <TextView 
+                        android:textAppearance="?android:textAppearanceMedium" 
+                        android:textColor="#ff000000" 
+                        android:layout_width="wrap_content" 
+                        android:layout_height="wrap_content" 
+                        android:layout_marginLeft="8.0dip" 
+                        android:text="村：" />
+                    <Spinner 
+                        android:id="@+id/sp_jzc" 
+                         android:layout_width="0.0dip" 
+                        android:layout_height="wrap_content" 
+                        android:layout_weight="1.0" 
+                        android:spinnerMode="dropdown" />
+                </LinearLayout>
+                <LinearLayout 
+                    android:gravity="center|left" 
+                    android:layout_width="fill_parent" 
+                    android:layout_height="wrap_content" android:layout_margin="4.0dip">
+                    <TextView 
+                        android:textAppearance="?android:textAppearanceMedium" 
+                        android:textColor="#ff000000" 
+                        android:visibility="invisible" 
+                        android:layout_width="wrap_content" 
+                        android:layout_height="wrap_content" 
+                        android:text="占位占" />
+                    <TextView 
+                        android:textAppearance="?android:textAppearanceMedium" 
+                        android:textColor="#ff000000" 
+                        android:layout_width="wrap_content" 
+                        android:layout_height="wrap_content" 
+                        android:text="自然村：" />
+                    <EditText 
+                        android:id="@+id/et_zrc" 
+                        android:layout_width="0.0dip" 
+                        android:layout_height="wrap_content" 
+                        android:layout_weight="1.0"  />
+                    <TextView 
+                        android:textAppearance="?android:textAppearanceMedium" 
+                        android:textColor="#ff000000" 
+                        android:visibility="invisible" 
+                        android:layout_width="wrap_content" 
+                        android:layout_height="wrap_content" 
+                        android:text="占位占" />
+                    <TextView 
+                        android:textAppearance="?android:textAppearanceMedium" 
+                        android:textColor="#ff000000" 
+                        android:layout_width="wrap_content" 
+                        android:layout_height="wrap_content" 
+                        android:layout_marginLeft="8.0dip" 
+                        android:text="小地名：" />
+                    <EditText 
+                        android:id="@+id/et_xdm" 
+                        android:layout_width="0.0dip" 
+                        android:layout_height="wrap_content" 
+                        android:layout_weight="1.0" />
+                </LinearLayout>
+                <LinearLayout 
+                    android:gravity="center|left" 
+                    android:layout_width="fill_parent" 
+                    android:layout_height="wrap_content" 
+                    android:layout_margin="4.0dip">
+                    <TextView 
+                        android:textAppearance="?android:textAppearanceMedium" 
+                        android:textColor="#ff000000" 
+                        android:visibility="invisible" 
+                        android:layout_width="wrap_content" 
+                        android:layout_height="wrap_content" 
+                        android:text="占位占位" />
+                    <TextView 
+                        android:textAppearance="?android:textAppearanceMedium" 
+                        android:textColor="#ff000000" 
+                        android:layout_width="wrap_content" 
+                        android:layout_height="wrap_content" 
+                        android:text="坐标：" />
+                    <TextView android:textAppearance="?android:textAppearanceMedium" 
+                        android:id="@+id/tv_coor" 
+                        android:layout_width="0.0dip" 
+                        android:layout_height="wrap_content" 
+                        android:text="" 
+                        android:textColor="#426ab3"
+                        android:layout_weight="1.0" />
+                    <TextView 
+                        android:textAppearance="?android:textAppearanceMedium" 
+                        android:textColor="#ff000000" 
+                        android:visibility="invisible" 
+                        android:layout_width="wrap_content" 
+                        android:layout_height="wrap_content" 
+                        android:text="位占位" />
+                    <TextView 
+                        android:textAppearance="?android:textAppearanceMedium" 
+                        android:textColor="#ff000000" 
+                        android:layout_width="wrap_content" 
+                        android:layout_height="wrap_content" 
+                        android:layout_marginLeft="8.0dip" 
+                        android:text="图幅号：" />
+                    <EditText android:id="@+id/et_tfh" 
+                        android:layout_width="0.0dip" 
+                        android:layout_height="wrap_content" 
+                        android:layout_weight="1.0" 
+                        android:textColor="#426ab3"/>
+                </LinearLayout>
+                <LinearLayout 
+                    android:gravity="center|left" 
+                    android:layout_width="fill_parent" 
+                    android:layout_height="wrap_content" 
+                    android:layout_margin="4.0dip">
+                    <TextView 
+                        android:textAppearance="?android:textAppearanceMedium" 
+                        android:textColor="#ff000000" 
+                        android:visibility="invisible" 
+                        android:layout_width="wrap_content" 
+                        android:layout_height="wrap_content" 
+                        android:text="占位占" />
+                    <TextView 
+                        android:textAppearance="?android:textAppearanceMedium" 
+                        android:textColor="#ff000000" 
+                        android:layout_width="wrap_content" 
+                        android:layout_height="wrap_content" 
+                        android:text="小班号：" />
+                    <EditText android:id="@+id/et_xbh" 
+                        android:layout_width="0.0dip" 
+                        android:layout_height="wrap_content" 
+                        android:layout_weight="1.0" 
+                        android:inputType="number"  />
+                    <TextView 
+                        android:textAppearance="?android:textAppearanceMedium" 
+                        android:textColor="#ff000000" 
+                        android:visibility="invisible" 
+                        android:layout_width="wrap_content" 
+                        android:layout_height="wrap_content" 
+                        android:text="占位占位" />
+                    <TextView 
+                        android:textAppearance="?android:textAppearanceMedium" 
+                        android:textColor="#ff000000" 
+                        android:layout_width="wrap_content" 
+                        android:layout_height="wrap_content" 
+                        android:layout_marginLeft="8.0dip" 
+                        android:text="地类：" />
+                    <Spinner 
+                        android:id="@+id/sp_dl" 
+                        android:layout_width="0.0dip" 
+                        android:layout_height="wrap_content" 
+                        android:layout_weight="1.0" 
+                        android:spinnerMode="dropdown"/>
+                </LinearLayout>
+                <LinearLayout 
+                    android:gravity="center|left" 
+                    android:layout_width="fill_parent" 
+                    android:layout_height="wrap_content" 
+                    android:layout_margin="4.0dip">
+                    <TextView 
+                        android:textAppearance="?android:textAppearanceMedium" 
+                        android:textColor="#ff000000" 
+                        android:visibility="invisible" 
+                        android:layout_width="wrap_content"
+                         android:layout_height="wrap_content" 
+                         android:text="占位" />
+                    <TextView 
+                        android:textAppearance="?android:textAppearanceMedium" 
+                        android:textColor="#ff000000" 
+                        android:layout_width="wrap_content" 
+                        android:layout_height="wrap_content" 
+                        android:text="小班面积：" />
+                    <EditText android:enabled="false" 
+                        android:id="@+id/et_xbmj" 
+                        android:focusable="false" 
+                        android:layout_width="0.0dip" 
+                        android:layout_height="wrap_content" 
+                        android:editable="false" 
+                        android:textColor="#426ab3"
+                        android:layout_weight="1.0"  />
+                    <TextView 
+                        android:textAppearance="?android:textAppearanceMedium" 
+                        android:textColor="#ff000000" 
+                        android:visibility="gone" 
+                        android:layout_width="wrap_content" 
+                        android:layout_height="wrap_content" 
+                        android:text="亩" />
+                    <TextView 
+                        android:textAppearance="?android:textAppearanceMedium" 
+                        android:textColor="#ff000000" 
+                        android:layout_width="wrap_content" 
+                        android:layout_height="wrap_content" 
+                        android:layout_marginLeft="8.0dip" 
+                        android:text="可作业面积：" />
+                    <LinearLayout 
+                        android:layout_width="0.0dip" 
+                        android:layout_height="wrap_content" 
+                        android:layout_weight="1.0">
+                        <EditText android:id="@+id/et_kzymj" 
+                            android:layout_width="0.0dip" 
+                            android:layout_height="wrap_content" 
+                            android:layout_weight="1.0" 
+                            android:inputType="numberDecimal"  />
+                        <TextView 
+                            android:textAppearance="?android:textAppearanceMedium" 
+                            android:textColor="#ff000000" 
+                            android:layout_width="wrap_content" 
+                            android:layout_height="wrap_content" 
+                            android:text="亩" />
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout 
+                    android:gravity="center|left" 
+                    android:layout_width="fill_parent" 
+                    android:layout_height="wrap_content" 
+                    android:layout_margin="4.0dip">
+                    <TextView 
+                        android:textAppearance="?android:textAppearanceMedium" 
+                        android:textColor="#ff000000" 
+                        android:visibility="invisible" 
+                        android:layout_width="wrap_content" 
+                        android:layout_height="wrap_content" 
+                        android:text="占位占位" />
+                    <TextView 
+                        android:textAppearance="?android:textAppearanceMedium" 
+                        android:textColor="#ff000000" 
+                        android:layout_width="wrap_content" 
+                        android:layout_height="wrap_content" 
+                        android:text="权属：" />
+                    <Spinner android:id="@+id/sp_qs" 
+                        android:layout_width="0.0dip" 
+                        android:layout_height="wrap_content" 
+                        android:layout_weight="1.0" 
+                        android:spinnerMode="dropdown"/>
+                    <TextView 
+                        android:textAppearance="?android:textAppearanceMedium" 
+                        android:textColor="#ff000000" 
+                        android:visibility="invisible" 
+                        android:layout_width="wrap_content" 
+                        android:layout_height="wrap_content" 
+                        android:text="占位占位" />
+                    <TextView 
+                        android:textAppearance="?android:textAppearanceMedium" 
+                        android:textColor="#ff000000" 
+                        android:layout_width="wrap_content" 
+                        android:layout_height="wrap_content" 
+                        android:layout_marginLeft="8.0dip" 
+                        android:text="海拔：" />
+                    <EditText 
+                        android:id="@+id/et_hb" 
+                        android:layout_width="0.0dip" 
+                        android:layout_height="wrap_content" 
+                        android:layout_weight="1.0" 
+                        android:inputType="numberDecimal"  />
+                </LinearLayout>
+                <LinearLayout 
+                    android:gravity="center|left" 
+                    android:layout_width="fill_parent" 
+                    android:layout_height="wrap_content" 
+                    android:layout_margin="4.0dip">
+                    <TextView 
+                        android:textAppearance="?android:textAppearanceMedium" 
+                        android:textColor="#ff000000" 
+                        android:visibility="invisible" 
+                        android:layout_width="wrap_content" 
+                        android:layout_height="wrap_content" 
+                        android:text="占位占位" />
+                    <TextView 
+                        android:textAppearance="?android:textAppearanceMedium" 
+                        android:textColor="#ff000000" 
+                        android:layout_width="wrap_content" 
+                        android:layout_height="wrap_content" 
+                        android:text="坡位：" />
+                    <Spinner 
+                        android:id="@+id/sp_pw" 
+                        android:layout_width="0.0dip" 
+                        android:layout_height="wrap_content" 
+                        android:layout_weight="1.0" 
+                        android:spinnerMode="dropdown"/>
+                    <TextView 
+                        android:textAppearance="?android:textAppearanceMedium" 
+                        android:textColor="#ff000000" 
+                        android:layout_width="wrap_content" 
+                        android:layout_height="wrap_content" 
+                        android:layout_marginLeft="8.0dip" 
+                        android:text="坡向：" />
+                    <Spinner android:id="@+id/sp_px" 
+                        android:layout_width="0.0dip" 
+                        android:layout_height="wrap_content" 
+                        android:layout_weight="1.0" 
+                        android:spinnerMode="dropdown"/>
+                    <TextView 
+                        android:textAppearance="?android:textAppearanceMedium" 
+                        android:textColor="#ff000000" 
+                        android:layout_width="wrap_content" 
+                        android:layout_height="wrap_content" 
+                        android:layout_marginLeft="8.0dip" 
+                        android:text="坡度：" />
+                    <Spinner 
+                        android:id="@+id/sp_pd" 
+                        android:layout_width="0.0dip" 
+                        android:layout_height="wrap_content" 
+                        android:layout_weight="1.0" 
+                        android:spinnerMode="dropdown"/>
+                </LinearLayout>
+                <LinearLayout 
+                    android:gravity="center|left" 
+                    android:layout_width="fill_parent" 
+                    android:layout_height="wrap_content" 
+                    android:layout_margin="4.0dip">
+                    <TextView 
+                        android:textAppearance="?android:textAppearanceMedium" 
+                        android:textColor="#ff000000" 
+                        android:visibility="invisible" 
+                        android:layout_width="wrap_content" 
+                        android:layout_height="wrap_content" 
+                        android:text="占位" />
+                    <TextView android:textAppearance="?android:textAppearanceMedium" 
+                        android:textColor="#ff000000" 
+                        android:layout_width="wrap_content" 
+                        android:layout_height="wrap_content" 
+                        android:text="土壤名称：" />
+                    <Spinner android:id="@+id/sp_trmc" 
+                        android:layout_width="0.0dip" 
+                        android:layout_height="wrap_content" 
+                        android:layout_weight="1.0" 
+                        android:spinnerMode="dropdown"/>
+                    <TextView 
+                        android:textAppearance="?android:textAppearanceMedium" 
+                        android:textColor="#ff000000" 
+                        android:visibility="invisible" 
+                        android:layout_width="wrap_content" 
+                        android:layout_height="wrap_content" 
+                        android:text="占位" />
+                    <TextView 
+                        android:textAppearance="?android:textAppearanceMedium" 
+                        android:textColor="#ff000000" 
+                        android:layout_width="wrap_content" 
+                        android:layout_height="wrap_content" 
+                        android:layout_marginLeft="8.0dip" 
+                        android:text="土层厚度：" />
+                    <Spinner 
+                        android:id="@+id/sp_tchd"
+                        android:layout_width="0.0dip" 
+                        android:layout_height="wrap_content" 
+                        android:layout_weight="1.0"
+                        android:spinnerMode="dropdown" />
+                </LinearLayout>
+                <LinearLayout 
+                    android:gravity="center|left" 
+                    android:layout_width="fill_parent" 
+                    android:layout_height="wrap_content" 
+                    android:layout_margin="4.0dip">
+                    <TextView 
+                        android:textAppearance="?android:textAppearanceMedium" 
+                        android:textColor="#ff000000" 
+                        android:layout_width="wrap_content" 
+                        android:layout_height="wrap_content" 
+                        android:text="土壤肥力状况：" />
+                    <Spinner 
+                        android:id="@+id/sp_trflzk" 
+                        android:layout_width="0.0dip" 
+                        android:layout_height="wrap_content" 
+                        android:layout_weight="1.0" 
+                        android:spinnerMode="dropdown"/>
+                    <TextView 
+                        android:textAppearance="?android:textAppearanceMedium" 
+                        android:textColor="#ff000000" 
+                        android:layout_width="wrap_content" 
+                        android:layout_height="wrap_content" 
+                        android:layout_marginLeft="8.0dip" 
+                        android:text="土壤侵蚀程度：" />
+                    <Spinner 
+                        android:id="@+id/sp_trqscd" 
+                        android:layout_width="0.0dip" 
+                        android:layout_height="wrap_content" 
+                        android:layout_weight="1.0"
+                        android:spinnerMode="dropdown" />
+                </LinearLayout>
+                <LinearLayout 
+                    android:gravity="center|left" 
+                    android:layout_width="fill_parent" 
+                    android:layout_height="wrap_content" 
+                    android:layout_margin="4.0dip">
+                    <TextView 
+                        android:textAppearance="?android:textAppearanceMedium" 
+                        android:textColor="#ff000000" 
+                        android:visibility="invisible" 
+                        android:layout_width="wrap_content" 
+                        android:layout_height="wrap_content" 
+                        android:text="占位" />
+                    <TextView 
+                        android:textAppearance="?android:textAppearanceMedium" 
+                        android:textColor="#ff000000" 
+                        android:layout_width="wrap_content" 
+                        android:layout_height="wrap_content" 
+                        android:text="土壤ph值：" />
+                    <EditText 
+                        android:id="@+id/et_ph" 
+                        android:layout_width="0.0dip" 
+                        android:layout_height="wrap_content" 
+                        android:text="7.5" 
+                        android:layout_weight="1.0" 
+                        android:inputType="numberDecimal" />
+                    <TextView 
+                        android:textAppearance="?android:textAppearanceMedium"
+                         android:textColor="#ff000000" 
+                         android:visibility="invisible" 
+                         android:layout_width="wrap_content" 
+                         android:layout_height="wrap_content" 
+                         android:text="占位" />
+                    <TextView 
+                        android:textAppearance="?android:textAppearanceMedium" 
+                        android:textColor="#ff000000" 
+                        android:layout_width="wrap_content" 
+                        android:layout_height="wrap_content" 
+                        android:layout_marginLeft="8.0dip" 
+                        android:text="植被类型：" />
+                    <Spinner 
+                        android:id="@+id/sp_zblx" 
+                        android:layout_width="0.0dip" 
+                        android:layout_height="wrap_content" 
+                        android:layout_weight="1.0" 
+                        android:spinnerMode="dropdown"/>
+                </LinearLayout>
+                <LinearLayout 
+                    android:gravity="center|left" 
+                    android:layout_width="fill_parent" 
+                    android:layout_height="wrap_content" 
+                    android:layout_margin="4.0dip">
+                    <TextView 
+                        android:textAppearance="?android:textAppearanceMedium" 
+                        android:textColor="#ff000000" 
+                        android:visibility="invisible" 
+                        android:layout_width="wrap_content" 
+                        android:layout_height="wrap_content" 
+                        android:text="占位" />
+                    <TextView 
+                        android:textAppearance="?android:textAppearanceMedium" 
+                        android:textColor="#ff000000" 
+                        android:layout_width="wrap_content" 
+                        android:layout_height="wrap_content" 
+                        android:text="植被盖度：" />
+                    <EditText android:id="@+id/et_zbgd" 
+                        android:layout_width="0.0dip" 
+                        android:layout_height="wrap_content" 
+                        android:layout_weight="1.0" 
+                        android:inputType="numberDecimal"/>
+                    <TextView 
+                        android:textAppearance="?android:textAppearanceMedium" 
+                        android:textColor="#ff000000" 
+                        android:visibility="invisible" 
+                        android:layout_width="wrap_content" 
+                        android:layout_height="wrap_content" 
+                        android:text="占位" />
+                    <TextView 
+                        android:textAppearance="?android:textAppearanceMedium" 
+                        android:textColor="#ff000000" 
+                        android:layout_width="wrap_content" 
+                        android:layout_height="wrap_content" 
+                        android:layout_marginLeft="8.0dip" 
+                        android:text="植被高度：" />
+                    <EditText android:id="@+id/et_zbhd" 
+                        android:layout_width="0.0dip" 
+                        android:layout_height="wrap_content" 
+                        android:layout_weight="1.0" 
+                        android:inputType="numberDecimal" />
+                </LinearLayout>
+                <LinearLayout 
+                    android:gravity="center|left" 
+                    android:layout_width="fill_parent" 
+                    android:layout_height="wrap_content" 
+                    android:layout_margin="4.0dip">
+                    <TextView 
+                        android:textAppearance="?android:textAppearanceMedium" 
+                        android:textColor="#ff000000" 
+                        android:visibility="invisible" 
+                        android:layout_width="wrap_content" 
+                        android:layout_height="wrap_content" 
+                        android:text="占位" />
+                    <TextView 
+                        android:textAppearance="?android:textAppearanceMedium" 
+                        android:textColor="#ff000000" 
+                        android:layout_width="wrap_content" 
+                        android:layout_height="wrap_content" 
+                        android:text="是否变更：" />
+                    <Spinner 
+                        android:id="@+id/sp_sfbg" 
+                        android:layout_width="0.0dip" 
+                        android:layout_height="wrap_content" 
+                        android:layout_weight="1.0" 
+                        android:spinnerMode="dropdown"/>
+                    <TextView 
+                        android:textAppearance="?android:textAppearanceMedium" 
+                        android:textColor="#ff000000" 
+                        android:visibility="invisible" 
+                        android:layout_width="wrap_content" 
+                        android:layout_height="wrap_content" 
+                        android:text="占位占位" />
+                    <TextView 
+                        android:textAppearance="?android:textAppearanceMedium" 
+                        android:textColor="#ff000000" 
+                        android:layout_width="wrap_content" 
+                        android:layout_height="wrap_content" 
+                        android:layout_marginLeft="8.0dip" 
+                        android:text="备注：" />
+                    <EditText 
+                        android:id="@+id/et_bgyy" 
+                        android:layout_width="0.0dip" 
+                        android:layout_height="wrap_content" 
+                        android:layout_weight="1.0"  />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

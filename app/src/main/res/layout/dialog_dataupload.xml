@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#f1f1f1"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <TextView
+        android:id="@+id/tvLocaleText1"
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:text="数据导出"
+    	android:textColor="#000000"
+    	android:background="@layout/v1_bk_head_splitbar" />
+
+     <LinearLayout android:orientation="vertical"
+ 	    android:layout_width="fill_parent"
+    	android:layout_height="wrap_content">
+	     <LinearLayout
+	 	    android:layout_width="fill_parent"
+	    	android:layout_height="wrap_content">
+			 		<TextView
+			 		    android:id="@+id/tvLocaleText2"
+			 		    android:layout_width="wrap_content"
+			 		    android:layout_height="wrap_content"
+			 		    android:text="导出目录："
+			 		    android:textColor="#000000"
+			 		    android:textAppearance="?android:attr/textAppearanceMedium" />
+			 		<EditText
+			 		    android:id="@+id/pn_projectname"
+			 		    android:text="新建工程"
+			 		    android:layout_width="wrap_content"
+			 		    android:layout_height="wrap_content"
+			 		    android:layout_weight="1"/>
+	 	 </LinearLayout>	 
+ 	 
+	     
+	 	 
+	     <LinearLayout android:gravity="center"
+	 	    android:layout_width="fill_parent"
+	    	android:layout_height="wrap_content"
+	    	android:id="@+id/layout_exportFarmat">
+			 		<TextView
+			 		    android:id="@+id/tvLocaleText3"
+			 		    android:layout_width="wrap_content"
+			 		    android:layout_height="wrap_content"
+			 		    android:text="导出格式："
+			 		    android:textColor="#000000"
+			 		    android:textAppearance="?android:attr/textAppearanceMedium" 
+			 		    android:visibility="invisible"/>
+			 		<Spinner
+			 		    android:id="@+id/sp_format"
+			 		    android:layout_width="wrap_content"
+			 		    android:layout_height="wrap_content"
+			 		    android:layout_weight="1"/>
+	 	 </LinearLayout>
+	 	  <LinearLayout android:gravity="left|center"
+	 	    android:layout_width="fill_parent"
+	    	android:layout_height="wrap_content"
+	    	android:id="@+id/layout_exportSetting">
+			 		<TextView
+			 		    android:id="@+id/tvLocaleText34"
+			 		    android:layout_width="wrap_content"
+			 		    android:layout_height="wrap_content"
+			 		    android:text="上传设置："
+			 		    android:textColor="#000000"
+			 		    android:textAppearance="?android:attr/textAppearanceMedium" />
+			 		<CheckBox 
+			 		    android:id="@+id/ck_uploadTrace"
+			 		    android:layout_width="wrap_content"
+			 		    android:layout_height="wrap_content"
+			 		    android:checked="true"
+			 		    android:text="上传航迹"
+			 		    android:layout_marginRight="20dp"
+			 		    android:textColor="#000000"
+			 		     />
+			 		<CheckBox 
+			 		    android:id="@+id/ck_uploadPhotos"
+			 		    android:layout_width="wrap_content"
+			 		    android:layout_height="wrap_content"
+			 		    android:checked="true"
+			 		    android:text="上传照片"
+			 		    android:textColor="#000000"/>
+			 		
+	 	 </LinearLayout>
+
+	     <LinearLayout android:gravity="center"
+	         android:orientation="vertical"
+	 	    android:layout_width="fill_parent"
+	 	    android:layout_height="wrap_content">
+		     <TextView
+		        android:id="@+id/tvLocaleText4"
+		        android:layout_width="fill_parent"
+		    	android:layout_height="wrap_content"
+		    	android:text="导出图层"
+		    	android:textColor="#000000"
+		    	android:background="@layout/v1_bk_head_splitbar" />
+		     <LinearLayout android:id="@+id/pl_layerlist"
+		         android:layout_toLeftOf="@+id/pl_toolbar"
+			 	    android:layout_width="fill_parent"
+			    	android:layout_height="wrap_content">
+			    	<include android:id="@+id/in_result1"  layout="@layout/v1_headerlistview" />
+			 </LinearLayout>  		     
+		</LinearLayout>		 	  
+ 	 </LinearLayout>
+</LinearLayout>

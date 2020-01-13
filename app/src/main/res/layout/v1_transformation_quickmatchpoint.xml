@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#f1f1f1"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tvCaption"
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:text="1.将当前所站位置移动到屏幕中心十字"
+    	android:textColor="#000000"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+    	/>
+    <CheckBox 
+        android:id="@+id/cbShowCenterCross"
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:checked="true"
+    	android:text="显示屏幕中心十字"
+    	android:textColor="#000000"
+		android:textAppearance="?android:attr/textAppearanceMedium"/>
+     <LinearLayout android:orientation="horizontal"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content">
+
+    	<LinearLayout
+	         android:orientation="vertical"
+	         android:layout_weight="1"
+	 	    android:layout_width="fill_parent"
+	    	android:layout_height="fill_parent">
+		     <LinearLayout
+		 	    android:layout_width="fill_parent"
+		    	android:layout_height="wrap_content">
+		 		<TextView
+		 		    android:id="@+id/tvLocaleText2"
+		 		    android:layout_width="wrap_content"
+		 		    android:layout_height="wrap_content"
+		 		    android:text="位置点X："
+		 		    android:textColor="#000000"
+		 		    android:textAppearance="?android:attr/textAppearanceMedium" />
+		 		<EditText
+		 		    android:id="@+id/et_X1"
+		 		    android:text="0"
+		 		    android:inputType="numberSigned|numberDecimal"
+		 		    android:layout_width="wrap_content"
+		 		    android:layout_height="wrap_content"
+		 		    android:layout_weight="1"/>
+		 	 </LinearLayout>	
+		     <LinearLayout
+		 	    android:layout_width="fill_parent"
+		    	android:layout_height="wrap_content">
+		 		<TextView
+		 		    android:id="@+id/tvLocaleText42"
+		 		    android:layout_width="wrap_content"
+		 		    android:layout_height="wrap_content"
+		 		    android:text="位置点Y："
+		 		    android:textColor="#000000"
+		 		    android:textAppearance="?android:attr/textAppearanceMedium" />
+		 		<EditText
+		 		    android:id="@+id/et_Y1"
+		 		    android:text="0"
+		 		    android:inputType="numberSigned|numberDecimal"
+		 		    android:layout_width="wrap_content"
+		 		    android:layout_height="wrap_content"
+		 		    android:layout_weight="1"/>
+		 	 </LinearLayout>
+		 	 </LinearLayout>
+		 	 <LinearLayout
+		    	    android:gravity="center"
+			 	    android:layout_width="wrap_content"
+			    	android:layout_height="fill_parent">
+    			<Button
+		    	    android:id="@+id/btAddLoadPoint"
+		    	    android:layout_width="wrap_content"
+		    	    android:layout_height="wrap_content"
+				    android:background="@drawable/buttonstyle"
+		    	    android:tag="增加"
+		    	    android:textAppearance="?android:attr/textAppearanceMedium" 
+		    	    android:text="当前位置点"
+		    	    android:visibility="invisible"/>"
+		    </LinearLayout>
+	</LinearLayout>
+		 	<LinearLayout
+		 	     android:layout_width="fill_parent"
+         		 android:layout_height="wrap_content" >
+		 	     <TextView
+			        android:layout_width="fill_parent"
+			    	android:layout_height="wrap_content"
+			    	android:text="2. GPS定位当前坐标"
+			    	android:textColor="#000000"
+			        android:textAppearance="?android:attr/textAppearanceMedium"
+		    	/>
+		 	 </LinearLayout>
+		     <LinearLayout
+		 	    android:layout_width="fill_parent"
+		    	android:layout_height="wrap_content">
+		 		<TextView
+		 		    android:id="@+id/tvLocaleText12"
+		 		    android:layout_width="wrap_content"
+		 		    android:layout_height="wrap_content"
+		 		    android:text="GPS采样点数："
+		 		    android:textColor="#000000"
+		 		    android:textAppearance="?android:attr/textAppearanceMedium" />
+		 		<EditText
+		 		    android:id="@+id/etGPSPoints"
+		 		    android:text="1"
+		 		    android:inputType="numberDecimal"
+		 		    android:layout_width="wrap_content"
+		 		    android:layout_height="wrap_content"
+		 		    android:layout_weight="1"/>
+		 	 </LinearLayout>
+		 	 		 	 
+	
+		
+		
+     <LinearLayout android:orientation="horizontal"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginBottom="25dp">
+
+    	<LinearLayout
+	         android:orientation="vertical"
+	         android:layout_weight="1"
+	 	     android:layout_width="fill_parent"
+	    	 android:layout_height="fill_parent">
+		     <LinearLayout
+		 	    android:layout_width="fill_parent"
+		    	android:layout_height="wrap_content">
+		 		<TextView
+		 		    android:id="@+id/tvLocaleText22"
+		 		    android:layout_width="wrap_content"
+		 		    android:layout_height="wrap_content"
+		 		    android:text="目标X："
+		 		    android:textColor="#000000"
+		 		    android:textAppearance="?android:attr/textAppearanceMedium" />
+		 		<EditText
+		 		    android:id="@+id/et_X2"
+		 		    android:text="0"
+		 		    android:inputType="numberSigned|numberDecimal"
+		 		    android:layout_width="wrap_content"
+		 		    android:layout_height="wrap_content"
+		 		    android:layout_weight="1"/>
+		 	 </LinearLayout>	
+		     <LinearLayout
+		 	    android:layout_width="fill_parent"
+		    	android:layout_height="wrap_content">
+		 		<TextView
+		 		    android:id="@+id/tvLocaleText32"
+		 		    android:layout_width="wrap_content"
+		 		    android:layout_height="wrap_content"
+		 		    android:text="目标Y："
+		 		    android:textColor="#000000"
+		 		    android:textAppearance="?android:attr/textAppearanceMedium" />
+		 		<EditText
+		 		    android:id="@+id/et_Y2"
+		 		    android:text="0"
+		 		    android:inputType="numberSigned|numberDecimal"
+		 		    android:layout_width="wrap_content"
+		 		    android:layout_height="wrap_content"
+		 		    android:layout_weight="1"/>
+		 	 </LinearLayout>	
+		</LinearLayout>	 
+    	<LinearLayout
+    	    android:gravity="center"
+	 	    android:layout_width="wrap_content"
+	    	android:layout_height="fill_parent">
+    	
+    			<Button
+		    	    android:id="@+id/btAddGPSPoint"
+		    	    android:layout_width="wrap_content"
+		    	    android:layout_height="wrap_content"
+				    android:background="@drawable/buttonstyle"
+		    	    android:tag="增加"
+		    	    android:textAppearance="?android:attr/textAppearanceMedium" 
+		    	    android:text=" GPS定位    "/>
+		</LinearLayout>
+	</LinearLayout>
+
+
+</LinearLayout>

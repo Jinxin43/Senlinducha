@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#f0f0f0"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="分配非林地面积"
+            android:visibility="invisible"
+            android:textAppearance="?android:textAppearanceSmall"
+            android:textColor="#000000" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/ll_province"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="非林地面积："
+                android:textAppearance="?android:textAppearanceSmall"
+                android:textColor="#000000" />
+
+            <EditText
+                android:id="@+id/et_allarea"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:text=""
+                android:textAppearance="?android:textAppearanceSmall" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="本次分配面积："
+                android:textAppearance="?android:textAppearanceSmall"
+                android:textColor="#000000" />
+
+            <EditText
+                android:id="@+id/et_splitarea"
+                android:layout_width="145dp"
+                android:layout_height="wrap_content"
+                 
+                android:textAppearance="?android:textAppearanceSmall" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_city"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+             <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="地类"
+                android:textAppearance="?android:textAppearanceSmall"
+                android:visibility="invisible"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="地类："
+                android:textAppearance="?android:textAppearanceSmall"
+                android:textColor="#000000" />
+
+            <Spinner
+                android:id="@+id/sp_dilei"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0" />
+
+            <EditText
+                android:id="@+id/et_dileiarea"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:enabled="false"
+                  android:visibility="invisible"
+                android:text="" >
+            </EditText>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_county"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:visibility="gone" >
+
+             <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="地类"
+                android:textAppearance="?android:textAppearanceSmall"
+                android:visibility="invisible"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="权属："
+                android:textAppearance="?android:textAppearanceSmall"
+                android:textColor="#000000" />
+
+            <Spinner
+                android:id="@+id/sp_quanshu"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0" />
+
+            <EditText
+                android:id="@+id/et_quanshuarea"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:enabled="false"
+               android:visibility="invisible"
+                android:textAppearance="?android:textAppearanceSmall" >
+            </EditText>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_town"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="森林类别："
+                android:textAppearance="?android:textAppearanceSmall"
+                android:textColor="#000000" />
+
+            <Spinner
+                android:id="@+id/sp_sllb"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0" />
+
+            <EditText
+                android:id="@+id/et_sllbarea"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:enabled="false"
+              android:visibility="invisible"
+                android:textAppearance="?android:textAppearanceSmall" >
+            </EditText>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_cun"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="保护等级："
+                android:textAppearance="?android:textAppearanceSmall"
+                android:textColor="#000000" />
+
+            <Spinner
+                android:id="@+id/sp_bhdj"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0" />
+
+            <EditText
+                android:id="@+id/et_bhdjarea"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:enabled="false"
+               android:visibility="invisible"
+                android:textAppearance="?android:textAppearanceSmall" >
+            </EditText>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

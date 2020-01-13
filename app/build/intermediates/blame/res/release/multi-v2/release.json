@@ -1,0 +1,1638 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\DT\\AndroidStudioProjects\\Com.DingTu.ForstryTools2\\app\\build\\intermediates\\res\\merged\\release\\values-km_values-km.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\DT\\.gradle\\caches\\transforms-2\\files-2.1\\ca9cc4e7eaebd6d583c13b6688a53b30\\res\\values-km\\values-km.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\DT\\AndroidStudioProjects\\Com.DingTu.ForstryTools2\\app\\build\\intermediates\\res\\merged\\release\\values-sq_values-sq.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\DT\\.gradle\\caches\\transforms-2\\files-2.1\\ca9cc4e7eaebd6d583c13b6688a53b30\\res\\values-sq\\values-sq.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\DT\\AndroidStudioProjects\\Com.DingTu.ForstryTools2\\app\\build\\intermediates\\res\\merged\\release\\values-mr_values-mr.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\DT\\.gradle\\caches\\transforms-2\\files-2.1\\ca9cc4e7eaebd6d583c13b6688a53b30\\res\\values-mr\\values-mr.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\DT\\AndroidStudioProjects\\Com.DingTu.ForstryTools2\\app\\build\\intermediates\\res\\merged\\release\\values-v24_values-v24.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\DT\\.gradle\\caches\\transforms-2\\files-2.1\\662b96c90943847b0c53e41c15b2b060\\res\\values-v24\\values-v24.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,121,182,248",
+                        "endColumns": "65,60,65,66",
+                        "endOffsets": "116,177,243,310"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\DT\\AndroidStudioProjects\\Com.DingTu.ForstryTools2\\app\\build\\intermediates\\res\\merged\\release\\values-pl_values-pl.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\DT\\.gradle\\caches\\transforms-2\\files-2.1\\ca9cc4e7eaebd6d583c13b6688a53b30\\res\\values-pl\\values-pl.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\DT\\AndroidStudioProjects\\Com.DingTu.ForstryTools2\\app\\build\\intermediates\\res\\merged\\release\\values-vi_values-vi.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\DT\\.gradle\\caches\\transforms-2\\files-2.1\\ca9cc4e7eaebd6d583c13b6688a53b30\\res\\values-vi\\values-vi.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\DT\\AndroidStudioProjects\\Com.DingTu.ForstryTools2\\app\\build\\intermediates\\res\\merged\\release\\values_values.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\DT\\.gradle\\caches\\transforms-2\\files-2.1\\ca9cc4e7eaebd6d583c13b6688a53b30\\res\\values\\values.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,132,133,134,135,136,137,138,139,140,141,142,143,144,145,146,147,148,149,150,151,152,153,154,155,156,157,158,159,160,161,162,163,164,165,166,167,171,172,176,177,178,6,13,56,88,125",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,124,187,245,7725,7795,7863,7935,8005,8066,8140,8213,8274,8335,8397,8461,8523,8584,8652,8752,8812,8878,8951,9020,9077,9129,9191,9263,9339,9374,9409,9459,9520,9577,9611,9646,9681,9751,9822,9939,10140,10250,10451,10580,10652,319,617,3523,5588,7348",
+                        "endLines": "2,3,4,5,132,133,134,135,136,137,138,139,140,141,142,143,144,145,146,147,148,149,150,151,152,153,154,155,156,157,158,159,160,161,162,163,164,165,166,170,171,175,176,177,178,12,55,87,124,131",
+                        "endColumns": "68,62,57,73,69,67,71,69,60,73,72,60,60,61,63,61,60,67,99,59,65,72,68,56,51,61,71,75,34,34,49,60,56,33,34,34,69,70,116,12,109,12,128,71,66,24,24,24,24,24",
+                        "endOffsets": "119,182,240,314,7790,7858,7930,8000,8061,8135,8208,8269,8330,8392,8456,8518,8579,8647,8747,8807,8873,8946,9015,9072,9124,9186,9258,9334,9369,9404,9454,9515,9572,9606,9641,9676,9746,9817,9934,10135,10245,10446,10575,10647,10714,612,3518,5583,7343,7720"
+                    },
+                    "to": {
+                        "startLines": "3,4,7,9,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,42,43,45,46,47,48,49,50,51,52,54,83,106,107,112,115,120,126,127,139,245,288,323,360",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "116,185,408,539,872,942,1010,1082,1152,1213,1287,1360,1421,1482,1544,1608,1670,1731,1799,1899,1959,2025,2098,2167,2224,2276,2604,2676,2800,2835,2870,2920,2981,3038,3072,3107,3202,4933,6229,6346,6613,6906,7173,7612,7684,8351,14468,17374,19562,21322",
+                        "endLines": "3,4,7,9,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,42,43,45,46,47,48,49,50,51,52,54,83,106,110,112,118,120,126,127,145,287,319,359,366",
+                        "endColumns": "68,62,57,73,69,67,71,69,60,73,72,60,60,61,63,61,60,67,99,59,65,72,68,56,51,61,71,75,34,34,49,60,56,33,34,34,69,70,116,12,109,12,128,71,66,24,24,24,24,24",
+                        "endOffsets": "180,243,461,608,937,1005,1077,1147,1208,1282,1355,1416,1477,1539,1603,1665,1726,1794,1894,1954,2020,2093,2162,2219,2271,2333,2671,2747,2830,2865,2915,2976,3033,3067,3102,3137,3267,4999,6341,6542,6718,7102,7297,7679,7746,8644,17369,19434,21317,21694"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\DT\\AndroidStudioProjects\\Com.DingTu.ForstryTools2\\app\\src\\main\\res\\values\\styles.xml",
+                    "from": {
+                        "startLines": "3,8",
+                        "startColumns": "4,4",
+                        "startOffsets": "63,255",
+                        "endLines": "6,11",
+                        "endColumns": "12,12",
+                        "endOffsets": "243,434"
+                    },
+                    "to": {
+                        "startLines": "94,98",
+                        "startColumns": "4,4",
+                        "startOffsets": "5613,5795",
+                        "endLines": "97,101",
+                        "endColumns": "12,12",
+                        "endOffsets": "5790,5971"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\DT\\.gradle\\caches\\transforms-2\\files-2.1\\662b96c90943847b0c53e41c15b2b060\\res\\values\\values.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,144,215,288,341,394,447,500,560,626,748,809,875",
+                        "endColumns": "88,70,72,52,52,52,52,59,65,121,60,65,66",
+                        "endOffsets": "139,210,283,336,389,442,495,555,621,743,804,870,937"
+                    },
+                    "to": {
+                        "startLines": "5,6,8,37,38,39,40,53,111,113,114,119,121",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "248,337,466,2338,2391,2444,2497,3142,6547,6723,6845,7107,7302",
+                        "endColumns": "88,70,72,52,52,52,52,59,65,121,60,65,66",
+                        "endOffsets": "332,403,534,2386,2439,2492,2545,3197,6608,6840,6901,7168,7364"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\DT\\AndroidStudioProjects\\Com.DingTu.ForstryTools2\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "11,4,5,12,15,14,35,17,16,24,22,26,20,33,29,31,27,28,30,32,34,13",
+                        "startColumns": "4,5,3,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "282,64,107,336,454,417,1816,579,494,1104,924,1283,741,1682,1469,1582,1365,1417,1528,1634,1733,375",
+                        "endColumns": "52,44,46,37,38,35,52,54,83,75,77,80,75,49,57,50,50,50,52,46,81,40",
+                        "endOffsets": "330,103,150,369,488,448,1864,629,573,1175,997,1359,812,1727,1522,1628,1411,1463,1576,1676,1810,411"
+                    },
+                    "to": {
+                        "startLines": "55,58,59,60,61,66,67,68,69,70,71,72,73,76,77,78,79,80,81,82,85,86",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "3272,3445,3489,3537,3575,3922,3958,4011,4066,4150,4226,4304,4385,4572,4622,4680,4731,4782,4833,4886,5072,5154",
+                        "endColumns": "52,43,47,37,38,35,52,54,83,75,77,80,75,49,57,50,50,50,52,46,81,40",
+                        "endOffsets": "3320,3484,3532,3570,3609,3953,4006,4061,4145,4221,4299,4380,4456,4617,4675,4726,4777,4828,4881,4928,5149,5190"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\DT\\AndroidStudioProjects\\Com.DingTu.ForstryTools2\\app\\src\\main\\res\\values\\v1_popupmenu_style.xml",
+                    "from": {
+                        "startLines": "3",
+                        "startColumns": "0",
+                        "startOffsets": "66",
+                        "endLines": "6",
+                        "endColumns": "8",
+                        "endOffsets": "317"
+                    },
+                    "to": {
+                        "startLines": "102",
+                        "startColumns": "4",
+                        "startOffsets": "5976",
+                        "endLines": "105",
+                        "endColumns": "8",
+                        "endOffsets": "6224"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\DT\\AndroidStudioProjects\\Com.DingTu.ForstryTools2\\app\\src\\main\\res\\values\\dialog_style.xml",
+                    "from": {
+                        "startLines": "2,6",
+                        "startColumns": "4,4",
+                        "startOffsets": "57,306",
+                        "endLines": "5,9",
+                        "endColumns": "12,12",
+                        "endOffsets": "300,547"
+                    },
+                    "to": {
+                        "startLines": "90,122",
+                        "startColumns": "4,4",
+                        "startOffsets": "5368,7369",
+                        "endLines": "93,125",
+                        "endColumns": "12,12",
+                        "endOffsets": "5608,7607"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\DT\\AndroidStudioProjects\\Com.DingTu.ForstryTools2\\app\\src\\main\\res\\values\\attr.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "2",
+                        "startOffsets": "64",
+                        "endLines": "4",
+                        "endColumns": "22",
+                        "endOffsets": "185"
+                    },
+                    "to": {
+                        "startLines": "320",
+                        "startColumns": "4",
+                        "startOffsets": "19439",
+                        "endLines": "322",
+                        "endColumns": "22",
+                        "endOffsets": "19557"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\DT\\AndroidStudioProjects\\Com.DingTu.ForstryTools2\\app\\src\\main\\res\\values\\attrs_lock_pattern_view.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "19",
+                        "endLines": "8",
+                        "endColumns": "24",
+                        "endOffsets": "370"
+                    },
+                    "to": {
+                        "startLines": "367",
+                        "startColumns": "4",
+                        "startOffsets": "21699",
+                        "endLines": "373",
+                        "endColumns": "24",
+                        "endOffsets": "22039"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\DT\\AndroidStudioProjects\\Com.DingTu.ForstryTools2\\app\\src\\main\\res\\values\\dimens.xml",
+                    "from": {
+                        "startLines": "3,4",
+                        "startColumns": "4,4",
+                        "startOffsets": "92,151",
+                        "endColumns": "57,55",
+                        "endOffsets": "145,202"
+                    },
+                    "to": {
+                        "startLines": "13,14",
+                        "startColumns": "4,4",
+                        "startOffsets": "758,816",
+                        "endColumns": "57,55",
+                        "endOffsets": "811,867"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\DT\\AndroidStudioProjects\\Com.DingTu.ForstryTools2\\app\\src\\main\\res\\values\\seekbar.xml",
+                    "from": {
+                        "startLines": "11,2",
+                        "startColumns": "4,3",
+                        "startOffsets": "525,56",
+                        "endLines": "13,9",
+                        "endColumns": "9,12",
+                        "endOffsets": "695,513"
+                    },
+                    "to": {
+                        "startLines": "87,128",
+                        "startColumns": "4,4",
+                        "startOffsets": "5195,7751",
+                        "endLines": "89,135",
+                        "endColumns": "9,12",
+                        "endOffsets": "5363,8201"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\DT\\.gradle\\caches\\transforms-2\\files-2.1\\6be0c156e1e85d70bee443f210c00b0f\\res\\values\\values.xml",
+                    "from": {
+                        "startLines": "2,102,3,13",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,5935,116,724",
+                        "endLines": "2,104,12,101",
+                        "endColumns": "60,12,24,24",
+                        "endOffsets": "111,6075,719,5930"
+                    },
+                    "to": {
+                        "startLines": "2,136,146,156",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,8206,8649,9257",
+                        "endLines": "2,138,155,244",
+                        "endColumns": "60,12,24,24",
+                        "endOffsets": "111,8346,9252,14463"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\DT\\AndroidStudioProjects\\Com.DingTu.ForstryTools2\\app\\src\\main\\res\\values\\strings_activity_lock_set.xml",
+                    "from": {
+                        "startLines": "7,8,12,11,9,10,5,6,2",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "242,306,603,522,364,443,129,177,19",
+                        "endColumns": "62,56,71,79,77,77,46,63,67",
+                        "endOffsets": "300,358,670,597,437,516,171,236,82"
+                    },
+                    "to": {
+                        "startLines": "56,57,62,63,64,65,74,75,84",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "3325,3388,3614,3686,3766,3844,4461,4508,5004",
+                        "endColumns": "62,56,71,79,77,77,46,63,67",
+                        "endOffsets": "3383,3440,3681,3761,3839,3917,4503,4567,5067"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\DT\\AndroidStudioProjects\\Com.DingTu.ForstryTools2\\app\\src\\main\\res\\values\\FormStyle.xml",
+                    "from": {
+                        "startLines": "5,4,2,3,6",
+                        "startColumns": "3,3,3,3,1",
+                        "startOffsets": "205,156,57,102,254",
+                        "endColumns": "49,47,43,52,44",
+                        "endOffsets": "251,200,97,151,297"
+                    },
+                    "to": {
+                        "startLines": "10,11,12,41,44",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "613,664,713,2550,2752",
+                        "endColumns": "50,48,44,53,47",
+                        "endOffsets": "659,708,753,2599,2795"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\DT\\AndroidStudioProjects\\Com.DingTu.ForstryTools2\\app\\build\\intermediates\\res\\merged\\release\\values-am_values-am.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\DT\\.gradle\\caches\\transforms-2\\files-2.1\\ca9cc4e7eaebd6d583c13b6688a53b30\\res\\values-am\\values-am.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\DT\\AndroidStudioProjects\\Com.DingTu.ForstryTools2\\app\\build\\intermediates\\res\\merged\\release\\values-mk_values-mk.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\DT\\.gradle\\caches\\transforms-2\\files-2.1\\ca9cc4e7eaebd6d583c13b6688a53b30\\res\\values-mk\\values-mk.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\DT\\AndroidStudioProjects\\Com.DingTu.ForstryTools2\\app\\build\\intermediates\\res\\merged\\release\\values-zu_values-zu.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\DT\\.gradle\\caches\\transforms-2\\files-2.1\\ca9cc4e7eaebd6d583c13b6688a53b30\\res\\values-zu\\values-zu.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\DT\\AndroidStudioProjects\\Com.DingTu.ForstryTools2\\app\\build\\intermediates\\res\\merged\\release\\values-az_values-az.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\DT\\.gradle\\caches\\transforms-2\\files-2.1\\ca9cc4e7eaebd6d583c13b6688a53b30\\res\\values-az\\values-az.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\DT\\AndroidStudioProjects\\Com.DingTu.ForstryTools2\\app\\build\\intermediates\\res\\merged\\release\\values-kk_values-kk.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\DT\\.gradle\\caches\\transforms-2\\files-2.1\\ca9cc4e7eaebd6d583c13b6688a53b30\\res\\values-kk\\values-kk.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\DT\\AndroidStudioProjects\\Com.DingTu.ForstryTools2\\app\\build\\intermediates\\res\\merged\\release\\values-de_values-de.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\DT\\.gradle\\caches\\transforms-2\\files-2.1\\ca9cc4e7eaebd6d583c13b6688a53b30\\res\\values-de\\values-de.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\DT\\AndroidStudioProjects\\Com.DingTu.ForstryTools2\\app\\build\\intermediates\\res\\merged\\release\\values-hu_values-hu.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\DT\\.gradle\\caches\\transforms-2\\files-2.1\\ca9cc4e7eaebd6d583c13b6688a53b30\\res\\values-hu\\values-hu.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\DT\\AndroidStudioProjects\\Com.DingTu.ForstryTools2\\app\\build\\intermediates\\res\\merged\\release\\values-en-rXC_values-en-rXC.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\DT\\.gradle\\caches\\transforms-2\\files-2.1\\ca9cc4e7eaebd6d583c13b6688a53b30\\res\\values-en-rXC\\values-en-rXC.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "202",
+                        "endOffsets": "253"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\DT\\AndroidStudioProjects\\Com.DingTu.ForstryTools2\\app\\build\\intermediates\\res\\merged\\release\\values-lv_values-lv.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\DT\\.gradle\\caches\\transforms-2\\files-2.1\\ca9cc4e7eaebd6d583c13b6688a53b30\\res\\values-lv\\values-lv.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\DT\\AndroidStudioProjects\\Com.DingTu.ForstryTools2\\app\\build\\intermediates\\res\\merged\\release\\values-sv_values-sv.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\DT\\.gradle\\caches\\transforms-2\\files-2.1\\ca9cc4e7eaebd6d583c13b6688a53b30\\res\\values-sv\\values-sv.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\DT\\AndroidStudioProjects\\Com.DingTu.ForstryTools2\\app\\build\\intermediates\\res\\merged\\release\\values-is_values-is.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\DT\\.gradle\\caches\\transforms-2\\files-2.1\\ca9cc4e7eaebd6d583c13b6688a53b30\\res\\values-is\\values-is.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\DT\\AndroidStudioProjects\\Com.DingTu.ForstryTools2\\app\\build\\intermediates\\res\\merged\\release\\values-gu_values-gu.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\DT\\.gradle\\caches\\transforms-2\\files-2.1\\ca9cc4e7eaebd6d583c13b6688a53b30\\res\\values-gu\\values-gu.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\DT\\AndroidStudioProjects\\Com.DingTu.ForstryTools2\\app\\build\\intermediates\\res\\merged\\release\\values-pa_values-pa.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\DT\\.gradle\\caches\\transforms-2\\files-2.1\\ca9cc4e7eaebd6d583c13b6688a53b30\\res\\values-pa\\values-pa.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\DT\\AndroidStudioProjects\\Com.DingTu.ForstryTools2\\app\\build\\intermediates\\res\\merged\\release\\values-uz_values-uz.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\DT\\.gradle\\caches\\transforms-2\\files-2.1\\ca9cc4e7eaebd6d583c13b6688a53b30\\res\\values-uz\\values-uz.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\DT\\AndroidStudioProjects\\Com.DingTu.ForstryTools2\\app\\build\\intermediates\\res\\merged\\release\\values-ar_values-ar.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\DT\\.gradle\\caches\\transforms-2\\files-2.1\\ca9cc4e7eaebd6d583c13b6688a53b30\\res\\values-ar\\values-ar.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\DT\\AndroidStudioProjects\\Com.DingTu.ForstryTools2\\app\\build\\intermediates\\res\\merged\\release\\values-ja_values-ja.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\DT\\.gradle\\caches\\transforms-2\\files-2.1\\ca9cc4e7eaebd6d583c13b6688a53b30\\res\\values-ja\\values-ja.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\DT\\AndroidStudioProjects\\Com.DingTu.ForstryTools2\\app\\build\\intermediates\\res\\merged\\release\\values-fi_values-fi.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\DT\\.gradle\\caches\\transforms-2\\files-2.1\\ca9cc4e7eaebd6d583c13b6688a53b30\\res\\values-fi\\values-fi.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\DT\\AndroidStudioProjects\\Com.DingTu.ForstryTools2\\app\\build\\intermediates\\res\\merged\\release\\values-el_values-el.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\DT\\.gradle\\caches\\transforms-2\\files-2.1\\ca9cc4e7eaebd6d583c13b6688a53b30\\res\\values-el\\values-el.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\DT\\AndroidStudioProjects\\Com.DingTu.ForstryTools2\\app\\build\\intermediates\\res\\merged\\release\\values-v16_values-v16.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\DT\\.gradle\\caches\\transforms-2\\files-2.1\\ca9cc4e7eaebd6d583c13b6688a53b30\\res\\values-v16\\values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "65",
+                        "endOffsets": "116"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\DT\\AndroidStudioProjects\\Com.DingTu.ForstryTools2\\app\\build\\intermediates\\res\\merged\\release\\values-zh-rHK_values-zh-rHK.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\DT\\.gradle\\caches\\transforms-2\\files-2.1\\ca9cc4e7eaebd6d583c13b6688a53b30\\res\\values-zh-rHK\\values-zh-rHK.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\DT\\AndroidStudioProjects\\Com.DingTu.ForstryTools2\\app\\build\\intermediates\\res\\merged\\release\\values-or_values-or.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\DT\\.gradle\\caches\\transforms-2\\files-2.1\\ca9cc4e7eaebd6d583c13b6688a53b30\\res\\values-or\\values-or.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\DT\\AndroidStudioProjects\\Com.DingTu.ForstryTools2\\app\\build\\intermediates\\res\\merged\\release\\values-eu_values-eu.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\DT\\.gradle\\caches\\transforms-2\\files-2.1\\ca9cc4e7eaebd6d583c13b6688a53b30\\res\\values-eu\\values-eu.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\DT\\AndroidStudioProjects\\Com.DingTu.ForstryTools2\\app\\build\\intermediates\\res\\merged\\release\\values-sl_values-sl.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\DT\\.gradle\\caches\\transforms-2\\files-2.1\\ca9cc4e7eaebd6d583c13b6688a53b30\\res\\values-sl\\values-sl.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\DT\\AndroidStudioProjects\\Com.DingTu.ForstryTools2\\app\\build\\intermediates\\res\\merged\\release\\values-lo_values-lo.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\DT\\.gradle\\caches\\transforms-2\\files-2.1\\ca9cc4e7eaebd6d583c13b6688a53b30\\res\\values-lo\\values-lo.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\DT\\AndroidStudioProjects\\Com.DingTu.ForstryTools2\\app\\build\\intermediates\\res\\merged\\release\\values-tl_values-tl.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\DT\\.gradle\\caches\\transforms-2\\files-2.1\\ca9cc4e7eaebd6d583c13b6688a53b30\\res\\values-tl\\values-tl.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\DT\\AndroidStudioProjects\\Com.DingTu.ForstryTools2\\app\\build\\intermediates\\res\\merged\\release\\values-ka_values-ka.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\DT\\.gradle\\caches\\transforms-2\\files-2.1\\ca9cc4e7eaebd6d583c13b6688a53b30\\res\\values-ka\\values-ka.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\DT\\AndroidStudioProjects\\Com.DingTu.ForstryTools2\\app\\build\\intermediates\\res\\merged\\release\\values-fr-rCA_values-fr-rCA.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\DT\\.gradle\\caches\\transforms-2\\files-2.1\\ca9cc4e7eaebd6d583c13b6688a53b30\\res\\values-fr-rCA\\values-fr-rCA.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\DT\\AndroidStudioProjects\\Com.DingTu.ForstryTools2\\app\\build\\intermediates\\res\\merged\\release\\values-zh-rTW_values-zh-rTW.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\DT\\.gradle\\caches\\transforms-2\\files-2.1\\ca9cc4e7eaebd6d583c13b6688a53b30\\res\\values-zh-rTW\\values-zh-rTW.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\DT\\AndroidStudioProjects\\Com.DingTu.ForstryTools2\\app\\build\\intermediates\\res\\merged\\release\\values-ko_values-ko.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\DT\\.gradle\\caches\\transforms-2\\files-2.1\\ca9cc4e7eaebd6d583c13b6688a53b30\\res\\values-ko\\values-ko.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\DT\\AndroidStudioProjects\\Com.DingTu.ForstryTools2\\app\\build\\intermediates\\res\\merged\\release\\values-af_values-af.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\DT\\.gradle\\caches\\transforms-2\\files-2.1\\ca9cc4e7eaebd6d583c13b6688a53b30\\res\\values-af\\values-af.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\DT\\AndroidStudioProjects\\Com.DingTu.ForstryTools2\\app\\build\\intermediates\\res\\merged\\release\\values-es_values-es.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\DT\\.gradle\\caches\\transforms-2\\files-2.1\\ca9cc4e7eaebd6d583c13b6688a53b30\\res\\values-es\\values-es.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\DT\\AndroidStudioProjects\\Com.DingTu.ForstryTools2\\app\\build\\intermediates\\res\\merged\\release\\values-ru_values-ru.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\DT\\.gradle\\caches\\transforms-2\\files-2.1\\ca9cc4e7eaebd6d583c13b6688a53b30\\res\\values-ru\\values-ru.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\DT\\AndroidStudioProjects\\Com.DingTu.ForstryTools2\\app\\build\\intermediates\\res\\merged\\release\\values-lt_values-lt.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\DT\\.gradle\\caches\\transforms-2\\files-2.1\\ca9cc4e7eaebd6d583c13b6688a53b30\\res\\values-lt\\values-lt.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\DT\\AndroidStudioProjects\\Com.DingTu.ForstryTools2\\app\\build\\intermediates\\res\\merged\\release\\values-my_values-my.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\DT\\.gradle\\caches\\transforms-2\\files-2.1\\ca9cc4e7eaebd6d583c13b6688a53b30\\res\\values-my\\values-my.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\DT\\AndroidStudioProjects\\Com.DingTu.ForstryTools2\\app\\build\\intermediates\\res\\merged\\release\\values-gl_values-gl.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\DT\\.gradle\\caches\\transforms-2\\files-2.1\\ca9cc4e7eaebd6d583c13b6688a53b30\\res\\values-gl\\values-gl.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\DT\\AndroidStudioProjects\\Com.DingTu.ForstryTools2\\app\\build\\intermediates\\res\\merged\\release\\values-en-rAU_values-en-rAU.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\DT\\.gradle\\caches\\transforms-2\\files-2.1\\ca9cc4e7eaebd6d583c13b6688a53b30\\res\\values-en-rAU\\values-en-rAU.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\DT\\AndroidStudioProjects\\Com.DingTu.ForstryTools2\\app\\build\\intermediates\\res\\merged\\release\\values-ms_values-ms.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\DT\\.gradle\\caches\\transforms-2\\files-2.1\\ca9cc4e7eaebd6d583c13b6688a53b30\\res\\values-ms\\values-ms.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\DT\\AndroidStudioProjects\\Com.DingTu.ForstryTools2\\app\\build\\intermediates\\res\\merged\\release\\values-hi_values-hi.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\DT\\.gradle\\caches\\transforms-2\\files-2.1\\ca9cc4e7eaebd6d583c13b6688a53b30\\res\\values-hi\\values-hi.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\DT\\AndroidStudioProjects\\Com.DingTu.ForstryTools2\\app\\build\\intermediates\\res\\merged\\release\\values-ca_values-ca.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\DT\\.gradle\\caches\\transforms-2\\files-2.1\\ca9cc4e7eaebd6d583c13b6688a53b30\\res\\values-ca\\values-ca.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\DT\\AndroidStudioProjects\\Com.DingTu.ForstryTools2\\app\\build\\intermediates\\res\\merged\\release\\values-b+sr+Latn_values-b+sr+Latn.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\DT\\.gradle\\caches\\transforms-2\\files-2.1\\ca9cc4e7eaebd6d583c13b6688a53b30\\res\\values-b+sr+Latn\\values-b+sr+Latn.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\DT\\AndroidStudioProjects\\Com.DingTu.ForstryTools2\\app\\build\\intermediates\\res\\merged\\release\\values-cs_values-cs.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\DT\\.gradle\\caches\\transforms-2\\files-2.1\\ca9cc4e7eaebd6d583c13b6688a53b30\\res\\values-cs\\values-cs.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\DT\\AndroidStudioProjects\\Com.DingTu.ForstryTools2\\app\\build\\intermediates\\res\\merged\\release\\values-hr_values-hr.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\DT\\.gradle\\caches\\transforms-2\\files-2.1\\ca9cc4e7eaebd6d583c13b6688a53b30\\res\\values-hr\\values-hr.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\DT\\AndroidStudioProjects\\Com.DingTu.ForstryTools2\\app\\build\\intermediates\\res\\merged\\release\\values-sr_values-sr.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\DT\\.gradle\\caches\\transforms-2\\files-2.1\\ca9cc4e7eaebd6d583c13b6688a53b30\\res\\values-sr\\values-sr.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\DT\\AndroidStudioProjects\\Com.DingTu.ForstryTools2\\app\\build\\intermediates\\res\\merged\\release\\values-ky_values-ky.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\DT\\.gradle\\caches\\transforms-2\\files-2.1\\ca9cc4e7eaebd6d583c13b6688a53b30\\res\\values-ky\\values-ky.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\DT\\AndroidStudioProjects\\Com.DingTu.ForstryTools2\\app\\build\\intermediates\\res\\merged\\release\\values-te_values-te.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\DT\\.gradle\\caches\\transforms-2\\files-2.1\\ca9cc4e7eaebd6d583c13b6688a53b30\\res\\values-te\\values-te.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\DT\\AndroidStudioProjects\\Com.DingTu.ForstryTools2\\app\\build\\intermediates\\res\\merged\\release\\values-pt_values-pt.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\DT\\.gradle\\caches\\transforms-2\\files-2.1\\ca9cc4e7eaebd6d583c13b6688a53b30\\res\\values-pt\\values-pt.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\DT\\AndroidStudioProjects\\Com.DingTu.ForstryTools2\\app\\build\\intermediates\\res\\merged\\release\\values-si_values-si.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\DT\\.gradle\\caches\\transforms-2\\files-2.1\\ca9cc4e7eaebd6d583c13b6688a53b30\\res\\values-si\\values-si.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\DT\\AndroidStudioProjects\\Com.DingTu.ForstryTools2\\app\\build\\intermediates\\res\\merged\\release\\values-es-rUS_values-es-rUS.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\DT\\.gradle\\caches\\transforms-2\\files-2.1\\ca9cc4e7eaebd6d583c13b6688a53b30\\res\\values-es-rUS\\values-es-rUS.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\DT\\AndroidStudioProjects\\Com.DingTu.ForstryTools2\\app\\build\\intermediates\\res\\merged\\release\\values-bs_values-bs.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\DT\\.gradle\\caches\\transforms-2\\files-2.1\\ca9cc4e7eaebd6d583c13b6688a53b30\\res\\values-bs\\values-bs.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\DT\\AndroidStudioProjects\\Com.DingTu.ForstryTools2\\app\\build\\intermediates\\res\\merged\\release\\values-sw_values-sw.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\DT\\.gradle\\caches\\transforms-2\\files-2.1\\ca9cc4e7eaebd6d583c13b6688a53b30\\res\\values-sw\\values-sw.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\DT\\AndroidStudioProjects\\Com.DingTu.ForstryTools2\\app\\build\\intermediates\\res\\merged\\release\\values-in_values-in.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\DT\\.gradle\\caches\\transforms-2\\files-2.1\\ca9cc4e7eaebd6d583c13b6688a53b30\\res\\values-in\\values-in.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\DT\\AndroidStudioProjects\\Com.DingTu.ForstryTools2\\app\\build\\intermediates\\res\\merged\\release\\values-it_values-it.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\DT\\.gradle\\caches\\transforms-2\\files-2.1\\ca9cc4e7eaebd6d583c13b6688a53b30\\res\\values-it\\values-it.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\DT\\AndroidStudioProjects\\Com.DingTu.ForstryTools2\\app\\build\\intermediates\\res\\merged\\release\\values-en-rGB_values-en-rGB.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\DT\\.gradle\\caches\\transforms-2\\files-2.1\\ca9cc4e7eaebd6d583c13b6688a53b30\\res\\values-en-rGB\\values-en-rGB.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\DT\\AndroidStudioProjects\\Com.DingTu.ForstryTools2\\app\\build\\intermediates\\res\\merged\\release\\values-bn_values-bn.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\DT\\.gradle\\caches\\transforms-2\\files-2.1\\ca9cc4e7eaebd6d583c13b6688a53b30\\res\\values-bn\\values-bn.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\DT\\AndroidStudioProjects\\Com.DingTu.ForstryTools2\\app\\build\\intermediates\\res\\merged\\release\\values-pt-rPT_values-pt-rPT.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\DT\\.gradle\\caches\\transforms-2\\files-2.1\\ca9cc4e7eaebd6d583c13b6688a53b30\\res\\values-pt-rPT\\values-pt-rPT.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\DT\\AndroidStudioProjects\\Com.DingTu.ForstryTools2\\app\\build\\intermediates\\res\\merged\\release\\values-mn_values-mn.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\DT\\.gradle\\caches\\transforms-2\\files-2.1\\ca9cc4e7eaebd6d583c13b6688a53b30\\res\\values-mn\\values-mn.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\DT\\AndroidStudioProjects\\Com.DingTu.ForstryTools2\\app\\build\\intermediates\\res\\merged\\release\\values-nl_values-nl.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\DT\\.gradle\\caches\\transforms-2\\files-2.1\\ca9cc4e7eaebd6d583c13b6688a53b30\\res\\values-nl\\values-nl.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\DT\\AndroidStudioProjects\\Com.DingTu.ForstryTools2\\app\\build\\intermediates\\res\\merged\\release\\values-bg_values-bg.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\DT\\.gradle\\caches\\transforms-2\\files-2.1\\ca9cc4e7eaebd6d583c13b6688a53b30\\res\\values-bg\\values-bg.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\DT\\AndroidStudioProjects\\Com.DingTu.ForstryTools2\\app\\build\\intermediates\\res\\merged\\release\\values-en-rCA_values-en-rCA.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\DT\\.gradle\\caches\\transforms-2\\files-2.1\\ca9cc4e7eaebd6d583c13b6688a53b30\\res\\values-en-rCA\\values-en-rCA.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\DT\\AndroidStudioProjects\\Com.DingTu.ForstryTools2\\app\\build\\intermediates\\res\\merged\\release\\values-et_values-et.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\DT\\.gradle\\caches\\transforms-2\\files-2.1\\ca9cc4e7eaebd6d583c13b6688a53b30\\res\\values-et\\values-et.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\DT\\AndroidStudioProjects\\Com.DingTu.ForstryTools2\\app\\build\\intermediates\\res\\merged\\release\\values-as_values-as.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\DT\\.gradle\\caches\\transforms-2\\files-2.1\\ca9cc4e7eaebd6d583c13b6688a53b30\\res\\values-as\\values-as.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\DT\\AndroidStudioProjects\\Com.DingTu.ForstryTools2\\app\\build\\intermediates\\res\\merged\\release\\values-sk_values-sk.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\DT\\.gradle\\caches\\transforms-2\\files-2.1\\ca9cc4e7eaebd6d583c13b6688a53b30\\res\\values-sk\\values-sk.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\DT\\AndroidStudioProjects\\Com.DingTu.ForstryTools2\\app\\build\\intermediates\\res\\merged\\release\\values-pt-rBR_values-pt-rBR.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\DT\\.gradle\\caches\\transforms-2\\files-2.1\\ca9cc4e7eaebd6d583c13b6688a53b30\\res\\values-pt-rBR\\values-pt-rBR.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\DT\\AndroidStudioProjects\\Com.DingTu.ForstryTools2\\app\\build\\intermediates\\res\\merged\\release\\values-nb_values-nb.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\DT\\.gradle\\caches\\transforms-2\\files-2.1\\ca9cc4e7eaebd6d583c13b6688a53b30\\res\\values-nb\\values-nb.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\DT\\AndroidStudioProjects\\Com.DingTu.ForstryTools2\\app\\build\\intermediates\\res\\merged\\release\\values-iw_values-iw.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\DT\\.gradle\\caches\\transforms-2\\files-2.1\\ca9cc4e7eaebd6d583c13b6688a53b30\\res\\values-iw\\values-iw.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\DT\\AndroidStudioProjects\\Com.DingTu.ForstryTools2\\app\\build\\intermediates\\res\\merged\\release\\values-fr_values-fr.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\DT\\.gradle\\caches\\transforms-2\\files-2.1\\ca9cc4e7eaebd6d583c13b6688a53b30\\res\\values-fr\\values-fr.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\DT\\AndroidStudioProjects\\Com.DingTu.ForstryTools2\\app\\build\\intermediates\\res\\merged\\release\\values-1280x800_values-1280x800.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\DT\\AndroidStudioProjects\\Com.DingTu.ForstryTools2\\app\\src\\main\\res\\values-1280x800\\FormStyle.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "2,1",
+                        "startOffsets": "56,99",
+                        "endColumns": "42,44",
+                        "endOffsets": "96,142"
+                    },
+                    "to": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,100",
+                        "endColumns": "44,47",
+                        "endOffsets": "95,143"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\DT\\AndroidStudioProjects\\Com.DingTu.ForstryTools2\\app\\build\\intermediates\\res\\merged\\release\\values-hy_values-hy.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\DT\\.gradle\\caches\\transforms-2\\files-2.1\\ca9cc4e7eaebd6d583c13b6688a53b30\\res\\values-hy\\values-hy.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\DT\\AndroidStudioProjects\\Com.DingTu.ForstryTools2\\app\\build\\intermediates\\res\\merged\\release\\values-th_values-th.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\DT\\.gradle\\caches\\transforms-2\\files-2.1\\ca9cc4e7eaebd6d583c13b6688a53b30\\res\\values-th\\values-th.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\DT\\AndroidStudioProjects\\Com.DingTu.ForstryTools2\\app\\build\\intermediates\\res\\merged\\release\\values-da_values-da.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\DT\\.gradle\\caches\\transforms-2\\files-2.1\\ca9cc4e7eaebd6d583c13b6688a53b30\\res\\values-da\\values-da.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\DT\\AndroidStudioProjects\\Com.DingTu.ForstryTools2\\app\\build\\intermediates\\res\\merged\\release\\values-976x600_values-976x600.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\DT\\AndroidStudioProjects\\Com.DingTu.ForstryTools2\\app\\src\\main\\res\\values-976x600\\FormStyle.xml",
+                    "from": {
+                        "startLines": "3,2,4",
+                        "startColumns": "3,3,1",
+                        "startOffsets": "101,57,150",
+                        "endColumns": "49,42,44",
+                        "endOffsets": "147,96,193"
+                    },
+                    "to": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,106,150",
+                        "endColumns": "50,43,47",
+                        "endOffsets": "101,145,193"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\DT\\AndroidStudioProjects\\Com.DingTu.ForstryTools2\\app\\build\\intermediates\\res\\merged\\release\\values-ml_values-ml.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\DT\\.gradle\\caches\\transforms-2\\files-2.1\\ca9cc4e7eaebd6d583c13b6688a53b30\\res\\values-ml\\values-ml.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\DT\\AndroidStudioProjects\\Com.DingTu.ForstryTools2\\app\\build\\intermediates\\res\\merged\\release\\values-ne_values-ne.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\DT\\.gradle\\caches\\transforms-2\\files-2.1\\ca9cc4e7eaebd6d583c13b6688a53b30\\res\\values-ne\\values-ne.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\DT\\AndroidStudioProjects\\Com.DingTu.ForstryTools2\\app\\build\\intermediates\\res\\merged\\release\\values-ro_values-ro.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\DT\\.gradle\\caches\\transforms-2\\files-2.1\\ca9cc4e7eaebd6d583c13b6688a53b30\\res\\values-ro\\values-ro.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\DT\\AndroidStudioProjects\\Com.DingTu.ForstryTools2\\app\\build\\intermediates\\res\\merged\\release\\values-be_values-be.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\DT\\.gradle\\caches\\transforms-2\\files-2.1\\ca9cc4e7eaebd6d583c13b6688a53b30\\res\\values-be\\values-be.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\DT\\AndroidStudioProjects\\Com.DingTu.ForstryTools2\\app\\build\\intermediates\\res\\merged\\release\\values-ta_values-ta.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\DT\\.gradle\\caches\\transforms-2\\files-2.1\\ca9cc4e7eaebd6d583c13b6688a53b30\\res\\values-ta\\values-ta.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\DT\\AndroidStudioProjects\\Com.DingTu.ForstryTools2\\app\\build\\intermediates\\res\\merged\\release\\values-tr_values-tr.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\DT\\.gradle\\caches\\transforms-2\\files-2.1\\ca9cc4e7eaebd6d583c13b6688a53b30\\res\\values-tr\\values-tr.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\DT\\AndroidStudioProjects\\Com.DingTu.ForstryTools2\\app\\build\\intermediates\\res\\merged\\release\\values-uk_values-uk.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\DT\\.gradle\\caches\\transforms-2\\files-2.1\\ca9cc4e7eaebd6d583c13b6688a53b30\\res\\values-uk\\values-uk.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\DT\\AndroidStudioProjects\\Com.DingTu.ForstryTools2\\app\\build\\intermediates\\res\\merged\\release\\values-ur_values-ur.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\DT\\.gradle\\caches\\transforms-2\\files-2.1\\ca9cc4e7eaebd6d583c13b6688a53b30\\res\\values-ur\\values-ur.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\DT\\AndroidStudioProjects\\Com.DingTu.ForstryTools2\\app\\build\\intermediates\\res\\merged\\release\\values-kn_values-kn.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\DT\\.gradle\\caches\\transforms-2\\files-2.1\\ca9cc4e7eaebd6d583c13b6688a53b30\\res\\values-kn\\values-kn.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\DT\\AndroidStudioProjects\\Com.DingTu.ForstryTools2\\app\\build\\intermediates\\res\\merged\\release\\values-fa_values-fa.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\DT\\.gradle\\caches\\transforms-2\\files-2.1\\ca9cc4e7eaebd6d583c13b6688a53b30\\res\\values-fa\\values-fa.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\DT\\AndroidStudioProjects\\Com.DingTu.ForstryTools2\\app\\build\\intermediates\\res\\merged\\release\\values-zh-rCN_values-zh-rCN.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\DT\\.gradle\\caches\\transforms-2\\files-2.1\\ca9cc4e7eaebd6d583c13b6688a53b30\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\DT\\AndroidStudioProjects\\Com.DingTu.ForstryTools2\\app\\build\\intermediates\\res\\merged\\release\\values-en-rIN_values-en-rIN.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\DT\\.gradle\\caches\\transforms-2\\files-2.1\\ca9cc4e7eaebd6d583c13b6688a53b30\\res\\values-en-rIN\\values-en-rIN.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\DT\\AndroidStudioProjects\\Com.DingTu.ForstryTools2\\app\\build\\intermediates\\res\\merged\\release\\values-v21_values-v21.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\DT\\.gradle\\caches\\transforms-2\\files-2.1\\662b96c90943847b0c53e41c15b2b060\\res\\values-v21\\values-v21.xml",
+                    "from": {
+                        "startLines": "2,5,8,11",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,223,386,554",
+                        "endLines": "4,7,10,13",
+                        "endColumns": "12,12,12,12",
+                        "endOffsets": "218,381,549,716"
+                    },
+                    "to": {
+                        "startLines": "8,11,15,19",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "596,764,1053,1349",
+                        "endLines": "10,13,17,21",
+                        "endColumns": "12,12,12,12",
+                        "endOffsets": "759,922,1216,1511"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\DT\\.gradle\\caches\\transforms-2\\files-2.1\\ca9cc4e7eaebd6d583c13b6688a53b30\\res\\values-v21\\values-v21.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,13",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,159,223,290,354,470,596,722,850,1022",
+                        "endLines": "2,3,4,5,6,7,8,9,12,17",
+                        "endColumns": "103,63,66,63,115,125,125,127,12,12",
+                        "endOffsets": "154,218,285,349,465,591,717,845,1017,1355"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,14,18,22,25",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,159,223,290,354,470,927,1221,1516,1688",
+                        "endLines": "2,3,4,5,6,7,14,18,24,29",
+                        "endColumns": "103,63,66,63,115,125,125,127,12,12",
+                        "endOffsets": "154,218,285,349,465,591,1048,1344,1683,2021"
+                    }
+                }
+            ]
+        }
+    ]
+}

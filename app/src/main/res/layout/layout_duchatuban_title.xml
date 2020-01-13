@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffffff"
+    android:focusableInTouchMode="true" 
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center" 
+        android:background="#f0f0f0">
+        
+         <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8.0dip"
+            android:text=" 省 "
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="#ff000000" />
+
+        <EditText
+            android:id="@+id/et_province"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+             android:ems="8"
+            android:focusable="false"
+            android:text="" />
+        
+      
+   	 
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8.0dip"
+            android:text=" 县 "
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="#ff000000" />
+
+        <EditText
+            android:id="@+id/et_xian"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:ems="12"
+            android:focusable="false"
+            android:text="" />
+         <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8.0dip"
+            android:text="调查年度"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="#ff000000" />
+
+        <EditText
+            android:id="@+id/et_dcnd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="5"
+            android:focusable="false" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_layer_manager"
+    android:background="#f1f1f1"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    <TextView
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:text="底图图层"
+    	android:textColor="#000000"
+    	android:background="@layout/v1_bk_head_splitbar" />
+    
+     <LinearLayout
+         android:background="#e7e7e7"
+ 	    android:layout_width="fill_parent"
+    	android:layout_height="wrap_content">
+	    
+    	
+	     <LinearLayout android:gravity="center"
+	         android:padding="4dp"
+             android:layout_width="wrap_content"
+             android:layout_weight="1"
+	    	 android:layout_height="wrap_content">
+		    	
+    	</LinearLayout>
+
+ 	 </LinearLayout>
+
+    <TextView
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:text="采集数据图层"
+    	android:textColor="#000000"
+    	android:background="@layout/v1_bk_head_splitbar" />
+
+     <LinearLayout
+         android:orientation="vertical"
+	 	    android:layout_width="fill_parent" 
+	    	android:layout_height="wrap_content">
+		     <LinearLayout android:id="@+id/pl_layerlist"
+			 	    android:layout_width="fill_parent"
+			    	android:layout_height="fill_parent">
+		         <ListView
+		             android:id="@+id/lvList"
+		             android:layout_width="fill_parent"
+		             android:layout_height="fill_parent"
+		             android:cacheColorHint="#00000000"
+					android:dividerHeight="1dp"
+					android:divider="#b1b1b1">
+		         </ListView>
+			 </LinearLayout>  
+ 	 </LinearLayout>
+ 	 <TextView
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:text="矢量底图"
+    	android:textColor="#000000"
+    	android:background="@layout/v1_bk_head_splitbar" />
+
+     <LinearLayout
+         android:orientation="vertical"
+	 	    android:layout_width="fill_parent" 
+	    	android:layout_height="wrap_content">
+		     <LinearLayout android:id="@+id/pl_VectorBKlayerlist"
+			 	    android:layout_width="fill_parent"
+			    	android:layout_height="fill_parent">
+		         <ListView
+		             android:id="@+id/lvVectorBKBKList"
+		             android:layout_width="fill_parent"
+		             android:layout_height="fill_parent"
+		             android:cacheColorHint="#00000000"
+					android:dividerHeight="4dp"
+					android:divider="#b1b1b1">
+		         </ListView>
+			 </LinearLayout>  
+ 	 </LinearLayout>
+ 	  <TextView
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:text="栅格底图"
+    	android:textColor="#000000"
+    	android:background="@layout/v1_bk_head_splitbar" />
+
+     <LinearLayout
+         android:orientation="vertical"
+	 	    android:layout_width="fill_parent" 
+	    	android:layout_height="fill_parent">
+		     <LinearLayout android:id="@+id/pl_GridBKlayerlist"
+			 	    android:layout_width="fill_parent"
+			    	android:layout_height="fill_parent">
+		         <ListView
+		             android:id="@+id/lvGridBKList"
+		             android:layout_width="fill_parent"
+		             android:layout_height="fill_parent"
+		             android:cacheColorHint="#00000000"
+					android:dividerHeight="4dp"
+					android:divider="#b1b1b1">
+		         </ListView>
+			 </LinearLayout>  
+ 	 </LinearLayout>
+</LinearLayout>

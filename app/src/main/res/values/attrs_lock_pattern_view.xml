@@ -1,0 +1,11 @@
+<resources>
+
+    <declare-styleable name="LockPatternView">
+        <attr name="exampleString" format="string" />
+        <attr name="exampleDimension" format="dimension" />
+        <attr name="exampleColor" format="color" />
+        <attr name="exampleDrawable" format="color|reference" />
+        <attr name="aspect" format="string" />
+    </declare-styleable>
+
+</resources>

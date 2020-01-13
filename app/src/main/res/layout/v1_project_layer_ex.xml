@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#f1f1f1"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    <TextView
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:text="底图图层"
+    	android:textColor="#000000"
+    	android:background="@layout/v1_bk_head_splitbar" />
+    
+     <LinearLayout
+         android:background="#e7e7e7"
+ 	    android:layout_width="fill_parent"
+    	android:layout_height="wrap_content">
+	     <LinearLayout android:gravity="center"
+	         android:padding="4dp"
+             android:layout_width="wrap_content"
+             android:layout_weight="1"
+	    	 android:layout_height="wrap_content">
+		    	<RelativeLayout
+	             	android:layout_width="wrap_content"
+	             	android:layout_weight="1"
+		    		android:layout_height="wrap_content">
+			    	<Button android:id="@+id/bt_vectorset" 
+			    	    android:layout_marginLeft="2dp"
+			   	    	android:tag="矢量底图设置"
+						android:layout_marginRight="2dp"
+				        android:background="@drawable/buttonstyle_transparent"
+				        android:layout_width="fill_parent"
+				        android:minHeight="48dp"
+				        android:layout_height="wrap_content"/> 
+				    <LinearLayout
+				        android:layout_width="fill_parent"
+				    	android:layout_height="wrap_content"
+				    	android:layout_alignTop="@+id/bt_vectorset"
+				    	android:layout_alignBottom="@+id/bt_vectorset"
+				    	android:gravity="center">
+					    <TextView
+					        android:layout_width="wrap_content"
+					    	android:layout_height="wrap_content"
+					    	android:paddingRight="8dp"
+					    	android:gravity="center"
+					    	android:text="矢量底图管理" 
+					    	android:textAppearance="?android:attr/textAppearanceMedium"
+					    	android:textColor="#000000"/>
+					    <TextView
+					        android:id="@+id/bt_vectorcount" 
+					        android:layout_width="wrap_content"
+					    	android:layout_height="wrap_content"
+					    	android:gravity="center"
+					    	android:text="0" 
+					    	android:background="@layout/v1_bk_toolbaritem_text_info"
+					    	android:textAppearance="?android:attr/textAppearanceMedium"
+					    	android:textColor="#ffffff"/>
+				    </LinearLayout>
+		    	</RelativeLayout>
+    	</LinearLayout>
+    	
+	     <LinearLayout android:gravity="center"
+	         android:padding="4dp"
+             android:layout_width="wrap_content"
+             android:layout_weight="1"
+	    	 android:layout_height="wrap_content">
+		    	<RelativeLayout
+	             	android:layout_width="wrap_content"
+	             	android:layout_weight="1"
+		    		android:layout_height="wrap_content">
+			    	<Button android:id="@+id/bt_gridset" 
+			    	    android:layout_marginLeft="2dp"
+			   	    	android:tag="栅格底图设置"
+						android:layout_marginRight="2dp"
+				        android:background="@drawable/buttonstyle_transparent"
+				        android:layout_width="fill_parent"
+				        android:minHeight="48dp"
+				        android:layout_height="wrap_content"/> 
+				    <LinearLayout
+				        android:layout_width="fill_parent"
+				    	android:layout_height="wrap_content"
+				    	android:layout_alignTop="@+id/bt_gridset"
+				    	android:layout_alignBottom="@+id/bt_gridset"
+				    	android:gravity="center">
+					    <TextView
+					        android:layout_width="wrap_content"
+					    	android:layout_height="wrap_content"
+					    	android:paddingRight="8dp"
+					    	android:gravity="center"
+					    	android:text="栅格底图管理" 
+					    	android:textAppearance="?android:attr/textAppearanceMedium"
+					    	android:textColor="#000000"/>
+					    <TextView
+					        android:id="@+id/bt_gridcount" 
+					        android:layout_width="wrap_content"
+					    	android:layout_height="wrap_content"
+					    	android:gravity="center"
+					    	android:text="0" 
+					    	android:background="@layout/v1_bk_toolbaritem_text_info"
+					    	android:textAppearance="?android:attr/textAppearanceMedium"
+					    	android:textColor="#ffffff"/>
+				    </LinearLayout>
+		    	</RelativeLayout>
+    	</LinearLayout>
+
+ 	 </LinearLayout>
+
+    <TextView
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:text="采集数据图层"
+    	android:textColor="#000000"
+    	android:background="@layout/v1_bk_head_splitbar" />
+
+     <LinearLayout
+         android:orientation="vertical"
+	 	    android:layout_width="fill_parent" 
+	    	android:layout_height="fill_parent">
+		     <LinearLayout android:id="@+id/pl_layerlist"
+			 	    android:layout_width="fill_parent"
+			    	android:layout_height="fill_parent">
+		         <ListView
+		             android:id="@+id/lvList"
+		             android:layout_width="fill_parent"
+		             android:layout_height="fill_parent"
+		             android:cacheColorHint="#00000000"
+					android:dividerHeight="1dp"
+					android:divider="#b1b1b1">
+		         </ListView>
+			 </LinearLayout>  
+ 	 </LinearLayout>
+</LinearLayout>

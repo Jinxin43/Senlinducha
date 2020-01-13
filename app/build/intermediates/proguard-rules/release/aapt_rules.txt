@@ -1,0 +1,109 @@
+# Referenced at C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:40
+-keep class android.support.v4.app.CoreComponentFactory { <init>(); }
+# Referenced at C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:109
+-keep class android.support.v4.content.FileProvider { <init>(); }
+# Referenced at C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:103
+-keep class com.dingtu.SLDuCha.CheckCardActivity { <init>(); }
+# Referenced at C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:49
+-keep class dingtu.ZRoadMap.AndroidMap { <init>(); }
+# Referenced at C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:66
+-keep class dingtu.ZRoadMap.Data.PhotoCamera { <init>(); }
+# Referenced at C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:98
+-keep class dingtu.ZRoadMap.LockSetActivity { <init>(); }
+# Referenced at C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:84
+-keep class dingtu.ZRoadMap.Login { <init>(); }
+# Referenced at C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:58
+-keep class dingtu.ZRoadMap.Welcome { <init>(); }
+# Referenced at C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\res\layout\xiaobanxuji.xml:171
+# Referenced at C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\res\layout\weipianzhifa_data.xml:12
+# Referenced at C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\res\layout\weipiandata_data.xml:12
+# Referenced at C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\res\layout\tuigengdata_sheji_fenhu.xml:36
+# Referenced at C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\res\layout\tuigengdata_sheji.xml:12
+# Referenced at C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\res\layout\lindidiangengdata.xml:152
+# Referenced at C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\res\layout\layout_duchatuban.xml:101
+# Referenced at C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\res\layout\generaldatatemplate.xml:78
+# Referenced at C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\res\layout\generaldata.xml:153
+# Referenced at C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\res\layout\datadictionary.xml:71
+-keep class android.support.v4.view.ViewPager { <init>(...); }
+
+# Referenced at C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\res\layout\d_layermanager.xml:162
+-keep class com.dingtu.Controls.ListViewForScrollView { <init>(...); }
+
+# Referenced at C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\res\layout\v1_project_layer_new.xml:306
+# Referenced at C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\res\layout\d_datalayer_new.xml:177
+-keep class com.dingtu.Controls.YearPicker { <init>(...); }
+
+# Referenced at C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\res\layout\newlistview.xml:19
+-keep class dingtu.ZRoadMap.Data.NewListView { <init>(...); }
+
+# Referenced at C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\res\layout\tghllogin.xml:44
+# Referenced at C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\res\layout\loginershi.xml:44
+# Referenced at C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\res\layout\login_wpzf.xml:43
+# Referenced at C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\res\layout\login.xml:59
+# Referenced at C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\res\layout\activity_lock_set.xml:16
+-keep class dingtu.ZRoadMap.LockPatternView { <init>(...); }
+
+# Referenced at C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\res\layout\v1_report_listviewex.xml:22
+-keep class lkmap.Report.v1_myScrollView { <init>(...); }
+
+# Referenced at C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\res\layout\v1_toolbar_edit.xml:8
+-keep class lkmap.ToolBar.LKSlidingDrawer { <init>(...); }
+
+# Referenced at C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\res\layout\v1_navigate_addonepoint.xml:112
+# Referenced at C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\res\layout\polysplitresultoption.xml:120
+# Referenced at C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\res\layout\d_importprocessbar.xml:63
+-keep class lkmap.ZRoadMap.MyControl.v1_Button_Center { <init>(...); }
+
+# Referenced at C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\res\layout\v1_project_layer_render_colorpicker.xml:44
+-keep class lkmap.ZRoadMap.MyControl.v1_ColorPicker_B { <init>(...); }
+
+# Referenced at C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\res\layout\v1_project_layer_render_colorpicker.xml:21
+-keep class lkmap.ZRoadMap.MyControl.v1_ColorPicker_HS { <init>(...); }
+
+# Referenced at C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\res\layout\v1_project_layer_render_colorpicker.xml:59
+-keep class lkmap.ZRoadMap.MyControl.v1_ColorPicker_Transparent { <init>(...); }
+
+# Referenced at C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\res\layout\xiaobanxuji.xml:136
+# Referenced at C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\res\layout\v1_systemset_gpsaveragepoint.xml:31
+# Referenced at C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\res\layout\v1_project_layer_render_symbolexplorer_polysymbol.xml:42
+# Referenced at C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\res\layout\v1_project_layer_render_symbolexplorer_pointsymbol.xml:59
+# Referenced at C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\res\layout\v1_project_layer_render_symbolexplorer_linesymbol.xml:57
+# Referenced at C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\res\layout\v1_project_layer_render.xml:138
+# Referenced at C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\res\layout\v1_data_template.xml:31
+# Referenced at C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\res\layout\v1_data_query_sql.xml:74
+# Referenced at C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\res\layout\v1_data_gps_averagepoint.xml:21
+# Referenced at C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\res\layout\v1_cgps_data_inputcoor_input.xml:31
+# Referenced at C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\res\layout\tanhuidatatemplate.xml:32
+# Referenced at C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\res\layout\lindidiangengdata.xml:117
+# Referenced at C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\res\layout\inputcoor_input.xml:31
+# Referenced at C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\res\layout\generaldata.xml:118
+# Referenced at C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\res\layout\d_tanhui_datatemplate.xml:32
+-keep class lkmap.ZRoadMap.MyControl.v1_EditSpinnerDialog { <init>(...); }
+
+# Referenced at C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\res\layout\v1_gpsdata_selectlayer.xml:74
+-keep class lkmap.ZRoadMap.MyControl.v1_ExpandableBar { <init>(...); }
+
+# Referenced at C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\res\layout\v1_project_layer_render_uniquevalue.xml:46
+# Referenced at C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\res\layout\v1_project_layer_render_symbolexplorer_pointsymbol.xml:42
+# Referenced at C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\res\layout\v1_project_layer_render_symbolexplorer_linesymbol.xml:42
+# Referenced at C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\res\layout\v1_project_layer_render.xml:53
+-keep class lkmap.ZRoadMap.MyControl.v1_ImageSpinnerDialog { <init>(...); }
+
+# Referenced at C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\res\layout\v1_data_clipscreen.xml:24
+-keep class lkmap.ZRoadMap.MyControl.v1_Pad_Graffiti { <init>(...); }
+
+# Referenced at C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\res\layout\v1_project_new.xml:58
+# Referenced at C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\res\layout\v1_project_layer_render_uniquevalue.xml:18
+# Referenced at C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\res\layout\v1_project_layer_render.xml:122
+# Referenced at C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\res\layout\v1_project_layer_field.xml:99
+# Referenced at C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\res\layout\v1_project_layer.xml:35
+# Referenced at C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\res\layout\v1_data_dictionary.xml:29
+# Referenced at C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\res\layout\tuigengdata_sheji_sheji.xml:46
+# Referenced at C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\res\layout\tuigengdata_sheji_fenhuedit.xml:239
+# Referenced at C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\res\layout\dialogdictselector.xml:29
+# Referenced at C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\res\layout\d_dataquery_export.xml:107
+-keep class lkmap.ZRoadMap.MyControl.v1_SpinnerDialog { <init>(...); }
+
+# Referenced at C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\res\layout\activity_lock_set.xml:25
+-keepclassmembers class * { *** onClick(android.view.View); }
+

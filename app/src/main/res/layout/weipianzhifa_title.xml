@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffffff"
+    android:focusableInTouchMode="true" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8.0dip"
+            android:text="地市："
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="#ff000000" />
+
+        <EditText
+            android:id="@+id/et_wpzfds"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:enabled="false"
+            android:focusable="false"
+            android:text="" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8.0dip"
+            android:text="区县："
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="#ff000000" />
+
+        <EditText
+            android:id="@+id/et_wpzfqx"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:enabled="false"
+            android:focusable="false"
+            android:text="" />
+      
+
+      
+    </LinearLayout>
+
+</LinearLayout>

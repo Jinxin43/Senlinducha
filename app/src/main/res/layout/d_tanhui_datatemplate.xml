@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:layout_height="fill_parent"
+	    android:layout_width="fill_parent"
+	    android:background="#f1f1f1"
+	    android:orientation="vertical">
+
+      <LinearLayout
+            android:id="@+id/ll_GPSstatus1"  
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:visibility="gone">
+		    <TextView
+		        android:layout_width="match_parent"
+		    	android:layout_height="wrap_content"
+		    	android:id="@+id/tvLocaleText1"
+		    	android:text="采集状态"
+		    	android:textColor="#000000"
+		    	android:background="@layout/v1_bk_head_splitbar" />   
+		        <LinearLayout
+		            android:layout_width="match_parent"
+		            android:layout_height="wrap_content"
+		            android:background="#cce1e0"
+		            android:gravity="center">
+			        <TextView android:text="  采样：" 
+					    android:textColor="#000000"
+					    android:layout_width="wrap_content" 
+					    android:layout_height="wrap_content"/>
+			        
+			 		<lkmap.ZRoadMap.MyControl.v1_EditSpinnerDialog
+			 		    android:id="@+id/sp_pointcount1"
+			 		    android:layout_weight="1"
+			 		    android:layout_width="wrap_content"
+			 		    android:layout_height="wrap_content" />	
+			        <TextView android:text=" 已采集：" 
+					    android:textColor="#000000"
+					    android:layout_width="wrap_content" 
+					    android:layout_height="wrap_content"/>
+					<TextView
+					    android:id="@+id/et_gpspointcount1"
+					    android:text="0"
+					     android:textColor="#ff0000"
+					     android:textAppearance="?android:attr/textAppearanceLarge"
+					    android:layout_width="wrap_content"
+					    android:layout_height="wrap_content"/>		
+			        <Button android:id="@+id/bt_restart1" 
+					        android:drawableLeft="@drawable/v1_gps_averagepoint_restart"
+					        android:background="@drawable/buttonstyle_transparent_all"
+					        android:layout_width="wrap_content"
+					        android:layout_height="wrap_content"/>
+			        <TextView android:text=" " 
+					    android:textColor="#000000"
+					    android:layout_width="wrap_content" 
+					    android:layout_height="wrap_content"/>			        
+		        </LinearLayout>
+        </LinearLayout>
+    	<LinearLayout
+    	     android:id="@+id/allNomal"
+    	     android:layout_height="fill_parent"
+	    	android:layout_width="fill_parent"
+	    	android:background="#f1f1f1"
+	    	android:orientation="vertical">
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        <LinearLayout
+            android:id="@+id/formlist"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical" >
+	        <LinearLayout
+	            android:id="@+id/baselist1"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:gravity="center"
+	            android:orientation="vertical" >
+			    <TextView
+			        android:layout_width="fill_parent"
+			    	android:layout_height="wrap_content"
+			    	android:id="@+id/tvLocaleText11"
+			    	android:text="基本属性"
+			    	android:textColor="#000000"
+			    	android:background="@layout/v1_bk_head_splitbar" />       
+			 </LinearLayout>     
+	        <LinearLayout
+	            android:id="@+id/otherlist1"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:gravity="center"
+	            android:orientation="vertical" >
+			    <TextView
+			        android:layout_width="fill_parent"
+			    	android:layout_height="wrap_content"
+			    	android:id="@+id/tvLocaleText2"
+			    	android:text="数据信息"
+			    	android:textColor="#000000"
+			    	android:background="@layout/v1_bk_head_splitbar" />       
+			 </LinearLayout>  			 
+        </LinearLayout>    
+    </ScrollView>
+    </LinearLayout>
+    	<LinearLayout
+    	     android:id="@+id/alltanhui"
+    	     android:layout_height="fill_parent"
+	    	android:layout_width="fill_parent"
+	    	android:background="#f1f1f1"
+	    	android:orientation="vertical">
+    		 <LinearLayout 
+			     android:id="@+id/tanhuiProperty"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	           
+	            android:orientation="vertical"
+	            android:layout_alignParentTop="true">
+			   <LinearLayout 
+			       android:layout_width="match_parent"
+	               android:layout_height="wrap_content"
+	                android:gravity="center">
+			   <LinearLayout 
+			       android:layout_width="wrap_content"
+	            	android:layout_height="wrap_content"
+	            	android:layout_margin="5dp">
+					     <TextView
+					         android:id="@+id/tvYangdihao"
+					         android:layout_width="wrap_content"
+	            			 android:layout_height="wrap_content"
+					         android:text="    样地号："
+					         android:textSize="18sp"
+					         android:textColor="#000000">
+					     </TextView>
+					     <EditText
+					         android:id="@+id/evYangdihao"
+					         android:layout_height="38dp"
+					         android:minWidth="85dp"
+					         android:layout_width="95dp"
+					         android:layout_marginRight="15dp"/>
+			     </LinearLayout>
+			      <LinearLayout 
+			       android:layout_width="wrap_content"
+	            	android:layout_height="wrap_content"
+	            	android:layout_margin="5dp">
+					     <TextView
+					         android:layout_width="wrap_content"
+	            			 android:layout_height="wrap_content"
+					         android:text="小班号："
+					         android:textSize="18sp"
+					         android:textColor="#000000">
+					     </TextView>
+					     <EditText
+					         android:id="@+id/evXiaobanhao"
+					         android:layout_height="38dp"
+					         android:minWidth="85dp"
+					         android:layout_width="95dp"
+					          android:layout_marginRight="15dp"/>
+			     </LinearLayout>
+			    
+			    </LinearLayout> 
+			    <LinearLayout 
+			       android:layout_width="match_parent"
+	               android:layout_height="wrap_content"
+	                android:gravity="center">
+			       <LinearLayout 
+			       android:layout_width="wrap_content"
+	            	android:layout_height="wrap_content"
+	            	android:layout_margin="5dp">
+					     <TextView
+					         android:layout_width="wrap_content"
+	            			 android:layout_height="wrap_content"
+					         android:text="标准地号："
+					         android:textSize="18sp"
+					         android:textColor="#000000">
+					     </TextView>
+					     <EditText
+					         android:id="@+id/evBiaozhundihao"
+					         android:layout_height="38dp"
+					         android:minWidth="85dp"
+					         android:layout_width="95dp"
+					          android:layout_marginRight="15dp"/>
+			     </LinearLayout>
+			   <LinearLayout 
+			       android:layout_width="wrap_content"
+	            	android:layout_height="wrap_content"
+	            	android:layout_margin="5dp">
+					     <TextView
+					         android:id="@+id/tvHight"
+					         android:layout_width="wrap_content"
+	            			 android:layout_height="wrap_content"
+					         android:text="平均高："
+					         android:textSize="18sp"
+					         android:textColor="#000000">
+					     </TextView>
+					     <EditText
+					         android:id="@+id/evhight"
+					         android:layout_height="38dp"
+					         android:minWidth="85dp"
+					         android:layout_width="95dp"
+					         android:layout_marginRight="15dp"/>
+			     </LinearLayout>
+			     
+			     
+			    </LinearLayout>
+			      <LinearLayout 
+			       android:layout_width="match_parent"
+	               android:layout_height="wrap_content"
+	                android:gravity="center">
+			       <LinearLayout 
+			       android:layout_width="wrap_content"
+	            	android:layout_height="wrap_content"
+	            	android:layout_margin="5dp">
+					     <TextView
+					         android:layout_width="wrap_content"
+	            			 android:layout_height="wrap_content"
+					         android:text="            株数："
+					         android:textSize="18sp"
+					         android:textColor="#000000">
+					     </TextView>
+					     <EditText
+					         android:id="@+id/tvCount"
+					         android:layout_height="38dp"
+					         android:minWidth="85dp"
+					         android:layout_width="95dp"
+					         android:layout_marginRight="15dp"
+					         android:editable="false"/>
+			     </LinearLayout>
+			        <LinearLayout 
+			       android:layout_width="wrap_content"
+	            	android:layout_height="wrap_content"
+	            	android:layout_margin="5dp">
+					     <TextView
+					         android:layout_width="wrap_content"
+	            			 android:layout_height="wrap_content"
+					         android:text="样地蓄积："
+					         android:textSize="18sp"
+					         android:textColor="#000000">
+					     </TextView>
+					     <EditText
+					         android:id="@+id/tvXuJiliang"
+					         android:layout_height="38dp"
+					         android:minWidth="85dp"
+					         android:layout_width="95dp"
+					         android:layout_marginRight="15dp"
+					         android:editable="false"/>
+			     </LinearLayout>
+			       
+			      </LinearLayout>
+			 </LinearLayout>
+			   
+			  <LinearLayout
+         		android:orientation="vertical"
+	 	    android:layout_width="fill_parent"
+	    	android:layout_height="wrap_content">
+	    <TextView
+	        android:id="@+id/tvLocaleText8"
+	        android:layout_width="fill_parent"
+	    	android:layout_height="fill_parent"
+	    	android:text="每木检尺表"
+	    	android:textColor="#000000"
+	    	android:background="@layout/v1_bk_head_splitbar" />
+	    			    	
+		     <LinearLayout android:id="@+id/tanhui_detail"
+			 	    android:layout_width="fill_parent"
+			    	android:layout_height="wrap_content">
+			     <RelativeLayout 
+			         android:layout_weight="1"
+			 	    android:layout_width="fill_parent"
+			    	android:layout_height="wrap_content">
+
+		    		<Button
+			    	    android:id="@+id/pln_add"
+			    	    android:layout_width="fill_parent"
+			    	    android:layout_height="wrap_content"
+			    	    android:drawableLeft="@drawable/v1_space_height"
+					    android:background="@drawable/buttonstyle"
+			    	    android:tag="增加"
+			    	    android:textAppearance="?android:attr/textAppearanceMedium" />
+	    				 			
+				     <LinearLayout 
+				         android:layout_alignBottom="@+id/pln_add" 
+				         android:layout_alignTop="@+id/pln_add" 
+				         android:gravity="center"
+				 	    android:layout_width="fill_parent"
+				    	android:layout_height="wrap_content">
+			
+				         <ImageView
+				             android:layout_width="wrap_content"
+				             android:layout_height="wrap_content"
+				             android:src="@drawable/v1_layer_field_add" />
+		
+				         <TextView
+				             android:id="@+id/tv_add"
+				             android:layout_width="wrap_content"
+				             android:layout_height="wrap_content"
+				             android:text=" 增加  "
+				             android:textColor="#000000"
+				             android:textAppearance="?android:attr/textAppearanceMedium" />
+				    	
+				 	</LinearLayout>
+				  </RelativeLayout>	
+			  			    	
+			     <RelativeLayout 
+			         android:layout_weight="1"
+			 	    android:layout_width="fill_parent"
+			    	android:layout_height="wrap_content">
+
+		    		<Button
+			    	    android:id="@+id/pln_edit"
+			    	    android:layout_width="fill_parent"
+			    	    android:layout_height="wrap_content"
+			    	    android:drawableLeft="@drawable/v1_space_height"
+					    android:background="@drawable/buttonstyle"
+			    	    android:tag="修改"
+			    	    android:textAppearance="?android:attr/textAppearanceMedium" />
+	    				 			
+				     <LinearLayout 
+				         android:layout_alignBottom="@+id/pln_edit" 
+				         android:layout_alignTop="@+id/pln_edit" 
+				         android:gravity="center"
+				 	    android:layout_width="fill_parent"
+				    	android:layout_height="wrap_content">
+			
+				         <ImageView
+				             android:layout_width="wrap_content"
+				             android:layout_height="wrap_content"
+				             android:src="@drawable/v1_layer_field_edit" />
+		
+				         <TextView
+				             android:id="@+id/tv_edit"
+				             android:layout_width="wrap_content"
+				             android:layout_height="wrap_content"
+				             android:text=" 修改  "
+				             android:textColor="#000000"
+				             android:textAppearance="?android:attr/textAppearanceMedium" />
+				    	
+				 	</LinearLayout>
+				  </RelativeLayout>	
+				  
+			     <RelativeLayout 
+			         android:layout_weight="1"
+			 	    android:layout_width="fill_parent"
+			    	android:layout_height="wrap_content">
+
+		    		<Button
+			    	    android:id="@+id/pln_delete"
+			    	    android:layout_width="fill_parent"
+			    	    android:layout_height="wrap_content"
+			    	    android:drawableLeft="@drawable/v1_space_height"
+					    android:background="@drawable/buttonstyle"
+			    	    android:tag="删除字段"
+			    	    android:textAppearance="?android:attr/textAppearanceMedium" />
+	    				 			
+				     <LinearLayout 
+				         android:layout_alignBottom="@+id/pln_delete" 
+				         android:layout_alignTop="@+id/pln_delete" 
+				         android:gravity="center"
+				 	    android:layout_width="fill_parent"
+				    	android:layout_height="wrap_content">
+			
+				         <ImageView
+				             android:layout_width="wrap_content"
+				             android:layout_height="wrap_content"
+				             android:src="@drawable/v1_layer_field_delete" />
+		
+				         <TextView
+				             android:id="@+id/tv_delete"
+				             android:layout_width="wrap_content"
+				             android:layout_height="wrap_content"
+				             android:text=" 删除  "
+				             android:textColor="#000000"
+				             android:textAppearance="?android:attr/textAppearanceMedium" />
+				 	</LinearLayout>
+				  </RelativeLayout>	
+				  
+			      <RelativeLayout 
+			         android:layout_weight="1"
+			 	    android:layout_width="fill_parent"
+			    	android:layout_height="wrap_content">
+
+		    		<Button
+			    	    android:id="@+id/pln_export"
+			    	    android:layout_width="fill_parent"
+			    	    android:layout_height="wrap_content"
+			    	    android:drawableLeft="@drawable/v1_space_height"
+					    android:background="@drawable/buttonstyle"
+			    	    android:tag="导出数据"
+			    	    android:textAppearance="?android:attr/textAppearanceMedium" />
+	    				 			
+				     <LinearLayout 
+				         android:layout_alignBottom="@+id/pln_export" 
+				         android:layout_alignTop="@+id/pln_export" 
+				         android:gravity="center"
+				 	    android:layout_width="fill_parent"
+				    	android:layout_height="wrap_content">
+			
+				         <ImageView
+				             android:layout_width="wrap_content"
+				             android:layout_height="wrap_content"
+				             android:src="@drawable/v1_layer_field_delete" />
+		
+				         <TextView
+				             android:id="@+id/tv_export"
+				             android:layout_width="wrap_content"
+				             android:layout_height="wrap_content"
+				             android:text=" 导出  "
+				             android:textColor="#000000"
+				             android:textAppearance="?android:attr/textAppearanceMedium" />
+				 	</LinearLayout>
+				  </RelativeLayout>		    	    	    	    			    	    			    	    	
+			  </LinearLayout> 
+			 
+			     <LinearLayout android:id="@+id/pl_layerlist"
+				 	    android:layout_width="fill_parent"
+				    	android:layout_height="560dp"
+				    	android:layout_weight="1">
+				    	<include android:id="@+id/in_listview"  
+				    	    layout="@layout/v1_headerlistview" />
+				 </LinearLayout>  
+			
+ 	 </LinearLayout>  			 
+        </LinearLayout> 
+</LinearLayout>
+

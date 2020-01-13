@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#f1f1f1"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    <TextView
+        android:id="@+id/tvLocaleText6"
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:text="符号示例"
+    	android:textColor="#000000"
+    	android:background="@layout/v1_bk_head_splitbar" /> 	 
+     <LinearLayout android:gravity="center"
+ 	    android:layout_width="fill_parent"
+    	android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/ivPreview"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:scaleType="center"
+            android:src="@drawable/gy_shuihui_jc" />
+         
+ 	 </LinearLayout>    
+    <TextView
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:text="符号定义"
+    	android:textColor="#000000"
+    	android:background="@layout/v1_bk_head_splitbar" />    
+     <LinearLayout android:gravity="center"
+ 	    android:layout_width="fill_parent"
+    	android:layout_height="wrap_content">
+ 		<TextView
+ 		    android:layout_width="wrap_content"
+ 		    android:layout_height="wrap_content"
+ 		    android:text="样式："
+ 		    android:textColor="#000000"
+ 		    android:textAppearance="?android:attr/textAppearanceMedium" />
+ 		<lkmap.ZRoadMap.MyControl.v1_ImageSpinnerDialog
+ 		    android:id="@+id/isd_symbol"
+ 		    android:layout_width="wrap_content"
+ 		    android:layout_height="wrap_content"
+ 		    android:layout_weight="1"/>
+ 	 </LinearLayout>
+
+     <LinearLayout android:gravity="center"
+ 	    android:layout_width="fill_parent"
+    	android:layout_height="wrap_content">
+ 		<TextView
+ 		    android:id="@+id/tvLocaleText5"
+ 		    android:layout_width="wrap_content"
+ 		    android:layout_height="wrap_content"
+ 		    android:text="颜色："
+ 		    android:textColor="#000000"
+ 		    android:textAppearance="?android:attr/textAppearanceMedium" />
+ 		<lkmap.ZRoadMap.MyControl.v1_EditSpinnerDialog
+ 		    android:id="@+id/sp_color"
+ 		    android:layout_width="wrap_content"
+ 		    android:layout_height="wrap_content"
+ 		    android:layout_weight="1"/>
+ 	 </LinearLayout>
+ 	 
+     <LinearLayout android:gravity="center"
+ 	    android:layout_width="fill_parent"
+    	android:layout_height="wrap_content">
+ 		<TextView
+ 		    android:id="@+id/tvLocaleText4"
+ 		    android:layout_width="wrap_content"
+ 		    android:layout_height="wrap_content"
+ 		    android:text="大小："
+ 		    android:textColor="#000000"
+ 		    android:textAppearance="?android:attr/textAppearanceMedium" />
+ 		<EditText
+ 		    android:id="@+id/et_size"
+ 		    android:numeric="integer"
+ 		    android:text="24"
+ 		    android:layout_width="wrap_content"
+ 		    android:layout_height="wrap_content"
+ 		    android:layout_weight="1"/>
+ 	 </LinearLayout>
+ 	 
+
+
+
+</LinearLayout>

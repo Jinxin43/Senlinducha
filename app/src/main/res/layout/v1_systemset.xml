@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#f1f1f1"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+	     <LinearLayout
+			android:id="@+id/ll_currentproject"
+	 	    android:gravity="center"
+	 	    android:orientation="vertical"
+	 	    android:layout_width="fill_parent"
+	    	android:layout_height="wrap_content">
+		    <TextView
+		        android:id="@+id/tvLocaleText1"
+		        android:layout_width="fill_parent"
+		    	android:layout_height="wrap_content"
+		    	android:text="GPS数据流采样时间与距离"
+		    	android:textColor="#000000"
+		    	android:background="@layout/v1_bk_head_splitbar" />
+	    	<Button
+	            android:id="@+id/bt_gps"
+	            android:drawableLeft="@drawable/m_gps"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:background="@drawable/buttonstyle_flat"
+	            android:gravity="left|center"
+	            android:textAppearance="?android:attr/textAppearanceMedium"
+	            android:layout_margin="3dp"
+	            android:tag="GPS采样"
+	            android:text=" 采样时间：1秒  间隔：1米" />
+	 	 </LinearLayout>
+
+	     <LinearLayout
+			android:id="@+id/ll_currentproject4"
+	 	    android:gravity="center"
+	 	    android:orientation="vertical"
+	 	    android:layout_width="fill_parent"
+	    	android:layout_height="wrap_content">
+		    <TextView
+		        android:id="@+id/tvLocaleText2"
+		        android:layout_width="fill_parent"
+		    	android:layout_height="wrap_content"
+		    	android:text="GPS数据点捕获模式"
+		    	android:textColor="#000000"
+		    	android:background="@layout/v1_bk_head_splitbar" />
+		     <LinearLayout
+				android:id="@+id/ll_currentproject2"
+		 	    android:gravity="center"
+		 	    android:layout_width="fill_parent"
+		    	android:layout_height="wrap_content">
+			    <CheckBox
+			        android:id="@+id/cb_gpsaverageenable"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:textAppearance="?android:attr/textAppearanceMedium"
+			        android:textColor="#000000"
+			        android:text="平均值" />
+			    
+		    	<Button
+		            android:id="@+id/bt_average"
+		            android:drawableLeft="@drawable/v1_gpsaveragepoint"
+		            android:layout_width="fill_parent"
+		            android:layout_height="wrap_content"
+		            android:background="@drawable/buttonstyle_flat"
+		            android:gravity="left|center"
+		            android:textAppearance="?android:attr/textAppearanceMedium"
+		            android:layout_margin="3dp"
+		            android:tag="GPS平均值"
+		            android:text=" 点：5个    节点：3个" />
+			</LinearLayout>		    	
+	 	 </LinearLayout>
+ 
+	     <LinearLayout
+	        android:id="@+id/ll_currentproject3"
+	 	    android:gravity="center"
+	 	    android:orientation="vertical"
+	 	    android:layout_width="fill_parent"
+	    	android:layout_height="wrap_content">
+		    <TextView
+		        android:id="@+id/tvLocaleText3"
+		        android:layout_width="fill_parent"
+		    	android:layout_height="wrap_content"
+		    	android:text="顶部坐标栏显示"
+		    	android:textColor="#000000"
+		    	android:background="@layout/v1_bk_head_splitbar" />
+	    	<Button
+	            android:id="@+id/bt_topxy"
+	            android:drawableLeft="@drawable/v1_topxy"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:background="@drawable/buttonstyle_flat"
+	            android:gravity="left|center"
+	            android:textAppearance="?android:attr/textAppearanceMedium"
+	            android:layout_margin="3dp"
+	            android:tag="顶部坐标栏格式"
+	            android:text="" />
+	 	 </LinearLayout>
+	     <LinearLayout
+	 	    android:gravity="center"
+	 	    android:orientation="vertical"
+	 	    android:layout_width="fill_parent"
+	    	android:layout_height="wrap_content">
+		    <TextView
+		        android:id="@+id/tvLocaleText42"
+		        android:layout_width="fill_parent"
+		    	android:layout_height="wrap_content"
+		    	android:text="面积单位"
+		    	android:textColor="#000000"
+		    	android:background="@layout/v1_bk_head_splitbar" />
+	    	<Button
+	            android:id="@+id/bt_areaunit"
+	            android:drawableLeft="@drawable/v1_measurearea"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:background="@drawable/buttonstyle_flat"
+	            android:gravity="left|center"
+	            android:textAppearance="?android:attr/textAppearanceMedium"
+	            android:layout_margin="3dp"
+	            android:tag="面积单位"
+	            android:text="" />
+	 	 </LinearLayout>
+	 	 <LinearLayout
+	 	    android:gravity="center"
+	 	    android:orientation="vertical"
+	 	    android:layout_width="fill_parent"
+	    	android:layout_height="wrap_content">
+		    <TextView
+		        android:id="@+id/tvLocaleText8"
+		        android:layout_width="fill_parent"
+		    	android:layout_height="wrap_content"
+		    	android:text="长度单位"
+		    	android:textColor="#000000"
+		    	android:background="@layout/v1_bk_head_splitbar" />
+	    	<Button
+	            android:id="@+id/bt_Lenthunit"
+	            android:drawableLeft="@drawable/v1_measurearea"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:background="@drawable/buttonstyle_flat"
+	            android:gravity="left|center"
+	            android:textAppearance="?android:attr/textAppearanceMedium"
+	            android:layout_margin="3dp"
+	            android:tag="长度单位"
+	            android:text="" />
+	 	 </LinearLayout>
+	 	 <LinearLayout
+	 	    android:gravity="center"
+	 	    android:orientation="vertical"
+	 	    android:layout_width="fill_parent"
+	    	android:layout_height="wrap_content">
+		    <TextView
+		        android:id="@+id/tvLocaleText88"
+		        android:layout_width="fill_parent"
+		    	android:layout_height="wrap_content"
+		    	android:text="选择图幅号比例"
+		    	android:textColor="#000000"
+		    	android:background="@layout/v1_bk_head_splitbar" />
+	    	<Button
+	            android:id="@+id/bt_MapScale"
+	            android:drawableLeft="@drawable/v1_measurearea"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:background="@drawable/buttonstyle_flat"
+	            android:gravity="left|center"
+	            android:textAppearance="?android:attr/textAppearanceMedium"
+	            android:layout_margin="3dp"
+	            android:tag="图幅比例"
+	            android:text="" />
+	 	 </LinearLayout>	 	 	 	 
+	     <LinearLayout
+	 	    android:gravity="center"
+	 	    android:orientation="vertical"
+	 	    android:layout_width="fill_parent"
+	    	android:layout_height="wrap_content">
+		    <TextView
+		        android:layout_width="fill_parent"
+		    	android:layout_height="wrap_content"
+		    	android:text="放大镜"
+		    	android:textColor="#000000"
+		    	android:background="@layout/v1_bk_head_splitbar" />
+		     <LinearLayout
+		 	    android:gravity="center|left"
+		 	    android:layout_width="fill_parent"
+		    	android:layout_height="wrap_content">
+			    <CheckBox
+			        android:id="@+id/cb_zoomglass"
+			        android:tag="放大镜"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:textAppearance="?android:attr/textAppearanceMedium"
+			        android:textColor="#000000"
+			        android:text="精确操作模式" />
+			</LinearLayout>	
+			  <LinearLayout
+		 	    android:gravity="center|left"
+		 	    android:layout_width="fill_parent"
+		    	android:layout_height="wrap_content">
+			    <TextView
+		        android:layout_width="wrap_content"
+		    	android:layout_height="wrap_content"
+		    	android:text="放大镜直径："
+		    	android:textColor="#000000"/>
+			   <RadioGroup android:id="@+id/rg_glassScale" 
+			 		         android:contentDescription="放大镜大小" 
+			 		         android:layout_width="wrap_content" 
+			 		         android:layout_height="wrap_content"
+			 		         android:orientation="horizontal">
+								<RadioButton 
+								    android:layout_width="wrap_content" 
+								    android:layout_height="wrap_content" 
+								    android:id="@+id/rbGlassScaleBig" 
+								    android:text="大"
+								    android:tag="大" 
+								    android:textColor="#000000">
+								</RadioButton>
+								<RadioButton 
+								    android:layout_width="wrap_content" 
+								    android:layout_height="wrap_content" 
+								    android:id="@+id/rbGlassScaleMiddle" 
+								    android:text="中"
+								    android:checked="true"
+								     android:tag="中" 
+								     android:textColor="#000000">
+								</RadioButton>
+								<RadioButton 
+								    android:layout_width="wrap_content" 
+								    android:layout_height="wrap_content" 
+								    android:id="@+id/rbGlassScaleSmall" 
+								    android:text="小"
+								     android:tag="小" 
+								     android:textColor="#000000">
+								</RadioButton>
+									                   
+							</RadioGroup>
+			</LinearLayout>		    		    	
+	 	 </LinearLayout>
+	 	 <LinearLayout
+	 	    android:gravity="center"
+	 	    android:orientation="vertical"
+	 	    android:layout_width="fill_parent"
+	    	android:layout_height="wrap_content">
+		    <TextView
+		        android:layout_width="fill_parent"
+		    	android:layout_height="wrap_content"
+		    	android:text="照片水印"
+		    	android:textColor="#000000"
+		    	android:background="@layout/v1_bk_head_splitbar" />
+		     <LinearLayout
+		 	    android:gravity="center|left"
+		 	    android:layout_width="fill_parent"
+		    	android:layout_height="wrap_content">
+			    <CheckBox
+			        android:id="@+id/cb_watermark"
+			        android:tag="照片水印"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:textAppearance="?android:attr/textAppearanceMedium"
+			        android:textColor="#000000"
+			        android:text="保存照片时左下角加上水印" />
+			</LinearLayout>		    	
+	 	 </LinearLayout>
+	 	 <LinearLayout
+	 	    android:gravity="center"
+	 	    android:orientation="vertical"
+	 	    android:layout_width="fill_parent"
+	    	android:layout_height="wrap_content">
+		    <TextView
+		        android:layout_width="fill_parent"
+		    	android:layout_height="wrap_content"
+		    	android:text="屏幕中心十字"
+		    	android:textColor="#000000"
+		    	android:background="@layout/v1_bk_head_splitbar" />
+		     <LinearLayout
+		 	    android:gravity="center|left"
+		 	    android:layout_width="fill_parent"
+		    	android:layout_height="wrap_content">
+			    <CheckBox
+			        android:id="@+id/cbCenterCross"
+			        android:tag="屏幕中心十字"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:textAppearance="?android:attr/textAppearanceMedium"
+			        android:textColor="#000000"
+			        android:text="显示屏幕中心十字" />
+			</LinearLayout>		    	
+	 	 </LinearLayout>	 	 	 	 	 	 	 	 	 	 	 	 
+ 	 </LinearLayout>
+</ScrollView>

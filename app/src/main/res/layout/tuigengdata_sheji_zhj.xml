@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#fff1f1f1"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="定义株行距"
+        android:textColor="#ff000000" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4.0dip"
+        android:gravity="center|left" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="点"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="#ff000000"
+            android:visibility="invisible" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="株行距："
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="#ff000000" />
+
+        <EditText
+            android:id="@+id/et_cd"
+            style="@style/EditTextStyle"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:inputType="numberDecimal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8.0dip"
+            android:layout_marginRight="8.0dip"
+            android:text="*"
+            android:textColor="#ff000000"
+            android:textSize="32dp" />
+
+        <EditText
+            android:id="@+id/et_kd"
+            style="@style/EditTextStyle"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:inputType="numberDecimal" />
+    </LinearLayout>
+
+</LinearLayout>

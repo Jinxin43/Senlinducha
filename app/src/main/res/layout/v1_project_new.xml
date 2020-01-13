@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#f1f1f1"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+
+    <TextView
+        android:id="@+id/tvLocaleText1"
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:text="工程信息"
+    	android:textColor="#000000"
+    	android:background="@layout/v1_bk_head_splitbar" />
+
+     <LinearLayout android:orientation="vertical"
+ 	    android:layout_width="fill_parent"
+    	android:layout_height="wrap_content">
+	     <LinearLayout
+	 	    android:layout_width="fill_parent"
+	    	android:layout_height="wrap_content">
+	 		<TextView
+	 		    android:id="@+id/tvLocaleText2"
+	 		    android:layout_width="wrap_content"
+	 		    android:layout_height="wrap_content"
+	 		    android:text="工程名称："
+	 		    android:textColor="#000000"
+	 		    android:textAppearance="?android:attr/textAppearanceMedium" />
+	 		<EditText
+	 		    android:id="@+id/pn_projectname"
+	 		    android:text="新建工程"
+	 		    android:layout_width="wrap_content"
+	 		    android:layout_height="wrap_content"
+	 		    android:layout_weight="1"/>
+	 	 </LinearLayout>	
+	     <LinearLayout android:gravity="center"
+	 	    android:layout_width="fill_parent"
+	    	android:layout_height="wrap_content">
+	 		<TextView
+	 		    android:id="@+id/tvLocaleText3"
+	 		    android:layout_width="wrap_content"
+	 		    android:layout_height="wrap_content"
+	 		    android:text="工程模板："
+	 		    android:textColor="#000000"
+	 		    android:textAppearance="?android:attr/textAppearanceMedium" />
+	 		<lkmap.ZRoadMap.MyControl.v1_SpinnerDialog
+	 		    android:id="@+id/sp_layertemplate"
+	 		    android:layout_width="wrap_content"
+	 		    android:layout_height="wrap_content"
+	 		    android:layout_weight="1"/>
+	 	 </LinearLayout>		 	  
+	     <LinearLayout android:gravity="center"
+	 	    android:layout_width="fill_parent"
+	    	android:layout_height="wrap_content">
+	 		<TextView
+	 		    android:id="@+id/tvLocaleText4"
+	 		    android:layout_width="wrap_content"
+	 		    android:layout_height="wrap_content"
+	 		    android:text="坐标系统："
+	 		    android:textColor="#000000"
+	 		    android:textAppearance="?android:attr/textAppearanceMedium" />
+	 		<Spinner
+	 		    android:id="@+id/sp_coorsystem"
+	 		    android:layout_width="wrap_content"
+	 		    android:layout_height="wrap_content"
+	 		    android:layout_weight="1"/>
+	 	 </LinearLayout>	
+	     <LinearLayout android:gravity="center"
+	         android:orientation="vertical"
+	         android:id="@+id/ll_coorsystempara"
+	 	    android:layout_width="fill_parent"
+	    	android:layout_height="wrap_content">
+			 		
+			     <LinearLayout android:gravity="center"
+			         android:id="@+id/ll_fendaihao"
+			 	    android:layout_width="fill_parent"
+			    	android:layout_height="wrap_content">
+			 		<EditText
+			 		    android:id="@+id/etFenDaihao"
+			 		    android:layout_width="wrap_content"
+			 		    android:layout_height="wrap_content"
+			 		    android:text="0"
+			 		    android:textColor="#000000"
+			 		    android:textAppearance="?android:attr/textAppearanceMedium"
+			 		    android:visibility="gone" />
+			 		<EditText
+			 		    android:id="@+id/etFenDai"
+			 		    android:layout_width="wrap_content"
+			 		    android:layout_height="wrap_content"
+			 		    android:text="0"
+			 		    android:textColor="#000000"
+			 		    android:textAppearance="?android:attr/textAppearanceMedium"
+			 		    android:visibility="gone" />
+			 		
+			 	 </LinearLayout>
+			 	 	 	 
+			 	 <LinearLayout android:gravity="center"
+			         android:id="@+id/ll_centerjx"
+			 	    android:layout_width="fill_parent"
+			    	android:layout_height="wrap_content">
+			 		<TextView
+			 		    android:id="@+id/tvLocaleText5"
+			 		    android:layout_width="wrap_content"
+			 		    android:layout_height="wrap_content"
+			 		    android:text="中央经线："
+			 		    android:textColor="#000000"
+			 		    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+			 		<lkmap.ZRoadMap.MyControl.v1_SpinnerDialog
+			 		    android:id="@+id/sp_centerjx"
+			 		    android:layout_width="wrap_content"
+			 		    android:layout_height="wrap_content"
+			 		    android:layout_weight="1"/>
+			 	 </LinearLayout>
+			 	 
+			     <LinearLayout android:gravity="center"
+			         android:id="@+id/ll_transmethod"
+			 	    android:layout_width="fill_parent"
+			    	android:layout_height="wrap_content">
+			 		<TextView
+			 		    android:id="@+id/tvLocaleText6"
+			 		    android:layout_width="wrap_content"
+			 		    android:layout_height="wrap_content"
+			 		    android:text="椭球转换："
+			 		    android:textColor="#000000"
+			 		    android:textAppearance="?android:attr/textAppearanceMedium" />
+			 		<Spinner
+			 		    android:id="@+id/sp_transmethod"
+			 		    android:layout_width="wrap_content"
+			 		    android:layout_height="wrap_content"
+			 		    android:layout_weight="1"/>
+			 	 </LinearLayout>
+			 	 
+			     <LinearLayout android:gravity="center"
+			         android:id="@+id/ll_param"
+			         android:orientation="vertical"
+			         android:visibility="gone"
+			 	    android:layout_width="fill_parent"
+			 	    android:layout_height="wrap_content">
+				     <TextView
+				        android:id="@+id/tvLocaleText7"
+				        android:layout_width="fill_parent"
+				    	android:layout_height="wrap_content"
+				    	android:text="椭球转换参数"
+				    	android:textColor="#000000"
+				    	android:background="@layout/v1_bk_head_splitbar" />
+				         <include android:id="@+id/project_param_3"  layout="@layout/v1_project_param_3" android:visibility="gone"/>
+				         <include android:id="@+id/project_param_7"  layout="@layout/v1_project_param_7" android:visibility="gone"/>
+				     <TextView
+				        android:layout_width="fill_parent"
+				    	android:layout_height="5dp"
+				    	android:text=""
+				    	android:textColor="#000000"
+				    	android:background="@layout/v1_bk_head_splitbar" />				         
+				</LinearLayout>		 
+				
+			    <LinearLayout android:gravity="center"
+			         android:id="@+id/ll_pmtransmethod"
+			 	    android:layout_width="fill_parent"
+			    	android:layout_height="wrap_content">
+			 		<TextView
+			 		    android:id="@+id/tvLocaleT"
+			 		    android:layout_width="wrap_content"
+			 		    android:layout_height="wrap_content"
+			 		    android:text="平面转换："
+			 		    android:textColor="#000000"
+			 		    android:textAppearance="?android:attr/textAppearanceMedium" />
+			 		<Spinner
+			 		    android:id="@+id/sp_pmtransmethod"
+			 		    android:layout_width="wrap_content"
+			 		    android:layout_height="wrap_content"
+			 		    android:layout_weight="1"/>
+			 	 </LinearLayout>
+			 	 
+			     <LinearLayout android:gravity="center"
+			         android:id="@+id/ll_pmparam"
+			         android:visibility="gone"
+			         android:orientation="vertical"
+			 	    android:layout_width="fill_parent"
+			 	    android:layout_height="wrap_content">
+				     <TextView
+				        android:id="@+id/tvLocaleText8"
+				        android:layout_width="fill_parent"
+				    	android:layout_height="wrap_content"
+				    	android:text="平面转换参数"
+				    	android:textColor="#000000"
+				    	android:background="@layout/v1_bk_head_splitbar" />
+				     	<include android:id="@+id/project_param_4"  layout="@layout/v1_project_param_4"/>
+				</LinearLayout>	
+		</LinearLayout>
+ 	 </LinearLayout>
+        </LinearLayout>
+    </ScrollView> 	 
+</LinearLayout>

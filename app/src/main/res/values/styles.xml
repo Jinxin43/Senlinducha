@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <style name="EditTextStyle">
+        <item name="android:textAppearance">?android:textAppearanceLarge</item>
+        <item name="android:textColor">#ff0000ff</item>
+    </style>
+    
+    <style name="LinkTextStyle">
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:textColor">#6495ED</item>
+    </style>
+    
+</resources>

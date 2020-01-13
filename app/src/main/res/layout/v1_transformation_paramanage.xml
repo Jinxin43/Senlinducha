@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#f1f1f1"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    <TextView
+        android:id="@+id/tvLocaleText"
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:text="参数类型"
+    	android:textColor="#000000"
+    	android:background="@layout/v1_bk_head_splitbar" />    
+     <LinearLayout
+        android:id="@+id/ll_righttoolbar"
+ 	    android:layout_width="fill_parent"
+ 	    android:gravity="center"
+    	android:layout_height="wrap_content">
+ 		<TextView
+ 		    android:id="@+id/tvLocaleText2"
+ 		    android:layout_width="wrap_content"
+ 		    android:layout_height="wrap_content"
+ 		    android:text="类型："
+ 		    android:textColor="#000000"
+ 		    android:textAppearance="?android:attr/textAppearanceMedium" />
+   		<Spinner
+   		    android:id="@+id/spType"
+   		    android:layout_width="wrap_content"
+   		    android:layout_height="wrap_content"
+   		    android:layout_weight="1" />
+
+   	 </LinearLayout>
+    	 
+    <TextView
+        android:id="@+id/tvLocaleText"
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:text="转换参数列表"
+    	android:textColor="#000000"
+    	android:background="@layout/v1_bk_head_splitbar" />
+	     <LinearLayout
+	        android:id="@+id/ll_righttoolbar"
+	 	    android:layout_width="fill_parent"
+	    	android:layout_height="wrap_content">
+    		<Button
+	    	    android:id="@+id/bt_add"
+	    	    android:layout_width="wrap_content"
+	    	    android:layout_height="wrap_content"
+	    	    android:layout_weight="1"
+	    	    android:drawableTop="@drawable/v1_paramanage_add"
+			    android:background="@drawable/buttonstyle"
+	    	    android:tag="增加"
+	    	    android:textAppearance="?android:attr/textAppearanceMedium" 
+	    	    android:text="增加"/>
+    		<Button
+	    	    android:id="@+id/bt_edit"
+	    	    android:layout_width="wrap_content"
+	    	    android:layout_height="wrap_content"
+	    	    android:layout_weight="1"
+	    	    android:drawableTop="@drawable/v1_paramanage_edit"
+			    android:background="@drawable/buttonstyle"
+			    android:textAppearance="?android:attr/textAppearanceMedium" 
+	    	    android:tag="修改"
+	    	    android:text="修改"/>    	
+    		<Button
+	    	    android:id="@+id/bt_delete"
+	    	    android:layout_width="wrap_content"
+	    	    android:layout_height="wrap_content"
+	    	    android:layout_weight="1"
+	    	    android:drawableTop="@drawable/v1_paramanage_delete"
+			    android:background="@drawable/buttonstyle"
+			    android:textAppearance="?android:attr/textAppearanceMedium" 
+	    	    android:tag="删除"
+	    	    android:text="删除"/>	   
+    		<Button
+	    	    android:id="@+id/bt_cal"
+	    	    android:enabled="false"
+	    	    android:layout_width="wrap_content"
+	    	    android:layout_height="wrap_content"
+	    	    android:layout_weight="1"
+	    	    android:drawableTop="@drawable/v1_paramanage_cal"
+			    android:background="@drawable/buttonstyle"
+			    android:textAppearance="?android:attr/textAppearanceMedium" 
+	    	    android:tag="计算"
+	    	    android:text="计算"/>		    	                  
+	     </LinearLayout>
+	     <LinearLayout
+	         android:orientation="vertical"
+	         android:id="@+id/ll_leftpannel"
+	         android:background="#fafafa"
+	 	    android:layout_width="fill_parent"
+	    	android:layout_height="fill_parent">
+		     <LinearLayout 
+		         android:orientation="horizontal"
+		         android:gravity="center"
+			 	    android:layout_width="fill_parent"
+			    	android:layout_height="40dp">
+				    <TextView
+				        android:layout_width="fill_parent"
+				    	android:layout_height="fill_parent"
+				    	android:layout_weight="2"
+				    	android:text="名称"
+				    	android:gravity="center"
+				    	android:textAppearance="?android:attr/textAppearanceMedium" 
+				    	android:textColor="#000000"
+				    	android:background="@layout/v1_bk_table_header"/>
+				    <TextView
+				        android:layout_width="fill_parent"
+				    	android:layout_height="fill_parent"
+				    	android:layout_weight="1"
+				    	android:text="详细参数"
+				    	android:gravity="center"
+				    	android:textAppearance="?android:attr/textAppearanceMedium" 
+				    	android:textColor="#000000"
+				    	android:background="@layout/v1_bk_table_header"/>
+			 </LinearLayout> 
+	         <ListView
+	             android:id="@+id/listView1"
+	             android:layout_width="fill_parent"
+	             android:layout_height="fill_parent"
+	             android:cacheColorHint="#00000000"
+				android:dividerHeight="0.5dp"
+				android:divider="#7357ea">
+	         </ListView>
+
+	    </LinearLayout>	
+	    
+</LinearLayout>

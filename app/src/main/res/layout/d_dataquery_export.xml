@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#fff1f1f1"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tvLocaleText1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@layout/v1_bk_head_splitbar"
+                android:text="统计"
+                android:textColor="#ff000000" />
+
+            <TextView
+                android:id="@+id/tv_datacount"
+                android:layout_width="wrap_content"
+                android:layout_height="32.0dip"
+                android:layout_marginLeft="4.0dip"
+                android:gravity="center"
+                android:text="可导出实体数量：10"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="#ff000000" />
+
+            <TextView
+                android:id="@+id/tvLocaleText8"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@layout/v1_bk_head_splitbar"
+                android:text="选项"
+                android:textColor="#ff000000" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:id="@+id/tvLocaleText2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="4.0dip"
+                        android:text="导出目录："
+                        android:textAppearance="?android:textAppearanceMedium"
+                        android:textColor="#ff000000" />
+
+                    <EditText
+                        android:id="@+id/pn_projectname"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.0"
+                        android:text="新建工程" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center" >
+
+                    <TextView
+                        android:id="@+id/tvLocaleText3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="4.0dip"
+                        android:text="导出格式："
+                        android:textAppearance="?android:textAppearanceMedium"
+                        android:textColor="#ff000000" />
+
+                    <Spinner
+                        android:id="@+id/sp_format"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.0"
+                        android:spinnerMode="dropdown" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_template"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:visibility="gone" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="4.0dip"
+                        android:text="导出模板："
+                        android:textAppearance="?android:textAppearanceMedium"
+                        android:textColor="#ff000000" />
+
+                    <lkmap.ZRoadMap.MyControl.v1_SpinnerDialog
+                        android:id="@+id/sp_template"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.0" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_photo_template"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:visibility="gone" >
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="4.0dip"
+                            android:text="导出属性："
+                            android:textAppearance="?android:textAppearanceMedium"
+                            android:textColor="#ff000000" />
+
+                        <lkmap.ZRoadMap.MyControl.v1_SpinnerDialog
+                            android:id="@+id/sp_photofield"
+                            android:layout_width="0.0dip"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1.0" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="4.0dip"
+                            android:text="多媒体名："
+                            android:textAppearance="?android:textAppearanceMedium"
+                            android:textColor="#ff000000" />
+
+                        <Spinner
+                            android:id="@+id/sp_photoname"
+                            android:layout_width="0.0dip"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1.0" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center|left" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="4.0dip"
+                            android:text="字符占位："
+                            android:textAppearance="?android:textAppearanceMedium"
+                            android:textColor="#ff000000"
+                            android:visibility="invisible" />
+
+                        <CheckBox
+                            android:id="@+id/cb_createpath"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:checked="true"
+                            android:text="按属性值创建目录"
+                            android:textAppearance="?android:textAppearanceMedium"
+                            android:textColor="#ff000000" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center|left" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="4.0dip"
+                            android:text="字符占位："
+                            android:textAppearance="?android:textAppearanceMedium"
+                            android:textColor="#ff000000"
+                            android:visibility="invisible" />
+
+                        <CheckBox
+                            android:id="@+id/cb_photoextra"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:checked="true"
+                            android:text="导出照片附加信息"
+                            android:textAppearance="?android:textAppearanceMedium"
+                            android:textColor="#ff000000" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

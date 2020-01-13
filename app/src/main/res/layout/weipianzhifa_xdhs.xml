@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    android:background="#ffffffff" 
+    android:focusableInTouchMode="true" 
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView 
+        android:layout_width="fill_parent" 
+        android:layout_height="fill_parent">
+        <LinearLayout 
+            android:gravity="center" 
+            android:orientation="vertical" 
+            android:layout_width="fill_parent" 
+            android:layout_height="wrap_content">
+            <LinearLayout 
+                android:gravity="center" 
+                android:orientation="vertical" 
+                android:layout_width="fill_parent" 
+                android:layout_height="fill_parent">
+                
+              
+                <LinearLayout 
+                    android:gravity="center|left" 
+                    android:layout_width="fill_parent" 
+                    android:layout_height="wrap_content" android:layout_margin="4.0dip">
+                    <TextView 
+                        android:textAppearance="?android:textAppearanceMedium" 
+                        android:textColor="#ff000000" 
+                        android:visibility="invisible" 
+                        android:layout_width="wrap_content" 
+                        android:layout_height="wrap_content" 
+                        android:text="占位占" />
+                    <TextView 
+                        android:textAppearance="?android:textAppearanceMedium" 
+                        android:textColor="#ff000000" 
+                        android:layout_width="wrap_content" 
+                        android:layout_height="wrap_content" 
+                        android:text="横坐标：" />
+                    <EditText 
+                        android:id="@+id/et_xdhzb" 
+                        android:layout_width="0.0dip" 
+                        android:layout_height="wrap_content" 
+                        android:layout_weight="1.0"  />
+                </LinearLayout>
+                <LinearLayout 
+                    android:gravity="center|left" 
+                    android:layout_width="fill_parent" 
+                    android:layout_height="wrap_content" android:layout_margin="4.0dip">
+                    <TextView 
+                        android:textAppearance="?android:textAppearanceMedium" 
+                        android:textColor="#ff000000" 
+                        android:visibility="invisible" 
+                        android:layout_width="wrap_content" 
+                        android:layout_height="wrap_content" 
+                        android:text="占位占" />
+                    <TextView 
+                        android:textAppearance="?android:textAppearanceMedium" 
+                        android:textColor="#ff000000" 
+                        android:layout_width="wrap_content" 
+                        android:layout_height="wrap_content" 
+                        android:text="纵坐标：" />
+                    <EditText 
+                        android:id="@+id/et_xdzzb" 
+                        android:layout_width="0.0dip" 
+                        android:layout_height="wrap_content" 
+                        android:layout_weight="1.0"  />
+                </LinearLayout>
+                <LinearLayout 
+                  android:gravity="center|left" 
+                  android:layout_width="fill_parent" 
+                  android:layout_height="wrap_content" android:layout_margin="4.0dip">
+                       <TextView 
+                        android:textAppearance="?android:textAppearanceMedium" 
+                        android:textColor="#ff000000" 
+                        android:visibility="invisible" 
+                        android:layout_width="wrap_content" 
+                        android:layout_height="wrap_content" 
+                        android:text="占位占" />
+                    <TextView 
+                        android:textAppearance="?android:textAppearanceMedium" 
+                        android:textColor="#ff000000" 
+                        android:layout_width="wrap_content" 
+                        android:layout_height="wrap_content" 
+                        android:text="前地类：" />
+                    <Spinner 
+                        android:id="@+id/sp_xdydl" 
+                        android:layout_width="0.0dip" 
+                        android:layout_height="wrap_content" 
+                        android:layout_weight="1.0" 
+                        android:spinnerMode="dropdown"/>
+                </LinearLayout>
+                 <LinearLayout 
+                  android:gravity="center|left" 
+                  android:layout_width="fill_parent" 
+                  android:layout_height="wrap_content" android:layout_margin="4.0dip">
+                       <TextView 
+                        android:textAppearance="?android:textAppearanceMedium" 
+                        android:textColor="#ff000000" 
+                        android:visibility="invisible" 
+                        android:layout_width="wrap_content" 
+                        android:layout_height="wrap_content" 
+                        android:text="占位占" />
+                    <TextView 
+                        android:textAppearance="?android:textAppearanceMedium" 
+                        android:textColor="#ff000000" 
+                        android:layout_width="wrap_content" 
+                        android:layout_height="wrap_content" 
+                        android:text="现地类：" />
+                    <Spinner 
+                        android:id="@+id/sp_xdxdl" 
+                        android:layout_width="0.0dip" 
+                        android:layout_height="wrap_content" 
+                        android:layout_weight="1.0" 
+                        android:spinnerMode="dropdown"/>
+                </LinearLayout>
+                 <LinearLayout 
+                  android:gravity="center|left" 
+                  android:layout_width="fill_parent" 
+                  android:layout_height="wrap_content" android:layout_margin="4.0dip">
+                       <TextView 
+                        android:textAppearance="?android:textAppearanceMedium" 
+                        android:textColor="#ff000000" 
+                        android:visibility="invisible" 
+                        android:layout_width="wrap_content" 
+                        android:layout_height="wrap_content" 
+                        android:text="" />
+                    <TextView 
+                        android:textAppearance="?android:textAppearanceMedium" 
+                        android:textColor="#ff000000" 
+                        android:layout_width="wrap_content" 
+                        android:layout_height="wrap_content" 
+                        android:text="用途是否变化：" />
+                    <Spinner 
+                        android:id="@+id/sp_ldyusfbh" 
+                        android:layout_width="0.0dip" 
+                        android:layout_height="wrap_content" 
+                        android:layout_weight="1.0" 
+                        android:spinnerMode="dropdown"/>
+                </LinearLayout>
+                 <LinearLayout 
+                  android:gravity="center|left" 
+                  android:layout_width="fill_parent" 
+                  android:layout_height="wrap_content" android:layout_margin="4.0dip">
+                       <TextView 
+                        android:textAppearance="?android:textAppearanceMedium" 
+                        android:textColor="#ff000000" 
+                        android:visibility="invisible" 
+                        android:layout_width="wrap_content" 
+                        android:layout_height="wrap_content" 
+                        android:text="" />
+                    <TextView 
+                        android:textAppearance="?android:textAppearanceMedium" 
+                        android:textColor="#ff000000" 
+                        android:layout_width="wrap_content" 
+                        android:layout_height="wrap_content" 
+                        android:text="有无林木采伐：" />
+                    <Spinner 
+                        android:id="@+id/sp_xdywlmcf" 
+                        android:layout_width="0.0dip" 
+                        android:layout_height="wrap_content" 
+                        android:layout_weight="1.0" 
+                        android:spinnerMode="dropdown"/>
+                </LinearLayout>
+                 <LinearLayout 
+                  android:gravity="center|left" 
+                  android:layout_width="fill_parent" 
+                  android:layout_height="wrap_content" android:layout_margin="4.0dip">
+                       <TextView 
+                        android:textAppearance="?android:textAppearanceMedium" 
+                        android:textColor="#ff000000" 
+                        android:visibility="invisible" 
+                        android:layout_width="wrap_content" 
+                        android:layout_height="wrap_content" 
+                        android:text="占位" />
+                    <TextView 
+                        android:textAppearance="?android:textAppearanceMedium" 
+                        android:textColor="#ff000000" 
+                        android:layout_width="wrap_content" 
+                        android:layout_height="wrap_content" 
+                        android:text="是否掌握：" />
+                    <Spinner 
+                        android:id="@+id/sp_xdsfzw" 
+                        android:layout_width="0.0dip" 
+                        android:layout_height="wrap_content" 
+                        android:layout_weight="1.0" 
+                        android:spinnerMode="dropdown"/>
+                </LinearLayout>
+                 <LinearLayout 
+                    android:gravity="center|left" 
+                    android:layout_width="fill_parent" 
+                    android:layout_height="wrap_content" android:layout_margin="4.0dip">
+                    <TextView 
+                        android:textAppearance="?android:textAppearanceMedium" 
+                        android:textColor="#ff000000" 
+                        android:visibility="invisible" 
+                        android:layout_width="wrap_content" 
+                        android:layout_height="wrap_content" 
+                        android:text="位占位占" />
+                    <TextView 
+                        android:textAppearance="?android:textAppearanceMedium" 
+                        android:textColor="#ff000000" 
+                        android:layout_width="wrap_content" 
+                        android:layout_height="wrap_content" 
+                        android:text="备注：" />
+                    <EditText 
+                        android:id="@+id/et_xdbz" 
+                        android:layout_width="0.0dip" 
+                        android:layout_height="wrap_content" 
+                        android:layout_weight="1.0"  />
+                </LinearLayout>
+                <LinearLayout 
+                    android:gravity="center|left" 
+                    android:layout_width="fill_parent" 
+                    android:layout_height="wrap_content" 
+                    android:layout_margin="10.0dip">
+                    <TextView 
+                        android:textAppearance="?android:textAppearanceMedium" 
+                        android:textColor="#ff000000" 
+                        android:visibility="invisible" 
+                        android:layout_width="wrap_content" 
+                        android:layout_height="wrap_content" 
+                        android:text="占" />
+                    <TextView 
+                        android:textAppearance="?android:textAppearanceMedium" 
+                        android:textColor="#ff000000" 
+                        android:layout_width="wrap_content" 
+                        android:layout_height="wrap_content" 
+                        android:text="被调查单位：" />
+                    <EditText 
+                        android:id="@+id/et_bdcdw" 
+                        android:layout_width="0.0dip" 
+                        android:layout_height="wrap_content" 
+                        android:layout_weight="1.0"  />
+                </LinearLayout>
+                 <LinearLayout 
+                    android:gravity="center|left" 
+                    android:layout_width="fill_parent" 
+                    android:layout_height="wrap_content" 
+                    android:layout_margin="4.0dip">
+                    <TextView 
+                        android:textAppearance="?android:textAppearanceMedium" 
+                        android:textColor="#ff000000" 
+                        android:visibility="invisible" 
+                        android:layout_width="wrap_content" 
+                        android:layout_height="wrap_content" 
+                        android:text="位占" />
+                    <TextView 
+                        android:textAppearance="?android:textAppearanceMedium" 
+                        android:textColor="#ff000000" 
+                        android:layout_width="wrap_content" 
+                        android:layout_height="wrap_content" 
+                        android:text="被调查人：" />
+                    <EditText 
+                        android:id="@+id/et_bdcr" 
+                        android:layout_width="0.0dip" 
+                        android:layout_height="wrap_content" 
+                        android:layout_weight="1.0"  />
+                </LinearLayout>
+                 <LinearLayout 
+                    android:gravity="center|left" 
+                    android:layout_width="fill_parent" 
+                    android:layout_height="wrap_content" 
+                    android:layout_margin="4.0dip">
+                    <TextView 
+                        android:textAppearance="?android:textAppearanceMedium" 
+                        android:textColor="#ff000000" 
+                        android:visibility="invisible" 
+                        android:layout_width="wrap_content" 
+                        android:layout_height="wrap_content" 
+                        android:text="位占" />
+                    <TextView 
+                        android:textAppearance="?android:textAppearanceMedium" 
+                        android:textColor="#ff000000" 
+                        android:layout_width="wrap_content" 
+                        android:layout_height="wrap_content"
+                        android:text="调查记录：" />
+
+                    <EditText
+                        android:id="@+id/et_dcjl"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.0"
+                        android:minHeight="120dp" />
+
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="GBK" addBOMForNewFiles="with NO BOM">
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/dingtu/Controls/ListViewForScrollView.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/dingtu/DTGIS/Control/LinePathView.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/dingtu/DTGIS/Control/ProcessDialog.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/dingtu/DTGIS/DataDictionary/DataDicitonary.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/dingtu/DTGIS/DataDictionary/DialogDictNameSelector.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/dingtu/DTGIS/DataDictionary/DialogDictSelector.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/dingtu/DTGIS/DataDictionary/DivisionData.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/dingtu/DTGIS/DataDictionary/ForestryDict.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/dingtu/DTGIS/DataService/DataDB.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/dingtu/DTGIS/DataService/DictDataDB.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/dingtu/DTGIS/DataService/DictXZQH.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/dingtu/DTGIS/DataService/LogDB.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/dingtu/DTGIS/DataService/ProjectDB.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/dingtu/DTGIS/DataService/TuiGengDB.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/dingtu/DTGIS/DataService/UserConfigDB.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/dingtu/DTGIS/GPS/GPSExporter.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/dingtu/DTGIS/LDBG/JiaoguiceshuEdit.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/dingtu/DTGIS/LDBG/LDBGDataObject.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/dingtu/DTGIS/LDBG/LDBG_Jiaoguiceshu.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/dingtu/DTGIS/LDBG/LinDiBianGengData.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/dingtu/DTGIS/LDBG/XiaoBanXuji.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/dingtu/DTGIS/TuiGeng/TuiGengData.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/dingtu/DTGIS/TuiGeng/TuiGengDataObject.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/dingtu/DTGIS/TuiGeng/TuiGengDataZLSZSelectAdapter.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/dingtu/DTGIS/TuiGeng/TuiGengData_AddDuiXian.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/dingtu/DTGIS/TuiGeng/TuiGengData_AddFenHu.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/dingtu/DTGIS/TuiGeng/TuiGengData_ExportTable.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/dingtu/DTGIS/TuiGeng/TuiGengData_FenHu.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/dingtu/DTGIS/TuiGeng/TuiGengData_ZHJ.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/dingtu/DTGIS/TuiGeng/TuiGengData_ZLSZ.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/dingtu/DTGIS/TuiGeng/TuiGengFenhuAdapter.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/dingtu/DTGIS/Upload/FTPTool.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/dingtu/DTGIS/WPZFJC/WeiPianZhiFaData.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/dingtu/DTGIS/WPZFJC/WeiPianZhiFa_MJJL.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/zhy/tree/bean/Node.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/zhy/tree/bean/TreeHelper.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/zhy/tree/bean/TreeListViewAdapter.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/dingtu/ZRoadMap/AndroidMap.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/dingtu/ZRoadMap/Login.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/dingtu/ZRoadMap/Welcome.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/lkmap/ZRoadMap/DataExport/DataExport_SHP.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/lkmap/ZRoadMap/ToolsBox/v1_UserConfigDB_PolyAnalysisOption.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/lkmap/ZRoadMap/ToolsBox/v1_poly_analysis.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/lkmap/ZRoadMap/ToolsBox/v1_poly_analysis_saveresult.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/lkmap/ZRoadMap/ToolsBox/v1_poly_analysis_set.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/lkmap/ZRoadMap/ToolsBox/v1_poly_analysis_set_addfilter.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/lkmap/ZRoadMap/ToolsBox/v1_selectdictionary.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/lkmap/ZRoadMap/Transformation/v1_transformation_addmatchpoint.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/lkmap/ZRoadMap/Transformation/v1_transformation_calparam.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/lkmap/ZRoadMap/Transformation/v1_transformation_paramanage.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/lkmap/ZRoadMap/Transformation/v1_transformation_paramanage_add.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/lkmap/ZRoadMap/Transformation/v1_transformation_plane_fourparam.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/lkmap/ZRoadMap/Transformation/v1_transformation_quickmatchpoint.java" charset="GBK" />
+    <file url="PROJECT" charset="GBK" />
+  </component>
+</project>

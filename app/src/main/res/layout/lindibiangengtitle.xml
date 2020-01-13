@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffffff"
+    android:focusableInTouchMode="true" 
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center" >
+        
+         <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8.0dip"
+            android:text="省："
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="#ff000000" />
+
+        <EditText
+            android:id="@+id/et_province"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:focusable="false"
+            android:text="" />
+        
+        <AutoCompleteTextView
+	        android:id="@+id/autoCompleteProvince"
+	        android:layout_width="0.0dip"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1.0"
+	        android:completionHint=""
+	        android:completionThreshold="1"
+	        android:dropDownHorizontalOffset="20dp"
+	        android:ems="10"
+	        android:visibility="gone">
+       
+   	 </AutoCompleteTextView>
+   	 
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8.0dip"
+            android:text="县(林业局/林场)："
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="#ff000000" />
+
+        <EditText
+            android:id="@+id/et_xian"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:focusable="false"
+            android:text="" />
+
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center" >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8.0dip"
+            android:text=" X："
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="#ff000000" />
+
+        <EditText
+            android:id="@+id/et_lindxx"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:enabled="false"
+            android:focusable="false"
+            android:text="" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8.0dip"
+            android:text="Y："
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="#ff000000" />
+
+        <EditText
+            android:id="@+id/et_lindyy"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+             android:layout_weight="1.0"
+            android:enabled="false"
+            android:focusable="false"
+            android:text="" />
+		<TextView
+		    android:id="@+id/tv_RecordXuJi"
+		    android:tag="蓄积量"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dip"
+            android:layout_marginRight="8dp"
+            android:text="蓄积量调查"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="#6495ED"
+            android:visibility="gone" />
+      
+    </LinearLayout>
+
+</LinearLayout>

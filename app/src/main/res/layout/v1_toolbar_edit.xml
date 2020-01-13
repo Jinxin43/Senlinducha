@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+         android:layout_height="wrap_content"   
+         android:paddingBottom="0dip" 
+         android:layout_above="@+id/slidingDrawer1"
+         android:layout_width="fill_parent">  
+
+  <lkmap.ToolBar.LKSlidingDrawer
+        android:id="@+id/slidingDrawer1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent" 
+        android:orientation="vertical" 
+        android:content="@+id/content"
+        android:handle="@+id/handle" >
+
+        <ImageView
+            android:id="@+id/handle"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/v1_toolbardownbar"
+
+            android:scaleType="fitXY"/>
+
+        <LinearLayout
+            android:id="@+id/content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@layout/v1_bk_main">
+		    <LinearLayout android:id="@+id/toolbar_edit"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:background="@layout/v1_bk_main">
+		    </LinearLayout>   
+        </LinearLayout>
+    </lkmap.ToolBar.LKSlidingDrawer>
+    
+      
+
+    
+</RelativeLayout>

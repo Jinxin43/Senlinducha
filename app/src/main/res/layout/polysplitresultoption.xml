@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#fff1f1f1"
+    android:orientation="vertical" >
+
+    
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@layout/v1_bk_head_splitbar"
+        android:text="选项"
+        android:textColor="#ff000000" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/ll_undo"
+            android:layout_width="fill_parent"
+             android:layout_height="100.0dip"
+            android:background="@layout/v1_bk_box"
+            android:gravity="center" >
+
+              <TextView
+		            android:layout_width="fill_parent"
+		            android:layout_height="fill_parent"
+		            android:layout_weight="1"
+		            android:background="@layout/v1_bk_table_header"
+		            android:gravity="center"
+		            android:text="处理前"
+		            android:textAppearance="?android:textAppearanceMedium"
+		            android:textColor="#ff000000" />
+              
+            <ImageView
+                android:id="@+id/iv_undo_1"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.0"
+                android:contentDescription="原面" />
+
+            <ImageView
+                android:id="@+id/iv_undo_2"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.0" 
+                android:contentDescription="原面"/>
+
+   			<ImageView
+                android:id="@+id/iv_undo_3"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.0" 
+                android:contentDescription="原面"/>
+        </LinearLayout>
+         <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="0.5dip"
+                android:background="#ffd6d5d5" />
+       <LinearLayout
+            android:id="@+id/ll_do"
+            android:layout_width="fill_parent"
+              android:layout_height="100.0dip"
+            android:background="@layout/v1_bk_box"
+            android:gravity="center" >
+
+              <TextView
+		           android:layout_width="fill_parent"
+		            android:layout_height="fill_parent"
+		            android:layout_weight="1.0"
+		            android:background="@layout/v1_bk_table_header"
+		            android:gravity="center"
+		            android:text="处理后"
+		            android:textAppearance="?android:textAppearanceMedium"
+		            android:textColor="#ff000000" />
+              
+            <ImageView
+                android:id="@+id/iv_do_1"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.0" />
+
+            <ImageView
+                android:id="@+id/iv_do_2"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.0" />
+
+   			<ImageView
+                android:id="@+id/iv_do_3"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.0" />
+        </LinearLayout>
+         <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="0.5dip"
+                android:background="#ffd6d5d5" />
+       <LinearLayout
+            android:id="@+id/ll_opertion"
+             android:layout_width="fill_parent"
+            android:layout_height="64.0dip"
+            android:background="@layout/v1_bk_box"
+            android:gravity="center" >
+
+                <TextView
+		            android:layout_width="fill_parent"
+		            android:layout_height="fill_parent"
+		            android:layout_weight="1.0"
+		            android:background="@layout/v1_bk_table_header"
+		            android:gravity="center"
+		            android:text="操作"
+		            android:textAppearance="?android:textAppearanceMedium"
+		            android:textColor="#ff000000" />
+              
+            <lkmap.ZRoadMap.MyControl.v1_Button_Center
+                android:id="@+id/bt_do1"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.0" />
+
+           <lkmap.ZRoadMap.MyControl.v1_Button_Center
+                android:id="@+id/bt_do2"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" 
+                android:layout_weight="1.0"/>
+
+   			<lkmap.ZRoadMap.MyControl.v1_Button_Center
+                android:id="@+id/bt_do3"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" 
+                android:layout_weight="1.0"
+                />
+        </LinearLayout>
+ </LinearLayout>
+</LinearLayout>

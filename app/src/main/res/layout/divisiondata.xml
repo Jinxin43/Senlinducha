@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    
+        <LinearLayout 
+            android:layout_width="wrap_content" 
+         	android:layout_height="wrap_content"
+         	android:layout_margin="10dp">
+	        <TextView 
+	            android:layout_width="wrap_content" 
+	            android:layout_height="wrap_content"
+	            android:text="  省："
+	            android:textColor="#000000"
+	            android:textAppearance="?android:textAppearanceMedium"/>
+	      <Spinner
+	           android:id="@+id/sp_province"
+	           android:layout_width="wrap_content" 
+	           android:layout_height="wrap_content"
+	           android:text="陕西省"
+	           android:spinnerMode="dropdown">
+	      </Spinner>
+	      <TextView 
+	            android:layout_width="wrap_content" 
+	            android:layout_height="wrap_content"
+	            android:text="代码："
+	            android:textColor="#000000"
+	            android:textAppearance="?android:textAppearanceMedium"
+	            android:layout_marginLeft="10dp"/>
+	      <EditText
+	           android:id="@+id/et_provinceCode"
+	           android:layout_width="110dp" 
+	           android:layout_height="wrap_content"
+	           android:text="61">
+	      </EditText>
+	      <TextView 
+	            android:layout_width="wrap_content" 
+	            android:layout_height="wrap_content"
+	            android:text="市(地区)："
+	            android:textColor="#000000"
+	            android:textAppearance="?android:textAppearanceMedium"
+	            android:layout_marginLeft="10dp"/>
+	      <Spinner
+	           android:id="@+id/sp_city"
+	           android:layout_width="wrap_content" 
+	           android:layout_height="wrap_content"
+	           android:text="安康市"
+	           android:spinnerMode="dropdown">
+	      </Spinner>
+	      
+	       <TextView 
+	            android:layout_width="wrap_content" 
+	            android:layout_height="wrap_content"
+	            android:text="代码："
+	            android:textColor="#000000"
+	            android:textAppearance="?android:textAppearanceMedium"
+	            android:layout_marginLeft="10dp"/>
+	      <EditText
+	           android:id="@+id/et_cityCode"
+	           android:layout_width="110dp" 
+	           android:layout_height="wrap_content"
+	           android:text="6107">
+	      </EditText>
+	      
+      </LinearLayout>
+	
+	 
+	<RelativeLayout 
+	     android:layout_width="match_parent" 
+	     android:layout_height="wrap_content">
+	     <LinearLayout 
+            android:layout_width="wrap_content" 
+         	android:layout_height="wrap_content"
+         	android:layout_alignParentLeft="true"
+         	android:layout_margin="10dp">
+	      <TextView 
+	            android:layout_width="wrap_content" 
+	            android:layout_height="wrap_content"
+	            android:text="  县："
+	            android:textColor="#000000"
+	            android:textAppearance="?android:textAppearanceMedium"/>
+	      <Spinner
+	           android:id="@+id/sp_county"
+	           android:layout_width="wrap_content" 
+	           android:layout_height="wrap_content"
+	           android:text="汉滨区"
+	           android:spinnerMode="dropdown">
+	      </Spinner>
+	      <TextView 
+	            android:layout_width="wrap_content" 
+	            android:layout_height="wrap_content"
+	            android:text="代码："
+	            android:textColor="#000000"
+	            android:textAppearance="?android:textAppearanceMedium"
+	            android:layout_marginLeft="10dp"/>
+	      <EditText
+	           android:id="@+id/et_countyCode"
+	           android:layout_width="110dp" 
+	           android:layout_height="wrap_content"
+	           android:text="610704">
+	      </EditText>
+	      
+      </LinearLayout>
+      
+	      <LinearLayout
+	          android:layout_width="wrap_content" 
+	          android:layout_height="wrap_content"
+	          android:layout_alignParentRight="true"
+	          android:layout_margin="10dp">
+	         <Button
+	             android:id="@+id/butQHImport"
+	             android:layout_width="wrap_content"
+	             android:layout_height="wrap_content"
+	             android:tag="导入"
+	             android:text="区划导入" />
+
+	         <Button
+	             android:id="@+id/butQHEmport"
+	             android:layout_width="wrap_content"
+	             android:layout_height="wrap_content"
+	             android:layout_marginLeft="5dp"
+	             android:tag="导出"
+	             android:text="区划导出" />
+	         
+	     </LinearLayout>
+	 </RelativeLayout>
+	 <LinearLayout  
+	     android:layout_width="match_parent"
+    	 android:layout_height="match_parent">
+	 <LinearLayout 
+	     android:layout_width="match_parent"
+	     android:layout_height="match_parent"
+	     android:layout_weight="1"
+	     android:orientation="vertical"
+	     android:layout_margin="5dp">
+	     <LinearLayout
+	          android:layout_width="match_parent" 
+	          android:layout_height="wrap_content">
+	         <Button
+	             android:id="@+id/butAddXiang"
+	             android:layout_width="match_parent"
+	             android:layout_height="wrap_content"
+	             android:layout_weight="1"
+	             android:layout_margin="5dp"
+	             android:text="增加"
+	             android:tag="增加乡" />
+	          <Button
+	             android:id="@+id/butEditXiang"
+	             android:layout_width="match_parent"
+	             android:layout_height="wrap_content"
+	             android:layout_weight="1"
+	             android:layout_margin="5dp"
+	             android:text="修改"
+	             android:tag="修改乡"  />
+	           <Button
+	             android:id="@+id/butDelXiang"
+	             android:layout_width="match_parent"
+	             android:layout_height="wrap_content"
+	             android:layout_weight="1"
+	             android:layout_margin="5dp"
+	             android:text="删除"
+	             android:tag="删除乡" />
+	     </LinearLayout>
+	     <include android:id="@+id/in_listview1"  layout="@layout/v1_headerlistview" />
+     
+	 </LinearLayout>
+	  <LinearLayout 
+	     android:layout_width="match_parent"
+	     android:layout_height="match_parent"
+	     android:layout_weight="1"
+	     android:orientation="vertical"
+	     android:layout_margin="5dp">
+	  <LinearLayout
+	          android:layout_width="match_parent" 
+	          android:layout_height="wrap_content">
+	         <Button
+	             android:id="@+id/butAddCun"
+	             android:layout_width="match_parent"
+	             android:layout_height="wrap_content"
+	             android:layout_weight="1"
+	             android:layout_margin="5dp"
+	             android:text="增加"
+	             android:tag="增加村" />
+	          <Button
+	             android:id="@+id/butEditCun"
+	             android:layout_width="match_parent"
+	             android:layout_height="wrap_content"
+	             android:layout_weight="1"
+	             android:layout_margin="5dp"
+	             android:text="修改"
+	             android:tag="修改村"  />
+	           <Button
+	             android:id="@+id/butDelCun"
+	             android:layout_width="match_parent"
+	             android:layout_height="wrap_content"
+	             android:layout_weight="1"
+	             android:layout_margin="5dp"
+	             android:text="删除"
+	             android:tag="删除村" />
+	     </LinearLayout>
+	      <include android:id="@+id/in_listview2"  layout="@layout/v1_headerlistview" />
+	 </LinearLayout>
+	</LinearLayout>
+</LinearLayout>

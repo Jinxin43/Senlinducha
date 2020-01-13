@@ -1,0 +1,487 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#f1f1f1"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    <TextView
+        android:id="@+id/tvLocaleText1"
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:text="基本信息"
+    	android:textColor="#000000"
+    	android:background="@layout/v1_bk_head_splitbar" />
+     <LinearLayout android:gravity="center"
+ 	    android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:layout_marginLeft="5dp" 
+	    	android:layout_marginRight="5dp">
+ 		<TextView
+ 		    android:id="@+id/tvLocaleText2"
+ 		    android:layout_width="wrap_content"
+ 		    android:layout_height="wrap_content"
+ 		    android:text="名称："
+ 		    android:textColor="#000000"
+ 		    android:textAppearance="?android:attr/textAppearanceMedium" />
+ 		<EditText
+ 		    android:id="@+id/et_name"
+ 		    android:layout_width="wrap_content"
+ 		    android:layout_height="wrap_content"
+ 		    android:layout_weight="1"/>
+ 	 </LinearLayout>
+ 	  <LinearLayout
+ 	    android:gravity="center"
+ 	    android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:layout_marginLeft="5dp" 
+	    	android:layout_marginRight="5dp">
+ 		<LinearLayout android:gravity="center"
+	 	    android:layout_width="fill_parent"
+	    	android:layout_height="wrap_content"
+	    	android:layout_weight="1"
+	    	
+	    	>
+	    	
+	 		<TextView
+	 		    android:id="@+id/tvLocaleText4"
+	 		    android:layout_width="wrap_content"
+	 		    android:layout_height="wrap_content"
+	 		    android:text="工程："
+	 		    android:textColor="#000000"
+	 		    android:textAppearance="?android:attr/textAppearanceMedium" />
+	 		<Spinner
+	 		    android:id="@+id/sp_projecttype"
+	 		    android:layout_width="wrap_content"
+	 		    android:layout_height="wrap_content"
+	 		    android:layout_weight="1"/>
+	 	 </LinearLayout>    
+     <LinearLayout android:gravity="center"
+ 	    android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:layout_weight="1">
+ 		<TextView
+ 		    android:id="@+id/tvLocaleText3"
+ 		    android:layout_width="wrap_content"
+ 		    android:layout_height="wrap_content"
+ 		    android:text="类型："
+ 		    android:textColor="#000000"
+ 		    android:textAppearance="?android:attr/textAppearanceMedium" />
+ 		<Spinner
+ 		    android:id="@+id/sp_type"
+ 		    android:layout_width="wrap_content"
+ 		    android:layout_height="wrap_content"
+ 		    android:layout_weight="1"/>
+ 	 </LinearLayout>
+	 </LinearLayout>
+	 <LinearLayout
+ 	    android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:id="@+id/ll_SettingDuChaLayer">
+	  <CheckBox
+	      android:id="@+id/cbSettingDuChaLayer"
+	      android:layout_width="wrap_content"
+	      android:layout_height="wrap_content"
+	      android:text="设置为森林督查调查卡片计算基准图层" 
+	      android:textColor="#000000"
+	      android:layout_marginLeft="5dp"
+	      android:visibility="gone"/>
+    
+     </LinearLayout>
+	  <LinearLayout
+ 	    android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:id="@+id/ll_ExportPhoto">
+     
+	  <Button 
+         android:id="@+id/btnExportAllPhoto"
+         android:text=" 导出照片  "
+         android:tag="导出照片"
+         android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+         android:layout_marginLeft="44dp"
+         android:visibility="gone">
+     </Button>
+     
+     <Button 
+         android:id="@+id/btnExportGTPhoto"
+         android:text="导出增减挂钩照片 "
+         android:tag="导出增减挂钩照片"
+         android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+         android:layout_marginLeft="44dp"
+         android:visibility="gone">
+     </Button>
+     <Button 
+         android:id="@+id/btnExportSTYMPhoto"
+         android:text="导出生态移民图斑照片"
+         android:tag="导出生态移民照片"
+         android:layout_width="wrap_content"
+    	 android:layout_height="wrap_content"
+         android:layout_marginLeft="44dp"
+         android:visibility="gone">
+     </Button>
+     </LinearLayout>
+      
+	 <LinearLayout
+ 	    android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:id="@+id/ll_duchashuju"
+    	android:visibility="gone">
+     
+      <Button 
+         android:id="@+id/btnExportJCKP"
+         android:text="  导出督查数据     "
+         android:tag="导出检查卡片"
+         android:layout_width="wrap_content"
+    	 android:layout_height="wrap_content"
+         android:layout_marginLeft="44dp"
+         ></Button>
+      
+        <Button 
+	         android:id="@+id/btnExportDuChaPhoto"
+	         android:text="  追加合并    "
+	         android:tag="追加合并 "
+	         android:layout_width="wrap_content"
+	    	 android:layout_height="wrap_content"
+	         android:layout_marginLeft="10dp"
+	         android:visibility="gone"></Button>
+       <Button 
+         android:id="@+id/btnxxxxxx"
+         android:text="    xxxx    "
+         android:layout_width="0dp"
+         android:layout_weight="1"
+         android:visibility="invisible"
+    	android:layout_height="wrap_content"
+         android:layout_marginLeft="6dp">
+ 		</Button>
+      
+     </LinearLayout> 
+	 
+	 <LinearLayout
+ 	    android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:id="@+id/ll_pipei">
+     
+      <Button 
+         android:id="@+id/btnMatchField"
+         android:text="  字段匹配     "
+         android:tag="字段匹配"
+         android:layout_width="wrap_content"
+    	 android:layout_height="wrap_content"
+         android:layout_marginLeft="44dp"
+         ></Button>
+       <Button 
+         android:id="@+id/btnExportTuiGeng"
+         android:text="    退耕数据    "
+         android:tag="退耕数据导出"
+         android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+         android:layout_marginLeft="6dp">
+ 		</Button>
+ 		
+       <Button 
+         android:id="@+id/btnUploadTuiGeng"
+         android:text="  退耕数据上传    "
+         android:tag="退耕数据上传"
+         android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+         android:layout_marginLeft="6dp">
+ 		</Button>
+ 		
+     <Button 
+         android:id="@+id/btnExportTanhui"
+         android:text="导出每木检尺表"
+         android:tag="导出每木检尺表"
+         android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+         android:layout_marginLeft="4dp"
+         android:visibility="gone"></Button>
+      
+     </LinearLayout> 
+     <LinearLayout
+ 	    android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:id="@+id/ll_weipiandataselect"
+    	android:visibility="gone"
+    	android:layout_marginLeft="5dp" >
+      		<TextView
+		 		    android:id="@+id/tvText4"
+		 		    android:layout_width="wrap_content"
+		 		    android:layout_height="wrap_content"
+		 		    android:text="选择数据下发图层："
+		 		    android:textColor="#000000"
+		 		    android:textAppearance="?android:attr/textAppearanceMedium"
+		 		    />
+		 		<Spinner
+		 		    android:id="@+id/sp_wpsjxf"
+		 		    android:layout_width="wrap_content"
+		 		    android:layout_height="wrap_content"
+		 		    android:layout_weight="1.0"
+		 		    android:spinnerMode="dropdown"/>
+		 		<TextView
+		 		    android:id="@+id/tvText18"
+		 		    android:layout_width="wrap_content"
+		 		    android:layout_height="wrap_content"
+		 		    android:text="*卫片检查图层必须选\n择卫片数据下发图层"
+		 		    android:textColor="#ff0000"
+		 		    android:textAppearance="?android:attr/textAppearanceSmall"
+		 		    android:layout_marginRight="100dp"
+		 		    android:gravity="top|left" />
+    </LinearLayout>
+     <LinearLayout
+         android:orientation="vertical"
+         android:id="@+id/ll_tuigeng"
+ 	     android:layout_width="fill_parent"
+    	 android:layout_height="wrap_content"
+    	 android:visibility="gone">
+	    <LinearLayout
+	 	   	android:gravity="center"
+	 	    android:layout_width="fill_parent"
+	    	android:layout_height="wrap_content"
+	    	android:layout_marginTop="15dp">
+	 		<LinearLayout android:gravity="center"
+		 	    android:layout_width="fill_parent"
+		    	android:layout_height="wrap_content"
+		    	android:layout_weight="3"
+		    	android:layout_marginRight="5dp">
+		 		<TextView
+		 		    android:id="@+id/tvText19"
+		 		    android:layout_width="wrap_content"
+		 		    android:layout_height="wrap_content"
+		 		    android:text="地市："
+		 		    android:textColor="#000000"
+		 		    android:textAppearance="?android:attr/textAppearanceMedium" />
+		 		<Spinner
+		 		    android:id="@+id/sp_tgds"
+		 		    android:layout_width="wrap_content"
+		 		    android:layout_height="wrap_content"
+		 		    android:layout_weight="1"
+		 		    android:spinnerMode="dropdown"/>
+		 	 </LinearLayout> 
+	 		<LinearLayout android:gravity="center"
+		 	    android:layout_width="fill_parent"
+		    	android:layout_height="wrap_content"
+		    	android:layout_weight="3"
+		    	android:layout_marginRight="5dp">
+		 		<TextView
+		 		    android:id="@+id/tvText3"
+		 		    android:layout_width="wrap_content"
+		 		    android:layout_height="wrap_content"
+		 		    android:text="区县："
+		 		    android:textColor="#000000"
+		 		    android:textAppearance="?android:attr/textAppearanceMedium" />
+		 		<Spinner
+		 		    android:id="@+id/sp_tgqx"
+		 		    android:layout_width="wrap_content"
+		 		    android:layout_height="wrap_content"
+		 		    android:layout_weight="1"
+		 		    android:spinnerMode="dropdown"/>
+		 	 </LinearLayout>
+		 	 <LinearLayout android:gravity="center"
+		 	    android:layout_width="fill_parent"
+		    	android:layout_height="wrap_content"
+		    	android:layout_weight="2"
+		    	android:layout_marginRight="5dp">
+		 		<TextView
+		 		    android:id="@+id/tvText8"
+		 		    android:layout_width="wrap_content"
+		 		    android:layout_height="wrap_content"
+		 		    android:text="年度："
+		 		    android:textColor="#000000"
+		 		    android:textAppearance="?android:attr/textAppearanceMedium" />
+		 		<Spinner
+		 		    android:id="@+id/sp_tgnf"
+		 		    android:layout_width="wrap_content"
+		 		    android:layout_height="wrap_content"
+		 		    android:layout_weight="1"
+		 		    android:spinnerMode="dropdown"
+		 		    android:visibility="gone"/>
+		 		<!--  
+		 		 <DatePicker android:id="@+id/dp_StartDate"
+        						android:layout_width="wrap_content"
+        						android:layout_height="wrap_content"
+        						android:layout_marginTop="10px"
+        						android:spinnersShown="true"/>-->
+		 		 <com.dingtu.Controls.YearPicker 
+		 		     android:id="@+id/yearPicker"
+      				 android:layout_width="wrap_content"
+      				 android:layout_height="wrap_content"
+		 		     ></com.dingtu.Controls.YearPicker>
+		 	 </LinearLayout>
+	    </LinearLayout>
+	    </LinearLayout>
+     <LinearLayout
+         android:orientation="vertical"
+	 	    android:layout_width="fill_parent"
+	    	android:layout_height="wrap_content">
+	    <TextView
+	        android:id="@+id/tvLocaleText12"
+	        android:layout_width="fill_parent"
+	    	android:layout_height="wrap_content"
+	    	android:text="字段信息"
+	    	android:textColor="#000000"
+	    	android:background="@layout/v1_bk_head_splitbar" />			    	
+		     <LinearLayout android:id="@+id/pl_toolbar"
+			 	    android:layout_width="fill_parent"
+			    	android:layout_height="wrap_content">
+			     <RelativeLayout 
+			         android:layout_weight="1"
+			 	    android:layout_width="fill_parent"
+			    	android:layout_height="wrap_content">
+
+		    		<Button
+			    	    android:id="@+id/pln_add"
+			    	    android:layout_width="fill_parent"
+			    	    android:layout_height="wrap_content"
+			    	    android:drawableLeft="@drawable/v1_space_height"
+					    android:background="@drawable/buttonstyle"
+			    	    android:tag="增加字段"
+			    	    android:textAppearance="?android:attr/textAppearanceMedium" />
+	    				 			
+				     <LinearLayout 
+				         android:layout_alignBottom="@+id/pln_add" 
+				         android:layout_alignTop="@+id/pln_add" 
+				         android:gravity="center"
+				 	    android:layout_width="fill_parent"
+				    	android:layout_height="wrap_content">
+			
+				         <ImageView
+				             android:layout_width="wrap_content"
+				             android:layout_height="wrap_content"
+				             android:src="@drawable/v1_layer_field_add" />
+		
+				         <TextView
+				             android:id="@+id/tv_add"
+				             android:layout_width="wrap_content"
+				             android:layout_height="wrap_content"
+				             android:text=" 增加  "
+				             android:textColor="#000000"
+				             android:textAppearance="?android:attr/textAppearanceMedium" />
+				    	
+				 	</LinearLayout>
+				  </RelativeLayout>	
+			  			    	
+			     <RelativeLayout 
+			         android:layout_weight="1"
+			 	    android:layout_width="fill_parent"
+			    	android:layout_height="wrap_content">
+
+		    		<Button
+			    	    android:id="@+id/pln_edit"
+			    	    android:layout_width="fill_parent"
+			    	    android:layout_height="wrap_content"
+			    	    android:drawableLeft="@drawable/v1_space_height"
+					    android:background="@drawable/buttonstyle"
+			    	    android:tag="字段属性"
+			    	    android:textAppearance="?android:attr/textAppearanceMedium" />
+	    				 			
+				     <LinearLayout 
+				         android:layout_alignBottom="@+id/pln_edit" 
+				         android:layout_alignTop="@+id/pln_edit" 
+				         android:gravity="center"
+				 	    android:layout_width="fill_parent"
+				    	android:layout_height="wrap_content">
+			
+				         <ImageView
+				             android:layout_width="wrap_content"
+				             android:layout_height="wrap_content"
+				             android:src="@drawable/v1_layer_field_edit" />
+		
+				         <TextView
+				             android:id="@+id/tv_edit"
+				             android:layout_width="wrap_content"
+				             android:layout_height="wrap_content"
+				             android:text=" 属性  "
+				             android:textColor="#000000"
+				             android:textAppearance="?android:attr/textAppearanceMedium" />
+				    	
+				 	</LinearLayout>
+				  </RelativeLayout>	
+				  
+			     <RelativeLayout 
+			         android:layout_weight="1"
+			 	    android:layout_width="fill_parent"
+			    	android:layout_height="wrap_content">
+
+		    		<Button
+			    	    android:id="@+id/pln_delete"
+			    	    android:layout_width="fill_parent"
+			    	    android:layout_height="wrap_content"
+			    	    android:drawableLeft="@drawable/v1_space_height"
+					    android:background="@drawable/buttonstyle"
+			    	    android:tag="删除字段"
+			    	    android:textAppearance="?android:attr/textAppearanceMedium" />
+	    				 			
+				     <LinearLayout 
+				         android:layout_alignBottom="@+id/pln_delete" 
+				         android:layout_alignTop="@+id/pln_delete" 
+				         android:gravity="center"
+				 	    android:layout_width="fill_parent"
+				    	android:layout_height="wrap_content">
+			
+				         <ImageView
+				             android:layout_width="wrap_content"
+				             android:layout_height="wrap_content"
+				             android:src="@drawable/v1_layer_field_delete" />
+		
+				         <TextView
+				             android:id="@+id/tv_delete"
+				             android:layout_width="wrap_content"
+				             android:layout_height="wrap_content"
+				             android:text=" 删除  "
+				             android:textColor="#000000"
+				             android:textAppearance="?android:attr/textAppearanceMedium" />
+				    	
+				 	</LinearLayout>
+				  </RelativeLayout>	
+				  
+			      <RelativeLayout 
+			         android:layout_weight="1"
+			 	    android:layout_width="fill_parent"
+			    	android:layout_height="wrap_content">
+
+		    		<Button
+			    	    android:id="@+id/pln_mactchDict"
+			    	    android:layout_width="fill_parent"
+			    	    android:layout_height="wrap_content"
+			    	    android:drawableLeft="@drawable/v1_space_height"
+					    android:background="@drawable/buttonstyle"
+			    	    android:tag="匹配字典"
+			    	    android:textAppearance="?android:attr/textAppearanceMedium" />
+	    				 			
+				     <LinearLayout 
+				         android:layout_alignBottom="@+id/pln_mactchDict" 
+				         android:layout_alignTop="@+id/pln_mactchDict" 
+				         android:gravity="center"
+				 	    android:layout_width="fill_parent"
+				    	android:layout_height="wrap_content">
+			
+				         <ImageView
+				             android:layout_width="wrap_content"
+				             android:layout_height="wrap_content"
+				             android:src="@drawable/v1_project_loadtemplate" />
+		
+				         <TextView
+				             android:id="@+id/tv_mactchDict"
+				             android:layout_width="wrap_content"
+				             android:layout_height="wrap_content"
+				             android:text="匹配字典"
+				             android:textColor="#000000"
+				             android:textAppearance="?android:attr/textAppearanceMedium" />
+				    	
+				 	</LinearLayout>
+				  </RelativeLayout>	
+				  			     		    	    			    	    			    	    	
+			  </LinearLayout> 
+		     <LinearLayout android:id="@+id/pl_layerlist"
+		         android:layout_below="@+id/pl_toolbar"
+			 	    android:layout_width="fill_parent"
+			    	android:layout_height="wrap_content">
+			    	<include android:id="@+id/in_listview"  layout="@layout/v1_headerlistview" />
+			 </LinearLayout>  
+ 	 </LinearLayout>
+ 	 
+
+  	 	 
+</LinearLayout>

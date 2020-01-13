@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+         android:layout_height="wrap_content"   
+         android:layout_width="wrap_content">
+    	<RelativeLayout
+    	    android:layout_height="wrap_content"   
+         	android:layout_width="wrap_content"
+         	android:layout_alignParentTop="true"
+         	android:layout_alignParentRight="true">
+		   <ScrollView
+		       android:id="@+id/sv_toolsbox"
+		       android:layout_width="wrap_content"
+		       android:layout_height="wrap_content" >
+		    	<LinearLayout
+		    	    android:id="@+id/ll_toolsbox"
+		    	    android:orientation="vertical"
+		    	    android:layout_height="wrap_content"
+		         	android:layout_width="wrap_content">
+		         	
+		    	      <Button
+					       android:id="@+id/bt_hidetoolsbar"
+				    	    android:layout_width="54dp"
+				    	    android:layout_height="35dp"
+				    	    android:textAppearance="?android:attr/textAppearanceSmall"
+				    	    android:background="@drawable/b_toolbox"
+				    	   android:drawableBottom="@drawable/icon_transprent"
+				    	    android:textColor="#ffffff"
+				    	    android:tag="收起"
+				    	    android:text="工具箱 "
+				    	    
+				    	    />
+		    	      
+		         	<LinearLayout
+		         	    android:id="@+id/ll_toolsbarbox"
+			    	    android:orientation="vertical"
+			    	    android:layout_height="wrap_content"
+			         	android:layout_width="wrap_content"
+			         	android:gravity="center_horizontal">
+			    		<!--  
+			    		<TextView
+			    		    android:id="@+id/tv_caption"
+			    		    android:layout_width="match_parent"
+			    		    android:layout_height="wrap_content"
+			    		    android:background="#8a8a8a"
+			    		    android:textColor="#ffffff"
+			    		    android:text="工具箱"
+			    		    android:gravity="center"
+			    		    android:textSize="11dp"/>
+			    		    -->
+			    		
+			    	    <LinearLayout 
+			    	        android:orientation="vertical"
+			    	        android:layout_height="wrap_content"
+			         		android:layout_width="wrap_content">
+							<include android:id="@+id/ic_editbar_measure" android:visibility="gone" layout="@layout/v1_toolbareditbar_measure"/>
+							<include android:id="@+id/ic_editbar_movedel" android:visibility="gone" layout="@layout/v1_toolbareditbar_movedel"/>
+							<include android:id="@+id/ic_editbar_vertex" android:visibility="gone" layout="@layout/v1_toolbareditbar_vertex"/>
+							<include android:id="@+id/ic_editbar_linesmoth" android:visibility="gone" layout="@layout/v1_toolbareditbar_linesmoth"/>
+							
+							<include android:id="@+id/ic_editbar_poly_all" android:visibility="gone" layout="@layout/l_maintoolbox_right_ploy"/>
+							<include android:id="@+id/ic_editbar_poly_hole" android:visibility="gone" layout="@layout/v1_toolbareditbar_poly_hole"/>
+							<include android:id="@+id/ic_editbar_poly_split" android:visibility="gone" layout="@layout/v1_toolbareditbar_poly_split"/>
+							<include android:id="@+id/ic_editbar_poly_publicborder" android:visibility="gone" layout="@layout/v1_toolbareditbar_poly_split"/>
+							<include android:id="@+id/ic_editbar_line_all" android:visibility="gone" layout="@layout/l_maintoolbox_left_line"/>
+			    	    </LinearLayout>
+				</LinearLayout>	
+			    	    
+
+			   
+			 </LinearLayout>	
+ 		</ScrollView>
+	 </RelativeLayout>
+</RelativeLayout>

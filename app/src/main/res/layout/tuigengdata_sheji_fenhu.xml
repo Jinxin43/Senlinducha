@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="#ffffffff" >
+    <LinearLayout android:gravity="center" 
+            android:layout_width="fill_parent" 
+            android:layout_height="wrap_content">
+            <Button 
+                android:textAppearance="?android:textAppearanceMedium" 
+                android:id="@+id/bt_viewpager_fenhu"
+                android:background="@drawable/buttonstyle_transparent_all" 
+                android:layout_width="0.0dip" 
+                android:layout_height="40.0dip" 
+                android:text="分户信息" 
+                android:tag="分户列表"
+                android:layout_weight="1.0" />
+           
+            <Button 
+                android:textAppearance="?android:textAppearanceMedium" 
+                android:id="@+id/bt_viewpager_duixian"  
+                android:background="@drawable/buttonstyle_transparent_all" 
+                android:layout_width="0.0dip" 
+                android:layout_height="40.0dip" 
+                android:text="兑现情况" 
+                android:tag="兑现列表"
+                android:layout_weight="1.0"
+                android:visibility="invisible" />
+           
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" 
+            android:layout_width="fill_parent" 
+            android:layout_height="0.0dip" 
+            android:layout_weight="1.0">
+            <android.support.v4.view.ViewPager 
+                android:id="@+id/fenhuViewPager" 
+                android:layout_width="fill_parent" 
+                android:layout_height="0.0dip" 
+                android:layout_weight="1.0" />
+            <TextView android:background="#ff8e8e8e" 
+                android:layout_width="fill_parent"
+                 android:layout_height="1.0dip" />
+            
+        </LinearLayout>
+
+</LinearLayout>

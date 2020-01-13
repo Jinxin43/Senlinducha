@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f1f1f1"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tvLocaleText1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@layout/v1_bk_head_splitbar"
+        android:text="数据导出"
+        android:textColor="#000000" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/tvLocaleText2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="图层名称："
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#000000" />
+
+            <EditText
+                android:id="@+id/et_LayerName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center" >
+
+            <TextView
+                android:id="@+id/tvLocaleText3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="导出格式："
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#000000" />
+
+            <Spinner
+                android:id="@+id/sp_format"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/bt_export"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_margin="4.0dip"
+                android:layout_weight="0.5"
+                android:text=" 导出数据 " >
+               
+            </Button>
+             <Button
+                android:id="@+id/bt_exportImportData"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dip"
+                android:layout_marginBottom="4dip"
+                android:layout_marginRight="4.0dip"
+                android:layout_weight="0.5"
+                android:tag="导出可追加数据"
+                android:text="导出可追加数据" 
+                 android:visibility="invisible">
+               </Button>
+               <Button
+                android:id="@+id/bt_BindingExportedPhoto"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dip"
+                android:layout_marginBottom="4dip"
+                android:layout_marginRight="4.0dip"
+                android:layout_weight="0.5"
+                android:tag="反向绑定已导出的照片"
+                android:text="反向绑定已导出的照片"
+                 android:visibility="invisible" >"
+               </Button>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone" >
+
+            <Button
+                android:id="@+id/bt_prepair"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_margin="4.0dip"
+                android:layout_weight="1.0"
+                android:tag="小班整理"
+                android:text="小班整理" />
+
+            <Button
+                android:id="@+id/bt_photo"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_margin="4.0dip"
+                android:layout_weight="1.0"
+                android:tag="导出照片"
+                android:text="导出照片" />
+
+            <Button
+                android:id="@+id/bt_addMark"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_margin="4.0dip"
+                android:layout_weight="1.0"
+                android:tag="增加水印"
+                android:text="增加水印" />
+
+            <Button
+                android:id="@+id/bt_exportSJKP"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_margin="4.0dip"
+                android:layout_weight="1.0"
+                android:tag="生成小班设计卡片"
+                android:text="生成小班设计卡片" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="1.5dip"
+            android:background="#ffb1b1b1" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@layout/v1_bk_head_splitbar" >
+
+            <Button
+                android:id="@+id/bt_exporttable"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="4.0dip"
+                android:tag="导出表格和照片"
+                android:text="导出表格和照片" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4.0dip"
+            android:gravity="center|left" >
+
+            <CheckBox
+                android:id="@+id/cb_duchaTable1"
+                android:layout_width="0.0dip"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="10.0dip"
+                android:layout_weight="1.0"
+                android:checked="true"
+                android:text=" 现地核实表"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="#ff000000" />
+
+            <CheckBox
+                android:id="@+id/cb_duchaTable2"
+                android:layout_width="0.0dip"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="10.0dip"
+                android:layout_weight="1"
+                android:checked="true"
+                android:text="督查核实表"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="#ff000000" />
+
+            <CheckBox
+                android:id="@+id/cb_duchaPhoto"
+                android:layout_width="0.0dip"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="10.0dip"
+                android:layout_weight="1"
+                android:checked="true"
+                android:text="图斑照片"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="#ff000000" />
+        </LinearLayout>
+ 		<TextView
+            android:layout_width="fill_parent"
+            android:layout_height="1dip"
+             android:layout_marginLeft="14.0dip"
+             android:layout_marginRight="14.0dip"
+            android:background="#ffb1b1b1" />
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4.0dip"
+            android:gravity="center|left" 
+            android:visibility="invisible">
+
+            <CheckBox
+                android:id="@+id/cb_duchaHasData"
+                android:layout_width="0.0dip"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="10.0dip"
+                android:layout_weight="1.0"
+                android:checked="true"
+                android:text="只导出已验证图斑"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="#ff000000" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="1dip"
+             android:layout_marginLeft="14.0dip"
+             android:layout_marginRight="14.0dip"
+            android:background="#ffb1b1b1"
+            android:visibility="invisible" />
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4.0dip"
+            android:gravity="center|left" 
+             android:visibility="invisible">
+
+            
+              <CheckBox
+                android:id="@+id/cb_filterDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10.0dip"
+                android:text="检查日期筛选"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="#ff000000" />
+
+            <EditText
+                android:id="@+id/etStartDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="date" >
+
+                <requestFocus />
+            </EditText>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="-"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#000000" />
+
+            <EditText
+                android:id="@+id/etEndDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="date" >
+
+                <requestFocus />
+            </EditText>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#f1f1f1"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >              
+
+ 	<LinearLayout android:id="@+id/ll_grid84"
+ 	     android:orientation="vertical"
+ 	     android:layout_weight="1"
+	    android:layout_width="fill_parent"
+   		android:layout_height="fill_parent">
+	     <TextView
+	        android:layout_width="fill_parent"
+	    	android:layout_height="wrap_content"
+	    	android:id="@+id/tvGrid84Caption"
+	    	android:text="影像图"
+	    	android:textColor="#000000"
+	    	android:background="@layout/v1_bk_head_splitbar" />
+	    <LinearLayout 
+	        	android:orientation="vertical"
+		 	    android:layout_width="fill_parent"
+		    	android:layout_height="fill_parent">
+				<RadioGroup 
+				    android:layout_width="wrap_content" 
+				    android:layout_height="wrap_content">		    	
+			        <RadioButton
+			            android:id="@+id/rb_google_sat"
+			            android:layout_width="wrap_content"
+			            android:layout_height="wrap_content"
+			            android:textColor="#000000"
+		 		    	android:textAppearance="?android:attr/textAppearanceMedium" 
+			            android:text="Google卫星影像图" />
+			        <RadioButton
+			            android:id="@+id/rb_google_ter"
+			            android:layout_width="wrap_content"
+			            android:layout_height="wrap_content"
+			            android:textColor="#000000"
+		 		    	android:textAppearance="?android:attr/textAppearanceMedium" 
+			            android:text="Google地形图" />
+			        <RadioButton
+			            android:id="@+id/rb_google_street"
+			            android:visibility="gone"
+			            android:layout_width="wrap_content"
+			            android:layout_height="wrap_content"
+			            android:textColor="#000000"
+		 		    	android:textAppearance="?android:attr/textAppearanceMedium" 
+			            android:text="Google街区图" />
+			        <RadioButton
+			            android:id="@+id/rb_tdt_sat"
+			            android:visibility="gone"
+			            android:layout_width="wrap_content"
+			            android:layout_height="wrap_content"
+			            android:textColor="#000000"
+		 		    	android:textAppearance="?android:attr/textAppearanceMedium" 
+			            android:text="天地图卫星影像图" />	   
+			        <RadioButton
+			            android:id="@+id/rb_tdt_street"
+			            android:visibility="gone"
+			            android:layout_width="wrap_content"
+			            android:layout_height="wrap_content"
+			            android:textColor="#000000"
+		 		    	android:textAppearance="?android:attr/textAppearanceMedium" 
+			            android:text="天地图街区图" />	 	
+	            </RadioGroup>                 
+		 </LinearLayout> 
+ 	 </LinearLayout>
+</LinearLayout>

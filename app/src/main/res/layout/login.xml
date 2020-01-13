@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+<!--
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        android:src="@drawable/login02" />
+
+    <ImageView
+        android:id="@+id/ivimage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:layout_centerHorizontal="true"
+        android:layout_marginBottom="39.0dip"
+        android:layout_above="@+id/llPassword"
+        android:src="@drawable/login02_logo_s" />
+  -->  
+ 	<ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        android:src="@drawable/bg_ducha3" />
+
+    <ImageView
+        android:id="@+id/ivimage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:layout_centerHorizontal="true"
+        android:layout_marginBottom="39.0dip"
+        android:layout_above="@+id/llPassword"
+        android:src="@drawable/login_ducha" />
+      
+    <LinearLayout
+        android:id="@+id/llPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tvchecktips"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:gravity="center"
+            android:textColor="#ffff0000"
+            android:textSize="14.0sp"
+            android:visibility="invisible" />
+
+        <dingtu.ZRoadMap.LockPatternView
+            android:id="@+id/iv_lockpattern"
+            android:layout_width="300.0dip"
+            android:layout_height="300.0dip"
+            android:gravity="center" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="20dip"
+        android:gravity="right" >
+
+        <ImageButton
+            android:id="@+id/btquit"
+            android:layout_width="48.0dip"
+            android:layout_height="48.0dip"
+            android:background="@drawable/buttonstyle_transparent"
+            android:src="@drawable/login_exit" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvsoftname1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center|bottom"
+        android:layout_alignParentBottom="true"
+         android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:text="免责声明：本系统所涉及数据部分来自陕西省退耕还林信息系统（2004），与本公司无关"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        android:visibility="gone" />
+    <TextView
+          android:id="@+id/tvsoftname"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_centerHorizontal="true"
+          android:layout_alignParentBottom="true"
+          android:layout_marginBottom="65dp"
+          android:gravity="bottom|center"
+          android:text="陕西省林业调查规划院"
+          android:textColor="#ffffff"
+          android:textSize="25sp"/>
+      <TextView
+          android:id="@+id/tvsoftname2"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_centerHorizontal="true"
+          android:layout_alignParentBottom="true"
+          android:layout_marginBottom="30dp"
+          android:gravity="bottom|center"
+          android:text="西安鼎图信息技术有限公司"
+          android:textColor="#ffffff"
+          android:textSize="25sp"/>
+      
+
+    
+
+</RelativeLayout>

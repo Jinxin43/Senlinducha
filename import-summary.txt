@@ -1,0 +1,81 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* proguard\
+* proguard\dump.txt
+* proguard\mapping.txt
+* proguard\seeds.txt
+* proguard\usage.txt
+* tymapkeystore
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:19.1.0
+gson-2.8.2.jar => com.google.code.gson:gson:2.8.2
+
+Potentially Missing Dependency:
+-------------------------------
+When we replaced the following .jar files with a Gradle dependency, we
+inferred the dependency version number from the filename. This
+specific version may not actually be available from the repository.
+If you get a build error stating that the dependency is missing, edit
+the version number to for example "+" to pick up the latest version
+instead. (This may require you to update your code if the library APIs
+have changed.)
+
+gson-2.8.2.jar => version 2.8.2 in com.google.code.gson:gson:2.8.2
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app\src\main\AndroidManifest.xml
+* assets\ => app\src\main\assets
+* libs\adapter-rxjava2-2.3.0.jar => app\libs\adapter-rxjava2-2.3.0.jar
+* libs\commons-net-3.6.jar => app\libs\commons-net-3.6.jar
+* libs\converter-gson-2.3.0.jar => app\libs\converter-gson-2.3.0.jar
+* libs\junit-4.12.jar => app\libs\junit-4.12.jar
+* libs\jxl.jar => app\libs\jxl.jar
+* libs\log4j-1.2.17.jar => app\libs\log4j-1.2.17.jar
+* libs\okhttp-3.9.0.jar => app\libs\okhttp-3.9.0.jar
+* libs\okio-1.13.0.jar => app\libs\okio-1.13.0.jar
+* libs\poi-3.9-20121203.jar => app\libs\poi-3.9-20121203.jar
+* libs\poi-scratchpad-3.9-20121203.jar => app\libs\poi-scratchpad-3.9-20121203.jar
+* libs\reactive-streams-1.0.1.jar => app\libs\reactive-streams-1.0.1.jar
+* libs\retrofit-2.3.0.jar => app\libs\retrofit-2.3.0.jar
+* libs\rxandroid-2.0.1.jar => app\libs\rxandroid-2.0.1.jar
+* libs\rxjava-2.1.5.jar => app\libs\rxjava-2.1.5.jar
+* lint.xml => app\lint.xml
+* proguard.cfg => app\proguard.cfg
+* res\ => app\src\main\res\
+* src\ => app\src\main\java\
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#f1f1f1"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    <TextView
+        android:id="@+id/tvLocaleText"
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:text="符号示例"
+    	android:textColor="#000000"
+    	android:background="@layout/v1_bk_head_splitbar" />
+     <LinearLayout
+	 	    android:gravity="center"
+	 	    android:orientation="horizontal"
+	 	    android:layout_width="fill_parent"
+	    	android:layout_height="wrap_content">
+         <ImageView
+             android:id="@+id/ivPreview"
+             android:layout_width="fill_parent"
+             android:layout_height="fill_parent"
+             android:layout_weight="1"
+             android:scaleType="center"
+             android:src="@drawable/v1_poly_gps" />
+   		<Button
+	    	    android:id="@+id/btEdit"
+	    	    android:layout_width="wrap_content"
+	    	    android:layout_height="fill_parent"
+	    	    android:drawableLeft="@drawable/v1_clipscreen_pen"
+			    android:background="@drawable/buttonstyle"
+			    android:textAppearance="?android:attr/textAppearanceMedium" 
+	    	    android:tag="编辑"
+	    	    android:text="编辑  "/>    	
+ 	 </LinearLayout>
+ 	 
+    <TextView
+        android:id="@+id/tvLocaleText"
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:text="符号列表"
+    	android:textColor="#000000"
+    	android:background="@layout/v1_bk_head_splitbar" />
+
+     <LinearLayout
+	 	    android:gravity="center"
+	 	    android:layout_width="fill_parent"
+	    	android:layout_height="fill_parent">
+		 <include android:id="@+id/symbol_list"  layout="@layout/v1_headerlistview" />
+
+ 	 </LinearLayout>
+</LinearLayout>

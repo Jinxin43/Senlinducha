@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#f1f1f1"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <TextView
+        android:id="@+id/tvLocaleText1"
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:text="数据导出"
+    	android:textColor="#000000"
+    	android:background="@layout/v1_bk_head_splitbar" />
+
+     <LinearLayout android:orientation="vertical"
+ 	    android:layout_width="fill_parent"
+    	android:layout_height="wrap_content">
+	     <LinearLayout
+	 	    android:layout_width="fill_parent"
+	    	android:layout_height="wrap_content">
+			 		<TextView
+			 		    android:id="@+id/tvLocaleText2"
+			 		    android:layout_width="wrap_content"
+			 		    android:layout_height="wrap_content"
+			 		    android:text="导出目录："
+			 		    android:textColor="#000000"
+			 		    android:textAppearance="?android:attr/textAppearanceMedium" />
+			 		<EditText
+			 		    android:id="@+id/pn_projectname"
+			 		    android:text="新建工程"
+			 		    android:layout_width="wrap_content"
+			 		    android:layout_height="wrap_content"
+			 		    android:layout_weight="1"/>
+			 		
+	 	 </LinearLayout>	 
+ 	 
+	     <LinearLayout android:gravity="center"
+	 	    android:layout_width="fill_parent"
+	    	android:layout_height="wrap_content">
+			 		<TextView
+			 		    android:id="@+id/tvLocaleText3"
+			 		    android:layout_width="wrap_content"
+			 		    android:layout_height="wrap_content"
+			 		    android:text="导出格式："
+			 		    android:textColor="#000000"
+			 		    android:textAppearance="?android:attr/textAppearanceMedium" />
+			 		<Spinner
+			 		    android:id="@+id/sp_format"
+			 		    android:layout_width="0.0dip"
+			 		    android:layout_height="wrap_content"
+			 		    android:layout_weight="1"/>
+			 		<Button
+			 		    android:id="@+id/bt_export"
+			            android:layout_width="0.0dip"
+			            android:layout_height="wrap_content"
+			            android:layout_margin="4.0dip"
+			            android:layout_weight="0.5"
+			            android:text="导出数据" ></Button>
+	 	 </LinearLayout>
+
+	      <LinearLayout
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content" >
+	
+		        <Button
+		            android:id="@+id/bt_prepair"
+		            android:layout_width="0.0dip"
+		            android:layout_height="wrap_content"
+		            android:layout_margin="4.0dip"
+		            android:layout_weight="1.0"
+		            android:tag="整理数据"
+		            android:text="数据整理" />
+		        
+		        <Button
+		            android:id="@+id/bt_photo"
+		            android:layout_width="0.0dip"
+		            android:layout_height="wrap_content"
+		            android:layout_margin="4.0dip"
+		            android:layout_weight="1.0"
+		            android:text="导出照片" />
+		        
+		         <Button
+		            android:id="@+id/bt_exporttable"
+		            android:layout_width="0.0dip"
+		            android:layout_height="wrap_content"
+		            android:layout_margin="4.0dip"
+		            android:layout_weight="1.0" 
+		            android:text="导出表格"
+		            android:tag="导出表格"/>
+	    	</LinearLayout>
+	    	
+	      <TextView
+		        android:layout_width="fill_parent"
+		        android:layout_height="1.5dip"
+		        android:background="#ffb1b1b1" />
+		  <LinearLayout
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content" 
+		        android:background="@layout/v1_bk_head_splitbar">
+		
+		        <CheckBox
+		            android:id="@+id/cb_alllayer"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:checked="true"
+		            android:text="退耕还林图层  "
+		            android:textAppearance="?android:textAppearanceMedium"
+		            android:textColor="#ff000000"  />
+		        
+		    </LinearLayout>
+  
+
+   
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4.0dip"
+        android:gravity="center|left" >
+
+        <CheckBox
+            android:id="@+id/cb_zysj"
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:checked="true"
+            android:text="作业设计表  "
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="#ff000000" />
+
+        <CheckBox
+            android:id="@+id/cb_zysj_ah"
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:checked="true"
+            android:text="【按户】作业设计表 "
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="#ff000000" />
+
+         <CheckBox
+            android:id="@+id/cb_dxqk"
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:checked="true"
+            android:text="兑现表 "
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="#ff000000" />
+    </LinearLayout>
+
+   <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="1.5dip"
+        android:background="#ffb1b1b1" />
+	    	
+	     <LinearLayout android:gravity="center"
+	         android:orientation="vertical"
+	 	    android:layout_width="fill_parent"
+	 	    android:layout_height="0dp"
+	 	    android:layout_weight="1">
+		     <TextView
+		        android:id="@+id/tvLocaleText4"
+		        android:layout_width="fill_parent"
+		    	android:layout_height="wrap_content"
+		    	android:text="导出图层"
+		    	android:textColor="#000000"
+		    	android:background="@layout/v1_bk_head_splitbar" />
+		     <LinearLayout android:id="@+id/pl_layerlist"
+		         
+			 	    android:layout_width="fill_parent"
+			    	android:layout_height="wrap_content">
+			    	<include android:id="@+id/in_result1"  layout="@layout/v1_headerlistview" />
+			 </LinearLayout>  		     
+		</LinearLayout>
+		
+
+    
+        </LinearLayout>		 	  
+ 	 </LinearLayout>

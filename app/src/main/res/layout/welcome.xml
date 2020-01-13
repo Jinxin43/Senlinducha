@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:layout_width="fill_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:background="@android:color/transparent"
+    android:id="@layout/welcome" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    <TextView android:id="@+id/welcome_softnameEx"
+    	android:textColor="#FFFF00"
+    	android:textSize="58px"
+    	android:text = "路图" 
+    	android:shadowDx="2"
+		android:shadowDy="2"
+		android:shadowRadius="3"
+		android:shadowColor="#FF0000"
+	    android:layout_width="wrap_content" 
+	    android:layout_height="wrap_content"></TextView>
+    <TextView android:id="@+id/welcome_softnameEx"
+    	android:textColor="#FFFFFFFF"
+    	android:textSize="48px"
+    	android:shadowDx="2"
+		android:shadowDy="2"
+		android:shadowRadius="3"
+		android:shadowColor="#FF0000"
+    	android:text = "数据采集系统" 
+	    android:layout_width="wrap_content" 
+	    android:layout_height="wrap_content"></TextView>
+    </LinearLayout>
+
+    <TextView android:id="@+id/welcome_softunit"
+    	android:textColor="#FFFFFFFF"
+    	android:gravity="center"
+    	android:textSize="28px"
+    	android:shadowDx="2"
+		android:shadowDy="2"
+		android:shadowRadius="3"
+		android:shadowColor="#FF0000"    	
+    	android:text = "加载"
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content"></TextView>
+    
+    <TextView android:id="@+id/welcome_softver"
+    	android:textColor="#FFFFFFFF"
+    	android:gravity="center"
+    	android:textSize="28px"
+    	android:shadowDx="2"
+		android:shadowDy="2"
+		android:shadowRadius="3"
+		android:shadowColor="#FF0000"    	
+    	android:text = "加载"
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content"></TextView>
+
+
+    
+    <TextView android:id="@+id/welcome_text1"
+    	android:textColor="#FF00FF00"
+    	android:gravity="center"
+    	android:textSize="28px"
+    	android:shadowDx="2"
+		android:shadowDy="2"
+		android:shadowRadius="3"
+		android:shadowColor="#FF0000"    	
+    	android:text = "加载"
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content"></TextView>
+</LinearLayout>

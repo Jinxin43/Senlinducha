@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\DT\\AndroidStudioProjects\\Com.DingTu.ForstryTools2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-976x600\\values-976x600.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\DT\\AndroidStudioProjects\\Com.DingTu.ForstryTools2\\app\\src\\main\\res\\values-976x600\\FormStyle.xml",
+                    "from": {
+                        "startLines": "3,2,4",
+                        "startColumns": "3,3,1",
+                        "startOffsets": "101,57,150",
+                        "endColumns": "49,42,44",
+                        "endOffsets": "147,96,193"
+                    },
+                    "to": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,106,150",
+                        "endColumns": "50,43,47",
+                        "endOffsets": "101,145,193"
+                    }
+                }
+            ]
+        }
+    ]
+}

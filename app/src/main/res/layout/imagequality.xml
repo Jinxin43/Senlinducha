@@ -1,0 +1,97 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+         android:layout_height="wrap_content" 
+         android:layout_width="wrap_content" >
+     <RelativeLayout
+		    	    android:layout_width="fill_parent"
+		    	    android:layout_height="fill_parent"
+		    	    android:id="@+id/rl_Image">
+		    	    <ImageView 
+		    	       android:id="@+id/iv_ImageEnhance"
+		    	       android:layout_width="match_parent"
+		    	       android:layout_height="match_parent"
+		    	       android:contentDescription="栅格地图"
+		    	       android:layout_margin="2dp"
+		    	       />
+		    	<LinearLayout
+					 	    android:layout_width="fill_parent"
+					    	android:layout_height="wrap_content"
+					    	 android:orientation="vertical"
+					    	 android:layout_alignParentBottom="true">
+					    	<LinearLayout 
+						 	    android:layout_width="fill_parent"
+						    	android:layout_height="wrap_content">
+						    	<TextView
+						 		    android:id="@+id/tvLoaleText4"
+						 		    android:layout_width="wrap_content"
+						 		    android:layout_height="wrap_content"
+						 		    android:layout_margin="10dp"
+						 		    android:text="    亮度："
+						 		    android:textColor="#ff0000"
+						 		    android:textAppearance="?android:attr/textAppearanceMedium" />
+				
+						 		<SeekBar
+						 		    android:id="@+id/sb_light"
+						 		    android:layout_width="0dp"
+						 		    android:layout_height="wrap_content"
+						 		    android:max="255"
+						 		    android:progress="127"
+						 		    android:layout_weight="1" 
+						 		    android:layout_marginBottom="10dp"
+						 		    android:layout_marginRight="40dp"/>
+						 		</LinearLayout>
+					 		<LinearLayout
+						 	    android:layout_width="fill_parent"
+						    	android:layout_height="wrap_content">
+						    	<TextView
+						 		    android:layout_width="wrap_content"
+						 		    android:layout_height="wrap_content"
+						 		     android:layout_margin="10dp"
+						 		    android:text="对比度："
+						 		    android:textColor="#ff0000"
+						 		    android:textAppearance="?android:attr/textAppearanceMedium" />
+				
+						 		<SeekBar
+						 		    android:id="@+id/sb_Contrast"
+						 		    android:layout_width="0dp"
+						 		    android:layout_height="wrap_content"
+						 		    android:max="255"
+						 		    android:progress="127"
+						 		    android:layout_weight="1" 
+						 		    android:layout_marginBottom="10dp"
+						 		    android:layout_marginRight="40dp"/>
+						 		</LinearLayout>
+		    		<LinearLayout
+		    	    		android:id="@+id/rl_buttons"
+					 	    android:layout_width="fill_parent"
+					    	android:layout_height="wrap_content"
+					    	 android:layout_marginBottom="10dp">
+			    		<Button
+			    		    android:id="@+id/bt_CleanChange"
+				    	    android:layout_width="0dp"
+				    	    android:layout_height="wrap_content"
+				    	    android:textColor="#000000"
+				    	    android:textSize="18sp"
+				    	    android:tag="清除修改"
+				    	    android:gravity="center"
+				    	    android:text="清除修改"
+				    	    android:layout_marginLeft="90dp"
+				    	    android:layout_marginRight="20dp"
+				    	     android:layout_weight="1"/>
+			    		<Button
+			    		    android:id="@+id/bt_ClearEnhance"
+				    	    android:layout_width="0dp"
+				    	    android:layout_height="wrap_content"
+				    	    android:textColor="#000000"
+				    	    android:textSize="18sp"
+				    	    android:tag="原图复原"
+				    	    android:gravity="center"
+				    	    android:text="原图复原"
+				    	    android:layout_weight="1"
+				    	    android:layout_marginRight="40dp"/>
+		    		</LinearLayout>
+		    	
+		    		</LinearLayout>
+		    		
+		    	</RelativeLayout>
+		    		
+</RelativeLayout>

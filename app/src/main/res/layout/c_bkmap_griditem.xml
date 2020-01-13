@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:orientation="horizontal"
+     android:gravity="center"
+     android:descendantFocusability="blocksDescendants"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content">
+
+    <LinearLayout 
+        android:id="@+id/rp_itemlayout1"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_width="wrap_content">
+	   
+	     <ToggleButton 
+	             android:id="@+id/tb_visible"
+	             android:textOn=""
+	             android:textOff=""
+	             android:layout_width="wrap_content"
+	             android:layout_height="wrap_content"
+	             android:minWidth="52dp"
+	             android:background="#0000"
+				 android:button="@drawable/togglebuttonstyle"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/rp_itemtext"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#000000"
+        android:text=""/>
+    <LinearLayout 
+        android:id="@+id/rp_itemlayout2"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:gravity="center"
+        android:layout_weight="1" >
+	    <SeekBar
+	        android:id="@+id/rp_seekBar"
+	        android:layout_margin="0dp"
+	        android:layout_width="fill_parent"
+	        android:layout_height="fill_parent"
+	        style="@style/Widget.SeekBar.Normal"/>
+ 	</LinearLayout>
+ 	
+    <LinearLayout 
+        android:id="@+id/rp_itemlayout3"
+        android:layout_height="wrap_content"
+        android:layout_width="180dp"
+        android:gravity="center"> 	
+	     <LinearLayout 
+	         android:layout_margin="4dp"
+	         android:gravity="center"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content">
+	         <Button
+	             android:id="@+id/bt_moveup"
+	             android:layout_width="wrap_content"
+	             android:layout_height="wrap_content"
+	             android:background="@drawable/buttonstyle_transparent"
+	             android:drawableLeft="@drawable/icon_gray_top"
+	             android:textAppearance="?android:attr/textAppearanceMedium"
+	             android:tag="向上"
+	             android:text="向上"/>
+	     </LinearLayout>  
+	     <LinearLayout 
+	         android:layout_margin="4dp"
+	         android:gravity="center"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content">
+	         <Button
+	             android:id="@+id/bt_movedown"
+	             android:layout_width="wrap_content"
+	             android:layout_height="wrap_content"
+	             android:background="@drawable/buttonstyle_transparent"
+	             android:drawableLeft="@drawable/icon_gray_bottom"
+	             android:textAppearance="?android:attr/textAppearanceMedium"
+	             android:tag="向下"
+	             android:text="向下"/>
+	     </LinearLayout>  	
+	  </LinearLayout>
+ </LinearLayout>

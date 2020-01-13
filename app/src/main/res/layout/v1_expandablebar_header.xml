@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+	<LinearLayout 
+	    android:id="@+id/ll_headermore"
+	    android:background="#f1f1f1"
+	    android:layout_width="fill_parent"
+	    android:layout_height="30dp" >
+	    <RelativeLayout 
+	        android:layout_width="fill_parent"
+	    	android:layout_height="fill_parent">
+		    <TextView
+		        android:id="@+id/tv_header"
+		        android:layout_width="fill_parent"
+		    	android:layout_height="fill_parent"
+		    	android:layout_alignParentRight = "true"
+		    	android:layout_alignParentLeft="true"
+		    	android:gravity="left|center"
+		    	android:text="位置信息"
+		    	android:background="@layout/v1_bk_head_splitbar_border"
+		    	android:textColor="#000000"/>
+		    <ImageView 
+		        android:id="@+id/image1"
+		        android:visibility="gone"		        
+		        android:layout_width="wrap_content"
+		    	android:layout_height="fill_parent"
+		    	android:layout_marginRight="5dp"
+		    	android:layout_alignParentRight="true"
+		    	android:src="@drawable/v1_explandablebar_arrow1" />
+		    <ImageView 
+		        android:id="@+id/image2"
+		        android:layout_width="wrap_content"
+		    	android:layout_height="fill_parent"
+		    	android:layout_marginRight="5dp"
+		    	android:layout_alignParentRight="true"
+		    	android:src="@drawable/v1_explandablebar_arrow2" />		    
+	    </RelativeLayout>
+	</LinearLayout>
+	
+	<LinearLayout 
+	    android:id="@+id/ll_list"
+	    android:orientation="vertical"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content" >
+
+	</LinearLayout>
+
+
+	
+</LinearLayout>

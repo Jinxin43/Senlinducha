@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#f1f1f1"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" > 
+ 	<LinearLayout
+ 	     android:orientation="vertical"
+ 	     android:layout_weight="1"
+	    android:layout_width="fill_parent"
+   		android:layout_height="fill_parent">
+	     <TextView
+	        android:layout_width="fill_parent"
+	    	android:layout_height="wrap_content"
+	    	android:id="@+id/tvGridCaption"
+	    	android:text="统计选项"
+	    	android:textColor="#000000"
+	    	android:background="@layout/v1_bk_head_splitbar" />
+	     <LinearLayout
+	         android:orientation="vertical"
+	         android:id="@+id/ll_leftpannel"
+	         android:background="#fafafa"
+	 	    android:layout_width="fill_parent"
+	    	android:layout_height="fill_parent">
+		     <LinearLayout 
+		         android:orientation="horizontal"
+		         android:gravity="center"
+			 	    android:layout_width="fill_parent"
+			    	android:layout_height="50dp">
+			    	<LinearLayout 
+						android:gravity="center"
+					    android:background="@layout/v1_bk_table_header"
+				 	    android:layout_width="50dp"
+				    	android:layout_height="fill_parent">
+					    <CheckBox
+					        android:id="@+id/cbselectall"
+					        android:checked="true"
+					        android:layout_width="wrap_content"
+					    	android:layout_height="wrap_content"
+					    	android:textAppearance="?android:attr/textAppearanceMedium" 
+					    	android:textColor="#000000"/>					    	
+			    	</LinearLayout>
+			    	
+				    <TextView
+				        android:layout_width="fill_parent"
+				    	android:layout_height="fill_parent"
+				    	android:layout_weight="1"
+				    	android:text="图层"
+				    	android:gravity="center"
+				    	android:textColor="#000000"
+				    	android:textAppearance="?android:attr/textAppearanceMedium" 
+				    	android:background="@layout/v1_bk_table_header"/>
+				    <TextView
+				        android:layout_width="fill_parent"
+				    	android:layout_height="fill_parent"
+				    	android:layout_weight="1"
+				    	android:text="统计字段"
+				    	android:gravity="center"
+				    	android:textColor="#000000"
+				    	android:textAppearance="?android:attr/textAppearanceMedium" 
+				    	android:background="@layout/v1_bk_table_header"/>
+				    <TextView
+				        android:layout_width="50dp"
+				    	android:layout_height="fill_parent"
+				    	android:text="操作"
+				    	android:gravity="center"
+				    	android:textColor="#000000"
+				    	android:textAppearance="?android:attr/textAppearanceMedium" 
+				    	android:background="@layout/v1_bk_table_header"/>		    					    			    
+			 </LinearLayout> 
+	         <ListView
+	             android:id="@+id/listView1"
+	             android:layout_width="fill_parent"
+	             android:layout_height="fill_parent"
+	             android:cacheColorHint="#00000000"
+				android:dividerHeight="0.5dp"
+				android:divider="#7357ea">
+	         </ListView>
+
+	    </LinearLayout>	
+      </LinearLayout>		    
+</LinearLayout>
