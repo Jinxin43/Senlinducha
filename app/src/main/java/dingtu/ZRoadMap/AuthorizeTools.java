@@ -1,5 +1,10 @@
 package dingtu.ZRoadMap;
 
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.PrintStream;
+import java.lang.reflect.Method;
 import java.net.NetworkInterface;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
@@ -8,6 +13,7 @@ import java.util.Date;
 import java.util.Enumeration;
 import java.util.HashMap;
 import java.util.List;
+import java.util.Locale;
 
 import android.content.Context;
 import android.content.pm.ApplicationInfo;
@@ -17,17 +23,23 @@ import android.graphics.Paint;
 import android.graphics.Typeface;
 import android.net.wifi.WifiInfo;
 import android.net.wifi.WifiManager;
+import android.os.Build;
 import android.os.Handler;
+import android.provider.Settings;
 import android.telephony.TelephonyManager;
 import android.util.Log;
+
 import dingtu.ZRoadMap.Data.ICallback;
 import lkmap.Tools.Tools;
 
 public class AuthorizeTools {
+
+	private String key = "ro.serialno";
+
 	public AuthorizeTools(Context pContext) {
 
 		mContext = pContext;
-		// this.OpenWIFI();
+		this.OpenWIFI();
 		this.GetUserInfoCode();
 
 		try {
@@ -62,7 +74,10 @@ public class AuthorizeTools {
 				m_LSUserHandler.removeCallbacks(m_runnable);
 				SimpleDateFormat sDateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
 				String date = sDateFormat.format(new java.util.Date());
-				isExpired(date, true);
+				if (!UI.SYS_UserType.equals("正式用户")) {
+					isExpired(date, true);
+				}
+
 				return;
 			}
 
@@ -99,7 +114,9 @@ public class AuthorizeTools {
 				LSMessageStr = "尊敬的【%1$s】：\r\n        您当前的用户类型为【%2$s】，试用期止【%3$s】到期，为保证您能使用本软件的全部功能，请联系软件开发者获取正式授权码！\r\n详见【关于系统】！";
 				LSMessageStr = String.format(LSMessageStr, UI.OT_UserName, UI.SYS_UserType, UI.SYS_StopDate);
 			}
-			lkmap.Tools.Tools.ShowMessageBox(this.mContext, LSMessageStr, null);
+			if (this.mContext != null) {
+				lkmap.Tools.Tools.ShowMessageBox(this.mContext, LSMessageStr, null);
+			}
 		} catch (Exception e) {
 			Log.e("NOPass", e.getMessage());
 		}
@@ -122,8 +139,8 @@ public class AuthorizeTools {
 						// PubVar.m_DoEvent.DoCommand("完全退出");
 						if (PubVar.m_DoEvent.AlwaysOpenProject(false)) {
 							PubVar.m_Map.setEmpty();
-							String[] infoTextList = new String[] { "【系统提示】", "您使用该软件的截止日期是【" + stopDate + "】!",
-									"如果需要继续使用，请联系软件开发者！", "详见【关于系统】!" };
+							String[] infoTextList = new String[]{"【系统提示】", "您使用该软件的截止日期是【" + stopDate + "】!",
+									"如果需要继续使用，请联系软件开发者！", "详见【关于系统】!"};
 							for (int i = 0; i < infoTextList.length; i++) {
 								String infoText = infoTextList[i];
 								float tw = GetTextFont().measureText(infoText);
@@ -168,7 +185,7 @@ public class AuthorizeTools {
 
 	/**
 	 * gps时间是否通过验证
-	 * 
+	 *
 	 * @param gpsDate
 	 * @return
 	 */
@@ -176,6 +193,9 @@ public class AuthorizeTools {
 		if (this.m_AuthorizePass)
 			return true;
 		AuthorizeTools_UserInfo UI = this.GetUserInfo();
+		if (UI.SYS_UserType.equals("正式用户")) {
+			return true;
+		}
 		if (UI == null) {
 			if (ShowMessage)
 				this.ShowNoPassMessage();
@@ -210,6 +230,7 @@ public class AuthorizeTools {
 
 	public boolean isExpired(String Date, boolean showMessage, ICallback pCallback) {
 		AuthorizeTools_UserInfo UI = this.GetUserInfo();
+
 		if (UI == null) {
 			if (showMessage) {
 				this.ShowExpiredMessage();
@@ -218,22 +239,28 @@ public class AuthorizeTools {
 			return false;
 		}
 
+		if (UI.SYS_UserType.equals("正式用户")) {
+			m_AuthorizePass = true;
+			return true;
+		}
+
 		try {
 			String[] gpsD = Date.split(" ");
 			if (gpsD.length != 2) {
-//				if (showMessage)
-//					this.ShowExpiredMessage();
+				// if (showMessage)
+				// this.ShowExpiredMessage();
 				m_AuthorizePass = true;
-				return false;
+				return true;
 			}
 			SimpleDateFormat SDF = new SimpleDateFormat("yyyy-MM-dd");
 			Date StopDate = SDF.parse(UI.SYS_StopDate);
 			Date GPSDate = SDF.parse(gpsD[0]);
-			
 			// 防止GPS翻转出现大于2051年的问题
-			Date maxDate = SDF.parse("2051-01-02");
+			Date maxDate = SDF.parse("2050-12-31");
 			if (GPSDate.getTime() > maxDate.getTime()) {
 				GPSDate = new Date();
+				m_AuthorizePass = true;
+				return true;
 			}
 			String lastDate = "";
 			if (PubVar.m_DoEvent == null || PubVar.m_DoEvent.m_UserConfigDB == null) {
@@ -270,25 +297,13 @@ public class AuthorizeTools {
 				m_AuthorizePass = false;
 				return false;
 			}
-			else
-			{
-				if((GPSDate.getTime()+24*3600*1000)>= StopDate.getTime())
-				{
-					lkmap.Tools.Tools.ShowMessageBox(this.mContext, "您的授权还有1天过期，请及时联系软件开发者购买授权，以免影响您的使用！");
-				}
-				else if((GPSDate.getTime()+48*3600*1000)>= StopDate.getTime())
-				{
-					lkmap.Tools.Tools.ShowMessageBox(this.mContext, "您的授权还有2天过期，请及时联系软件开发者购买授权，以免影响您的使用！");
-				}
-				
-			}
 		} catch (ParseException e) {
 
-			m_AuthorizePass = false;
+			m_AuthorizePass = true;
 			if (showMessage) {
 				this.ShowExpiredMessage();
 			}
-			return false;
+			return true;
 		}
 
 		m_AuthorizePass = true;
@@ -303,7 +318,7 @@ public class AuthorizeTools {
 
 	/**
 	 * 得到当前用户信息
-	 * 
+	 *
 	 * @return
 	 */
 	public AuthorizeTools_UserInfo GetUserInfo() {
@@ -318,6 +333,7 @@ public class AuthorizeTools {
 			if (!USC.equals("")) {
 				this.CreateLSUserInfoForMe(USC);
 				return this.GetUserInfo();
+
 			}
 		}
 		return this.GetUserInfo();
@@ -347,10 +363,10 @@ public class AuthorizeTools {
 
 		userInfo.OT_UserName = "未授权";
 		userInfo.OT_UserUnit = "未知";
-		userInfo.OT_UserDepartment = "临时用户";
+		userInfo.OT_UserDepartment = "临时用户组";
 		userInfo.HardCode = "";
 		userInfo.SYS_UserType = "临时用户";
-		userInfo.SYS_StopDate = "2050-6-14";
+		userInfo.SYS_StopDate = "3000-2-28";
 
 		this.m_UserInfoList.add(userInfo);
 	}
@@ -361,9 +377,13 @@ public class AuthorizeTools {
 	// 把MAC 地址转换成，用户信息码
 	// MAC 格式：402CF45C3212，去掉字节中间的冒号
 	private HashMap<String, String> GetUserInfoCode() {
+		String MIEIStr;
 		if (this.m_SoftCode.size() == 0) {
-
-			String MIEIStr = this.GetMIEI();
+			if (Build.VERSION.SDK_INT >= 29) {
+				MIEIStr = Settings.System.getString(mContext.getContentResolver(), Settings.Secure.ANDROID_ID);
+			} else {
+				MIEIStr = this.GetMIEI();
+			}
 			if (MIEIStr.length() >= 12) {
 
 				// MIEIStr = MIEIStr.substring(MIEIStr.length() - 12,
@@ -373,17 +393,29 @@ public class AuthorizeTools {
 			} else {
 
 				String strMac = this.GetMacID();
-//				if (strMac.equals("020000000000")) {
-//					strMac = GetNewVersionMacID();
-//				}
-				String newID = MIEIStr + strMac;
+				String newID = strMac;
+				if (strMac.equals("020000000000")) {
+					strMac = getSerialNO();
+				}
+
+				if (strMac != null && strMac.length() >= 12) {
+					newID = strMac;
+				} else {
+					newID = MIEIStr + strMac;
+				}
+
 				if (newID.length() >= 12) {
 					this.m_SoftCode.put("MAC", this.GetUserInfoCodeByHardCode(newID.substring(0, 12)).toUpperCase()); // 用MAC地址补齐
 				} else {
 					this.m_SoftCode.put("MAC", this.GetUserInfoCodeByHardCode(strMac).toUpperCase()); // MAC地址码
 				}
 			}
-
+			String crashFileName = PubVar.m_SysAbsolutePath + "/SysFile/softkey.txt";
+			String softkey = null;
+			for (String key : m_SoftCode.keySet()) {
+				softkey="key= " + key + " and value= " + m_SoftCode.get(key);
+			}
+			WriteStringToFile(crashFileName,softkey);
 		}
 		return this.m_SoftCode;
 		// if (!this.m_SoftCode.equals("")) return this.m_SoftCode;
@@ -396,9 +428,64 @@ public class AuthorizeTools {
 
 	}
 
+	public void WriteStringToFile(String filePath,String softkey) {
+		try {
+			File file = new File(filePath);
+			if(file!=null) {
+				PrintStream ps = new PrintStream(new FileOutputStream(file));
+				ps.println(softkey);// 往文件里写入字符串
+			}
+		} catch (FileNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+
+//    private String getMacAddress() {
+//        try {
+//            List<NetworkInterface> all = Collections.list(NetworkInterface.getNetworkInterfaces());
+//            for (NetworkInterface nif : all) {
+//                if (!nif.getName().equalsIgnoreCase("wlan0")) {
+//                    continue;
+//                }
+//                byte[] macBytes = nif.getHardwareAddress();
+//                if (macBytes == null) {
+//                    return "";
+//                }
+//                StringBuilder res1 = new StringBuilder();
+//                for (byte b : macBytes) {
+//                    res1.append(String.format("%02X:", b));
+//                }
+//                if (res1.length() > 0) {
+//                    res1.deleteCharAt(res1.length() - 1);
+//                }
+//                return res1.toString();
+//            }
+//        } catch (Exception e) {
+//            e.printStackTrace();
+//        }
+//        return null;
+//    }
+
+	static Method systemProperties_get = null;
+
+	static String getAndroidOsSystemProperties(String key) {
+		String ret;
+		try {
+			systemProperties_get = Class.forName("android.os.SystemProperties").getMethod("get", String.class);
+			if ((ret = (String) systemProperties_get.invoke(null, key)) != null)
+				return ret;
+		} catch (Exception e) {
+			e.printStackTrace();
+			return null;
+		}
+
+		return "";
+	}
+
 	/**
 	 * 通过硬件码反算软件码
-	 * 
+	 *
 	 * @param HardCode
 	 * @return
 	 */
@@ -430,9 +517,22 @@ public class AuthorizeTools {
 		return sChEnc;
 	}
 
+	private String getSerialNO() {
+		String ret = "";
+		try {
+			systemProperties_get = Class.forName("android.os.SystemProperties").getMethod("get", String.class);
+			if ((ret = (String) systemProperties_get.invoke(null, key)) != null)
+				return ret;
+		} catch (Exception e) {
+			e.printStackTrace();
+			return "";
+		}
+
+		return "";
+	}
+
 	// 得到手机串号
 	private String GetMIEI() {
-
 		try {
 			TelephonyManager telephonemanage = (TelephonyManager) (mContext
 					.getSystemService(Context.TELEPHONY_SERVICE));
@@ -503,9 +603,9 @@ public class AuthorizeTools {
 	}
 
 	// 加密串
-	private char[] gsEnc = new char[] { ')', '!', '@', '#', '$', '%', '^', '&', '*', '(', '[', '}', '|', '{', '-', ')',
-			'(', '&', '^', '@', '#', '$', '%' };
-	private char[] gsEnc1 = new char[] { '|', '{', '&', '$', '@', '!', '#', '$', '-', '+', ')', '*' };
+	private char[] gsEnc = new char[]{')', '!', '@', '#', '$', '%', '^', '&', '*', '(', '[', '}', '|', '{', '-', ')',
+			'(', '&', '^', '@', '#', '$', '%'};
+	private char[] gsEnc1 = new char[]{'|', '{', '&', '$', '@', '!', '#', '$', '-', '+', ')', '*'};
 
 	// 打开WIFI管理器
 	private boolean m_WIFIEnable = false;
@@ -526,7 +626,7 @@ public class AuthorizeTools {
 	private void CloseWIFIByUser() {
 		if (!this.m_WIFIEnable) {
 			WifiManager wifi = (WifiManager) mContext.getSystemService(Context.WIFI_SERVICE);
-			wifi.setWifiEnabled(false);
+			// wifi.setWifiEnabled(false);
 		}
 	}
 

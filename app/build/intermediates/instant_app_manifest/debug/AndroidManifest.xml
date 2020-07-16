@@ -44,7 +44,12 @@
         android:debuggable="true"
         android:icon="@drawable/duchalogo"
         android:label="@string/app_showname"
-        android:testOnly="true" >
+        android:largeHeap="true"
+        android:usesCleartextTraffic="true" >
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+
         <meta-data
             android:name="version"
             android:value="GL" >

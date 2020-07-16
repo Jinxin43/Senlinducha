@@ -382,8 +382,7 @@ public class MapControl extends ImageView
         if (_GPSMapPaint!=null)_GPSMapPaint.OnPaint(canvas);
         for(IOnPaint pOnPaint:this.m_OnPaintList.values())pOnPaint.OnPaint(canvas);
         
-        
-        
+
 		if(PubVar.m_HashMap.GetValueObject("Tag_System_ZoomGlass").Value == null || 
 				PubVar.m_HashMap.GetValueObject("Tag_System_ZoomGlass").Value.equals("true"))
     	{

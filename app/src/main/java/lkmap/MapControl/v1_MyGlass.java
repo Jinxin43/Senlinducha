@@ -14,6 +14,7 @@ import android.graphics.Path;
 import android.graphics.Rect;
 import android.graphics.RectF;
 import android.graphics.Region.Op;
+import android.os.Build;
 import android.util.AttributeSet;
 import android.util.DisplayMetrics;
 import android.view.View;
@@ -80,7 +81,7 @@ public class v1_MyGlass extends View implements IOnPaint{
 		if(PubVar.m_Map==null)return;
 		if (PubVar.m_Map.bp==null) return;
 		
-		Bitmap bitmap = PubVar.m_MapControl.getDrawingCache();
+		Bitmap bitmap =loadBitmapFromView(PubVar.m_MapControl);
 		if(bitmap == null)
 		{
 			return;
@@ -97,9 +98,12 @@ public class v1_MyGlass extends View implements IOnPaint{
 //		PubVar.m_Map.getDisplayGraphic().clipPath(mPath, Op.REPLACE);
 		
 		Path mPath = new Path();
-		mPath.addCircle(this.getWidth()/2, this.getHeight()/2, this.getWidth()/2, Path.Direction.CCW);  
-		canvas.clipPath(mPath, Op.REPLACE);
-		
+		mPath.addCircle(this.getWidth()/2, this.getHeight()/2, this.getWidth()/2, Path.Direction.CCW);
+		if(Build.VERSION.SDK_INT >= 28){
+			canvas.clipPath(mPath);
+		}else {
+			canvas.clipPath(mPath, Op.REPLACE);
+		}
 		canvas.drawBitmap(bitmap, r1,r2,null);
 		
 		Paint mPaint = new Paint();
@@ -117,9 +121,22 @@ public class v1_MyGlass extends View implements IOnPaint{
 		canvas.drawLine(gx-50,gy,gx+50,gy, mPaint);
 		canvas.drawLine(gx,gy-50,gx,gy+50, mPaint);
 		
-		
 	}
-	
+
+	private Bitmap loadBitmapFromView(View v) {
+		if (v == null) {
+			return null;
+		}
+		Bitmap screenshot;
+		screenshot = Bitmap.createBitmap(v.getWidth(), v.getHeight(), Bitmap.Config.RGB_565);
+		Canvas c = new Canvas(screenshot);
+		c.translate(-v.getScrollX(), -v.getScrollY());
+		v.draw(c);
+		return screenshot;
+	}
+
+
+
 	@Override
 	protected void onDraw(Canvas canvas)
 	{

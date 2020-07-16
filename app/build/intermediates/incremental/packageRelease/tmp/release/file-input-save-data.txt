@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Thu Jan 09 18:59:09 CST 2020
+#Tue Jul 07 12:46:03 CST 2020
 1.base=C\:\\Users\\DT\\AndroidStudioProjects\\Com.DingTu.ForstryTools2\\app\\build\\intermediates\\dex\\release\\mergeDexRelease\\out
 0.baseType=DIRECTORY
 1.baseType=DIRECTORY

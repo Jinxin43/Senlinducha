@@ -13,7 +13,32 @@ public class AuthorizeTools_UserList {
 
 		// 格式说明：SYS_SoftCode，SYS_UserType，SYS_StopDate，OT_UserName，OT_UserUnit，OT_UserPhone，OT_UserMemo
 		List<AuthorizeTools_UserInfo> m_UserInfoList = new ArrayList<AuthorizeTools_UserInfo>();
-		
+		m_UserInfoList.add(new AuthorizeTools_UserInfo("1F1725-12121C-6E1619-4E6D4C-4F4319-19", "正式用户", "2051-5-28",
+				"西安鼎图信息技术有限公司", "单位", "", "", "VNX9X20413X01530"));
+		//测试
+		m_UserInfoList.add(new AuthorizeTools_UserInfo("1D1976-121010-671E19-1E6B49-484B1D", "正式用户", "2051-7-9",
+				"西安鼎图信息技术有限公司", "单位", "", "", "864583044006914"));
+		m_UserInfoList.add(new AuthorizeTools_UserInfo("181976-141010-671E19-1E6B49-484B1D", "正式用户", "2051-7-9",
+				"西安鼎图信息技术有限公司", "单位", "", "", "864583044006971"));
+		m_UserInfoList.add(new AuthorizeTools_UserInfo("1F1976-131010-671E19-1E6B49-484B1D", "正式用户", "2051-7-9",
+				"西安鼎图信息技术有限公司", "单位", "", "", "864583044006906"));
+
+		m_UserInfoList.add(new AuthorizeTools_UserInfo("101523-1A1C46-6F114E-186D4E-4B4349-1D", "正式用户", "2051-7-7",
+				"西安鼎图信息技术有限公司", "单位", "", "", ""));
+
+		m_UserInfoList.add(new AuthorizeTools_UserInfo("4D1673-454740-6D1E4E-1E3E18-1A1819-1C", "正式用户", "2051-7-3",
+				"山阳县林业局", "单位", "", "", "864583042473678"));
+		m_UserInfoList.add(new AuthorizeTools_UserInfo("1A4726-461146-6D121A-113D45-444318-1B", "正式用户", "2051-7-3",
+				"山阳县林业局", "单位", "", "", "WRU6R20312000092"));
+		m_UserInfoList.add(new AuthorizeTools_UserInfo("111276-421117-3A121D-113E4F-4C1A18-18", "正式用户", "2051-7-3",
+				"山阳县林业局", "单位", "", "", "864583042473439"));
+		m_UserInfoList.add(new AuthorizeTools_UserInfo("4A4373-111D16-6C471E-193A4D-1F4C1A-4C", "正式用户", "2051-4-22",
+				"山阳县林业局", "单位", "", "", "864583042475095"));
+		m_UserInfoList.add(new AuthorizeTools_UserInfo("184271-1B1041-674318-496F4E-49181D-1D", "正式用户", "2051-4-22",
+				"山阳县林业局", "单位", "", "", "864583042473751"));
+
+		m_UserInfoList.add(new AuthorizeTools_UserInfo("1B1921-11411C-3C101D-10621B-4C421D-4D", "正式用户", "2051-3-6",
+				"横山白界森林派出所", "单位", "", "", "GYH9X19B22002309"));
 		m_UserInfoList.add(new AuthorizeTools_UserInfo("1D1976-101C17-68161E-196B4F-4E4E19", "试用用户", "2019-8-22",
 				"宁西林业局", "宁西", "宁西", "", ""));
 		
@@ -63,6 +88,9 @@ public class AuthorizeTools_UserList {
 				"横山区林业局", "横山区", "横山8", "", "868204023078321"));
 		
 		//王强借用
+		m_UserInfoList.add(new AuthorizeTools_UserInfo("1F6619-106C1C-6B7E1B-1A623E-4C491D-19", "正式用户", "2051-4-27",
+				"西安鼎图信息技术有限公司", "", "", "测试", "GYH9X19C02002536"));
+
 		m_UserInfoList.add(new AuthorizeTools_UserInfo("1D1976-151C17-6F161E-106B4F-4F4B1A", "正式用户", "2050-7-8",
 				"西安鼎图信息技术有限公司", "", "", "王强借用", "868204023078164"));
 		m_UserInfoList.add(new AuthorizeTools_UserInfo("1B1976-151C17-6D161E-106B4F-4F4B1A", "正式用户", "2050-7-8",

@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\AndroidManifest.xml:2:1-121:12
-INJECTED from C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\AndroidManifest.xml:2:1-121:12
-INJECTED from C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\AndroidManifest.xml:2:1-121:12
-INJECTED from C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\AndroidManifest.xml:2:1-121:12
+ADDED from C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\AndroidManifest.xml:2:1-125:12
+INJECTED from C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\AndroidManifest.xml:2:1-125:12
+INJECTED from C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\AndroidManifest.xml:2:1-125:12
+INJECTED from C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\AndroidManifest.xml:2:1-125:12
 MERGED from [com.android.support:support-v4:28.0.0] C:\Users\DT\.gradle\caches\transforms-2\files-2.1\78c33cd85759e56c7008c3cd1bd21cd7\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:multidex:1.0.2] C:\Users\DT\.gradle\caches\transforms-2\files-2.1\9c29f016ee4fa1f34b332d95cccb5206\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\DT\.gradle\caches\transforms-2\files-2.1\662b96c90943847b0c53e41c15b2b060\AndroidManifest.xml:17:1-22:12
@@ -30,9 +30,9 @@ MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\DT\.gradle\caches\
 MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\DT\.gradle\caches\transforms-2\files-2.1\e1696572f76d09563008e92929711287\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\DT\.gradle\caches\transforms-2\files-2.1\120abe896e68746b210f8e710426669d\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.core:runtime:1.1.1] C:\Users\DT\.gradle\caches\transforms-2\files-2.1\53b3791e230a17c5503769280ae5d146\AndroidManifest.xml:17:1-22:12
-INJECTED from C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\AndroidManifest.xml:2:1-121:12
-INJECTED from C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\AndroidManifest.xml:2:1-121:12
-INJECTED from C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\AndroidManifest.xml:2:1-121:12
+INJECTED from C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\AndroidManifest.xml:2:1-125:12
+INJECTED from C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\AndroidManifest.xml:2:1-125:12
+INJECTED from C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\AndroidManifest.xml:2:1-125:12
 	package
 		ADDED from C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\AndroidManifest.xml:3:5-37
 		INJECTED from C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\AndroidManifest.xml
@@ -104,7 +104,7 @@ ADDED from C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\ma
 	android:name
 		ADDED from C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\AndroidManifest.xml:23:22-65
 application
-ADDED from C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\AndroidManifest.xml:25:5-107:19
+ADDED from C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\AndroidManifest.xml:25:5-111:19
 MERGED from [com.android.support:support-compat:28.0.0] C:\Users\DT\.gradle\caches\transforms-2\files-2.1\ca9cc4e7eaebd6d583c13b6688a53b30\AndroidManifest.xml:22:5-94
 MERGED from [com.android.support:support-compat:28.0.0] C:\Users\DT\.gradle\caches\transforms-2\files-2.1\ca9cc4e7eaebd6d583c13b6688a53b30\AndroidManifest.xml:22:5-94
 MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\DT\.gradle\caches\transforms-2\files-2.1\d8777b50101a9ffc3234b15a873bc427\AndroidManifest.xml:22:5-23:19
@@ -112,139 +112,149 @@ MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\DT\.gradle
 	android:appComponentFactory
 		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\DT\.gradle\caches\transforms-2\files-2.1\ca9cc4e7eaebd6d583c13b6688a53b30\AndroidManifest.xml:22:18-91
 	android:label
-		ADDED from C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\AndroidManifest.xml:28:9-45
+		ADDED from C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\AndroidManifest.xml:27:9-45
+	android:largeHeap
+		ADDED from C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\AndroidManifest.xml:28:9-33
 	android:icon
-		ADDED from C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\AndroidManifest.xml:27:9-43
+		ADDED from C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\AndroidManifest.xml:26:9-43
+	android:usesCleartextTraffic
+		ADDED from C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\AndroidManifest.xml:29:9-44
+uses-library#org.apache.http.legacy
+ADDED from C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\AndroidManifest.xml:31:9-88
+	android:required
+		ADDED from C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\AndroidManifest.xml:31:61-85
+	android:name
+		ADDED from C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\AndroidManifest.xml:31:23-60
 meta-data#version
-ADDED from C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\AndroidManifest.xml:29:9-32:21
+ADDED from C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\AndroidManifest.xml:33:9-36:21
 	android:value
-		ADDED from C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\AndroidManifest.xml:31:13-31
+		ADDED from C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\AndroidManifest.xml:35:13-31
 	android:name
-		ADDED from C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\AndroidManifest.xml:30:13-35
+		ADDED from C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\AndroidManifest.xml:34:13-35
 activity#dingtu.ZRoadMap.AndroidMap
-ADDED from C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\AndroidManifest.xml:34:9-42:20
+ADDED from C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\AndroidManifest.xml:38:9-46:20
 	android:screenOrientation
-		ADDED from C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\AndroidManifest.xml:39:13-50
+		ADDED from C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\AndroidManifest.xml:43:13-50
 	android:launchMode
-		ADDED from C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\AndroidManifest.xml:38:13-44
+		ADDED from C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\AndroidManifest.xml:42:13-44
 	android:windowSoftInputMode
-		ADDED from C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\AndroidManifest.xml:41:13-52
+		ADDED from C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\AndroidManifest.xml:45:13-52
 	android:configChanges
-		ADDED from C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\AndroidManifest.xml:37:13-98
+		ADDED from C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\AndroidManifest.xml:41:13-98
 	android:alwaysRetainTaskState
-		ADDED from C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\AndroidManifest.xml:36:13-49
+		ADDED from C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\AndroidManifest.xml:40:13-49
 	android:theme
-		ADDED from C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\AndroidManifest.xml:40:13-60
+		ADDED from C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\AndroidManifest.xml:44:13-60
 	android:name
-		ADDED from C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\AndroidManifest.xml:35:13-54
+		ADDED from C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\AndroidManifest.xml:39:13-54
 activity#dingtu.ZRoadMap.Welcome
-ADDED from C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\AndroidManifest.xml:44:9-51:20
+ADDED from C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\AndroidManifest.xml:48:9-55:20
 	android:screenOrientation
-		ADDED from C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\AndroidManifest.xml:49:13-49
+		ADDED from C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\AndroidManifest.xml:53:13-49
 	android:label
-		ADDED from C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\AndroidManifest.xml:47:13-33
+		ADDED from C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\AndroidManifest.xml:51:13-33
 	android:launchMode
-		ADDED from C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\AndroidManifest.xml:48:13-44
+		ADDED from C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\AndroidManifest.xml:52:13-44
 	android:alwaysRetainTaskState
-		ADDED from C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\AndroidManifest.xml:46:13-49
+		ADDED from C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\AndroidManifest.xml:50:13-49
 	android:theme
-		ADDED from C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\AndroidManifest.xml:50:13-60
+		ADDED from C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\AndroidManifest.xml:54:13-60
 	android:name
-		ADDED from C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\AndroidManifest.xml:45:13-51
+		ADDED from C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\AndroidManifest.xml:49:13-51
 activity#dingtu.ZRoadMap.Data.PhotoCamera
-ADDED from C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\AndroidManifest.xml:52:9-58:20
+ADDED from C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\AndroidManifest.xml:56:9-62:20
 	android:screenOrientation
-		ADDED from C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\AndroidManifest.xml:57:13-49
+		ADDED from C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\AndroidManifest.xml:61:13-49
 	android:label
-		ADDED from C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\AndroidManifest.xml:56:13-33
+		ADDED from C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\AndroidManifest.xml:60:13-33
 	android:configChanges
-		ADDED from C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\AndroidManifest.xml:55:13-74
+		ADDED from C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\AndroidManifest.xml:59:13-74
 	android:alwaysRetainTaskState
-		ADDED from C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\AndroidManifest.xml:54:13-49
+		ADDED from C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\AndroidManifest.xml:58:13-49
 	android:name
-		ADDED from C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\AndroidManifest.xml:53:13-60
+		ADDED from C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\AndroidManifest.xml:57:13-60
 activity#dingtu.ZRoadMap.Login
-ADDED from C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\AndroidManifest.xml:71:9-84:20
+ADDED from C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\AndroidManifest.xml:75:9-88:20
 	android:screenOrientation
-		ADDED from C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\AndroidManifest.xml:76:13-50
+		ADDED from C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\AndroidManifest.xml:80:13-50
 	android:label
-		ADDED from C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\AndroidManifest.xml:74:13-45
+		ADDED from C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\AndroidManifest.xml:78:13-45
 	android:launchMode
-		ADDED from C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\AndroidManifest.xml:75:13-44
+		ADDED from C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\AndroidManifest.xml:79:13-44
 	android:windowSoftInputMode
-		ADDED from C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\AndroidManifest.xml:78:13-52
+		ADDED from C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\AndroidManifest.xml:82:13-52
 	android:configChanges
-		ADDED from C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\AndroidManifest.xml:73:13-74
+		ADDED from C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\AndroidManifest.xml:77:13-74
 	android:theme
-		ADDED from C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\AndroidManifest.xml:77:13-60
+		ADDED from C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\AndroidManifest.xml:81:13-60
 	android:name
-		ADDED from C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\AndroidManifest.xml:72:13-49
+		ADDED from C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\AndroidManifest.xml:76:13-49
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\AndroidManifest.xml:79:13-83:29
+ADDED from C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\AndroidManifest.xml:83:13-87:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\AndroidManifest.xml:80:17-69
+ADDED from C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\AndroidManifest.xml:84:17-69
 	android:name
-		ADDED from C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\AndroidManifest.xml:80:25-66
+		ADDED from C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\AndroidManifest.xml:84:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\AndroidManifest.xml:82:17-77
+ADDED from C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\AndroidManifest.xml:86:17-77
 	android:name
-		ADDED from C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\AndroidManifest.xml:82:27-74
+		ADDED from C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\AndroidManifest.xml:86:27-74
 activity#dingtu.ZRoadMap.LockSetActivity
-ADDED from C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\AndroidManifest.xml:85:9-89:20
+ADDED from C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\AndroidManifest.xml:89:9-93:20
 	android:label
-		ADDED from C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\AndroidManifest.xml:87:13-60
+		ADDED from C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\AndroidManifest.xml:91:13-60
 	android:windowSoftInputMode
-		ADDED from C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\AndroidManifest.xml:88:13-68
+		ADDED from C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\AndroidManifest.xml:92:13-68
 	android:name
-		ADDED from C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\AndroidManifest.xml:86:13-59
+		ADDED from C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\AndroidManifest.xml:90:13-59
 activity#com.dingtu.SLDuCha.CheckCardActivity
-ADDED from C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\AndroidManifest.xml:90:9-94:20
+ADDED from C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\AndroidManifest.xml:94:9-98:20
 	android:label
-		ADDED from C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\AndroidManifest.xml:92:13-37
+		ADDED from C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\AndroidManifest.xml:96:13-37
 	android:windowSoftInputMode
-		ADDED from C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\AndroidManifest.xml:93:13-68
+		ADDED from C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\AndroidManifest.xml:97:13-68
 	android:name
-		ADDED from C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\AndroidManifest.xml:91:13-64
+		ADDED from C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\AndroidManifest.xml:95:13-64
 provider#android.support.v4.content.FileProvider
-ADDED from C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\AndroidManifest.xml:96:9-104:20
+ADDED from C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\AndroidManifest.xml:100:9-108:20
 	android:grantUriPermissions
-		ADDED from C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\AndroidManifest.xml:100:13-47
+		ADDED from C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\AndroidManifest.xml:104:13-47
 	android:authorities
-		ADDED from C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\AndroidManifest.xml:98:13-70
+		ADDED from C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\AndroidManifest.xml:102:13-70
 	android:exported
-		ADDED from C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\AndroidManifest.xml:99:13-37
+		ADDED from C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\AndroidManifest.xml:103:13-37
 	android:name
-		ADDED from C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\AndroidManifest.xml:97:13-67
+		ADDED from C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\AndroidManifest.xml:101:13-67
 meta-data#android.support.FILE_PROVIDER_PATHS
-ADDED from C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\AndroidManifest.xml:101:13-103:53
+ADDED from C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\AndroidManifest.xml:105:13-107:53
 	android:resource
-		ADDED from C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\AndroidManifest.xml:103:17-50
+		ADDED from C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\AndroidManifest.xml:107:17-50
 	android:name
-		ADDED from C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\AndroidManifest.xml:102:17-67
+		ADDED from C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\AndroidManifest.xml:106:17-67
 supports-screens
-ADDED from C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\AndroidManifest.xml:109:5-114:39
+ADDED from C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\AndroidManifest.xml:113:5-118:39
 	android:largeScreens
-		ADDED from C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\AndroidManifest.xml:111:9-36
+		ADDED from C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\AndroidManifest.xml:115:9-36
 	android:smallScreens
-		ADDED from C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\AndroidManifest.xml:114:9-36
+		ADDED from C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\AndroidManifest.xml:118:9-36
 	android:normalScreens
-		ADDED from C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\AndroidManifest.xml:112:9-37
+		ADDED from C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\AndroidManifest.xml:116:9-37
 	android:resizeable
-		ADDED from C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\AndroidManifest.xml:113:9-34
+		ADDED from C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\AndroidManifest.xml:117:9-34
 	android:anyDensity
-		ADDED from C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\AndroidManifest.xml:110:9-34
+		ADDED from C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\AndroidManifest.xml:114:9-34
 uses-permission#android.permission.GET_ACCOUNTS
-ADDED from C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\AndroidManifest.xml:117:5-71
+ADDED from C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\AndroidManifest.xml:121:5-71
 	android:name
-		ADDED from C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\AndroidManifest.xml:117:22-68
+		ADDED from C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\AndroidManifest.xml:121:22-68
 uses-permission#android.permission.READ_PROFILE
-ADDED from C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\AndroidManifest.xml:118:5-71
+ADDED from C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\AndroidManifest.xml:122:5-71
 	android:name
-		ADDED from C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\AndroidManifest.xml:118:22-68
+		ADDED from C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\AndroidManifest.xml:122:22-68
 uses-permission#android.permission.READ_CONTACTS
-ADDED from C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\AndroidManifest.xml:119:5-72
+ADDED from C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\AndroidManifest.xml:123:5-72
 	android:name
-		ADDED from C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\AndroidManifest.xml:119:22-69
+		ADDED from C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\AndroidManifest.xml:123:22-69
 uses-sdk
 INJECTED from C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\DT\AndroidStudioProjects\Com.DingTu.ForstryTools2\app\src\main\AndroidManifest.xml

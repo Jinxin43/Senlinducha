@@ -410,9 +410,6 @@ public class NEMALocate
 					{
 						this.m_LocationEx.SetGpsPDOP(Tools.ConvertToDouble(NEMAStrT[PdopIndex]));
 					}
-				} else
-				{
-					this.m_LocationEx.SetGpsPDOP(99.99);
 				}
 			}
 			

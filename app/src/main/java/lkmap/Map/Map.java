@@ -176,7 +176,7 @@ public class Map {
 		Envelope _ExtendForView = new Envelope(0, 0, 0, 0);
 
 		// 提取当前正在采集的数据最大外接矩形
-		_ExtendForView = PubVar.m_Workspace.GetDataSourceByEditing().GetEnvelope();
+//		_ExtendForView = PubVar.m_Workspace.GetDataSourceByEditing().GetEnvelope();
 
 		// 提取当前栅格图的最大外接矩形
 		if (_ExtendForView.IsZero()) {

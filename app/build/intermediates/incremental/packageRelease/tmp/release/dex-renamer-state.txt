@@ -1,4 +1,4 @@
-#Fri Jan 10 08:52:39 CST 2020
+#Mon Jul 13 10:18:27 CST 2020
 base.0=C\:\\Users\\DT\\AndroidStudioProjects\\Com.DingTu.ForstryTools2\\app\\build\\intermediates\\dex\\release\\mergeDexRelease\\out
 path.1=classes2.dex
 renamed.1=classes2.dex
