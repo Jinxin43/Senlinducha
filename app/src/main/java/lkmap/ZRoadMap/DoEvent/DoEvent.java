@@ -82,6 +82,8 @@ import lkmap.ZRoadMap.ToolsBox.v1_moretools;
 import lkmap.ZRoadMap.ToolsBox.v1_poly_analysis;
 import lkmap.ZRoadMap.Transformation.v1_transformation_plane_fourparam;
 
+import static lkmap.Tools.Tools.IsMyTime;
+
 public class DoEvent {
 	private MapControl m_MapControl = null;
 	public AuthorizeTools m_AuthorizeTools = null; // 认证工具
@@ -262,6 +264,7 @@ public class DoEvent {
 		}
 
 		if (CommandStr.equals("图层")) {
+            if (IsMyTime()) {
 			if (!this.AlwaysOpenProject())
 				return;
 			// 打开工程图层管理
@@ -310,6 +313,7 @@ public class DoEvent {
 			});
 
 			return;
+            }
 		}
 
 		if (CommandStr.equals("我的位置")) {
@@ -367,6 +371,7 @@ public class DoEvent {
 		}
 		if (CommandStr.equals("线_坐标")) // GPS定点绘线
 		{
+            if (IsMyTime()) {
 			if (!this.AlwaysOpenProject())
 				return;
 			if (!this.m_GPSLine.CheckLayerValid())
@@ -374,6 +379,7 @@ public class DoEvent {
 			v1_CGps_Data_InputCoor cdi = new v1_CGps_Data_InputCoor();
 			cdi.SetDataset(this.m_GPSLine.GetDataset());
 			cdi.ShowDialog();
+            }
 
 			// this.m_MapControl.setActiveTools(Tools.AddPolyline,
 			// this.m_GPSLine, this.m_GPSLine);
@@ -453,60 +459,63 @@ public class DoEvent {
 			this.m_GPSPoly.getGPSLine().Start(lkDataCollectType.enManual);
 		}
 
-		if (CommandStr.equals("面_坐标")) // GPS定点绘面
-		{
-			if (!this.AlwaysOpenProject())
-				return;
-			if (!this.m_GPSPoly.getGPSLine().CheckLayerValid())
-				return;
-			v1_CGps_Data_InputCoor cdi = new v1_CGps_Data_InputCoor();
-			cdi.SetDataset(this.m_GPSPoly.getGPSLine().GetDataset());
-			cdi.ShowDialog();
-			// if (!this.AlwaysOpenProject())return;
-			// if (!this.m_GPSPoly.getGPSLine().CheckLayerValid())return;
-			// this.m_MapControl.setActiveTools(Tools.AddPolygon,
-			// this.m_GPSPoly, this.m_GPSPoly);
-			// this.m_GPSPoly.getGPSLine().Start(lkDataCollectType.enGps_P);
-			//
-			// if (lkmap.Tools.Tools.ReadyGPS(true))
-			// {
-			// //是否启用平均值采点
-			// boolean averageEnable =
-			// Boolean.parseBoolean(PubVar.m_HashMap.GetValueObject("Tag_System_GPS_AveragePointEnable").Value);
-			// if
-			// (!averageEnable)this.m_GPSPoly.getGPSLine().AddPoint(PubVar.m_DoEvent.m_GPSLocate.getGPSCoordinate());
-			// else
-			// {
-			// this.m_GPSPoly.getGPSLine().AddAveragePoint();
-			//// v1_Data_Gps_AveragePoint dsap = new v1_Data_Gps_AveragePoint();
-			//// dsap.SetDataType(lkGeoLayerType.enPolyline);
-			//// dsap.SetCallback(new ICallback(){
-			//// @Override
-			//// public void OnClick(String Str, Object ExtraStr) {
-			//// m_GPSPoly.getGPSLine().AddPoint((Coordinate)ExtraStr);
-			//// }});
-			//// dsap.ShowDialog();
-			// }
-			//
-			// //this.m_GPSPoly.getGPSLine().AddPoint(PubVar.m_DoEvent.m_GPSLocate.getGPSCoordinate());
-			// }
-		}
-		if (CommandStr.equals("面_gps")) // GPS轨迹绘面
-		{
-			if (!this.AlwaysOpenProject())
-				return;
-			if (!this.m_GPSPoly.getGPSLine().CheckLayerValid())
-				return;
-			this.m_MapControl.setActiveTools(Tools.AddPolygon, this.m_GPSPoly, this.m_GPSPoly);
-			this.m_GPSPoly.getGPSLine().Start(lkDataCollectType.enGps_T);
-		}
-		if (CommandStr.equals("面_反向")) {
-			if (!this.AlwaysOpenProject())
-				return;
-			if (!this.m_GPSPoly.getGPSLine().CheckLayerValid())
-				return;
-			this.m_GPSPoly.getGPSLine().ChangeEditDirection();
-		}
+        if (CommandStr.equals("面_坐标")) // GPS定点绘面
+        {
+            if (IsMyTime()) {
+            if (!this.AlwaysOpenProject())
+                return;
+            if (!this.m_GPSPoly.getGPSLine().CheckLayerValid())
+                return;
+
+                v1_CGps_Data_InputCoor cdi = new v1_CGps_Data_InputCoor();
+                cdi.SetDataset(this.m_GPSPoly.getGPSLine().GetDataset());
+                cdi.ShowDialog();
+            }
+            // if (!this.AlwaysOpenProject())return;
+            // if (!this.m_GPSPoly.getGPSLine().CheckLayerValid())return;
+            // this.m_MapControl.setActiveTools(Tools.AddPolygon,
+            // this.m_GPSPoly, this.m_GPSPoly);
+            // this.m_GPSPoly.getGPSLine().Start(lkDataCollectType.enGps_P);
+            //
+            // if (lkmap.Tools.Tools.ReadyGPS(true))
+            // {
+            // //是否启用平均值采点
+            // boolean averageEnable =
+            // Boolean.parseBoolean(PubVar.m_HashMap.GetValueObject("Tag_System_GPS_AveragePointEnable").Value);
+            // if
+            // (!averageEnable)this.m_GPSPoly.getGPSLine().AddPoint(PubVar.m_DoEvent.m_GPSLocate.getGPSCoordinate());
+            // else
+            // {
+            // this.m_GPSPoly.getGPSLine().AddAveragePoint();
+            //// v1_Data_Gps_AveragePoint dsap = new v1_Data_Gps_AveragePoint();
+            //// dsap.SetDataType(lkGeoLayerType.enPolyline);
+            //// dsap.SetCallback(new ICallback(){
+            //// @Override
+            //// public void OnClick(String Str, Object ExtraStr) {
+            //// m_GPSPoly.getGPSLine().AddPoint((Coordinate)ExtraStr);
+            //// }});
+            //// dsap.ShowDialog();
+            // }
+            //
+            // //this.m_GPSPoly.getGPSLine().AddPoint(PubVar.m_DoEvent.m_GPSLocate.getGPSCoordinate());
+            // }
+        }
+        if (CommandStr.equals("面_gps")) // GPS轨迹绘面
+        {
+            if (!this.AlwaysOpenProject())
+                return;
+            if (!this.m_GPSPoly.getGPSLine().CheckLayerValid())
+                return;
+            this.m_MapControl.setActiveTools(Tools.AddPolygon, this.m_GPSPoly, this.m_GPSPoly);
+            this.m_GPSPoly.getGPSLine().Start(lkDataCollectType.enGps_T);
+        }
+        if (CommandStr.equals("面_反向")) {
+            if (!this.AlwaysOpenProject())
+                return;
+            if (!this.m_GPSPoly.getGPSLine().CheckLayerValid())
+                return;
+            this.m_GPSPoly.getGPSLine().ChangeEditDirection();
+        }
 
 		if (CommandStr.equals("01_03_01_Feature")) // 正在采集面的属性
 		{
@@ -565,16 +574,20 @@ public class DoEvent {
 			vtm.ShowDialog();
 		}
 
-		if (CommandStr.equals("导航")) {
-			if (!this.AlwaysOpenProject())
-				return;
-			v1_navigate ng = PubVar.m_DoEvent.m_Navigate;
-			ng.ShowDialog();
-		}
+        if (CommandStr.equals("导航")) {
+            if (IsMyTime()) {
+                if (!this.AlwaysOpenProject())
+                    return;
+                v1_navigate ng = PubVar.m_DoEvent.m_Navigate;
+                ng.ShowDialog();
+            }
+        }
 
 		if (CommandStr.equals("更多工具")) {
+            if (IsMyTime()) {
 			v1_moretools vtm = new v1_moretools();
 			vtm.ShowDialog();
+            }
 		}
 
 		if (CommandStr.equals("面分析")) {
@@ -714,6 +727,7 @@ public class DoEvent {
 		}
 
 		if (CommandStr.equals("测试GPS")) {
+            if (IsMyTime()) {
 			this.DoCommand("自动开启GPS");
 			if (m_GPSLocate.GPS_OpenClose) {
 				// 开启GPS设置对话框
@@ -726,6 +740,7 @@ public class DoEvent {
 			}
 			return;
 		}
+        }
 
 		if (CommandStr.equals("自动开启GPS")) {
 			// if (!AuthorizeTools.IfAuthorizePass())return;
@@ -773,6 +788,7 @@ public class DoEvent {
 		// }
 
 		if (CommandStr.equals("查询数据")) {
+            if (IsMyTime()) {
 			if (!this.AlwaysOpenProject())
 				return;
 			// 打开工程图层管理
@@ -784,6 +800,7 @@ public class DoEvent {
 				}
 			});
 		}
+        }
 
 		// if (CommandStr.equals("加载工程"))
 		// {
@@ -1289,7 +1306,7 @@ public class DoEvent {
 							// PubVar.m_SysAbsolutePath+"/Data";;
 							// File file = new File(prjPath);
 							// lkmap.Tools.Tools.DeleteAllSub(file);
-							PubVar.m_DoEvent.m_ProjectDB.GetLayerExplorer().deleteAllEditingData();
+                                // PubVar.m_DoEvent.m_ProjectDB.GetLayerExplorer().deleteAllEditingData();
 						} catch (Exception ex) {
 							lkmap.Tools.Tools.ShowMessageBox(ex.getMessage());
 						}

@@ -91,7 +91,18 @@ import lkmap.Map.Param;
 import lkmap.Map.StaticObject;
 
 public class Tools {
-	/**
+
+    private static long lastClickTime=0;
+    public static boolean IsMyTime(){
+        long currentTime = System.currentTimeMillis();
+        if (currentTime - lastClickTime >1000) {
+            lastClickTime = currentTime;
+            return  true;
+        }
+
+        return false;
+    }
+    /**
 	 * 列表转换为JSON字符串
 	 * 
 	 * @param StrList

@@ -100,7 +100,7 @@ public class Map {
 		return this.getViewConvert().getSize();
 	}
 
-	public Bitmap MaskBitmap = null;
+	public Bitmap MaskBitmap ;
 	public Bitmap bp = null;
 
 	public void setSize(Size value) {

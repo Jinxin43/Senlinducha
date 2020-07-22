@@ -45,6 +45,7 @@
         android:icon="@drawable/duchalogo"
         android:label="@string/app_showname"
         android:largeHeap="true"
+        android:testOnly="true"
         android:usesCleartextTraffic="true" >
         <uses-library
             android:name="org.apache.http.legacy"
